@@ -4,7 +4,6 @@ type: source
 video_id: xnG8h3UnNFI
 url: https://www.youtube.com/watch?v=xnG8h3UnNFI
 playlists: [1]
-transcript: data/transcripts/xnG8h3UnNFI.txt
 concepts: ['agent-philosophy-and-mindset', 'ai-engineering-principles', 'multi-agent-system-design']
 updated: 2026-05-12
 ---
@@ -27,7 +26,3 @@ updated: 2026-05-12
 | AGD-040 | AGENT_DESIGN | [[concepts/multi-agent-system-design]] | Meta-agents paired with task-agents of the same model outperform by 3-4x; shared weights enable implicit understanding of failure modes. |
 | DVH-014 | DEV_HACK | [[concepts/ai-engineering-principles]] | Optimization loops that see reasoning traces produce 10x better results than loops that only see outcome metrics. |
 | AGD-041 | AGENT_DESIGN | [[concepts/agent-philosophy-and-mindset]] | Self-optimizing agents discover verification strategies and sub-agent architectures without explicit programming; evidence that emergence is real. |
-
-## Transcript
-
-[data/transcripts/xnG8h3UnNFI.txt](../data/transcripts/xnG8h3UnNFI.txt)

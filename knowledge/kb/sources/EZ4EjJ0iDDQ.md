@@ -4,7 +4,6 @@ type: source
 video_id: EZ4EjJ0iDDQ
 url: https://www.youtube.com/watch?v=EZ4EjJ0iDDQ
 playlists: [2, 3]
-transcript: data/transcripts/EZ4EjJ0iDDQ.txt
 concepts: [ai-career-skills]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | MND-005 | MINDSET | [[concepts/ai-career-skills]] | Manage AI like a capable-but-inexperienced employee; productivity gains require task decomposition, quality assessment, and iterative refinement. |
-
-## Transcript
-
-[data/transcripts/EZ4EjJ0iDDQ.txt](../data/transcripts/EZ4EjJ0iDDQ.txt)

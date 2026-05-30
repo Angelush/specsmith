@@ -4,7 +4,6 @@ type: source
 video_id: kWeLc-Dda94
 url: https://www.youtube.com/watch?v=kWeLc-Dda94
 playlists: P1
-transcript: data/transcripts/kWeLc-Dda94.txt
 concepts: ['agent-orchestration-architecture']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | AGD-030 | AGENT_DESIGN | [[concepts/agent-orchestration-architecture]] | Audit every agentic system against six production principles: stateful context, deterministic wrappers, reasoning-quality monitoring, complexity routing, multi-state health, and per-turn validation. |
-
-## Transcript
-
-[data/transcripts/kWeLc-Dda94.txt](../data/transcripts/kWeLc-Dda94.txt)

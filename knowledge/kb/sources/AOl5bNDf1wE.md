@@ -4,7 +4,6 @@ type: source
 video_id: AOl5bNDf1wE
 url: https://www.youtube.com/watch?v=AOl5bNDf1wE
 playlists: [3]
-transcript: data/transcripts/AOl5bNDf1wE.txt
 concepts: ['ai-job-market-dynamics']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | CRR-005 | CAREER | [[concepts/ai-job-market-dynamics]] | Junior candidates must become signal in a world of AI-generated noise — develop one differentiated, demonstrable asset. |
-
-## Transcript
-
-[data/transcripts/AOl5bNDf1wE.txt](../data/transcripts/AOl5bNDf1wE.txt)

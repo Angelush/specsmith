@@ -4,7 +4,6 @@ type: source
 video_id: jv8sJHVmySg
 url: https://www.youtube.com/watch?v=jv8sJHVmySg
 playlists: [1]
-transcript: data/transcripts/jv8sJHVmySg.txt
 concepts: ['ai-skill-commoditization']
 updated: 2026-05-12
 ---
@@ -24,7 +23,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TRD-031 | TREND | [[concepts/ai-skill-commoditization]] | Consult when choosing between skills and MCP; Claude Skills eliminates manual orchestration overhead and compounds while prompts don't — invest in skills for anything used more than 3 times. |
-
-## Transcript
-
-[data/transcripts/jv8sJHVmySg.txt](../data/transcripts/jv8sJHVmySg.txt)

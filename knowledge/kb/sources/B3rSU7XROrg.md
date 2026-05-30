@@ -4,7 +4,6 @@ type: source
 video_id: B3rSU7XROrg
 url: https://www.youtube.com/watch?v=B3rSU7XROrg
 playlists: [2, 3]
-transcript: data/transcripts/B3rSU7XROrg.txt
 concepts: ["practical-agent-adoption"]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | AGD-019 | AGENT_DESIGN | [[concepts/practical-agent-adoption]] | Start automation at workflow edges — data prep, QA, handoffs — not the core where human expertise is highest and errors are costliest. |
-
-## Transcript
-
-[data/transcripts/B3rSU7XROrg.txt](../data/transcripts/B3rSU7XROrg.txt)

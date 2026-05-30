@@ -4,7 +4,6 @@ type: source
 video_id: UrJdtQgXnCw
 url: https://www.youtube.com/watch?v=UrJdtQgXnCw
 playlists: [0, 2]
-transcript: data/transcripts/UrJdtQgXnCw.txt
 concepts: [ai-engineering-principles, ai-productivity-workflows, knowledge-work-delegation]
 updated: 2026-05-13
 ---
@@ -18,7 +17,3 @@ updated: 2026-05-13
 - [[concepts/ai-engineering-principles]] — Focus is an engineering problem, not a willpower issue; AI optimizes work systems for better focus.
 - [[concepts/ai-productivity-workflows]] — AI enhances productivity workflows by managing interruptions and structuring tasks for deep work.
 - [[concepts/knowledge-work-delegation]] — AI delegates tasks like message routing, summarization, and task decomposition to enhance focus.
-
-## Transcript
-
-[data/transcripts/UrJdtQgXnCw.txt](../data/transcripts/UrJdtQgXnCw.txt)

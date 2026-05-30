@@ -4,7 +4,6 @@ type: source
 video_id: lY6voDZpu3Y
 url: https://www.youtube.com/watch?v=lY6voDZpu3Y
 playlists: [1]
-transcript: data/transcripts/lY6voDZpu3Y.txt
 concepts: ['ai-personal-stack']
 updated: 2026-05-12
 ---
@@ -21,6 +20,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | WFL-012 | WORKFLOW | [[concepts/ai-personal-stack]] | Route tasks by model strength — ChatGPT for analysis, Claude for writing and Excel, Kimi for PowerPoint (non-sensitive) — and chunk large inputs to dodge context limits. |
-
-## Transcript
-[data/transcripts/lY6voDZpu3Y.txt](../data/transcripts/lY6voDZpu3Y.txt)

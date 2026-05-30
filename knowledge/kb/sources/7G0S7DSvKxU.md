@@ -4,7 +4,6 @@ type: source
 video_id: 7G0S7DSvKxU
 url: https://www.youtube.com/watch?v=7G0S7DSvKxU
 playlists: [1]
-transcript: data/transcripts/7G0S7DSvKxU.txt
 concepts: ['model-selection-frameworks']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | MSL-006 | MODEL_SELECTION | [[concepts/model-selection-frameworks]] | Assign each recurring task type to its current best-fit model rather than defaulting to one subscription. |
-
-## Transcript
-
-[data/transcripts/7G0S7DSvKxU.txt](../data/transcripts/7G0S7DSvKxU.txt)

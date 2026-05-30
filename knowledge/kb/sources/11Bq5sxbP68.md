@@ -4,7 +4,6 @@ type: source
 video_id: 11Bq5sxbP68
 url: https://www.youtube.com/watch?v=11Bq5sxbP68
 playlists: [1, 2]
-transcript: data/transcripts/11Bq5sxbP68.txt
 concepts: ["chatgpt-agentic-design"]
 updated: 2026-05-12
 ---
@@ -24,7 +23,3 @@ updated: 2026-05-12
 | PRM-007 | PROMPTING | [[concepts/chatgpt-agentic-design]] | Route high-context-entropy tasks (large messy inputs) to Gemini 3; high-task-entropy tasks (complex reasoning) to ChatGPT 5.1. |
 | PRM-008 | PROMPTING | [[concepts/chatgpt-agentic-design]] | Keep ChatGPT 5.1's strengths, stop overloading it with unnecessary context, start demanding structured output proofs. |
 | PRM-009 | PROMPTING | [[concepts/chatgpt-agentic-design]] | Keep Gemini 3's long-context and multimodal strengths; stop treating it like a chat model; start using it for bandwidth-intensive synthesis. |
-
-## Transcript
-
-[data/transcripts/11Bq5sxbP68.txt](../data/transcripts/11Bq5sxbP68.txt)

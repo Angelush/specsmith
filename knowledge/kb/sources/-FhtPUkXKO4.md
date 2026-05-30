@@ -4,7 +4,6 @@ type: source
 video_id: -FhtPUkXKO4
 url: https://www.youtube.com/watch?v=-FhtPUkXKO4
 playlists: [2]
-transcript: data/transcripts/-FhtPUkXKO4.txt
 concepts: [ai-business-strategy, ai-quality-control]
 updated: 2026-05-12
 ---
@@ -26,7 +25,3 @@ updated: 2026-05-12
 | FWK-002 | FRAMEWORK | [[concepts/ai-quality-control]] | The ability to recognize and articulate when AI output is wrong creates more compounding value than faster generation. |
 | FWK-003 | FRAMEWORK | [[concepts/ai-quality-control]] | Turn every AI rejection into a reusable constraint by recognizing the flaw, articulating why, and encoding it into systems. |
 | TRD-001 | TREND | [[concepts/ai-business-strategy]] | Encode domain judgment into reusable constraints now; the AI moat is taste, not which model you use. |
-
-## Transcript
-
-[data/transcripts/-FhtPUkXKO4.txt](../data/transcripts/-FhtPUkXKO4.txt)

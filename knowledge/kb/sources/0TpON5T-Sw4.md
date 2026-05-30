@@ -4,7 +4,6 @@ type: source
 video_id: 0TpON5T-Sw4
 url: https://www.youtube.com/watch?v=0TpON5T-Sw4
 playlists: [0, 2]
-transcript: data/transcripts/0TpON5T-Sw4.txt
 concepts: ["agent-memory-systems", "ai-productivity-workflows"]
 updated: 2026-05-12
 ---
@@ -24,7 +23,3 @@ updated: 2026-05-12
 |----|----------|---------|-------|
 | FWK-015 | FRAMEWORK | [[concepts/agent-memory-systems]] | A reliable second brain system needs all 8 components: ingress, sorter, schema, storage, audit trail, confidence, surfacing, and correction. |
 | WFL-003 | WORKFLOW | [[concepts/ai-productivity-workflows]] | Reduce PKM to one behavior—capture in Slack—and let AI classify/route everything else for non-engineers. |
-
-## Transcript
-
-[data/transcripts/0TpON5T-Sw4.txt](../data/transcripts/0TpON5T-Sw4.txt)

@@ -4,7 +4,6 @@ type: source
 video_id: q6pbQ5li5Cg
 url: https://www.youtube.com/watch?v=q6pbQ5li5Cg
 playlists: [1]
-transcript: data/transcripts/q6pbQ5li5Cg.txt
 concepts: ['ai-business-strategy']
 updated: 2026-05-12
 ---
@@ -23,7 +22,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TRD-038 | TREND | [[concepts/ai-business-strategy]] | Analyze both AI bear and bull cases when assessing economic impact; deflation returning $4-7K in household purchasing power is underreported but structurally plausible. |
-
-## Transcript
-
-[data/transcripts/q6pbQ5li5Cg.txt](../data/transcripts/q6pbQ5li5Cg.txt)

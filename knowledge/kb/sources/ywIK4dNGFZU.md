@@ -4,7 +4,6 @@ type: source
 video_id: ywIK4dNGFZU
 url: https://www.youtube.com/watch?v=ywIK4dNGFZU
 playlists: [1]
-transcript: data/transcripts/ywIK4dNGFZU.txt
 concepts: ['claude-code-architecture']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TUL-016 | TOOL | [[concepts/claude-code-architecture]] | The winning AI tool pattern is minimum distance between AI and your artifact or data — not feature count. |
-
-## Transcript
-
-[data/transcripts/ywIK4dNGFZU.txt](../data/transcripts/ywIK4dNGFZU.txt)

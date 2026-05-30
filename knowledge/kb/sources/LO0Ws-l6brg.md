@@ -4,7 +4,6 @@ type: source
 video_id: LO0Ws-l6brg
 url: https://www.youtube.com/watch?v=LO0Ws-l6brg
 playlists: [1]
-transcript: data/transcripts/LO0Ws-l6brg.txt
 concepts: ['ai-skill-commoditization']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TRD-026 | TREND | [[concepts/ai-skill-commoditization]] | Consult when justifying agent harness investment; jaggedness was an artifact of single-agent interaction, not AI intelligence — harnesses remove it. |
-
-## Transcript
-
-[data/transcripts/LO0Ws-l6brg.txt](../data/transcripts/LO0Ws-l6brg.txt)

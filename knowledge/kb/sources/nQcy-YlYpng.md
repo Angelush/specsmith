@@ -4,7 +4,6 @@ type: source
 video_id: nQcy-YlYpng
 url: https://www.youtube.com/watch?v=nQcy-YlYpng
 playlists: [1]
-transcript: data/transcripts/nQcy-YlYpng.txt
 concepts: ['enterprise-ai-adoption']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | CRR-015 | CAREER | [[concepts/enterprise-ai-adoption]] | PMs under AI-era compound pressure need four survival rules: scope control, async-first, judgment over velocity, and refusal skills. |
-
-## Transcript
-
-[data/transcripts/nQcy-YlYpng.txt](../data/transcripts/nQcy-YlYpng.txt)

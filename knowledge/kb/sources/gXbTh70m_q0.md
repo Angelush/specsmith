@@ -4,7 +4,6 @@ type: source
 video_id: gXbTh70m_q0
 url: https://www.youtube.com/watch?v=gXbTh70m_q0
 playlists: [1]
-transcript: data/transcripts/gXbTh70m_q0.txt
 concepts: ['semantic-engineering']
 updated: 2026-05-12
 ---
@@ -26,7 +25,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | CRR-013 | CAREER | [[concepts/semantic-engineering]] | AI tools make the floor easier and the ceiling higher — consult this for context on the engineering standards debate. |
-
-## Transcript
-
-[data/transcripts/gXbTh70m_q0.txt](../data/transcripts/gXbTh70m_q0.txt)

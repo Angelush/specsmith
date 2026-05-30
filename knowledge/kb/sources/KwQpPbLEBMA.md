@@ -4,7 +4,6 @@ type: source
 video_id: KwQpPbLEBMA
 url: https://www.youtube.com/watch?v=KwQpPbLEBMA
 playlists: [1]
-transcript: data/transcripts/KwQpPbLEBMA.txt
 concepts: ['advanced-prompting-techniques']
 updated: 2026-05-12
 ---
@@ -23,7 +22,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | PRM-019 | PROMPTING | [[concepts/advanced-prompting-techniques]] | The six most common prompting failures each have a single structural fix — diagnose which one is killing your output. |
-
-## Transcript
-
-[data/transcripts/KwQpPbLEBMA.txt](../data/transcripts/KwQpPbLEBMA.txt)

@@ -4,7 +4,6 @@ type: source
 video_id: mnWMTzkjWmk
 url: https://www.youtube.com/watch?v=mnWMTzkjWmk
 playlists: [1]
-transcript: data/transcripts/mnWMTzkjWmk.txt
 concepts: ['agent-orchestration-architecture']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | AGD-031 | AGENT_DESIGN | [[concepts/agent-orchestration-architecture]] | Before any architecture decision, write a correctness contract defining truthfulness, completeness, tone, compliance, speed tradeoffs, and auditability. |
-
-## Transcript
-
-[data/transcripts/mnWMTzkjWmk.txt](../data/transcripts/mnWMTzkjWmk.txt)

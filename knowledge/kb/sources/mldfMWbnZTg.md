@@ -4,7 +4,6 @@ type: source
 video_id: mldfMWbnZTg
 url: https://www.youtube.com/watch?v=mldfMWbnZTg
 playlists: [1]
-transcript: data/transcripts/mldfMWbnZTg.txt
 concepts: ['prompting-and-skill-design']
 updated: 2026-05-12
 ---
@@ -17,5 +16,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | FWK-029 | FRAMEWORK | [[concepts/prompting-and-skill-design]] | Your prompt is 0.02% of what the agent processes; frame prompts to direct what probabilistic context gets fetched, not just what you say. |
-## Transcript
-[data/transcripts/mldfMWbnZTg.txt](../data/transcripts/mldfMWbnZTg.txt)

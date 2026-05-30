@@ -4,7 +4,6 @@ type: source
 video_id: 5ztI_dbj6ek
 url: https://www.youtube.com/watch?v=5ztI_dbj6ek
 playlists: [1, 2]
-transcript: data/transcripts/5ztI_dbj6ek.txt
 concepts: ['prompting-and-skill-design']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | DVH-005 | DEV_HACK | [[concepts/prompting-and-skill-design]] | Convert PDFs to markdown, separate gather/work modes, and disable unused plugins to cut token waste 10-20x. |
-
-## Transcript
-
-[data/transcripts/5ztI_dbj6ek.txt](../data/transcripts/5ztI_dbj6ek.txt)

@@ -4,7 +4,6 @@ type: source
 video_id: 9m1Bd6cxYBk
 url: https://www.youtube.com/watch?v=9m1Bd6cxYBk
 playlists: [0, 3]
-transcript: data/transcripts/9m1Bd6cxYBk.txt
 concepts: ['enterprise-ai-adoption']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | FWK-022 | FRAMEWORK | [[concepts/enterprise-ai-adoption]] | Diagnose enterprise AI failures against nine named patterns to find the root cause and the specific fix quickly. |
-
-## Transcript
-
-[data/transcripts/9m1Bd6cxYBk.txt](../data/transcripts/9m1Bd6cxYBk.txt)

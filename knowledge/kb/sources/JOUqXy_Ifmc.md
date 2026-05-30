@@ -4,7 +4,6 @@ type: source
 video_id: JOUqXy_Ifmc
 url: https://www.youtube.com/watch?v=JOUqXy_Ifmc
 playlists: [1]
-transcript: data/transcripts/JOUqXy_Ifmc.txt
 concepts: ['microsoft-copilot-ecosystem']
 updated: 2026-05-12
 ---
@@ -24,7 +23,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | WFL-008 | WORKFLOW | [[concepts/microsoft-copilot-ecosystem]] | Pair Perplexity for live data with Claude's code interpreter for structured Excel output — specify the file format explicitly or Claude defaults to in-chat analysis. |
-
-## Transcript
-
-[data/transcripts/JOUqXy_Ifmc.txt](../data/transcripts/JOUqXy_Ifmc.txt)

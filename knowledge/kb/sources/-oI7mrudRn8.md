@@ -4,7 +4,6 @@ type: source
 video_id: -oI7mrudRn8
 url: https://www.youtube.com/watch?v=-oI7mrudRn8
 playlists: [0, 3]
-transcript: data/transcripts/-oI7mrudRn8.txt
 concepts: [agent-orchestration-architecture, agent-memory-systems, agent-evaluation-and-reliability, ai-phase-transition]
 updated: 2026-05-12
 ---
@@ -30,7 +29,3 @@ updated: 2026-05-12
 | AGD-004 | AGENT_DESIGN | [[concepts/agent-orchestration-architecture]] | Encode domain knowledge — terminology, regulations, business logic — in your orchestration layer so model upgrades strengthen rather than erase your moat. |
 | AGD-005 | AGENT_DESIGN | [[concepts/ai-phase-transition]] | Build auditability and traceability into your agent orchestration layer before regulators require it — early compliance becomes a moat. |
 | AGD-006 | AGENT_DESIGN | [[concepts/agent-evaluation-and-reliability]] | Ship an 85%-complete agent in 6 weeks rather than waiting 6 months for perfection; velocity compounding outweighs accuracy gaps. |
-
-## Transcript
-
-[data/transcripts/-oI7mrudRn8.txt](../data/transcripts/-oI7mrudRn8.txt)

@@ -4,7 +4,6 @@ type: source
 video_id: GTEz5WWbfiw
 url: https://www.youtube.com/watch?v=GTEz5WWbfiw
 playlists: [1]
-transcript: data/transcripts/GTEz5WWbfiw.txt
 concepts: ['prompting-and-skill-design']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | PRM-015 | PROMPTING | [[concepts/prompting-and-skill-design]] | Ten mental models that move prompting from instruction-giving to system-design — including self-correction loops and meta-prompting. |
-
-## Transcript
-
-[data/transcripts/GTEz5WWbfiw.txt](../data/transcripts/GTEz5WWbfiw.txt)

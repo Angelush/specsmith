@@ -4,7 +4,6 @@ type: source
 video_id: hMKRBldkWEk
 url: https://www.youtube.com/watch?v=hMKRBldkWEk
 playlists: [1]
-transcript: data/transcripts/hMKRBldkWEk.txt
 concepts: ['prompting-and-skill-design']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | PRM-022 | PROMPTING | [[concepts/prompting-and-skill-design]] | Three techniques for reasoning models: decompose tasks explicitly, demand self-critique, and separate thinking from output. |
-
-## Transcript
-
-[data/transcripts/hMKRBldkWEk.txt](../data/transcripts/hMKRBldkWEk.txt)

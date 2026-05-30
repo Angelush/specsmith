@@ -4,7 +4,6 @@ type: source
 video_id: p9acrso71KU
 url: https://www.youtube.com/watch?v=p9acrso71KU
 playlists: [1]
-transcript: data/transcripts/p9acrso71KU.txt
 concepts: ['claude-code-architecture']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TUL-013 | TOOL | [[concepts/claude-code-architecture]] | Local-first agents give full capability but require careful security design — email and data access is a real, documented attack surface. |
-
-## Transcript
-
-[data/transcripts/p9acrso71KU.txt](../data/transcripts/p9acrso71KU.txt)

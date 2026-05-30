@@ -4,7 +4,6 @@ type: source
 video_id: -bQcWs1Z9a0
 url: https://www.youtube.com/watch?v=-bQcWs1Z9a0
 playlists: [3]
-transcript: data/transcripts/-bQcWs1Z9a0.txt
 concepts: [ai-economy-and-bottlenecks]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TRD-042 | TREND | [[concepts/ai-economy-and-bottlenecks]] | Map your developer role against three durable tracks — orchestrator, systems builder, or domain translator — before generic code production value reaches zero. |
-
-## Transcript
-
-[data/transcripts/-bQcWs1Z9a0.txt](../data/transcripts/-bQcWs1Z9a0.txt)

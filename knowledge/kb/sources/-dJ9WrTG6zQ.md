@@ -4,7 +4,6 @@ type: source
 video_id: -dJ9WrTG6zQ
 url: https://www.youtube.com/watch?v=-dJ9WrTG6zQ
 playlists: [0]
-transcript: data/transcripts/-dJ9WrTG6zQ.txt
 concepts: [ai-career-skills, ai-skill-commoditization]
 updated: 2026-05-12
 ---
@@ -24,7 +23,3 @@ updated: 2026-05-12
 |----|----------|---------|-------|
 | CRR-020 | CAREER | [[concepts/ai-career-skills]] | AI makes it hard to value knowledge workers; poor articulation causes extreme salary disparity. |
 | TRD-044 | TREND | [[concepts/ai-skill-commoditization]] | Agents expose visibility gaps in tacit knowledge, revealing performance differences among workers. |
-
-## Transcript
-
-[data/transcripts/-dJ9WrTG6zQ.txt](../data/transcripts/-dJ9WrTG6zQ.txt)

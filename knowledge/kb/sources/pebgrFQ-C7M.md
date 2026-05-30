@@ -4,7 +4,6 @@ type: source
 video_id: pebgrFQ-C7M
 url: https://www.youtube.com/watch?v=pebgrFQ-C7M
 playlists: [1]
-transcript: data/transcripts/pebgrFQ-C7M.txt
 concepts: ['advanced-prompting-techniques']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | PRM-025 | PROMPTING | [[concepts/advanced-prompting-techniques]] | Build AI simulations of specific stakeholders to rehearse high-stakes negotiations before the real conversation. |
-
-## Transcript
-
-[data/transcripts/pebgrFQ-C7M.txt](../data/transcripts/pebgrFQ-C7M.txt)

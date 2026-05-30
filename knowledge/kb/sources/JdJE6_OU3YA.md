@@ -4,7 +4,6 @@ type: source
 video_id: JdJE6_OU3YA
 url: https://www.youtube.com/watch?v=JdJE6_OU3YA
 playlists: [1]
-transcript: data/transcripts/JdJE6_OU3YA.txt
 concepts: ['rag-architecture-and-chunking']
 updated: 2026-05-12
 ---
@@ -24,7 +23,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | AGD-024 | AGENT_DESIGN | [[concepts/rag-architecture-and-chunking]] | Design memory as architecture, not a feature: separate by lifecycle, match storage to query pattern, curate rather than accumulate, and keep it portable. |
-
-## Transcript
-
-[data/transcripts/JdJE6_OU3YA.txt](../data/transcripts/JdJE6_OU3YA.txt)

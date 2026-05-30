@@ -4,7 +4,6 @@ type: source
 video_id: DdlMoRSojtE
 url: https://www.youtube.com/watch?v=DdlMoRSojtE
 playlists: [0, 2]
-transcript: data/transcripts/DdlMoRSojtE.txt
 concepts: ["ai-career-skills"]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | CRR-007 | CAREER | [[concepts/ai-career-skills]] | Map your AI fluency against a 10-level framework; most professionals plateau at level 4-5 and mistake familiarity for mastery. |
-
-## Transcript
-
-[data/transcripts/DdlMoRSojtE.txt](../data/transcripts/DdlMoRSojtE.txt)

@@ -4,7 +4,6 @@ type: source
 video_id: 61IJSZ6GOuU
 url: https://www.youtube.com/watch?v=61IJSZ6GOuU
 playlists: [1, 2]
-transcript: data/transcripts/61IJSZ6GOuU.txt
 concepts: ["agent-evaluation-and-reliability"]
 updated: 2026-05-12
 ---
@@ -23,7 +22,3 @@ updated: 2026-05-12
 |----|----------|---------|-------|
 | DVH-006 | DEV_HACK | [[concepts/agent-evaluation-and-reliability]] | Provide 5-7 labeled rejection examples to teach AI your quality floor faster than positive examples alone. |
 | FWK-019 | FRAMEWORK | [[concepts/agent-evaluation-and-reliability]] | Define failure tests and encode business logic before prompting; the bottleneck is always your ability to articulate quality |
-
-## Transcript
-
-[data/transcripts/61IJSZ6GOuU.txt](../data/transcripts/61IJSZ6GOuU.txt)

@@ -4,7 +4,6 @@ type: source
 video_id: 647pSnX5H_Y
 url: https://www.youtube.com/watch?v=647pSnX5H_Y
 playlists: [0]
-transcript: data/transcripts/647pSnX5H_Y.txt
 concepts: ["agent-orchestration-architecture", "ai-productivity-workflows"]
 updated: 2026-05-12
 ---
@@ -24,7 +23,3 @@ updated: 2026-05-12
 |----|----------|---------|-------|
 | AGD-046 | AGENT_DESIGN | [[concepts/agent-orchestration-architecture]] | Agent capability lives across five distinct layers — prompt, skill, plugin, MCP/connector, hook/script — each with a specific purpose; conflating them wastes 40%+ of AI work time. |
 | FWK-044 | FRAMEWORK | [[concepts/ai-productivity-workflows]] | If you are manually copying data between apps and pasting it into AI, you are acting as a human plugin — an inefficiency that scales linearly with your time instead of automating. |
-
-## Transcript
-
-[data/transcripts/647pSnX5H_Y.txt](../data/transcripts/647pSnX5H_Y.txt)

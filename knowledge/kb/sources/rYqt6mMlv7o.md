@@ -4,7 +4,6 @@ type: source
 video_id: rYqt6mMlv7o
 url: https://www.youtube.com/watch?v=rYqt6mMlv7o
 playlists: [1]
-transcript: data/transcripts/rYqt6mMlv7o.txt
 concepts: ['ai-career-skills', 'ai-job-market-dynamics']
 updated: 2026-05-12
 ---
@@ -27,7 +26,3 @@ updated: 2026-05-12
 | FWK-054 | FRAMEWORK | [[concepts/ai-career-skills]] | Tag each item from your last 2 weeks of work as T/C/L/D to get the first honest picture of your career exposure to AI. |
 | PRN-005 | PRINCIPLES | [[concepts/ai-career-skills]] | The difficulty or time required to acquire a skill is irrelevant to its market value; what matters is current scarcity, which AI can change regardless of your investment. |
 | TRD-058 | TREND | [[concepts/ai-job-market-dynamics]] | AI doesn't eliminate roles overnight — it erodes the routine layer until the next business shock forces companies to admit what's already changed, causing sudden restructuring. |
-
-## Transcript
-
-[data/transcripts/rYqt6mMlv7o.txt](../data/transcripts/rYqt6mMlv7o.txt)

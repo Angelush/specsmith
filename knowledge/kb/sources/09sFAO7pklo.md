@@ -4,7 +4,6 @@ type: source
 video_id: 09sFAO7pklo
 url: https://www.youtube.com/watch?v=09sFAO7pklo
 playlists: [0, 3]
-transcript: data/transcripts/09sFAO7pklo.txt
 concepts: [model-selection-frameworks, codex-agent-architecture, claude-code-architecture]
 updated: 2026-05-12
 ---
@@ -27,7 +26,3 @@ updated: 2026-05-12
 | FWK-014 | FRAMEWORK | [[concepts/codex-agent-architecture]] | Evaluate and invest in the agent execution harness first; the same model scores radically differently in different harnesses. |
 | TUL-003 | TOOL | [[concepts/claude-code-architecture]] | Claude Code's leverage comes from bash access and structured artifact files — design workflows around these |
 | TUL-004 | TOOL | [[concepts/codex-agent-architecture]] | Codex uses isolated sandboxes per task; the repo is the only persistent memory — design for stateless execution. |
-
-## Transcript
-
-[data/transcripts/09sFAO7pklo.txt](../data/transcripts/09sFAO7pklo.txt)

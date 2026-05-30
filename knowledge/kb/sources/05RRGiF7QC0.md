@@ -4,7 +4,6 @@ type: source
 video_id: 05RRGiF7QC0
 url: https://www.youtube.com/watch?v=05RRGiF7QC0
 playlists: [1, 3]
-transcript: data/transcripts/05RRGiF7QC0.txt
 concepts: ['perplexity-prompting', 'ai-assisted-research']
 updated: 2026-05-12
 ---
@@ -30,7 +29,3 @@ updated: 2026-05-12
 | PRM-006 | PROMPTING | [[concepts/ai-assisted-research]] | Start with broad Perplexity queries then thread into sub-questions — don't ask the complex question first. |
 | TUL-001 | TOOL | [[concepts/perplexity-prompting]] | Use Perplexity Research mode for deep synthesis, Spaces for standing workflows, Academic for vetted research sources. |
 | WFL-001 | WORKFLOW | [[concepts/ai-assisted-research]] | Use a second LLM to fact-check and source-assess Perplexity results before acting on them. |
-
-## Transcript
-
-[data/transcripts/05RRGiF7QC0.txt](../data/transcripts/05RRGiF7QC0.txt)

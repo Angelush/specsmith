@@ -4,7 +4,6 @@ type: source
 video_id: SX1myuPEDFg
 url: https://www.youtube.com/watch?v=SX1myuPEDFg
 playlists: [1]
-transcript: data/transcripts/SX1myuPEDFg.txt
 concepts: ['ai-security-and-trust', 'multi-agent-system-design']
 updated: 2026-05-12
 ---
@@ -27,7 +26,3 @@ updated: 2026-05-12
 | AGD-050 | AGENT_DESIGN | [[concepts/multi-agent-system-design]] | An agent optimized for task completion will deprioritize its policing role — conflicting primary goals require separate specialized agents. |
 | AGD-049 | AGENT_DESIGN | [[concepts/ai-security-and-trust]] | No matter how strict the system prompt, it degrades over long agent context windows — authorization enforcement must be architectural, not prompt-based. |
 | AGD-048 | AGENT_DESIGN | [[concepts/ai-security-and-trust]] | Separate the agent that does work (actor) from a second agent that decides whether the action is authorized (judge) — this is the architectural solution to agents over-stepping permissions. |
-
-## Transcript
-
-[data/transcripts/SX1myuPEDFg.txt](../data/transcripts/SX1myuPEDFg.txt)

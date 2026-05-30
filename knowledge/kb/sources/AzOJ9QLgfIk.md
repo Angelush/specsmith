@@ -4,7 +4,6 @@ type: source
 video_id: AzOJ9QLgfIk
 url: https://www.youtube.com/watch?v=AzOJ9QLgfIk
 playlists: [0, 2, 3]
-transcript: data/transcripts/AzOJ9QLgfIk.txt
 concepts: ['ai-career-skills']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | MND-004 | MINDSET | [[concepts/ai-career-skills]] | Run adversarial checks on AI-backed conclusions and consult domain experts; AI agreement is not validation. |
-
-## Transcript
-
-[data/transcripts/AzOJ9QLgfIk.txt](../data/transcripts/AzOJ9QLgfIk.txt)

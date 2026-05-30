@@ -4,7 +4,6 @@ type: source
 video_id: iL3uDrk-i_E
 url: https://www.youtube.com/watch?v=iL3uDrk-i_E
 playlists: [1]
-transcript: data/transcripts/iL3uDrk-i_E.txt
 concepts: ['agent-philosophy-and-mindset']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 |----|----------|---------|-------|
 | FWK-028 | FRAMEWORK | [[concepts/agent-philosophy-and-mindset]] | Design Claude system prompts with explained reasoning, not bare rules; Claude fills gaps with judgment and resists instructions that harm users. |
 | AGD-029 | AGENT_DESIGN | [[concepts/agent-philosophy-and-mindset]] | Design agents around purpose and "because" reasoning rather than exhaustive rules so they handle unanticipated edge cases with judgment. |
-
-## Transcript
-
-[data/transcripts/iL3uDrk-i_E.txt](../data/transcripts/iL3uDrk-i_E.txt)

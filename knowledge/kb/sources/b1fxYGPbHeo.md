@@ -4,7 +4,6 @@ type: source
 video_id: b1fxYGPbHeo
 url: https://www.youtube.com/watch?v=b1fxYGPbHeo
 playlists: [1]
-transcript: data/transcripts/b1fxYGPbHeo.txt
 concepts: ['agent-orchestration-architecture', 'ai-business-strategy', 'mcp-architecture']
 updated: 2026-05-12
 ---
@@ -26,7 +25,3 @@ updated: 2026-05-12
 | FWK-050 | FRAMEWORK | [[concepts/mcp-architecture]] | Agents should use the richest available semantic interface (typed API > protocol > MCP > browser > desktop control) and fall back to computer use only when no richer interface exists. |
 | AGD-052 | AGENT_DESIGN | [[concepts/agent-orchestration-architecture]] | Agent access to a system (computer use, MCP) is not the same as agent understanding of what the work means — semantic meaning is the deeper, durable layer. |
 | TRD-054 | TREND | [[concepts/ai-business-strategy]] | The coming platform war is not about which AI wins — it is about which layer (model, browser, SaaS, identity) gets to define what actions mean and who can authorize them. |
-
-## Transcript
-
-[data/transcripts/b1fxYGPbHeo.txt](../data/transcripts/b1fxYGPbHeo.txt)

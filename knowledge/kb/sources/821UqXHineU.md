@@ -4,7 +4,6 @@ type: source
 video_id: 821UqXHineU
 url: https://www.youtube.com/watch?v=821UqXHineU
 playlists: [0, 1, 2]
-transcript: data/transcripts/821UqXHineU.txt
 concepts: ["ai-productivity-workflows"]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | WFL-004 | WORKFLOW | [[concepts/ai-productivity-workflows]] | Define output format, data scope, and success criteria upfront, then hand off to a long-running agent — don't co-pilot. |
-
-## Transcript
-
-[data/transcripts/821UqXHineU.txt](../data/transcripts/821UqXHineU.txt)

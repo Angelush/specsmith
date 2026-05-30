@@ -4,7 +4,6 @@ type: source
 video_id: pSgy2P2q790
 url: https://www.youtube.com/watch?v=pSgy2P2q790
 playlists: [1]
-transcript: data/transcripts/pSgy2P2q790.txt
 concepts: ['ai-economy-and-bottlenecks']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TRD-036 | TREND | [[concepts/ai-economy-and-bottlenecks]] | Model agentic token consumption at 10-100B tokens/worker/year — not 1B — before setting infrastructure budgets; compute allocation locked in now gains structural advantage. |
-
-## Transcript
-
-[data/transcripts/pSgy2P2q790.txt](../data/transcripts/pSgy2P2q790.txt)

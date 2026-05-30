@@ -4,7 +4,6 @@ type: source
 video_id: DAxARHKQAXs
 url: https://www.youtube.com/watch?v=DAxARHKQAXs
 playlists: [0, 1, 2]
-transcript: data/transcripts/DAxARHKQAXs.txt
 concepts: ['practical-agent-adoption']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | AGD-021 | AGENT_DESIGN | [[concepts/practical-agent-adoption]] | Use four reliability knobs — habitat, hands, constraints, and proof — to configure any agent tool safely regardless of technical skill. |
-
-## Transcript
-
-[data/transcripts/DAxARHKQAXs.txt](../data/transcripts/DAxARHKQAXs.txt)

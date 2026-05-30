@@ -4,7 +4,6 @@ type: source
 video_id: 74FvsJeljak
 url: https://www.youtube.com/watch?v=74FvsJeljak
 playlists: [1]
-transcript: data/transcripts/74FvsJeljak.txt
 concepts: [advanced-prompting-techniques]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | PRM-012 | PROMPTING | [[concepts/advanced-prompting-techniques]] | System prompts are OS config files — they set behavioral defaults, permissions, and identity for the entire session. |
-
-## Transcript
-
-[data/transcripts/74FvsJeljak.txt](../data/transcripts/74FvsJeljak.txt)

@@ -3,7 +3,6 @@ title: Stuck in the Chatbox? Here's When You Actually Need the API
 type: source
 video_id: dOfiBS_SE3E
 url: https://www.youtube.com/watch?v=dOfiBS_SE3E
-transcript: data/transcripts/dOfiBS_SE3E.txt
 concepts: ['chatbot-limitations-and-ux']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | DVH-012 | DEV_HACK | [[concepts/chatbot-limitations-and-ux]] | Switch to the API when chat interface friction appears — it unlocks tunable reasoning, enforced structured outputs, and true system prompts. |
-
-## Transcript
-
-[data/transcripts/dOfiBS_SE3E.txt](../data/transcripts/dOfiBS_SE3E.txt)

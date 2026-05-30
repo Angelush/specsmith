@@ -4,7 +4,6 @@ type: source
 video_id: hDpjMJw3flk
 url: https://www.youtube.com/watch?v=hDpjMJw3flk
 playlists: [1]
-transcript: data/transcripts/hDpjMJw3flk.txt
 concepts: ['ai-career-skills', 'codex-agent-architecture', 'model-comparison-and-performance']
 updated: 2026-05-12
 ---
@@ -24,7 +23,3 @@ updated: 2026-05-12
 | TUL-002 | TOOL | [[concepts/codex-agent-architecture]] | Use Claude Code for collaborative context-rich work; Codex for delegated, isolated execution tasks. |
 | CRR-001 | CAREER | [[concepts/ai-career-skills]] | The ability to specify intent clearly — not prompting tricks — separates AI power users from average users. |
 | MSL-003 | MODEL_SELECTION | [[concepts/model-comparison-and-performance]] | Use GPT-5.2 for multi-day autonomous planning tasks; it outperforms specialized coding models on long-horizon coherence. |
-
-## Transcript
-
-[data/transcripts/hDpjMJw3flk.txt](../data/transcripts/hDpjMJw3flk.txt)

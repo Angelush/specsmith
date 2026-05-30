@@ -4,7 +4,6 @@ type: source
 video_id: dUWxN0snnW8
 url: https://www.youtube.com/watch?v=dUWxN0snnW8
 playlists: [1]
-transcript: data/transcripts/dUWxN0snnW8.txt
 concepts: ['model-comparison-and-performance']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | FWK-026 | FRAMEWORK | [[concepts/model-comparison-and-performance]] | Trigger the reasoning sub-model with explicit signals and demand proof-of-work artifacts to get reliably high-quality GPT-5 output. |
-
-## Transcript
-
-[data/transcripts/dUWxN0snnW8.txt](../data/transcripts/dUWxN0snnW8.txt)

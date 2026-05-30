@@ -4,7 +4,6 @@ type: source
 video_id: iGvJpBWWGOU
 url: https://www.youtube.com/watch?v=iGvJpBWWGOU
 playlists: [1]
-transcript: data/transcripts/iGvJpBWWGOU.txt
 concepts: ['ai-business-strategy']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TRD-030 | TREND | [[concepts/ai-business-strategy]] | Consult when choosing your first AI workflows; path-dependency means the beachhead you pick today shapes every downstream workflow that becomes possible. |
-
-## Transcript
-
-[data/transcripts/iGvJpBWWGOU.txt](../data/transcripts/iGvJpBWWGOU.txt)

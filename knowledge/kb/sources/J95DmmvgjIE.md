@@ -4,7 +4,6 @@ type: source
 video_id: J95DmmvgjIE
 url: https://www.youtube.com/watch?v=J95DmmvgjIE
 playlists: [1]
-transcript: data/transcripts/J95DmmvgjIE.txt
 concepts: ['advanced-prompting-techniques']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | PRM-017 | PROMPTING | [[concepts/advanced-prompting-techniques]] | Prompt AI to analyze and compare options, not to give answers — frames AI as a thinking partner rather than an oracle. |
-
-## Transcript
-
-[data/transcripts/J95DmmvgjIE.txt](../data/transcripts/J95DmmvgjIE.txt)

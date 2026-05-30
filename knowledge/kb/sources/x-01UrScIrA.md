@@ -4,7 +4,6 @@ type: source
 video_id: x-01UrScIrA
 url: https://www.youtube.com/watch?v=x-01UrScIrA
 playlists: [1]
-transcript: data/transcripts/x-01UrScIrA.txt
 concepts: ['generative-ui-strategy']
 updated: 2026-05-12
 ---
@@ -21,7 +20,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | FWK-035 | FRAMEWORK | [[concepts/generative-ui-strategy]] | UI is becoming throwaway; protect Layer 1 data moats and invest in Layer 2 agentic capability rather than Layer 3 UI features. |
-
-## Transcript
-
-[data/transcripts/x-01UrScIrA.txt](../data/transcripts/x-01UrScIrA.txt)

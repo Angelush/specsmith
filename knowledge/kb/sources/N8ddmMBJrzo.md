@@ -4,7 +4,6 @@ type: source
 video_id: N8ddmMBJrzo
 url: https://www.youtube.com/watch?v=N8ddmMBJrzo
 playlists: [1]
-transcript: data/transcripts/N8ddmMBJrzo.txt
 concepts: ['advanced-prompting-techniques']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | PRM-020 | PROMPTING | [[concepts/advanced-prompting-techniques]] | Generic prompt packs produce temporary novelty not capability — real AI upskilling requires domain-specific workflow-embedded practice. |
-
-## Transcript
-
-[data/transcripts/N8ddmMBJrzo.txt](../data/transcripts/N8ddmMBJrzo.txt)

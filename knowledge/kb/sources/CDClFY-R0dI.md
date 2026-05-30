@@ -4,7 +4,6 @@ type: source
 video_id: CDClFY-R0dI
 url: https://www.youtube.com/watch?v=CDClFY-R0dI
 playlists: [0, 2]
-transcript: data/transcripts/CDClFY-R0dI.txt
 concepts: [claude-code-architecture, mcp-architecture]
 updated: 2026-05-12
 ---
@@ -24,7 +23,3 @@ updated: 2026-05-12
 |----|----------|---------|-------|
 | TUL-008 | TOOL | [[concepts/claude-code-architecture]] | Use Stitch to generate UI components from prompts, then persist design decisions in design.md for agent-readable reference. |
 | TRD-018 | TREND | [[concepts/mcp-architecture]] | Expose your product as an MCP server to capture the agent command-line distribution channel that AI-native builders now use as their primary surface. |
-
-## Transcript
-
-[data/transcripts/CDClFY-R0dI.txt](../data/transcripts/CDClFY-R0dI.txt)

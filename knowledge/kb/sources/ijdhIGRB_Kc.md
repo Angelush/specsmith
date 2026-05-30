@@ -4,7 +4,6 @@ type: source
 video_id: ijdhIGRB_Kc
 url: https://www.youtube.com/watch?v=ijdhIGRB_Kc
 playlists: [1]
-transcript: data/transcripts/ijdhIGRB_Kc.txt
 concepts: ['model-selection-frameworks']
 updated: 2026-05-12
 ---
@@ -21,7 +20,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | MSL-012 | MODEL_SELECTION | [[concepts/model-selection-frameworks]] | Adopt the simplest model configuration that delivers a clear daily win — complexity rots faster than simplicity. |
-
-## Transcript
-
-[data/transcripts/ijdhIGRB_Kc.txt](../data/transcripts/ijdhIGRB_Kc.txt)

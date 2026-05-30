@@ -4,7 +4,6 @@ type: source
 video_id: 2PWJu6uAaoU
 url: https://www.youtube.com/watch?v=2PWJu6uAaoU
 playlists: [0, 2]
-transcript: data/transcripts/2PWJu6uAaoU.txt
 concepts: [agent-philosophy-and-mindset, multi-agent-system-design, knowledge-work-delegation, ai-quality-control]
 updated: 2026-05-12
 ---
@@ -29,7 +28,3 @@ updated: 2026-05-12
 | CRR-019 | CAREER | [[concepts/knowledge-work-delegation]] | Deploy a specialized interview agent first to extract your tacit knowledge; only then deploy your productive agent |
 | FWK-040 | FRAMEWORK | [[concepts/ai-quality-control]] | The people with most to gain from agent leverage carry the highest ratio of tacit-to-explicit knowledge |
 | PRM-028 | PRINCIPLES | [[concepts/ai-quality-control]] | Expertise compresses into automatic behavior; the more senior you are, the less accessible your own reasoning becomes |
-
-## Transcript
-
-[data/transcripts/2PWJu6uAaoU.txt](../data/transcripts/2PWJu6uAaoU.txt)

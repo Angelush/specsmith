@@ -4,7 +4,6 @@ type: source
 video_id: 9-xvYoIMHcQ
 url: https://www.youtube.com/watch?v=9-xvYoIMHcQ
 playlists: [0, 3]
-transcript: data/transcripts/9-xvYoIMHcQ.txt
 concepts: [enterprise-ai-adoption]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | CRR-004 | CAREER | [[concepts/enterprise-ai-adoption]] | AI consulting success requires a specific niche, domain authority, and a strangler fig approach that wraps existing client workflows. |
-
-## Transcript
-
-[data/transcripts/9-xvYoIMHcQ.txt](../data/transcripts/9-xvYoIMHcQ.txt)

@@ -4,7 +4,6 @@ type: source
 video_id: rY6MOdXv02M
 url: https://www.youtube.com/watch?v=rY6MOdXv02M
 playlists: [1]
-transcript: data/transcripts/rY6MOdXv02M.txt
 concepts: ['advanced-prompting-techniques']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | PRM-026 | PROMPTING | [[concepts/advanced-prompting-techniques]] | Use a second LLM to score and filter AI-generated content at scale — the auditing model catches what the generating model normalizes. |
-
-## Transcript
-
-[data/transcripts/rY6MOdXv02M.txt](../data/transcripts/rY6MOdXv02M.txt)

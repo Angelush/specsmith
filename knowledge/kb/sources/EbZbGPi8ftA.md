@@ -4,7 +4,6 @@ type: source
 video_id: EbZbGPi8ftA
 url: https://www.youtube.com/watch?v=EbZbGPi8ftA
 playlists: [0]
-transcript: data/transcripts/EbZbGPi8ftA.txt
 concepts: [model-comparison-and-performance]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | MSL-009 | MODEL_SELECTION | [[concepts/model-comparison-and-performance]] | Use Opus 4.5 for dense document OCR, multi-number tracking, and graceful degradation under extreme context pressure. |
-
-## Transcript
-
-[data/transcripts/EbZbGPi8ftA.txt](../data/transcripts/EbZbGPi8ftA.txt)

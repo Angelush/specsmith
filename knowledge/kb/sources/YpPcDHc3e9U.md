@@ -4,7 +4,6 @@ type: source
 video_id: YpPcDHc3e9U
 url: https://www.youtube.com/watch?v=YpPcDHc3e9U
 playlists: [0, 2]
-transcript: data/transcripts/YpPcDHc3e9U.txt
 concepts: [agent-species, agent-orchestration-architecture, practical-agent-adoption, agent-philosophy-and-mindset, multi-agent-system-design, ai-career-skills, ai-business-strategy]
 updated: 2026-05-13
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-13
 - [[concepts/multi-agent-system-design]] — Advanced agents can involve multiple LLMs and complex internal workings, leading to different agent "species".
 - [[concepts/ai-career-skills]] — Understanding the architecture and application of different agent types is becoming a critical AI skill.
 - [[concepts/ai-business-strategy]] — Identifying and utilizing specific agent subtypes for production use cases is vital for AI business strategy.
-
-## Transcript
-
-[data/transcripts/YpPcDHc3e9U.txt](../data/transcripts/YpPcDHc3e9U.txt)

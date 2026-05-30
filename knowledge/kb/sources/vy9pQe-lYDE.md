@@ -4,7 +4,6 @@ type: source
 video_id: vy9pQe-lYDE
 url: https://www.youtube.com/watch?v=vy9pQe-lYDE
 playlists: [1]
-transcript: data/transcripts/vy9pQe-lYDE.txt
 concepts: ['agent-orchestration-architecture']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | AGD-036 | AGENT_DESIGN | [[concepts/agent-orchestration-architecture]] | Build production agents by picking high-stakes problems, defining outcomes first, and decomposing into narrow single-task agents with minimum required intelligence. |
-
-## Transcript
-
-[data/transcripts/vy9pQe-lYDE.txt](../data/transcripts/vy9pQe-lYDE.txt)

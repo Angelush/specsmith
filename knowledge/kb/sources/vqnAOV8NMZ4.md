@@ -4,7 +4,6 @@ type: source
 video_id: vqnAOV8NMZ4
 url: https://www.youtube.com/watch?v=vqnAOV8NMZ4
 playlists: [1]
-transcript: data/transcripts/vqnAOV8NMZ4.txt
 concepts: ['claude-code-architecture']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | AGD-035 | AGENT_DESIGN | [[concepts/claude-code-architecture]] | Combine OpenBrain SQL memory, Claude Code /loop proactivity, and MCP tools to build a full autonomous agent without third-party security exposure. |
-
-## Transcript
-
-[data/transcripts/vqnAOV8NMZ4.txt](../data/transcripts/vqnAOV8NMZ4.txt)

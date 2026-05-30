@@ -4,7 +4,6 @@ type: source
 video_id: gRhOo6uT-fM
 url: https://www.youtube.com/watch?v=gRhOo6uT-fM
 playlists: [1]
-transcript: data/transcripts/gRhOo6uT-fM.txt
 concepts: ['ai-phase-transition']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TRD-029 | TREND | [[concepts/ai-phase-transition]] | Consult for infrastructure planning and market timing; routing to cheapest capable model captures margin, and AEO is now a required distribution strategy. |
-
-## Transcript
-
-[data/transcripts/gRhOo6uT-fM.txt](../data/transcripts/gRhOo6uT-fM.txt)

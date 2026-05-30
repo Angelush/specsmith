@@ -4,7 +4,6 @@ type: source
 video_id: dzp0OQbElpU
 url: https://www.youtube.com/watch?v=dzp0OQbElpU
 playlists: [1]
-transcript: data/transcripts/dzp0OQbElpU.txt
 concepts: ['ai-job-market-dynamics']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | CRR-011 | CAREER | [[concepts/ai-job-market-dynamics]] | When AI usage becomes a performance metric (as Shopify signaled), tool adoption shifts from optional to evaluated — consult this for context. |
-
-## Transcript
-
-[data/transcripts/dzp0OQbElpU.txt](../data/transcripts/dzp0OQbElpU.txt)

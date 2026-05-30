@@ -4,7 +4,6 @@ type: source
 video_id: p-ibfrMN0M8
 url: https://www.youtube.com/watch?v=p-ibfrMN0M8
 playlists: [1]
-transcript: data/transcripts/p-ibfrMN0M8.txt
 concepts: ['model-comparison-and-performance']
 updated: 2026-05-12
 ---
@@ -16,5 +15,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | MSL-013 | MODEL_SELECTION | [[concepts/model-comparison-and-performance]] | Choose Claude over GPT-5 for professional deliverables where narrative clarity and self-checking mid-task matter most. |
-## Transcript
-[data/transcripts/p-ibfrMN0M8.txt](../data/transcripts/p-ibfrMN0M8.txt)

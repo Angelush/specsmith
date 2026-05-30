@@ -4,7 +4,6 @@ type: source
 video_id: fyHnGHxGuhI
 url: https://www.youtube.com/watch?v=fyHnGHxGuhI
 playlists: [1]
-transcript: data/transcripts/fyHnGHxGuhI.txt
 concepts: ['ai-career-skills']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | CRR-012 | CAREER | [[concepts/ai-career-skills]] | The skill tree has shifted from writing code to orchestrating probabilistic systems — consult for context on skill transition framing. |
-
-## Transcript
-
-[data/transcripts/fyHnGHxGuhI.txt](../data/transcripts/fyHnGHxGuhI.txt)

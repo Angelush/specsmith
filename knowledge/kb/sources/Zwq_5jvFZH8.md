@@ -4,7 +4,6 @@ type: source
 video_id: Zwq_5jvFZH8
 url: https://www.youtube.com/watch?v=Zwq_5jvFZH8
 playlists: [0, 3]
-transcript: data/transcripts/Zwq_5jvFZH8.txt
 concepts: [ai-career-skills, ai-job-market-dynamics, ai-productivity-workflows, generative-ui-strategy]
 updated: 2026-05-13
 ---
@@ -19,7 +18,3 @@ updated: 2026-05-13
 - [[concepts/ai-job-market-dynamics]] — Front-end engineering is shifting from manual implementation to composability due to AI automation.
 - [[concepts/ai-productivity-workflows]] — Agentic AI can now learn UX, self-evaluate, and ship code, redefining developer productivity.
 - [[concepts/generative-ui-strategy]] — The focus shifts from static UIs to AI-driven composable workflows and solutions.
-
-## Transcript
-
-[data/transcripts/Zwq_5jvFZH8.txt](../data/transcripts/Zwq_5jvFZH8.txt)

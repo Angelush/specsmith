@@ -4,7 +4,6 @@ type: source
 video_id: BiqG3it0gY0
 url: https://www.youtube.com/watch?v=BiqG3it0gY0
 playlists: [3]
-transcript: data/transcripts/BiqG3it0gY0.txt
 concepts: [ai-business-strategy]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | BZO-007 | BUSINESS_OPP | [[concepts/ai-business-strategy]] | Map AI opportunities against speed, reasoning, fragmentation, discipline, and knowledge arbitrage gaps... |
-
-## Transcript
-
-[data/transcripts/BiqG3it0gY0.txt](../data/transcripts/BiqG3it0gY0.txt)

@@ -4,7 +4,6 @@ type: source
 video_id: 5Kp-Gj5yXL0
 url: https://www.youtube.com/watch?v=5Kp-Gj5qXL0
 playlists: [3]
-transcript: data/transcripts/5Kp-Gj5qXL0.txt
 concepts: ['ai-economy-and-bottlenecks']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TRD-011 | TREND | [[concepts/ai-economy-and-bottlenecks]] | Consult when planning infrastructure costs; inference is now continuous and latency-bound, driving multi-winner chip procurement strategy. |
-
-## Transcript
-
-[data/transcripts/5Kp-Gj5qXL0.txt](../data/transcripts/5Kp-Gj5qXL0.txt)

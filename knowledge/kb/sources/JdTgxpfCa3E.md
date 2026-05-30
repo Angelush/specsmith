@@ -4,7 +4,6 @@ type: source
 video_id: JdTgxpfCa3E
 url: https://www.youtube.com/watch?v=JdTgxpfCa3E
 playlists: [1]
-transcript: data/transcripts/JdTgxpfCa3E.txt
 concepts: ['ai-productivity-workflows']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | WFL-009 | WORKFLOW | [[concepts/ai-productivity-workflows]] | AI eliminates file organization overhead but not the judgment to detect when it is confidently wrong — build prompts that request uncertainty flags. |
-
-## Transcript
-
-[data/transcripts/JdTgxpfCa3E.txt](../data/transcripts/JdTgxpfCa3E.txt)

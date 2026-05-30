@@ -4,7 +4,6 @@ type: source
 video_id: ra7nYJe86GI
 url: https://www.youtube.com/watch?v=ra7nYJe86GI
 playlists: [1]
-transcript: data/transcripts/ra7nYJe86GI.txt
 concepts: ['generative-ui-strategy']
 updated: 2026-05-12
 ---
@@ -23,7 +22,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TRD-039 | TREND | [[concepts/generative-ui-strategy]] | Distinguish personal throwaway software (positive democratization) from disposable enterprise features (risky technical debt) before deciding whether to harden or discard AI-generated code. |
-
-## Transcript
-
-[data/transcripts/ra7nYJe86GI.txt](../data/transcripts/ra7nYJe86GI.txt)

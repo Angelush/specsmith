@@ -4,7 +4,6 @@ type: source
 video_id: dxq7WtWxi44
 url: https://www.youtube.com/watch?v=dxq7WtWxi44
 playlists: [1]
-transcript: data/transcripts/dxq7WtWxi44.txt
 concepts: ['agent-memory-systems']
 updated: 2026-05-12
 ---
@@ -19,5 +18,3 @@ updated: 2026-05-12
 | FWK-043 | FRAMEWORK | [[concepts/agent-memory-systems]] | A neglected wiki produces confident misinformation; a neglected database produces obvious gaps — failure mode shapes trust risk. |
 | AGD-044 | AGENT_DESIGN | [[concepts/agent-memory-systems]] | Karpathy's wiki presupposes a single agent writer — concurrent multi-agent writes produce incoherent merges. Use a database for multi-agent knowledge stores. |
 | PRN-001 | PRINCIPLES | [[concepts/agent-memory-systems]] | Both wiki and database memory approaches share one core principle: you own the artifact, not the platform. Build context layers you control. |
-## Transcript
-[data/transcripts/dxq7WtWxi44.txt](../data/transcripts/dxq7WtWxi44.txt)

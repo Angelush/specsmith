@@ -4,7 +4,6 @@ type: source
 video_id: dZxyeYBxPBA
 url: https://www.youtube.com/watch?v=dZxyeYBxPBA
 playlists: [1]
-transcript: data/transcripts/dZxyeYBxPBA.txt
 concepts: ['ai-phase-transition']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TRD-028 | TREND | [[concepts/ai-phase-transition]] | Consult when designing agent persistence strategies; simple git-commit loops beat elaborate multi-agent frameworks for reliability at this phase transition. |
-
-## Transcript
-
-[data/transcripts/dZxyeYBxPBA.txt](../data/transcripts/dZxyeYBxPBA.txt)

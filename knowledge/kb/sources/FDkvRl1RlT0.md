@@ -4,7 +4,6 @@ type: source
 video_id: FDkvRl1RlT0
 url: https://www.youtube.com/watch?v=FDkvRl1RlT0
 playlists: [1]
-transcript: data/transcripts/FDkvRl1RlT0.txt
 concepts: ['issue-tracking-evolution']
 updated: 2026-05-12
 ---
@@ -27,7 +26,3 @@ updated: 2026-05-12
 |----|----------|---------|-------|
 | FWK-046 | FRAMEWORK | [[concepts/issue-tracking-evolution]] | Tools built for human coordination (issue trackers, CRMs, ERPs) accidentally encode exactly what agents need — state, ownership, permissions, history, dependency graphs — making them the substrate for agentic orchestration, not the UI for human ticket management. |
 | TRD-048 | TREND | [[concepts/issue-tracking-evolution]] | In 2026, the human ceremony around tickets (grooming, translating reality into structured records) is under pressure from agents; but the underlying data layer (state machines, audit trails, dependency graphs) is becoming the control plane for autonomous work — making Atlassian, Linear, and Salesforce more strategically valuable, not less. |
-
-## Transcript
-
-[data/transcripts/FDkvRl1RlT0.txt](../data/transcripts/FDkvRl1RlT0.txt)

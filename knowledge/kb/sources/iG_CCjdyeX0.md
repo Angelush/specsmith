@@ -4,7 +4,6 @@ type: source
 video_id: iG_CCjdyeX0
 url: https://www.youtube.com/watch?v=iG_CCjdyeX0
 playlists: [P1]
-transcript: data/transcripts/iG_CCjdyeX0.txt
 concepts: ['agent-evaluation-and-reliability']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | AGD-028 | AGENT_DESIGN | [[concepts/agent-evaluation-and-reliability]] | Use a stop-hook that blocks agent completion and re-injects the original prompt until binary verification criteria pass. |
-
-## Transcript
-
-[data/transcripts/iG_CCjdyeX0.txt](../data/transcripts/iG_CCjdyeX0.txt)

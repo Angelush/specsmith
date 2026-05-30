@@ -4,7 +4,6 @@ type: source
 video_id: 9IETDveRCQs
 url: https://www.youtube.com/watch?v=9IETDveRCQs
 playlists: [0, 3]
-transcript: data/transcripts/9IETDveRCQs.txt
 concepts: [enterprise-ai-adoption]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | FWK-021 | FRAMEWORK | [[concepts/enterprise-ai-adoption]] | Fix data architecture first across seven principles before investing in AI tooling; the 84% failure gap is infrastructure, not models. |
-
-## Transcript
-
-[data/transcripts/9IETDveRCQs.txt](../data/transcripts/9IETDveRCQs.txt)

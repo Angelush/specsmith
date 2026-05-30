@@ -4,7 +4,6 @@ type: source
 video_id: f-v0fJgBqhk
 url: https://www.youtube.com/watch?v=f-v0fJgBqhk
 playlists: [1]
-transcript: data/transcripts/f-v0fJgBqhk.txt
 concepts: ['microsoft-copilot-ecosystem']
 updated: 2026-05-12
 ---
@@ -23,7 +22,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TUL-010 | TOOL | [[concepts/microsoft-copilot-ecosystem]] | Use Claude's Excel integration for multi-tab financial models where AI works directly in the spreadsheet artifact, not via code paste. |
-
-## Transcript
-
-[data/transcripts/f-v0fJgBqhk.txt](../data/transcripts/f-v0fJgBqhk.txt)

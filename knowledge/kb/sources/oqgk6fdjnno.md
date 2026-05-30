@@ -4,7 +4,6 @@ type: source
 video_id: oqgk6fdjnno
 url: https://www.youtube.com/watch?v=oqgk6fdjnno
 playlists: [1]
-transcript: data/transcripts/oqgk6fdjnno.txt
 concepts: ['ai-content-creation']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TRD-034 | TREND | [[concepts/ai-content-creation]] | Consult when deciding whether to build on OpenAI's platform; ChatGPT is becoming an ad-supported consumer platform — factor this into distribution strategy. |
-
-## Transcript
-
-[data/transcripts/oqgk6fdjnno.txt](../data/transcripts/oqgk6fdjnno.txt)

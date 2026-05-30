@@ -4,7 +4,6 @@ type: source
 video_id: cVZCfpkHNBg
 url: https://www.youtube.com/watch?v=cVZCfpkHNBg
 playlists: [1]
-transcript: data/transcripts/cVZCfpkHNBg.txt
 concepts: ['ai-engineering-principles']
 updated: 2026-05-12
 ---
@@ -23,7 +22,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | FWK-025 | FRAMEWORK | [[concepts/ai-engineering-principles]] | Answer seven infrastructure questions before selecting any AI coding tool; weak engineering practices amplify with AI, compounding failures. |
-
-## Transcript
-
-[data/transcripts/cVZCfpkHNBg.txt](../data/transcripts/cVZCfpkHNBg.txt)

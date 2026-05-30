@@ -4,7 +4,6 @@ type: source
 video_id: L32th5fXPw8
 url: https://www.youtube.com/watch?v=L32th5fXPw8
 playlists: [1]
-transcript: data/transcripts/L32th5fXPw8.txt
 concepts: ['knowledge-work-delegation']
 updated: 2026-05-12
 ---
@@ -25,7 +24,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | WFL-010 | WORKFLOW | [[concepts/knowledge-work-delegation]] | Voice-capture expert observations on-site and let AI convert them to formatted professional deliverables — outsource translation, not judgment. |
-
-## Transcript
-
-[data/transcripts/L32th5fXPw8.txt](../data/transcripts/L32th5fXPw8.txt)

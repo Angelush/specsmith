@@ -4,7 +4,6 @@ type: source
 video_id: POLFZdG54Kw
 url: https://www.youtube.com/watch?v=POLFZdG54Kw
 playlists: [1]
-transcript: data/transcripts/POLFZdG54Kw.txt
 concepts: [advanced-prompting-techniques, prompting-and-skill-design, ai-engineering-principles, rag-architecture-and-chunking]
 updated: 2026-05-13
 ---
@@ -19,7 +18,3 @@ updated: 2026-05-13
 - [[concepts/prompting-and-skill-design]] — Prompting must evolve to anticipate future models like GPT-5, focusing on current trends to 'skate toward where the puck is going'.
 - [[concepts/ai-engineering-principles]] — AI engineering principles include building self-evaluation loops and forcing tradeoffs to elicit critical thinking from LLMs.
 - [[concepts/rag-architecture-and-chunking]] — LLMs' growing context windows (millions of tokens) highlight the need for effective strategies in front-loading rich, relevant context.
-
-## Transcript
-
-[data/transcripts/POLFZdG54Kw.txt](../data/transcripts/POLFZdG54Kw.txt)

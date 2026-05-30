@@ -4,7 +4,6 @@ type: source
 video_id: 5Di6o6zuMLc
 url: https://www.youtube.com/watch?v=5Di6o6zuMLc
 playlists: [0, 2]
-transcript: data/transcripts/5Di6o6zuMLc.txt
 concepts: [ai-builder-mindset, ai-quality-control]
 updated: 2026-05-12
 ---
@@ -27,7 +26,3 @@ updated: 2026-05-12
 | FWK-010 | FRAMEWORK | [[concepts/ai-builder-mindset]] | Move fluidly between system-level orchestration and detail-level verification; staying at one altitude caps quality. |
 | FWK-011 | FRAMEWORK | [[concepts/ai-builder-mindset]] | Alternate between execution focus and deliberate reflection to compound learning, not just speed. |
 | FWK-012 | FRAMEWORK | [[concepts/ai-quality-control]] | Delegate codifiable rules to agents; personally own the coherence and vision that makes something feel right. |
-
-## Transcript
-
-[data/transcripts/5Di6o6zuMLc.txt](../data/transcripts/5Di6o6zuMLc.txt)

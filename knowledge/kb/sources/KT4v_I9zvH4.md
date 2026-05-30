@@ -4,7 +4,6 @@ type: source
 video_id: KT4v_I9zvH4
 url: https://www.youtube.com/watch?v=KT4v_I9zvH4
 playlists: [1]
-transcript: data/transcripts/KT4v_I9zvH4.txt
 concepts: ['ai-job-market-dynamics']
 updated: 2026-05-12
 ---
@@ -23,7 +22,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | CRR-009 | CAREER | [[concepts/ai-job-market-dynamics]] | In a world of AI-generated credentials, demonstrable verification of outputs beats claimed credentials for standing out. |
-
-## Transcript
-
-[data/transcripts/KT4v_I9zvH4.txt](../data/transcripts/KT4v_I9zvH4.txt)

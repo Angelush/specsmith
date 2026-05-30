@@ -4,7 +4,6 @@ type: source
 video_id: 2JiMmye2ezg
 url: https://www.youtube.com/watch?v=2JiMmye2ezg
 playlists: [0, 2]
-transcript: data/transcripts/2JiMmye2ezg.txt
 concepts: ["open-brain-systems", "agent-memory-systems"]
 updated: 2026-05-12
 ---
@@ -24,7 +23,3 @@ updated: 2026-05-12
 |----|----------|---------|-------|
 | FWK-017 | FRAMEWORK | [[concepts/open-brain-systems]] | Build portable, agent-readable memory infrastructure you own; platform-walled memory caps your agent capability at that platform. |
 | TRD-008 | TREND | [[concepts/agent-memory-systems]] | Consult when choosing an AI platform; platform memory is a deliberate lock-in mechanism — own your context layer via MCP instead. |
-
-## Transcript
-
-[data/transcripts/2JiMmye2ezg.txt](../data/transcripts/2JiMmye2ezg.txt)

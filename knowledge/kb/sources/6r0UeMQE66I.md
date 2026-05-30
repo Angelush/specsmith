@@ -4,7 +4,6 @@ type: source
 video_id: 6r0UeMQE66I
 url: https://www.youtube.com/watch?v=6r0UeMQE66I
 playlists: [3]
-transcript: data/transcripts/6r0UeMQE66I.txt
 concepts: [enterprise-ai-adoption, ai-business-strategy]
 updated: 2026-05-12
 ---
@@ -24,7 +23,3 @@ updated: 2026-05-12
 |----|----------|---------|-------|
 | BZO-005 | BUSINESS_OPP | [[concepts/enterprise-ai-adoption]] | Bridge the performative-vs-structural AI gap at panicking companies; practitioners who build real capability are 3.2x more... |
 | TRD-010 | TREND | [[concepts/ai-business-strategy]] | Consult when evaluating whether AI investment decisions around you are reactive or strategic; panic windows are building... |
-
-## Transcript
-
-[data/transcripts/6r0UeMQE66I.txt](../data/transcripts/6r0UeMQE66I.txt)

@@ -4,7 +4,6 @@ type: source
 video_id: cW9eaEcx6OY
 url: https://www.youtube.com/watch?v=cW9eaEcx6OY
 playlists: [1]
-transcript: data/transcripts/cW9eaEcx6OY.txt
 concepts: ['microsoft-copilot-ecosystem']
 updated: 2026-05-12
 ---
@@ -23,7 +22,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TUL-009 | TOOL | [[concepts/microsoft-copilot-ecosystem]] | Copilot is 12 distinct products sharing a brand — match the right Copilot variant to your specific workflow, not just the name. |
-
-## Transcript
-
-[data/transcripts/cW9eaEcx6OY.txt](../data/transcripts/cW9eaEcx6OY.txt)

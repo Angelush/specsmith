@@ -4,7 +4,6 @@ type: source
 video_id: jwtpMSRAPAQ
 url: https://www.youtube.com/watch?v=jwtpMSRAPAQ
 playlists: [3]
-transcript: data/transcripts/jwtpMSRAPAQ.txt
 concepts: [ai-business-strategy, agent-orchestration-architecture, ai-industry-competitive-landscape, enterprise-ai-adoption]
 updated: 2026-05-29
 ---
@@ -19,7 +18,3 @@ updated: 2026-05-29
 - [[concepts/agent-orchestration-architecture]] — Implementation-layer components: workflow design, data access (row/field permissions, authoritative vs stale), authority (read/write/spend risk profiles), evals as business-rule adherence, audit trails, recovery + ownership; "sit closer to the business object."
 - [[concepts/ai-industry-competitive-landscape]] — Four pressures on generic enterprise AI wrappers: labs moving down-stack, consultancies moving up-stack, systems of record exposing governed agent APIs, and private equity as a distribution channel.
 - [[concepts/enterprise-ai-adoption]] — A PE-driven services-deployment model with forward-deployed engineers (Anthropic w/ Blackstone/Goldman ~$1.5B; OpenAI ~$10B) — OpenAI's Frontier Alliance says the enterprise bottleneck is how agents are built and operated, not the model.
-
-## Transcript
-
-[data/transcripts/jwtpMSRAPAQ.txt](../data/transcripts/jwtpMSRAPAQ.txt)

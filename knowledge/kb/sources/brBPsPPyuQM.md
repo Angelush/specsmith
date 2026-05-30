@@ -3,7 +3,6 @@ title: ChatGPT Images Just Replaced Three People on Your Team.
 type: source
 video_id: brBPsPPyuQM
 url: https://www.youtube.com/watch?v=brBPsPPyuQM
-transcript: data/transcripts/brBPsPPyuQM.txt
 concepts: ['ai-content-creation']
 updated: 2026-05-12
 ---
@@ -26,7 +25,3 @@ updated: 2026-05-12
 | WFL-015 | WORKFLOW | [[concepts/ai-content-creation]] | The bottleneck in AI image generation shifted from model skill to specification quality — write briefs, not prompts, and teams that already think in specs will win immediately. |
 | TOL-001 | TOOL | [[concepts/ai-content-creation]] | GPT Image 2's 93% arena win comes from three mechanisms stacked on the model: thinking mode (10–20s pre-generation reasoning), live web search inside the generation loop, and 8-frame character-consistent output from one prompt. |
 | TRD-055 | TREND | [[concepts/ai-content-creation]] | The primary consumer of GPT Image 2 and Claude Design is not a human — it is an agent pipeline. This restructures the economics and threatens middleware design SaaS. |
-
-## Transcript
-
-[data/transcripts/brBPsPPyuQM.txt](../data/transcripts/brBPsPPyuQM.txt)

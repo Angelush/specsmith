@@ -4,7 +4,6 @@ type: source
 video_id: zCW-k5fFRgQ
 url: https://www.youtube.com/watch?v=zCW-k5fFRgQ
 playlists: [1]
-transcript: data/transcripts/zCW-k5fFRgQ.txt
 concepts: ['ai-job-market-dynamics']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | CRR-018 | CAREER | [[concepts/ai-job-market-dynamics]] | AI amplifies extraordinary talent most when it eliminates coordination overhead — not by adding more tools to ordinary workflows. |
-
-## Transcript
-
-[data/transcripts/zCW-k5fFRgQ.txt](../data/transcripts/zCW-k5fFRgQ.txt)

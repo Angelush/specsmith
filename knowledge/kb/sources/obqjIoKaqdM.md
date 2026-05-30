@@ -4,7 +4,6 @@ type: source
 video_id: obqjIoKaqdM
 url: https://www.youtube.com/watch?v=obqjIoKaqdM
 playlists: [1]
-transcript: data/transcripts/obqjIoKaqdM.txt
 concepts: ['practical-agent-adoption']
 updated: 2026-05-12
 ---
@@ -16,5 +15,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | FWK-030 | FRAMEWORK | [[concepts/practical-agent-adoption]] | Match solution complexity to problem complexity across six levels; most teams skip Levels 2-5 and over-build autonomous agents prematurely. |
-## Transcript
-[data/transcripts/obqjIoKaqdM.txt](../data/transcripts/obqjIoKaqdM.txt)

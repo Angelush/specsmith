@@ -3,7 +3,6 @@ title: What Sam Altman and Dario Amodei Disagree About (And Why It Matters for Y
 type: source
 video_id: M9TJizOxNFk
 url: https://www.youtube.com/watch?v=M9TJizOxNFk
-transcript: data/transcripts/M9TJizOxNFk.txt
 concepts: ['ai-safety-and-alignment']
 updated: 2026-05-12
 ---
@@ -21,7 +20,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | MND-007 | MINDSET | [[concepts/ai-safety-and-alignment]] | Anthropic optimizes for enterprise trust and upfront safety; OpenAI optimizes for adoption velocity and iterative safety through deployment. |
-
-## Transcript
-
-[data/transcripts/M9TJizOxNFk.txt](../data/transcripts/M9TJizOxNFk.txt)

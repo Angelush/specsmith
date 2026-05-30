@@ -4,7 +4,6 @@ type: source
 video_id: 0teZqotpqT8
 url: https://www.youtube.com/watch?v=0teZqotpqT8
 playlists: [0, 2, 3]
-transcript: data/transcripts/0teZqotpqT8.txt
 concepts: ["ai-job-market-dynamics"]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | CRR-002 | CAREER | [[concepts/ai-job-market-dynamics]] | Build your own AI-powered career interface rather than optimizing résumés for a broken algorithmic hiring funnel. |
-
-## Transcript
-
-[data/transcripts/0teZqotpqT8.txt](../data/transcripts/0teZqotpqT8.txt)

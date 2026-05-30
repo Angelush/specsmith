@@ -4,7 +4,6 @@ type: source
 video_id: LNpp73qHbJA
 url: https://www.youtube.com/watch?v=LNpp73qHbJA
 playlists: [1]
-transcript: data/transcripts/LNpp73qHbJA.txt
 concepts: ['agent-orchestration-architecture']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | AGD-025 | AGENT_DESIGN | [[concepts/agent-orchestration-architecture]] | Use Vercel's framework for what to build today (simple back-office ops), use Google's framework for where agent security and orchestration must eventually go. |
-
-## Transcript
-
-[data/transcripts/LNpp73qHbJA.txt](../data/transcripts/LNpp73qHbJA.txt)

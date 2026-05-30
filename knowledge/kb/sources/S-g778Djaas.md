@@ -4,7 +4,6 @@ type: source
 video_id: S-g778Djaas
 url: https://www.youtube.com/watch?v=S-g778Djaas
 playlists: [1, 2]
-transcript: data/transcripts/S-g778Djaas.txt
 concepts: [prompting-and-skill-design, ai-engineering-principles, multi-agent-system-design, generative-ui-strategy]
 updated: 2026-05-13
 ---
@@ -19,7 +18,3 @@ updated: 2026-05-13
 - [[concepts/ai-engineering-principles]] — Thinking in systems and enforcing workflow constraints are key AI engineering principles for consistent, production-ready outputs like PowerPoint.
 - [[concepts/multi-agent-system-design]] — Decomposing PowerPoint generation into architect, generator, and assembly chats enables complex narratives and efficient output scaling.
 - [[concepts/generative-ui-strategy]] — Prioritizing clean typography and spacing over decoration is crucial for AI to reliably generate effective visual outputs for presentations.
-
-## Transcript
-
-[data/transcripts/S-g778Djaas.txt](../data/transcripts/S-g778Djaas.txt)

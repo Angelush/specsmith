@@ -4,7 +4,6 @@ type: source
 video_id: gtkRAXQf49k
 url: https://www.youtube.com/watch?v=gtkRAXQf49k
 playlists: [1]
-transcript: data/transcripts/gtkRAXQf49k.txt
 concepts: ['enterprise-ai-adoption']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | CRR-014 | CAREER | [[concepts/enterprise-ai-adoption]] | Systematically AI-enable your current role rather than waiting — proactive adoption is defensible; reactive displacement is not. |
-
-## Transcript
-
-[data/transcripts/gtkRAXQf49k.txt](../data/transcripts/gtkRAXQf49k.txt)

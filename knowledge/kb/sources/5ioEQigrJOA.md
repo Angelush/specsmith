@@ -4,7 +4,6 @@ type: source
 video_id: 5ioEQigrJOA
 url: https://www.youtube.com/watch?v=5ioEQigrJOA
 playlists: [0]
-transcript: data/transcripts/5ioEQigrJOA.txt
 concepts: [agent-philosophy-and-mindset]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | MND-002 | MINDSET | [[concepts/agent-philosophy-and-mindset]] | Agent reliability comes from architectural work you do, not from the model itself — build pragmatically and avoid both hype... |
-
-## Transcript
-
-[data/transcripts/5ioEQigrJOA.txt](../data/transcripts/5ioEQigrJOA.txt)

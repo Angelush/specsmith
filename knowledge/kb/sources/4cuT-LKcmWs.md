@@ -4,7 +4,6 @@ type: source
 video_id: 4cuT-LKcmWs
 url: https://www.youtube.com/watch?v=4cuT-LKcmWs
 playlists: [3]
-transcript: data/transcripts/4cuT-LKcmWs.txt
 concepts: [agent-evaluation-and-reliability, ai-career-skills]
 updated: 2026-05-12
 ---
@@ -24,7 +23,3 @@ updated: 2026-05-12
 |----|----------|---------|-------|
 | AGD-015 | AGENT_DESIGN | [[concepts/agent-evaluation-and-reliability]] | Audit every agent against six failure modes before deployment: context degradation, spec drift, sycophancy, tool errors... |
 | CRR-003 | CAREER | [[concepts/ai-career-skills]] | The AI job market is K-shaped: top skills compound upward while undifferentiated roles compress downward... |
-
-## Transcript
-
-[data/transcripts/4cuT-LKcmWs.txt](../data/transcripts/4cuT-LKcmWs.txt)

@@ -4,7 +4,6 @@ type: source
 video_id: 41UDGsBEjoI
 url: https://www.youtube.com/watch?v=41UDGsBEjoI
 playlists: [2, 3]
-transcript: data/transcripts/41UDGsBEjoI.txt
 concepts: ["model-comparison-and-performance"]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | MSL-004 | MODEL_SELECTION | [[concepts/model-comparison-and-performance]] | Delegation-shaped tasks go to Codex; coordination-shaped tasks requiring real-time judgment go to Opus. |
-
-## Transcript
-
-[data/transcripts/41UDGsBEjoI.txt](../data/transcripts/41UDGsBEjoI.txt)

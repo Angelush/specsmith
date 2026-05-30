@@ -4,7 +4,6 @@ type: source
 video_id: U1oHRqUkI1E
 url: https://www.youtube.com/watch?v=U1oHRqUkI1E
 playlists: [2]
-transcript: data/transcripts/U1oHRqUkI1E.txt
 concepts: [ai-productivity-workflows, ai-job-market-dynamics, microsoft-copilot-ecosystem]
 updated: 2026-05-13
 ---
@@ -18,7 +17,3 @@ updated: 2026-05-13
 - [[concepts/ai-productivity-workflows]] — AI in Excel/PowerPoint automates analyst tasks, reducing work from days to minutes.
 - [[concepts/ai-job-market-dynamics]] — Manual financial modeling skills are no longer scarce due to AI, shifting job market value.
 - [[concepts/microsoft-copilot-ecosystem]] — Claude's Excel/PPT integration leverages structured financial data connectors and pre-built skills.
-
-## Transcript
-
-[data/transcripts/U1oHRqUkI1E.txt](../data/transcripts/U1oHRqUkI1E.txt)

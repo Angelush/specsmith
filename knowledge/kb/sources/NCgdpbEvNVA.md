@@ -4,7 +4,6 @@ type: source
 video_id: NCgdpbEvNVA
 url: https://www.youtube.com/watch?v=NCgdpbEvNVA
 playlists: [1]
-transcript: data/transcripts/NCgdpbEvNVA.txt
 concepts: ['ai-economy-and-bottlenecks']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TRD-027 | TREND | [[concepts/ai-economy-and-bottlenecks]] | Audit your role for displacement risk against four durable human skills: taste, domain judgment, learning speed, and honest self-assessment. |
-
-## Transcript
-
-[data/transcripts/NCgdpbEvNVA.txt](../data/transcripts/NCgdpbEvNVA.txt)

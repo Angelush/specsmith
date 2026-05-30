@@ -4,7 +4,6 @@ type: source
 video_id: CJFmhEzmOZg
 url: https://www.youtube.com/watch?v=CJFmhEzmOZg
 playlists: [1, 3]
-transcript: data/transcripts/CJFmhEzmOZg.txt
 concepts: [ai-business-strategy]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | BZO-008 | BUSINESS_OPP | [[concepts/ai-business-strategy]] | Monitor closing AI capability gaps to be first to market with dependent downstream layer-2 and layer-3 products. |
-
-## Transcript
-
-[data/transcripts/CJFmhEzmOZg.txt](../data/transcripts/CJFmhEzmOZg.txt)

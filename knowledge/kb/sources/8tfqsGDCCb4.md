@@ -4,7 +4,6 @@ type: source
 video_id: 8tfqsGDCCb4
 url: https://www.youtube.com/watch?v=8tfqsGDCCb4
 playlists: [0, 3]
-transcript: data/transcripts/8tfqsGDCCb4.txt
 concepts: ["openai-atlas-browser"]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TUL-006 | TOOL | [[concepts/openai-atlas-browser]] | Atlas embeds AI natively in the browser tab rather than as a sidebar — the architecture difference matters for agentic browsing tasks. |
-
-## Transcript
-
-[data/transcripts/8tfqsGDCCb4.txt](../data/transcripts/8tfqsGDCCb4.txt)

@@ -4,7 +4,6 @@ type: source
 video_id: 0v9ixCWNhPo
 url: https://www.youtube.com/watch?v=0v9ixCWNhPo
 playlists: [3]
-transcript: data/transcripts/0v9ixCWNhPo.txt
 concepts: [ai-economy-and-bottlenecks, model-comparison-and-performance, agent-evaluation-and-reliability]
 updated: 2026-05-13
 ---
@@ -18,7 +17,3 @@ updated: 2026-05-13
 - [[concepts/ai-economy-and-bottlenecks]] — The economic gap between AI creation and extraction creates an unavoidable "pressure gradient" for information flow.
 - [[concepts/model-comparison-and-performance]] — Distilled models, built from copied data, are systematically worse than frontier models for sustained, autonomous agentic work.
 - [[concepts/agent-evaluation-and-reliability]] — Current AI evaluation methods fail to detect the performance gap of distilled models in critical agentic use cases.
-
-## Transcript
-
-[data/transcripts/0v9ixCWNhPo.txt](../data/transcripts/0v9ixCWNhPo.txt)

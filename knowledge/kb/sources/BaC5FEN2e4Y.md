@@ -4,7 +4,6 @@ type: source
 video_id: BaC5FEN2e4Y
 url: https://www.youtube.com/watch?v=BaC5FEN2e4Y
 playlists: [3]
-transcript: data/transcripts/BaC5FEN2e4Y.txt
 concepts: [ai-career-skills]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | CRR-006 | CAREER | [[concepts/ai-career-skills]] | Assemble a structured AI-powered quarterly accountability system to replace the career guidance most professionals never get. |
-
-## Transcript
-
-[data/transcripts/BaC5FEN2e4Y.txt](../data/transcripts/BaC5FEN2e4Y.txt)

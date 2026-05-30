@@ -4,7 +4,6 @@ type: source
 video_id: DWb4SqILvvM
 url: https://www.youtube.com/watch?v=DWb4SqILvvM
 playlists: [0]
-transcript: data/transcripts/DWb4SqILvvM.txt
 concepts: [practical-agent-adoption]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TRD-020 | TREND | [[concepts/practical-agent-adoption]] | Consult when justifying agent investment; enterprise validation is in production, not pilot — the question is now which architecture. |
-
-## Transcript
-
-[data/transcripts/DWb4SqILvvM.txt](../data/transcripts/DWb4SqILvvM.txt)

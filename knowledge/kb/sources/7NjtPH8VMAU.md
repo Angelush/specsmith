@@ -4,7 +4,6 @@ type: source
 video_id: 7NjtPH8VMAU
 url: https://www.youtube.com/watch?v=7NjtPH8VMAU
 playlists: [0, 2, 3]
-transcript: data/transcripts/7NjtPH8VMAU.txt
 concepts: [agent-memory-systems]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | AGD-018 | AGENT_DESIGN | [[concepts/agent-memory-systems]] | Enterprise agent deployment stalls on reversibility, not intelligence; convert one-way-door decisions to two-way doors before delegating autonomy. |
-
-## Transcript
-
-[data/transcripts/7NjtPH8VMAU.txt](../data/transcripts/7NjtPH8VMAU.txt)

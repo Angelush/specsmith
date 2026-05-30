@@ -4,7 +4,6 @@ type: source
 video_id: DcrXHTOxi3I
 url: https://www.youtube.com/watch?v=DcrXHTOxi3I
 playlists: [1]
-transcript: data/transcripts/DcrXHTOxi3I.txt
 concepts: ['model-comparison-and-performance']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TRD-021 | TREND | [[concepts/model-comparison-and-performance]] | Consult when evaluating research bets; build model-agnostic systems that improve regardless of which scaling paradigm ultimately wins. |
-
-## Transcript
-
-[data/transcripts/DcrXHTOxi3I.txt](../data/transcripts/DcrXHTOxi3I.txt)

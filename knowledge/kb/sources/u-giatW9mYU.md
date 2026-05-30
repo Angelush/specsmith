@@ -4,7 +4,6 @@ type: source
 video_id: u-giatW9mYU
 url: https://www.youtube.com/watch?v=u-giatW9mYU
 playlists: [1]
-transcript: data/transcripts/u-giatW9mYU.txt
 concepts: ['ai-roi-and-value-proposition', 'organizational-ai-transformation']
 updated: 2026-05-12
 ---
@@ -24,7 +23,3 @@ updated: 2026-05-12
 |----|----------|---------|-------|
 | MND-013 | MINDSET | [[concepts/ai-roi-and-value-proposition]] | Frame AI adoption around Jevons' paradox: cheaper execution should unlock entirely new categories of ambitious projects, not just headcount reductions. |
 | FWK-033 | FRAMEWORK | [[concepts/organizational-ai-transformation]] | AI-era organizations unlock value through speed, domain-expert building, quality as default, 200 learning cycles per year, and clarity about human bottlenecks. |
-
-## Transcript
-
-[data/transcripts/u-giatW9mYU.txt](../data/transcripts/u-giatW9mYU.txt)

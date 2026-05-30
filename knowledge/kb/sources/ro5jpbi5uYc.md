@@ -4,7 +4,6 @@ type: source
 video_id: ro5jpbi5uYc
 url: https://www.youtube.com/watch?v=ro5jpbi5uYc
 playlists: [1]
-transcript: data/transcripts/ro5jpbi5uYc.txt
 concepts: ['claude-code-architecture']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | AGD-033 | AGENT_DESIGN | [[concepts/claude-code-architecture]] | Anthropic's leaked Conway shows ambient agents that auto-trigger on webhooks and run overnight are the platform endgame — not chat windows. |
-
-## Transcript
-
-[data/transcripts/ro5jpbi5uYc.txt](../data/transcripts/ro5jpbi5uYc.txt)

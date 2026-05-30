@@ -4,7 +4,6 @@ type: source
 video_id: XGvDbeoSN3E
 url: https://www.youtube.com/watch?v=XGvDbeoSN3E
 playlists: [1]
-transcript: data/transcripts/XGvDbeoSN3E.txt
 concepts: ['agentic-commerce']
 updated: 2026-05-12
 ---
@@ -27,7 +26,3 @@ updated: 2026-05-12
 | BZO-014 | BUSINESS_OPP | [[concepts/agentic-commerce]] | The next competitive moat is not using AI internally — it is making your product/service discoverable and transactable by buyer agents without human intermediation. |
 | FWK-049 | FRAMEWORK | [[concepts/agentic-commerce]] | The marketing funnel's real function was making invisible human purchase intent observable; agents externalize intent before the funnel begins, making most funnel infrastructure irrelevant. |
 | TRD-052 | TREND | [[concepts/agentic-commerce]] | Agentic purchasing infrastructure (Stripe, Visa, Mastercard, Microsoft, Meta) signals a structural shift: buyer agents arrive with intent and payment authority before sellers can run conversion flows. |
-
-## Transcript
-
-[data/transcripts/XGvDbeoSN3E.txt](../data/transcripts/XGvDbeoSN3E.txt)

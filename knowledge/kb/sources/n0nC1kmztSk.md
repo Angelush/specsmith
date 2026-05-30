@@ -4,7 +4,6 @@ type: source
 video_id: n0nC1kmztSk
 url: https://www.youtube.com/watch?v=n0nC1kmztSk
 playlists: [0, 2]
-transcript: data/transcripts/n0nC1kmztSk.txt
 concepts: [agent-evaluation-and-reliability, ai-security-and-trust]
 updated: 2026-05-29
 ---
@@ -17,7 +16,3 @@ updated: 2026-05-29
 
 - [[concepts/agent-evaluation-and-reliability]] — "Agent analytics": the unit of product behavior is the agent run (not clicks/sessions/traces); completion ≠ acceptance (a 2×2 that gates autonomy); mid-run corrections are evals; ship three events tied to one run ID. "Interruptions, retries, and handoffs are the new clicks."
 - [[concepts/ai-security-and-trust]] — A Cursor agent erased Pocket OS's production DB + backups in 9 seconds via one API call; product analytics is the "rudder" that would surface defective runs and permission-boundary failures long before a delete moment.
-
-## Transcript
-
-[data/transcripts/n0nC1kmztSk.txt](../data/transcripts/n0nC1kmztSk.txt)

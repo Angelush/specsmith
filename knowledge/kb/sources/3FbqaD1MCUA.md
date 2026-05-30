@@ -4,7 +4,6 @@ type: source
 video_id: 3FbqaD1MCUA
 url: https://www.youtube.com/watch?v=3FbqaD1MCUA
 playlists: [3]
-transcript: data/transcripts/3FbqaD1MCUA.txt
 concepts: ["ai-business-strategy"]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | BZO-004 | BUSINESS_OPP | [[concepts/ai-business-strategy]] | Audit whether your AI product owns a layer or rents one; middle-layer orchestration businesses face a structural squeeze from both directions. |
-
-## Transcript
-
-[data/transcripts/3FbqaD1MCUA.txt](../data/transcripts/3FbqaD1MCUA.txt)

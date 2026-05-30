@@ -4,7 +4,6 @@ type: source
 video_id: duA2AwL7keg
 url: https://www.youtube.com/watch?v=duA2AwL7keg
 playlists: [1]
-transcript: data/transcripts/duA2AwL7keg.txt
 concepts: ['agent-philosophy-and-mindset']
 updated: 2026-05-12
 ---
@@ -23,7 +22,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | AGD-027 | AGENT_DESIGN | [[concepts/agent-philosophy-and-mindset]] | Use agents as reality simulators to run hundreds of scenario iterations before committing real resources — this is exponentially higher leverage than task execution. |
-
-## Transcript
-
-[data/transcripts/duA2AwL7keg.txt](../data/transcripts/duA2AwL7keg.txt)

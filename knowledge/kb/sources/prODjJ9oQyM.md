@@ -4,7 +4,6 @@ type: source
 video_id: prODjJ9oQyM
 url: https://www.youtube.com/watch?v=prODjJ9oQyM
 playlists: [1]
-transcript: data/transcripts/prODjJ9oQyM.txt
 concepts: ['ai-industry-competitive-landscape']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TRD-037 | TREND | [[concepts/ai-industry-competitive-landscape]] | Evaluate distribution vs. lock-in tradeoff before building inside ChatGPT's App SDK; multi-model competition makes model-agnostic architecture the safer bet. |
-
-## Transcript
-
-[data/transcripts/prODjJ9oQyM.txt](../data/transcripts/prODjJ9oQyM.txt)

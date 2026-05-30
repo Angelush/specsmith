@@ -4,7 +4,6 @@ type: source
 video_id: 725QE_LNXT4
 url: https://www.youtube.com/watch?v=725QE_LNXT4
 playlists: [3]
-transcript: data/transcripts/725QE_LNXT4.txt
 concepts: [ai-business-strategy, agentic-commerce, ai-career-skills, ai-content-creation]
 updated: 2026-05-29
 ---
@@ -19,7 +18,3 @@ updated: 2026-05-29
 - [[concepts/agentic-commerce]] — Agents now do the shopping whether buyers admit it or not; without structured, provable product data you get flattened to the category average, while by-name brand loyalty constrains the agent to a single pick.
 - [[concepts/ai-career-skills]] — Individuals need a personal "truth layer" that proves AI skills (vetting/proof matters), not an AI-washed LinkedIn — the "prove-it economy" for talent.
 - [[concepts/ai-content-creation]] — Only opinionated, specific content "survives compression"; generic AI-slop gets averaged out by the interpretation layer.
-
-## Transcript
-
-[data/transcripts/725QE_LNXT4.txt](../data/transcripts/725QE_LNXT4.txt)

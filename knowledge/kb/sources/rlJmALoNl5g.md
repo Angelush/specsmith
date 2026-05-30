@@ -4,7 +4,6 @@ type: source
 video_id: rlJmALoNl5g
 url: https://www.youtube.com/watch?v=rlJmALoNl5g
 playlists: [1]
-transcript: data/transcripts/rlJmALoNl5g.txt
 concepts: ['enterprise-ai-adoption']
 updated: 2026-05-12
 ---
@@ -21,7 +20,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | FWK-031 | FRAMEWORK | [[concepts/enterprise-ai-adoption]] | Organizational AI fluency requires enabling constraints over processes, depth over breadth, and outcomes over activity metrics. |
-
-## Transcript
-
-[data/transcripts/rlJmALoNl5g.txt](../data/transcripts/rlJmALoNl5g.txt)

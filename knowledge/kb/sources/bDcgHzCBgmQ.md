@@ -4,7 +4,6 @@ type: source
 video_id: bDcgHzCBgmQ
 url: https://www.youtube.com/watch?v=bDcgHzCBgmQ
 playlists: [0, 3]
-transcript: data/transcripts/bDcgHzCBgmQ.txt
 concepts: [vibe-coding-phenomenon, ai-productivity-workflows, knowledge-work-delegation, ai-engineering-principles]
 updated: 2026-05-13
 ---
@@ -19,7 +18,3 @@ updated: 2026-05-13
 - [[concepts/ai-productivity-workflows]] — Most developers are slower with AI, while elite teams achieve "lights out" software factories via spec-driven AI execution.
 - [[concepts/knowledge-work-delegation]] — The trend is towards delegating software creation and execution to AI agents, with humans focusing on spec writing and outcome evaluation.
 - [[concepts/ai-engineering-principles]] — AI engineering principles are shifting towards autonomous agents orchestrated by specifications, building, testing, and shipping software.
-
-## Transcript
-
-[data/transcripts/bDcgHzCBgmQ.txt](../data/transcripts/bDcgHzCBgmQ.txt)

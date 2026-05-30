@@ -4,7 +4,6 @@ type: source
 video_id: JKk77rzOL34
 url: https://www.youtube.com/watch?v=JKk77rzOL34
 playlists: [1]
-transcript: data/transcripts/JKk77rzOL34.txt
 concepts: ['model-comparison-and-performance']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TRD-024 | TREND | [[concepts/model-comparison-and-performance]] | Consult when sizing agent task horizons; Opus 4.6's MRCV2 retrieval score (76% at 1M tokens) is the key metric distinguishing it from competitors for long-context work. |
-
-## Transcript
-
-[data/transcripts/JKk77rzOL34.txt](../data/transcripts/JKk77rzOL34.txt)

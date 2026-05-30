@@ -4,7 +4,6 @@ type: source
 video_id: LwKnvqVdUgA
 url: https://www.youtube.com/watch?v=LwKnvqVdUgA
 playlists: [1]
-transcript: data/transcripts/LwKnvqVdUgA.txt
 concepts: ['practical-agent-adoption']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | AGD-026 | AGENT_DESIGN | [[concepts/practical-agent-adoption]] | All technical primitives for an always-on personal chief-of-staff agent now exist; the missing piece is UX and the human skill to formulate clear intent. |
-
-## Transcript
-
-[data/transcripts/LwKnvqVdUgA.txt](../data/transcripts/LwKnvqVdUgA.txt)

@@ -4,7 +4,6 @@ type: source
 video_id: EpJ0CjTJSag
 url: https://www.youtube.com/watch?v=EpJ0CjTJSag
 playlists: [1]
-transcript: data/transcripts/EpJ0CjTJSag.txt
 concepts: ['ai-security-and-trust', 'enterprise-ai-adoption']
 updated: 2026-05-12
 ---
@@ -24,7 +23,3 @@ updated: 2026-05-12
 |----|----------|---------|-------|
 | BZO-013 | BUSINESS_OPP | [[concepts/enterprise-ai-adoption]] | The traditional SaaS procurement sequence (strategy → contract → security → IT → devs) systematically under-delivers on agentic AI because implementation constraints are actually strategic constraints — and they are discovered last. |
 | PRN-003 | PRINCIPLES | [[concepts/ai-security-and-trust]] | Human workers are permission-limited by what a UI shows them; agents have no eyes and must negotiate every permission boundary in code — a fundamentally different security surface that most enterprise AI deployments have not accounted for. |
-
-## Transcript
-
-[data/transcripts/EpJ0CjTJSag.txt](../data/transcripts/EpJ0CjTJSag.txt)

@@ -4,7 +4,6 @@ type: source
 video_id: ahHgc6GOb-M
 url: https://www.youtube.com/watch?v=ahHgc6GOb-M
 playlists: [0, 1]
-transcript: data/transcripts/ahHgc6GOb-M.txt
 concepts: [chatgpt-agentic-design, agent-evaluation-and-reliability, ai-security-and-trust, ai-roi-and-value-proposition]
 updated: 2026-05-13
 ---
@@ -19,7 +18,3 @@ updated: 2026-05-13
 - [[concepts/agent-evaluation-and-reliability]] — The agent's reliability is questioned after taking 58 minutes to order cupcakes, demonstrating significant inefficiency.
 - [[concepts/ai-security-and-trust]] — Sam Altman warned of prompt injection via email, highlighting security risks and trust concerns for agent mode.
 - [[concepts/ai-roi-and-value-proposition]] — For users outside finance, the value may not justify the time investment and "guinea pig" status for a long-term project.
-
-## Transcript
-
-[data/transcripts/ahHgc6GOb-M.txt](../data/transcripts/ahHgc6GOb-M.txt)

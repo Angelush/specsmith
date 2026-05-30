@@ -4,7 +4,6 @@ type: source
 video_id: BP-N7xjz-vM
 url: https://www.youtube.com/watch?v=BP-N7xjz-vM
 playlists: [0, 2]
-transcript: data/transcripts/BP-N7xjz-vM.txt
 concepts: ["prompting-and-skill-design"]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | PRM-013 | PROMPTING | [[concepts/prompting-and-skill-design]] | Agentic tools need scoped tasks, explicit success criteria, and reversible actions — generic chat prompts fail in agentic contexts. |
-
-## Transcript
-
-[data/transcripts/BP-N7xjz-vM.txt](../data/transcripts/BP-N7xjz-vM.txt)

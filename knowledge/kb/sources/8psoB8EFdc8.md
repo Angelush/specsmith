@@ -4,7 +4,6 @@ type: source
 video_id: 8psoB8EFdc8
 url: https://www.youtube.com/watch?v=8psoB8EFdc8
 playlists: [0, 2, 3]
-transcript: data/transcripts/8psoB8EFdc8.txt
 concepts: [ai-business-strategy]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | BZO-006 | BUSINESS_OPP | [[concepts/ai-business-strategy]] | Pick your niche before building, ship the minimum viable product, and use a 5-tool vibe-coding stack to generate $500-$5K/month. |
-
-## Transcript
-
-[data/transcripts/8psoB8EFdc8.txt](../data/transcripts/8psoB8EFdc8.txt)

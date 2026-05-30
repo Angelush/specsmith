@@ -4,7 +4,6 @@ type: source
 video_id: 7HP1jFJ9W1c
 url: https://www.youtube.com/watch?v=7HP1jFJ9W1c
 playlists: [0, 3]
-transcript: data/transcripts/7HP1jFJ9W1c.txt
 concepts: [agent-orchestration-architecture, ai-infrastructure-evolution]
 updated: 2026-05-12
 ---
@@ -25,7 +24,3 @@ updated: 2026-05-12
 | AGD-013 | AGENT_DESIGN | [[concepts/agent-orchestration-architecture]] | Every primitive you add multiplies failure probability; five 99%-reliable components compound to 95% end-to-end reliability. |
 | TRD-005 | TREND | [[concepts/ai-infrastructure-evolution]] | Consult when selecting agent infrastructure; the orchestration layer (layer 6) has no clear winner and is the highest-risk choice. |
 | TRD-006 | TREND | [[concepts/ai-infrastructure-evolution]] | Consult when evaluating agent infrastructure build-vs-buy; the five missing orchestration layers represent open build opportunities. |
-
-## Transcript
-
-[data/transcripts/7HP1jFJ9W1c.txt](../data/transcripts/7HP1jFJ9W1c.txt)

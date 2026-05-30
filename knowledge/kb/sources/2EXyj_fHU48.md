@@ -4,7 +4,6 @@ type: source
 video_id: 2EXyj_fHU48
 url: https://www.youtube.com/watch?v=2EXyj_fHU48
 playlists: [0, 2, 3]
-transcript: data/transcripts/2EXyj_fHU48.txt
 concepts: [multi-agent-system-design, mcp-architecture, agent-philosophy-and-mindset, agent-orchestration-architecture]
 updated: 2026-05-12
 ---
@@ -30,7 +29,3 @@ updated: 2026-05-12
 | AGD-010 | AGENT_DESIGN | [[concepts/mcp-architecture]] | Cap each agent at 3-5 core tools; tool selection accuracy degrades past 30-50 tools regardless of context size. |
 | AGD-011 | AGENT_DESIGN | [[concepts/agent-philosophy-and-mindset]] | Design agents to terminate after bounded sessions; persist state externally so each restart begins clean without context pollution. |
 | AGD-012 | AGENT_DESIGN | [[concepts/agent-orchestration-architecture]] | Put complexity in your orchestration layer, not individual agents; 79% of multi-agent failures trace to spec and coordination gaps. |
-
-## Transcript
-
-[data/transcripts/2EXyj_fHU48.txt](../data/transcripts/2EXyj_fHU48.txt)

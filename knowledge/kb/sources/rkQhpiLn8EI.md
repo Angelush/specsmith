@@ -4,7 +4,6 @@ type: source
 video_id: rkQhpiLn8EI
 url: https://www.youtube.com/watch?v=rkQhpiLn8EI
 playlists: [1]
-transcript: data/transcripts/rkQhpiLn8EI.txt
 concepts: ['chatbot-limitations-and-ux']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TUL-014 | TOOL | [[concepts/chatbot-limitations-and-ux]] | Comet's lesson: general-purpose browser agents need smart UI design, not just smart AI — the interface is the bottleneck. |
-
-## Transcript
-
-[data/transcripts/rkQhpiLn8EI.txt](../data/transcripts/rkQhpiLn8EI.txt)

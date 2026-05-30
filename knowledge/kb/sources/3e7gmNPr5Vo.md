@@ -4,7 +4,6 @@ type: source
 video_id: 3e7gmNPr5Vo
 url: https://www.youtube.com/watch?v=3e7gmNPr5Vo
 playlists: [0]
-transcript: data/transcripts/3e7gmNPr5Vo.txt
 concepts: ["claude-code-architecture"]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TUL-005 | TOOL | [[concepts/claude-code-architecture]] | Combine Claude Dispatch, Scheduled Tasks, and Computer Use to build agents that operate continuously without human prompts. |
-
-## Transcript
-
-[data/transcripts/3e7gmNPr5Vo.txt](../data/transcripts/3e7gmNPr5Vo.txt)

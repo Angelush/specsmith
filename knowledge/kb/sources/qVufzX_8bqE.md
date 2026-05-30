@@ -4,7 +4,6 @@ type: source
 video_id: qVufzX_8bqE
 url: https://www.youtube.com/watch?v=qVufzX_8bqE
 playlists: P1
-transcript: data/transcripts/qVufzX_8bqE.txt
 concepts: ['ai-job-market-dynamics']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | CRR-017 | CAREER | [[concepts/ai-job-market-dynamics]] | Create "proof-of-work" artifacts exposing real constraints and messy iterations to bypass the generic AI screening noise. |
-
-## Transcript
-
-[data/transcripts/qVufzX_8bqE.txt](../data/transcripts/qVufzX_8bqE.txt)

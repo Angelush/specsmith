@@ -4,7 +4,6 @@ type: source
 video_id: nktAnCHK94I
 url: https://www.youtube.com/watch?v=nktAnCHK94I
 playlists: [1]
-transcript: data/transcripts/nktAnCHK94I.txt
 concepts: ['ai-industry-competitive-landscape']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TRD-033 | TREND | [[concepts/ai-industry-competitive-landscape]] | Schedule quarterly re-evaluation of abandoned AI tasks; Gemini 3's benchmark leadership proves the capability frontier expands nonlinearly, not incrementally. |
-
-## Transcript
-
-[data/transcripts/nktAnCHK94I.txt](../data/transcripts/nktAnCHK94I.txt)

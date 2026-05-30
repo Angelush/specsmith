@@ -3,7 +3,6 @@ title: The Ticking Time Bomb in Every Codebase Over 18 Months Old (How to Fix It
 type: source
 video_id: NoRePxSrhpw
 url: https://www.youtube.com/watch?v=NoRePxSrhpw
-transcript: data/transcripts/NoRePxSrhpw.txt
 concepts: ['ai-engineering-principles']
 updated: 2026-05-12
 ---
@@ -21,7 +20,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | DVH-011 | DEV_HACK | [[concepts/ai-engineering-principles]] | Use AI's 200K+ token context window as a vigilance layer to detect entropy patterns human engineers miss due to memory limits.
-
-## Transcript
-
-[data/transcripts/NoRePxSrhpw.txt](../data/transcripts/NoRePxSrhpw.txt)

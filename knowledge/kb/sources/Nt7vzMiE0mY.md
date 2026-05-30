@@ -4,7 +4,6 @@ type: source
 video_id: Nt7vzMiE0mY
 url: https://www.youtube.com/watch?v=Nt7vzMiE0mY
 playlists: [1]
-transcript: data/transcripts/Nt7vzMiE0mY.txt
 concepts: ['enterprise-ai-adoption']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | BZO-010 | BUSINESS_OPP | [[concepts/enterprise-ai-adoption]] | Use vision models to automate QA, compliance, and processing workflows that previously required humans to interpret visual bottlenecks. |
-
-## Transcript
-
-[data/transcripts/Nt7vzMiE0mY.txt](../data/transcripts/Nt7vzMiE0mY.txt)

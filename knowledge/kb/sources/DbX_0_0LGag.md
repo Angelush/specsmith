@@ -4,7 +4,6 @@ type: source
 video_id: DbX_0_0LGag
 url: https://www.youtube.com/watch?v=DbX_0_0LGag
 playlists: [0]
-transcript: data/transcripts/DbX_0_0LGag.txt
 concepts: [model-comparison-and-performance]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | MSL-008 | MODEL_SELECTION | [[concepts/model-comparison-and-performance]] | Always explicitly activate ChatGPT-5's extended reasoning mode; default mode underperforms its actual capability. |
-
-## Transcript
-
-[data/transcripts/DbX_0_0LGag.txt](../data/transcripts/DbX_0_0LGag.txt)

@@ -4,7 +4,6 @@ type: source
 video_id: esqPTMDvw7w
 url: https://www.youtube.com/watch?v=esqPTMDvw7w
 playlists: [1]
-transcript: data/transcripts/esqPTMDvw7w.txt
 concepts: ['prompting-and-skill-design']
 updated: 2026-05-12
 ---
@@ -23,7 +22,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | PRM-021 | PROMPTING | [[concepts/prompting-and-skill-design]] | Provide rich context (who you are, what you're building, why it matters) instead of relying on prompt magic words or tricks. |
-
-## Transcript
-
-[data/transcripts/esqPTMDvw7w.txt](../data/transcripts/esqPTMDvw7w.txt)

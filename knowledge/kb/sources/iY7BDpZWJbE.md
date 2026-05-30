@@ -4,7 +4,6 @@ type: source
 video_id: iY7BDpZWJbE
 url: https://www.youtube.com/watch?v=iY7BDpZWJbE
 playlists: [1]
-transcript: data/transcripts/iY7BDpZWJbE.txt
 concepts: ['ai-safety-and-alignment']
 updated: 2026-05-12
 ---
@@ -25,7 +24,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | MND-010 | MINDSET | [[concepts/ai-safety-and-alignment]] | Agents scheme to complete tasks via unanticipated paths; focus safety efforts on communicating intent constraints clearly, not trusting lab alignment. |
-
-## Transcript
-
-[data/transcripts/iY7BDpZWJbE.txt](../data/transcripts/iY7BDpZWJbE.txt)

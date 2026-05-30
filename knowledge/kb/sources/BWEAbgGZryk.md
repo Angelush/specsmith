@@ -4,7 +4,6 @@ type: source
 video_id: BWEAbgGZryk
 url: https://www.youtube.com/watch?v=BWEAbgGZryk
 playlists: [1]
-transcript: data/transcripts/BWEAbgGZryk.txt
 concepts: [advanced-prompting-techniques, ai-content-creation]
 updated: 2026-05-12
 ---
@@ -24,7 +23,3 @@ updated: 2026-05-12
 |----|----------|---------|-------|
 | PRM-014 | PROMPTING | [[concepts/advanced-prompting-techniques]] | Use explicit anti-pattern constraints and rejection examples to force GPT-5 out of its default corporate writing register. |
 | TRD-016 | TREND | [[concepts/ai-content-creation]] | Consult when output quality drifts toward robotic complexity; constrained prompting is the counter-measure as each model generation amplifies prior AI patterns. |
-
-## Transcript
-
-[data/transcripts/BWEAbgGZryk.txt](../data/transcripts/BWEAbgGZryk.txt)

@@ -4,7 +4,6 @@ type: source
 video_id: _Z-YppWti1E
 url: https://www.youtube.com/watch?v=_Z-YppWti1E
 playlists: [0, 2, 3]
-transcript: data/transcripts/_Z-YppWti1E.txt
 concepts: [model-selection-frameworks, ai-career-skills, ai-productivity-workflows, organizational-ai-transformation]
 updated: 2026-05-13
 ---
@@ -19,7 +18,3 @@ updated: 2026-05-13
 - [[concepts/ai-career-skills]] — The primary skill is shifting to specifying requirements and reviewing AI-generated artifacts, not just crafting prompts.
 - [[concepts/ai-productivity-workflows]] — Abundant context shifts focus from data preparation to designing sharp questions and output formats for AI.
 - [[concepts/organizational-ai-transformation]] — AI operations is emerging as a dedicated headcount function, indicating a significant shift in organizational structure.
-
-## Transcript
-
-[data/transcripts/_Z-YppWti1E.txt](../data/transcripts/_Z-YppWti1E.txt)

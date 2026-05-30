@@ -4,7 +4,6 @@ type: source
 video_id: h7dbkDcb3hA
 url: https://www.youtube.com/watch?v=h7dbkDcb3hA
 playlists: [1]
-transcript: data/transcripts/h7dbkDcb3hA.txt
 concepts: ['agent-memory-systems']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TUL-011 | TOOL | [[concepts/agent-memory-systems]] | Use Claude Cowork's task-queue model for delegating complex work asynchronously — structurally different from conversational chat. |
-
-## Transcript
-
-[data/transcripts/h7dbkDcb3hA.txt](../data/transcripts/h7dbkDcb3hA.txt)

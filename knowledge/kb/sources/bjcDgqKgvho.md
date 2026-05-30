@@ -4,7 +4,6 @@ type: source
 video_id: bjcDgqKgvho
 url: https://www.youtube.com/watch?v=bjcDgqKgvho
 playlists: [1]
-transcript: data/transcripts/bjcDgqKgvho.txt
 concepts: ['agent-philosophy-and-mindset']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | MND-008 | MINDSET | [[concepts/agent-philosophy-and-mindset]] | Chat AI starts tasks gracefully but finishes poorly; true product differentiation requires deep token burn and rich proprietary data integration. |
-
-## Transcript
-
-[data/transcripts/bjcDgqKgvho.txt](../data/transcripts/bjcDgqKgvho.txt)

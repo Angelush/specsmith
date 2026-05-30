@@ -4,7 +4,6 @@ type: source
 video_id: 9aIYhjeYxzM
 url: https://www.youtube.com/watch?v=9aIYhjeYxzM
 playlists: [0]
-transcript: data/transcripts/9aIYhjeYxzM.txt
 concepts: [model-selection-frameworks, ai-business-strategy]
 updated: 2026-05-12
 ---
@@ -26,7 +25,3 @@ updated: 2026-05-12
 | MSL-017 | MODEL_SELECTION | [[concepts/model-selection-frameworks]] | Distinguish between releases that raise the ceiling (best-case performance) vs. those that move the floor (baseline competence on hard, messy tasks). |
 | MSL-018 | MODEL_SELECTION | [[concepts/model-selection-frameworks]] | Frontier models are interchangeable on easy tasks; model choice only matters when work is real, messy, and requires sustained judgment. |
 | PRN-002 | PRINCIPLES | [[concepts/ai-business-strategy]] | Build a personal eval suite where every task is hard enough to make frontier models fail — this tests generalization, not benchmark saturation. |
-
-## Transcript
-
-[data/transcripts/9aIYjeYxzM.txt](../data/transcripts/9aIYjeYxzM.txt)

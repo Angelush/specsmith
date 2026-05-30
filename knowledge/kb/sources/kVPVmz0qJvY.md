@@ -4,7 +4,6 @@ type: source
 video_id: kVPVmz0qJvY
 url: https://www.youtube.com/watch?v=kVPVmz0qJvY
 playlists: [1]
-transcript: data/transcripts/kVPVmz0qJvY.txt
 concepts: ['agent-philosophy-and-mindset', 'organizational-ai-transformation', 'practical-agent-adoption']
 updated: 2026-05-12
 ---
@@ -26,7 +25,3 @@ updated: 2026-05-12
 | FWK-013 | FRAMEWORK | [[concepts/practical-agent-adoption]] | Execute five steps in order before deploying any agent: audit process, fix data, redesign org, build observability, scope authority. |
 | AGD-014 | AGENT_DESIGN | [[concepts/agent-philosophy-and-mindset]] | Do not design agents as scaled-down versions of your own workflow; agents need redesigned tracks, not sped-up existing processes. |
 | WFL-002 | WORKFLOW | [[concepts/organizational-ai-transformation]] | Split workflows into auto-approved and human-in-loop lanes to eliminate the review bottleneck created by high agent output. |
-
-## Transcript
-
-[data/transcripts/kVPVmz0qJvY.txt](../data/transcripts/kVPVmz0qJvY.txt)

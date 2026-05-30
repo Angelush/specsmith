@@ -4,7 +4,6 @@ type: source
 video_id: dQK_pTXrGDk
 url: https://www.youtube.com/watch?v=dQK_pTXrGDk
 playlists: [1]
-transcript: data/transcripts/dQK_pTXrGDk.txt
 concepts: ['ai-infrastructure-evolution', 'model-selection-frameworks']
 updated: 2026-05-12
 ---
@@ -25,7 +24,3 @@ updated: 2026-05-12
 | FWK-052 | FRAMEWORK | [[concepts/model-selection-frameworks]] | The question "when should I switch from Claude/ChatGPT/Copilot?" is framed wrong — the market is moving toward layers, not replacements, and the right question is which wrapper fits the job. |
 | FWK-051 | FRAMEWORK | [[concepts/model-selection-frameworks]] | Filter every agent launch through five infrastructure questions to separate noise from genuine team-relevant value; most launches fail at least one test. |
 | TRD-056 | TREND | [[concepts/ai-infrastructure-evolution]] | Salesforce exposing every capability as API/MCP/CLI (Headless 360) reframes the CRM from a browser app to agentic infrastructure — the question shifts from "which agent for CRM work?" to "which of our existing agents can now do CRM work?" |
-
-## Transcript
-
-[data/transcripts/dQK_pTXrGDk.txt](../data/transcripts/dQK_pTXrGDk.txt)

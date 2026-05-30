@@ -4,7 +4,6 @@ type: source
 video_id: b7IS4C9QALc
 url: https://www.youtube.com/watch?v=b7IS4C9QALc
 playlists: [0, 3]
-transcript: data/transcripts/b7IS4C9QALc.txt
 concepts: [ai-industry-competitive-landscape, ai-security-and-trust, ai-personal-stack, local-ai-hardware]
 updated: 2026-05-13
 ---
@@ -19,7 +18,3 @@ updated: 2026-05-13
 - [[concepts/ai-security-and-trust]] — OpenClaw exhibits significant security vulnerabilities, including compromised plugins and weak authentication, posing trust issues.
 - [[concepts/ai-personal-stack]] — Three core axes—agent location, intelligence orchestration, and interface—define how users can select and personalize their AI agent stack.
 - [[concepts/local-ai-hardware]] — The location of an agent (local, cloud, hybrid) is a critical differentiator impacting data privacy, security, and responsibility.
-
-## Transcript
-
-[data/transcripts/b7IS4C9QALc.txt](../data/transcripts/b7IS4C9QALc.txt)

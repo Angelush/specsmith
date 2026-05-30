@@ -4,7 +4,6 @@ type: source
 video_id: DHZgLzwWXfs
 url: https://www.youtube.com/watch?v=DHZgLzwWXfs
 playlists: [2, 3]
-transcript: data/transcripts/DHZgLzwWXfs.txt
 concepts: [ai-business-strategy]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | BZO-009 | BUSINESS_OPP | [[concepts/ai-business-strategy]] | Ingest thousands of public job postings into LLMs to automatically infer competitors' product vision, capital needs, and sales maturity. |
-
-## Transcript
-
-[data/transcripts/DHZgLzwWXfs.txt](../data/transcripts/DHZgLzwWXfs.txt)

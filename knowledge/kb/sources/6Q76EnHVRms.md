@@ -4,7 +4,6 @@ type: source
 video_id: 6Q76EnHVRms
 url: https://www.youtube.com/watch?v=6Q76EnHVRms
 playlists: [0, 2]
-transcript: data/transcripts/6Q76EnHVRms.txt
 concepts: ["agent-evaluation-and-reliability"]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | DVH-007 | DEV_HACK | [[concepts/agent-evaluation-and-reliability]] | Treat prompts as hypotheses, generate 3 variants, score against ground-truth examples, and keep the winner. |
-
-## Transcript
-
-[data/transcripts/6Q76EnHVRms.txt](../data/transcripts/6Q76EnHVRms.txt)

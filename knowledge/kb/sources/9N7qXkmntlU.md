@@ -4,7 +4,6 @@ type: source
 video_id: 9N7qXkmntlU
 url: https://www.youtube.com/watch?v=9N7qXkmntlU
 playlists: [3]
-transcript: data/transcripts/9N7qXkmntlU.txt
 concepts: [agent-memory-systems]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TRD-014 | TREND | [[concepts/agent-memory-systems]] | Consult when reviewing portfolio positioning around 2026 AI IPOs; index fund mechanics will create forced buying at scarcity-inflated prices. |
-
-## Transcript
-
-[data/transcripts/9N7qXkmntlU.txt](../data/transcripts/9N7qXkmntlU.txt)

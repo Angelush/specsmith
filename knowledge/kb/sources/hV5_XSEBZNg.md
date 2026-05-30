@@ -4,7 +4,6 @@ type: source
 video_id: hV5_XSEBZNg
 url: https://www.youtube.com/watch?v=hV5_XSEBZNg
 playlists: [1]
-transcript: data/transcripts/hV5_XSEBZNg.txt
 concepts: ['model-comparison-and-performance']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | MSL-011 | MODEL_SELECTION | [[concepts/model-comparison-and-performance]] | When a step-change model arrives, audit your system prompt — most scaffolding was written for a weaker model and can be deleted. |
-
-## Transcript
-
-[data/transcripts/hV5_XSEBZNg.txt](../data/transcripts/hV5_XSEBZNg.txt)

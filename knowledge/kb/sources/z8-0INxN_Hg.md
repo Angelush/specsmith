@@ -4,7 +4,6 @@ type: source
 video_id: z8-0INxN_Hg
 url: https://www.youtube.com/watch?v=z8-0INxN_Hg
 playlists: [1]
-transcript: data/transcripts/z8-0INxN_Hg.txt
 concepts: ['rag-architecture-and-chunking']
 updated: 2026-05-12
 ---
@@ -22,6 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | FWK-036 | FRAMEWORK | [[concepts/rag-architecture-and-chunking]] | Match RAG implementation to actual retrieval needs across five levels; bad chunking is the primary failure cause at every level. |
-
-## Transcript
-[data/transcripts/z8-0INxN_Hg.txt](../data/transcripts/z8-0INxN_Hg.txt)

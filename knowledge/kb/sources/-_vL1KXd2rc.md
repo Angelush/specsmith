@@ -4,7 +4,6 @@ type: source
 video_id: -_vL1KXd2rc
 url: https://www.youtube.com/watch?v=-_vL1KXd2rc
 playlists: [0, 3]
-transcript: data/transcripts/-_vL1KXd2rc.txt
 concepts: [model-comparison-and-performance]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | MSL-014 | MODEL_SELECTION | [[concepts/model-comparison-and-performance]] | GPT-5.4 excels at quantitative modeling and file ingestion in thinking mode; it severely underperforms without it — always activate. |
-
-## Transcript
-
-[data/transcripts/-_vL1KXd2rc.txt](../data/transcripts/-_vL1KXd2rc.txt)

@@ -4,7 +4,6 @@ type: source
 video_id: FtCdYhspm7w
 url: https://www.youtube.com/watch?v=FtCdYhspm7w
 playlists: [1]
-transcript: data/transcripts/FtCdYhspm7w.txt
 concepts: ['claude-code-architecture']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | AGD-023 | AGENT_DESIGN | [[concepts/claude-code-architecture]] | Before building any production agent, implement four primitives: metadata-first tool registry, tiered permissions, crash-persistent state, and separate workflow state from conversation state. |
-
-## Transcript
-
-[data/transcripts/FtCdYhspm7w.txt](../data/transcripts/FtCdYhspm7w.txt)

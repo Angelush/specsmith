@@ -4,7 +4,6 @@ type: source
 video_id: T74uZgfu6mU
 url: https://www.youtube.com/watch?v=T74uZgfu6mU
 playlists: [0, 1, 3]
-transcript: data/transcripts/T74uZgfu6mU.txt
 concepts: [agent-evaluation-and-reliability, prompting-and-skill-design, ai-safety-and-alignment, ai-phase-transition]
 updated: 2026-05-13
 ---
@@ -19,7 +18,3 @@ updated: 2026-05-13
 - [[concepts/prompting-and-skill-design]] — Until models grasp latent intent, prompts must explicitly define priorities, guardrails, and what "done" looks like.
 - [[concepts/ai-safety-and-alignment]] — Tool use by AI agents transforms text generation into real-world commitments; intent mismatch becomes a significant safety risk.
 - [[concepts/ai-phase-transition]] — A current AI phase transition is marked by mastering agent mechanics but struggling with the fundamental "intent gap" for reliable deployment.
-
-## Transcript
-
-[data/transcripts/T74uZgfu6mU.txt](../data/transcripts/T74uZgfu6mU.txt)

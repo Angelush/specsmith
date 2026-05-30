@@ -4,7 +4,6 @@ type: source
 video_id: z7LZlpr3PNQ
 url: https://www.youtube.com/watch?v=z7LZlpr3PNQ
 playlists: [1]
-transcript: data/transcripts/z7LZlpr3PNQ.txt
 concepts: ['chatbot-limitations-and-ux']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TUL-017 | TOOL | [[concepts/chatbot-limitations-and-ux]] | Each chatbot UX failure is a product gap — use the 23-failure taxonomy to identify where specialized tools win. |
-
-## Transcript
-
-[data/transcripts/z7LZlpr3PNQ.txt](../data/transcripts/z7LZlpr3PNQ.txt)

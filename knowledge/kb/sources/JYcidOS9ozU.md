@@ -4,7 +4,6 @@ type: source
 video_id: JYcidOS9ozU
 url: https://www.youtube.com/watch?v=JYcidOS9ozU
 playlists: [1]
-transcript: data/transcripts/JYcidOS9ozU.txt
 concepts: ['ai-industry-competitive-landscape']
 updated: 2026-05-12
 ---
@@ -23,7 +22,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TRD-025 | TREND | [[concepts/ai-industry-competitive-landscape]] | Consult when evaluating enterprise context platform bets; the company that achieves trillion-token retrieval at high fidelity subsumes the SaaS stack. |
-
-## Transcript
-
-[data/transcripts/JYcidOS9ozU.txt](../data/transcripts/JYcidOS9ozU.txt)

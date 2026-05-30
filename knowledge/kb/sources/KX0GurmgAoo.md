@@ -4,7 +4,6 @@ type: source
 video_id: KX0GurmgAoo
 url: https://www.youtube.com/watch?v=KX0GurmgAoo
 playlists: [1]
-transcript: data/transcripts/KX0GurmgAoo.txt
 concepts: ['advanced-prompting-techniques']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | PRM-018 | PROMPTING | [[concepts/advanced-prompting-techniques]] | Use four levers — examples, constraints, persona, and feedback loops — to pull AI output away from generic trained averages. |
-
-## Transcript
-
-[data/transcripts/KX0GurmgAoo.txt](../data/transcripts/KX0GurmgAoo.txt)

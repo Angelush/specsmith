@@ -4,7 +4,6 @@ type: source
 video_id: tuLWIK1AVEM
 url: https://www.youtube.com/watch?v=tuLWIK1AVEM
 playlists: [1]
-transcript: data/transcripts/tuLWIK1AVEM.txt
 concepts: ['codex-agent-architecture']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | WFL-013 | WORKFLOW | [[concepts/codex-agent-architecture]] | Make AI PR review mandatory on every commit to overcome adoption friction — opt-in programs fail where forced signal-to-noise quality succeeds. |
-
-## Transcript
-
-[data/transcripts/tuLWIK1AVEM.txt](../data/transcripts/tuLWIK1AVEM.txt)

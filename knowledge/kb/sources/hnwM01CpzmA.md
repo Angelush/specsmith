@@ -4,7 +4,6 @@ type: source
 video_id: hnwM01CpzmA
 url: https://www.youtube.com/watch?v=hnwM01CpzmA
 playlists: [1]
-transcript: data/transcripts/hnwM01CpzmA.txt
 concepts: ['organizational-ai-transformation']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | FWK-027 | FRAMEWORK | [[concepts/organizational-ai-transformation]] | At AI-native output levels, the coordination tax of a sixth team member is a multi-million-dollar productivity loss; restructure before hiring. |
-
-## Transcript
-
-[data/transcripts/hnwM01CpzmA.txt](../data/transcripts/hnwM01CpzmA.txt)

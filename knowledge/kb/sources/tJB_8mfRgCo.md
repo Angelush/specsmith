@@ -4,7 +4,6 @@ type: source
 video_id: tJB_8mfRgCo
 url: https://www.youtube.com/watch?v=tJB_8mfRgCo
 playlists: [1]
-transcript: data/transcripts/tJB_8mfRgCo.txt
 concepts:
 - advanced-prompting-techniques
 - agent-evaluation-and-reliability
@@ -31,7 +30,3 @@ updated: 2026-05-12
 | AGD-045 | AGENT_DESIGN | [[concepts/agent-evaluation-and-reliability]] | Treat agent completion reports as unverified claims; independently audit what was actually processed, especially on file-handling workflows. |
 | PRM-031 | PROMPTING | [[concepts/advanced-prompting-techniques]] | Opus 4.7 executes exactly what you write, so shift from descriptive prompts to explicit success criteria, batched questions, and positive-example voice modeling. |
 | TRD-047 | TREND | [[concepts/ai-competitive-strategy]] | Anthropic, OpenAI, and Google are now shipping specialized harnesses (Claude Design, Codex, etc.) around their LLMs — competitive moats are moving from model quality to vertical workflow ownership. |
-
-## Transcript
-
-[data/transcripts/tJB_8mfRgCo.txt](../data/transcripts/tJB_8mfRgCo.txt)

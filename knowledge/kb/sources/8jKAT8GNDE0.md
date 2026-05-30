@@ -4,7 +4,6 @@ type: source
 video_id: 8jKAT8GNDE0
 url: https://www.youtube.com/watch?v=8jKAT8GNDE0
 playlists: [3]
-transcript: data/transcripts/8jKAT8GNDE0.txt
 concepts: [model-selection-frameworks]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | MSL-007 | MODEL_SELECTION | [[concepts/model-selection-frameworks]] | Map problems to four types — structured data, multimodal, long-context reasoning, speed-critical — before selecting a model. |
-
-## Transcript
-
-[data/transcripts/8jKAT8GNDE0.txt](../data/transcripts/8jKAT8GNDE0.txt)

@@ -4,7 +4,6 @@ type: source
 video_id: 5Et9WoDCsYs
 url: https://www.youtube.com/watch?v=5Et9WoDCsYs
 playlists: [3]
-transcript: data/transcripts/5Et9WoDCsYs.txt
 concepts: ['ai-business-strategy']
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | FWK-018 | FRAMEWORK | [[concepts/ai-business-strategy]] | Assess any business by which layer it operates in: tokenizable cognition (vulnerable), judgment/accountability (defensible), or physical execution (tailwind). |
-
-## Transcript
-
-[data/transcripts/5Et9WoDCsYs.txt](../data/transcripts/5Et9WoDCsYs.txt)

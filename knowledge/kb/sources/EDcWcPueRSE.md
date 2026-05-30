@@ -4,7 +4,6 @@ type: source
 video_id: EDcWcPueRSE
 url: https://www.youtube.com/watch?v=EDcWcPueRSE
 playlists: [0, 3]
-transcript: data/transcripts/EDcWcPueRSE.txt
 concepts: ["claude-code-architecture"]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | AGD-022 | AGENT_DESIGN | [[concepts/claude-code-architecture]] | Use Claude for evolving collaborative work where context compounds; use Codex for defined, repeatable, token-efficient enterprise tasks. |
-
-## Transcript
-
-[data/transcripts/EDcWcPueRSE.txt](../data/transcripts/EDcWcPueRSE.txt)

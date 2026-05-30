@@ -4,7 +4,6 @@ type: source
 video_id: hpDC29JdgjI
 url: https://www.youtube.com/watch?v=hpDC29JdgjI
 playlists: [1]
-transcript: data/transcripts/hpDC29JdgjI.txt
 concepts: ['ai-builder-mindset']
 updated: 2026-05-12
 ---
@@ -21,7 +20,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | MND-009 | MINDSET | [[concepts/ai-builder-mindset]] | AI made execution cheap; competitive advantage now comes from deciding what to build, having a 10x vision, and securing distribution. |
-
-## Transcript
-
-[data/transcripts/hpDC29JdgjI.txt](../data/transcripts/hpDC29JdgjI.txt)

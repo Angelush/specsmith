@@ -4,7 +4,6 @@ type: source
 video_id: A_Lv0Ze272g
 url: https://www.youtube.com/watch?v=A_Lv0Ze272g
 playlists: [0]
-transcript: data/transcripts/A_Lv0Ze272g.txt
 concepts: [ai-quality-control]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | MND-003 | MINDSET | [[concepts/ai-quality-control]] | Use accumulated domain experience to push back on AI output precisely — taste is the human leverage models cannot replicate. |
-
-## Transcript
-
-[data/transcripts/A_Lv0Ze272g.txt](../data/transcripts/A_Lv0Ze272g.txt)

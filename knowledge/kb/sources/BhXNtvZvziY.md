@@ -4,7 +4,6 @@ type: source
 video_id: BhXNtvZvY
 url: https://www.youtube.com/watch?v=BhXNtvZvY
 playlists: [3]
-transcript: data/transcripts/BhXNtvZvY.txt
 concepts: [ai-industry-competitive-landscape]
 updated: 2026-05-12
 ---
@@ -22,7 +21,3 @@ updated: 2026-05-12
 | ID | Category | Concept | TL;DR |
 |----|----------|---------|-------|
 | TRD-017 | TREND | [[concepts/ai-industry-competitive-landscape]] | Consult when planning mobile or MCP product strategy; OS-level MCP integration at Apple gives agent-accessible apps automatic reach to 1.5B iPhones. |
-
-## Transcript
-
-[data/transcripts/BhXNtvZvY.txt](../data/transcripts/BhXNtvZvY.txt)

@@ -4,7 +4,6 @@ type: source
 video_id: aVXtoWm1DEM
 url: https://www.youtube.com/watch?v=aVXtoWm1DEM
 playlists: [1]
-transcript: data/transcripts/aVXtoWm1DEM.txt
 concepts: [chatgpt-agentic-design, advanced-prompting-techniques, agent-memory-systems, ai-career-skills]
 updated: 2026-05-13
 ---
@@ -19,7 +18,3 @@ updated: 2026-05-13
 - [[concepts/advanced-prompting-techniques]] — GPT-5 requires detailed specifications and constraints, not iterative conversations, for optimal results.
 - [[concepts/agent-memory-systems]] — Canvas and memory enable persistent AI context, personalized preferences, and collaborative editing experiences.
 - [[concepts/ai-career-skills]] — Early adopters gain a compound advantage by leveraging GPT-5's bias for speed and build.
-
-## Transcript
-
-[data/transcripts/aVXtoWm1DEM.txt](../data/transcripts/aVXtoWm1DEM.txt)

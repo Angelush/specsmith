@@ -4,7 +4,6 @@ type: source
 video_id: MFzxIT88zfg
 url: https://www.youtube.com/watch?v=MFzxIT88zfg
 playlists: [0, 2]
-transcript: data/transcripts/MFzxIT88zfg.txt
 concepts: [ai-quality-control, advanced-prompting-techniques, model-comparison-and-performance, knowledge-work-delegation]
 updated: 2026-05-29
 ---
@@ -19,7 +18,3 @@ updated: 2026-05-29
 - [[concepts/advanced-prompting-techniques]] — The "hostile reviewer" prompt: a second model enumerates (does not fix) every unsourced claim, untraceable number, and inconsistent formula — flipping generation to enumeration catches the model's own mistakes.
 - [[concepts/model-comparison-and-performance]] — Cross-model "Ralph loop": Codex builds Office artifacts (strong at Excel completeness), Opus 4.7 hostile-reviews and renders polish; iterate to A-level, then add an LLM-ism language check.
 - [[concepts/knowledge-work-delegation]] — No push-button knowledge-work harness exists because deep knowledge work is contingent on domain knowledge ("reality has a surprising amount of detail").
-
-## Transcript
-
-[data/transcripts/MFzxIT88zfg.txt](../data/transcripts/MFzxIT88zfg.txt)
