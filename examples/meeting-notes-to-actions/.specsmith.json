@@ -1,0 +1,11 @@
+{
+  "specsmith_version": "0.1.0",
+  "created": "2026-05-30",
+  "slug": "meeting-notes-to-actions",
+  "route_profile": "quick",
+  "skills_run": ["orient", "engineer-intent", "engineer-spec", "design-evals", "capture-habit"],
+  "skills_skipped": ["classify-architecture","build-context","author-constraints","decompose-tasks","red-team","simulate","optimize","audit-feedback-loop"],
+  "agent_species": "n/a (single-shot prompt)",
+  "kb_linked": false,
+  "target_model": "any frontier model"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "specsmith",
+  "version": "0.1.0",
+  "description": "Turn a vague idea into a production-grade agent spec. Diagnoses your weakest discipline, classifies the agent species, builds context/constraints/evals, red-teams it, and emits a portable workflow bundle. Start with the 'orient' skill.",
+  "author": { "name": "Angelus" },
+  "keywords": ["spec-engineering", "agents", "evals", "prompt-engineering"]
+}

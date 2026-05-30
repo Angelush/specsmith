@@ -1,0 +1,10 @@
+knowledge/.kb-path
+workflows/
+archive/
+*.tmp
+.DS_Store
+.obsidian/
+
+# Local KB build machinery + local skills — never published (see .kb-pipeline/README.md)
+.kb-pipeline/
+.claude/

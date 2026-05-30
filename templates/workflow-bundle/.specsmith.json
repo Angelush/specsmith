@@ -1,0 +1,11 @@
+{
+  "specsmith_version": "0.1.0",
+  "created": "<YYYY-MM-DD>",
+  "slug": "<slug>",
+  "route_profile": "quick | standard | deep",
+  "skills_run": [],
+  "agent_species": "<1a|1b|2|3|4|hybrid>",
+  "kb_linked": false,
+  "kb_version": null,
+  "target_model": "<model the production prompt is tuned for>"
+}

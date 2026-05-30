@@ -1,0 +1,7 @@
+{
+  "name": "specsmith",
+  "version": "0.1.0",
+  "description": "Spec-engineering harness: turn a vague idea into a production-grade agent spec you can delegate, verify, own, and share.",
+  "keywords": ["claude-code", "skills", "spec-engineering", "agents", "prompt-engineering", "specsmith"],
+  "license": "MIT"
+}
