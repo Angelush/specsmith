@@ -56,7 +56,7 @@ The `orient` skill takes it from there. (Or install as a plugin — see *Sharing
 
 ## Grounded, but not dependent
 
-Specsmith is grounded in a knowledge base distilled from **Nate B. Jones**'s AI-education work (48 concepts, 270 source-video pages). It ships **bundled** at [`knowledge/kb/`](knowledge/kb/) — source-grounded out of the box, no setup. Point `$SPECSMITH_KB` at your own wiki to override it, or run on the eight-axiom fallback in `knowledge/principles-core.md` if you strip it out. Only the curated wiki is included; the raw transcripts are not. See [`knowledge/KB-LINK.md`](knowledge/KB-LINK.md).
+Specsmith is grounded in a knowledge base distilled from **Nate B. Jones**'s AI-education work (49 concepts, 270 source-video pages). It ships **bundled** at [`knowledge/kb/`](knowledge/kb/) — source-grounded out of the box, no setup. Point `$SPECSMITH_KB` at your own wiki to override it, or run on the eight-axiom fallback in `knowledge/principles-core.md` if you strip it out. Only the curated wiki is included; the raw transcripts are not. See [`knowledge/KB-LINK.md`](knowledge/KB-LINK.md).
 
 ## Composes with Superpowers
 

@@ -1,6 +1,6 @@
 # Specsmith — Principles Core
 
-> The load-bearing axioms behind every Specsmith skill, distilled from the Nate B. Jones knowledge base (an AI-educator wiki of 48 concepts / 270 source videos).
+> The load-bearing axioms behind every Specsmith skill, distilled from the Nate B. Jones knowledge base (an AI-educator wiki of 49 concepts / 270 source videos).
 >
 > **This file is the degradation fallback.** When the full knowledge base is linked (see [`KB-LINK.md`](KB-LINK.md)), skills read the cited `concepts/<slug>.md` pages directly for source-grounded depth. When it is absent, skills fall back to the axiom here. Either way the principle is **loaded as context and applied before advising** — never appended as a citation after the fact.
 >

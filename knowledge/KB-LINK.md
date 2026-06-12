@@ -1,6 +1,6 @@
 # The bundled knowledge base (`knowledge/kb/`)
 
-Specsmith is **grounded** in a knowledge base — an AI-educator wiki distilled from the public work of **Nate B. Jones** (48 concept pages, 270 source-video pages, ~300 traceable entry IDs). It ships **bundled** in this repo at [`knowledge/kb/`](kb/), so every skill is source-grounded out of the box with no setup.
+Specsmith is **grounded** in a knowledge base — an AI-educator wiki distilled from the public work of **Nate B. Jones** (49 concept pages, 270 source-video pages, ~300 traceable entry IDs). It ships **bundled** in this repo at [`knowledge/kb/`](kb/), so every skill is source-grounded out of the box with no setup.
 
 The raw video transcripts the wiki was distilled from are **not** included — only the curated, attributed wiki (concepts + source summaries + people/orgs). That keeps the repo small and the provenance clean while still giving each skill the cited insight and its Use-when / Do-not-use-when boundary.
 
