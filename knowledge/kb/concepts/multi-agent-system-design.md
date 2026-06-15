@@ -3,9 +3,9 @@ title: Multi-Agent System Design and Coordination
 type: concept
 slug: multi-agent-system-design
 tags: [agent-design, multi-agent, hierarchy, orchestration, specialization, separation-of-concerns]
-sources: [2PWJu6uAaoU, 2EXyj_fHU48, xnG8h3UnNFI, SX1myuPEDFg, Z0HizICooiw, z3pbrFKVyQE]
+sources: [2PWJu6uAaoU, 2EXyj_fHU48, xnG8h3UnNFI, SX1myuPEDFg, Z0HizICooiw, z3pbrFKVyQE, l8BloTSLK6M]
 stability: evergreen
-updated: 2026-05-29
+updated: 2026-06-15
 ---
 
 # Multi-Agent System Design and Coordination
@@ -26,6 +26,7 @@ Poorly designed multi-agent systems can suffer from significant coordination ove
 -   **Same-model pairing improves meta-agent optimization** — When a meta-agent is tasked with optimizing a task-agent, pairing models of the same type (e.g., Claude meta with Claude task) yields 3-4x better results than cross-model pairings. Shared weights enable the meta-agent to implicitly understand the task-agent's reasoning and failure modes, as seen in the Karpathy Loop for autonomous harness optimization. [[sources/xnG8h3UnNFI]] (AGD-040) [[sources/xnG8h3UnNFI]] (AGD-039)
 -   **Avoid the "new inbox" anti-pattern** — If a multi-agent system requires constant human oversight, steering, or approval, it becomes a "new inbox," increasing rather than reducing cognitive load. Effective agent design minimizes user intervention, acting autonomously within guardrails and reporting outcomes when necessary. [[sources/Z0HizICooiw]] (AGD-051)
 - **Separate writer and reviewer agents (misaligned incentives)** — A single model can't reliably juggle writing and reviewing code (just as organizations separate authors from reviewers), so OpenAI infra points toward a "code-owners++" multi-agent architecture where each team's specialized agent — carrying that team's runbooks and past-incident knowledge — reviews code touching its domain [[sources/z3pbrFKVyQE]].
+- **Cross-tool-port a multi-agent orchestration skill the same day it ships, and use it for real high-stakes personal tasks** — When Claude Code shipped a `/workflows` slash command (Opus 4.8 release) that dynamically plans an orchestration and spins up sub-agents, the open-source community immediately packaged it as a skill; Nate ported that skill into Codex the same day and used it (3-4 agents) to research school options for his kids, producing a much more useful report than a single-agent pass would have. More agents/tokens raised the probability of solving the problem correctly because the task was attacked "from multiple different angles" — a directly observable jump on his token-burn chart that correlated with higher-quality output [[sources/l8BloTSLK6M]].
 
 ## Prompt commands
 
@@ -76,3 +77,4 @@ I want to set up an auto-improvement loop for [SYSTEM]. Design a meta-agent/task
 -   [[sources/Z0HizICooiw]] — Consumer AI Has a Problem Nobody's Naming.
 ---
 - [[sources/z3pbrFKVyQE]] — The Infrastructure Nightmare Nobody Is Talking About
+- [[sources/l8BloTSLK6M]] — My Codex Ran 800 Million Tokens in A Day. The Real Story Isn't Cost.

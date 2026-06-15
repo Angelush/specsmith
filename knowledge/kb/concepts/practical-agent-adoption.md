@@ -3,9 +3,9 @@ title: Practical Agent Adoption and Deployment
 type: concept
 slug: practical-agent-adoption
 tags: [adoption,agent-deployment,automation,workflow,agent-design,reliability]
-sources: [B3rSU7XROrg, D-Ww1wLIp60, DAxARHKQAXs, LwKnvqVdUgA, QrvVkm-8Jx4, kVPVmz0qJvY, DWb4SqILvvM, obqjIoKaqdM, LIkYVsxMpS8]
+sources: [B3rSU7XROrg, D-Ww1wLIp60, DAxARHKQAXs, LwKnvqVdUgA, QrvVkm-8Jx4, kVPVmz0qJvY, DWb4SqILvvM, obqjIoKaqdM, LIkYVsxMpS8, R2-Y1Hjwx2U]
 stability: volatile
-updated: 2026-05-29
+updated: 2026-06-15
 ---
 
 # Practical Agent Adoption and Deployment
@@ -29,6 +29,7 @@ Successfully adopting and deploying AI agents can unlock significant productivit
 - **Avoid premature full autonomy by matching AI assistance to problem complexity** — Most teams over-engineer by jumping directly to autonomous agents; instead, leverage a six-level spectrum of AI assistance (Adviser, Co-pilot, Tool-Augmented Assistant, Structured Workflow, Semi-Autonomous, Fully Autonomous) to find the minimum viable solution and keep skilled humans engaged with core outcomes. [[sources/obqjIoKaqdM]] (FWK-030)
 - **The workflow is the unit of AI decision** — AI investment is a workflow question, not an AI question: model, vendor, and dashboard are all downstream of the shape of the work, and the unit of decision is the workflow (the whole operating loop — inputs, allowed actions, what "good" looks like, checks, escalation, accountability), not the department or role [[sources/LIkYVsxMpS8]].
 - **Do not automate what you cannot describe** — If you cannot describe a workflow's inputs, outputs, standards, exceptions, and owner in plain English, you cannot make good build/buy/automate decisions; broad asks hide 20 distinct workflows and route to a mediocre tool [[sources/LIkYVsxMpS8]].
+- **Each agent interface trains a distinct failure mode — know which one you're learning.** A great conversational agent (Claude) can make you feel closer to "done" than you actually are, because rapport and fluent dialogue substitute for verification. A dispatch-style agent (Codex) can report "task complete" with all the surface signals of progress while having followed instructions too literally, optimized for completeness over quality, used the wrong source, or produced more output than it would've taken to just do the task — making the work feel more finished than it is. The fix in both cases is the same: don't trust confidence, trust receipts — make the agent show the files, logs, diffs, or source list that prove the work happened and is correct [[sources/R2-Y1Hjwx2U]].
 
 ## Prompt commands
 
@@ -85,3 +86,4 @@ For this business problem [DESCRIBE PROBLEM], walk me through each of the six AI
 - [[sources/DWb4SqILvvM]] — Claude 4.5 Built Slack in 30 Hours Straight—Here's My Take After Testing
 - [[sources/obqjIoKaqdM]] — Stop Asking for AI Agents When You're Not Ready for Them—Here's What You Really Need
 - [[sources/LIkYVsxMpS8]] — When to Automate, Build, Buy, Hire, or Wait on AI
+- [[sources/R2-Y1Hjwx2U]] — Stop Picking Between Claude Code and Codex | Do This Instead

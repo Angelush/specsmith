@@ -3,9 +3,9 @@ title: AI Personal Stack
 type: concept
 slug: ai-personal-stack
 tags: ['personal-ai-stack', 'workflow', 'model-selection', 'runtime', 'context-window', 'model-stack']
-sources: ['iUSdS-6uwr4', 'lY6voDZpu3Y']
+sources: ['iUSdS-6uwr4', 'lY6voDZpu3Y', 'l8BloTSLK6M']
 stability: volatile
-updated: 2026-05-12
+updated: 2026-06-15
 ---
 
 # AI Personal Stack
@@ -25,6 +25,7 @@ Building a personal AI stack matters because it moves beyond using a single, gen
 -   **Employ strategies to manage context window limitations** — For large inputs, chunk content into smaller sections and initiate fresh chat sessions when hitting context walls, avoiding the repetition of oversized requests. [[sources/lY6voDZpu3Y]] (WFL-012)
 -   **Consider specific runtime tools for local setups** — Recommended tools include Ollama for daily use, LM Studio for evaluation, MLX for Apple silicon performance, and vLLM when serving becomes infrastructure. [[sources/iUSdS-6uwr4]] (FWK-053)
 -   **Different models excel at distinct tasks** — Perplexity is suited for research, Grok for real-time social conversation mining, and Comet/Atlas for agentic browsing with integrated search and memory. [[sources/lY6voDZpu3Y]] (WFL-012)
+- **Run a "chief of staff" agent thread that spins up disposable child sub-agents, and let AI own file organization entirely** — Nate keeps one long-lived Codex thread (his "chief of staff") that holds all context about ongoing work and spins up child sub-agent threads for detail work (email triage, Slack, project "work packs"), keeping the main context window clean. Separately, he had Codex autonomously review, label, and re-organize all his screenshots into a folder structure he doesn't know or need to know — files are now "fodder for AI" rather than something humans navigate, and offloading this kind of low-value-but-annoying maintenance work is itself a legitimate, high-value use of delegated intelligence even though it "burns tokens" [[sources/l8BloTSLK6M]].
 
 ## Prompt commands
 
@@ -50,3 +51,4 @@ Route this task [DESCRIBE TASK] to the correct tool: Is it analysis/thought-part
 
 -   [[sources/iUSdS-6uwr4]] — RTX 5090, Mac Studio, or DGX Spark? I tried all three.
 -   [[sources/lY6voDZpu3Y]] — Nov 2025: My Personal AI Stack—Pros, Cons, and Pitfalls
+- [[sources/l8BloTSLK6M]] — My Codex Ran 800 Million Tokens in A Day. The Real Story Isn't Cost.

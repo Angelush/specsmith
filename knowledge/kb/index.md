@@ -3,7 +3,7 @@
 > Knowledge wiki extracted from Nate (AI educator) YouTube transcripts.
 > See [[AGENTS]] for conventions. See [[log]] for ingest history.
 
-**49 concepts** · **270 source pages** · **296 videos (manifest)** · last updated 2026-05-30
+**50 concepts** · **274 source pages** · **300 videos (manifest)** · last updated 2026-06-15
 
 ## Concepts by category
 
@@ -58,6 +58,7 @@
 
 - [[concepts/ai-assisted-research]] (4) — Utilizing AI tools for research tasks, including multi-LLM verification loops, progressive deepening, and data export analysis.
 - [[concepts/ai-productivity-workflows]] (4) — Practical workflows for individuals to enhance productivity using AI tools, including second brain systems, note-taking, and delegation.
+- [[concepts/ai-usage-telemetry]] (1) — Tracking personal token burn and model usage as a behavioral feedback loop for self-improvement, not a vanity metric.
 
 ### Business Opportunities
 

@@ -88,3 +88,27 @@ All 13 mapped to **existing** concepts — no new concept pages, so `index.md` t
 48 concepts · 270 sources · 7 people · 6 orgs · **0 orphans · 0 missing_sources · 0 stale_volatile · 0 new broken wikilinks**. Two pre-existing broken wikilinks remain — the literal `sources/<vid>` format placeholders (lines 15 and 25 of this log's migration-era text) — and were left as documentation, not real links.
 
 ## [2026-05-30] ingest | agent-species concept page (manual; synthesizes existing source) | YpPcDHc3e9U
+
+## [2026-06-15] ingest | Stop Picking Between Claude Code and Codex | Do This Instead | R2-Y1Hjwx2U
+
+- Source page: [[sources/R2-Y1Hjwx2U]]
+- Concepts touched: [[concepts/model-selection-frameworks]], [[concepts/practical-agent-adoption]]
+- Insights added: 2
+
+## [2026-06-15] ingest | Microsoft Says 86% Treat AI Output as a Starting Point. Your Resume Just Changed | UsCgEuIAclE
+
+- Source page: [[sources/UsCgEuIAclE]]
+- Concepts touched: [[concepts/ai-career-skills]]
+- Insights added: 4
+
+## [2026-06-15] ingest | My Codex Ran 800 Million Tokens in A Day. The Real Story Isn't Cost. | l8BloTSLK6M
+
+- Source page: [[sources/l8BloTSLK6M]]
+- Concepts touched: [[concepts/ai-engineering-principles]], [[concepts/multi-agent-system-design]], [[concepts/ai-personal-stack]] (+ 1 new: [[concepts/ai-usage-telemetry]])
+- Insights added: 4
+
+## [2026-06-15] ingest | My AI Workflow Has Changed (Here is What I Learned) | rqVzTX8w_w0
+
+- Source page: [[sources/rqVzTX8w_w0]]
+- Concepts touched: [[concepts/ai-productivity-workflows]], [[concepts/prompting-and-skill-design]]
+- Insights added: 2

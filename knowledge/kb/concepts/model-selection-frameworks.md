@@ -3,9 +3,9 @@ title: Model Selection Frameworks
 type: concept
 slug: model-selection-frameworks
 tags: [framework, model-selection, agent-design, ecosystem, workflow, decision-making]
-sources: [8m2-WKhidYk, dQK_pTXrGDk, 1FKxyPAJ2Ok, 9aIYhjeYxzM, -5zFZznthw0, 7G0S7DSvKxU, 8jKAT8GNDE0, ijdhIGRB_Kc, 09sFAO7pklo, LIkYVsxMpS8, z3pbrFKVyQE]
+sources: [8m2-WKhidYk, dQK_pTXrGDk, 1FKxyPAJ2Ok, 9aIYhjeYxzM, -5zFZznthw0, 7G0S7DSvKxU, 8jKAT8GNDE0, ijdhIGRB_Kc, 09sFAO7pklo, LIkYVsxMpS8, z3pbrFKVyQE, R2-Y1Hjwx2U]
 stability: evergreen
-updated: 2026-05-29
+updated: 2026-06-15
 ---
 
 # Model Selection Frameworks
@@ -26,6 +26,7 @@ These frameworks are crucial for navigating the rapidly evolving AI landscape. T
 -   **Beware of "harness lock-in":** Switching AI coding tools or harnesses can effectively reset all prior team process investment, including custom configurations and established habits, to zero. This lock-in emphasizes treating tools as complementary architectures rather than easily interchangeable components [[sources/09sFAO7pklo]] (DVH-002).
 - **Five levers on a specificity x maturity matrix** — Per workflow, choose among automate / build / buy / hire / wait against two axes (how specific the work is to you, how mature the market solution is): common+mature = buy; common+immature = prototype or wait; company-specific+useful primitives = buy the building blocks but own the workflow standard; company-specific+thin market = build to own the category; if nobody can even define the work, the next investment is a person [[sources/LIkYVsxMpS8]].
 - **Keep a janky private eval suite for emerging capabilities** — Most large teams lack the discipline of a private eval suite tuned to emerging model capabilities; a "janky" Notion doc of prompts plus expected outputs, re-run on each new model release, beats risking a production swap or scrambling to assign someone [[sources/z3pbrFKVyQE]].
+- **Claude Code trains "steering"; Codex trains "dispatching" — pick based on which habit the task needs, not benchmark scores.** Claude Code feels like a cockpit: you stay close to the model, interview it, correct it mid-flight, and use plan mode/CLAUDE.md/hooks/MCP to run a disciplined session — best when the hard part is taste, ambiguity, or framing the actual question (architecture, writing, design judgment). Codex feels like an operations desk: multiple parallel threads each work a separate task in a sandboxed work tree and come back with inspectable proof (a diff, test output, a source list, a rendered doc) — best when the work can be written down as an assignment, involves files/tools/checks/artifacts, needs parallelism, or should become a durable repeatable workflow. The decision rule: use Claude when the problem needs conversation before it can become an assignment; use Codex when it's already a job you can delegate. For high-stakes work, use both — one plans/implements, the other critiques/reviews [[sources/R2-Y1Hjwx2U]].
 
 ## Prompt commands
 
@@ -95,3 +96,4 @@ Harness lock-in is the real vendor risk, not model subscription. All CLAUDE.md f
 -   [[sources/09sFAO7pklo]] — Claude Code vs Codex: The Decision That Compounds Every Week You Delay
 - [[sources/LIkYVsxMpS8]] — When to Automate, Build, Buy, Hire, or Wait on AI
 - [[sources/z3pbrFKVyQE]] — The Infrastructure Nightmare Nobody Is Talking About
+- [[sources/R2-Y1Hjwx2U]] — Stop Picking Between Claude Code and Codex | Do This Instead

@@ -3,9 +3,9 @@ title: AI Career Skills and Fluency
 type: concept
 slug: ai-career-skills
 tags: [career, ai-fluency, skills, mindset, framework, orchestration]
-sources: [rYqt6mMlv7o, hDpjMJw3flk, 4cuT-LKcmWs, DdlMoRSojtE, HDVG8RKYX9s, fyHnGHxGuhI, q6p-_W6_VoM, -dJ9WrTG6zQ, BYKUwsQOA8U, XlfumXPPrLY, HZ9iL_lFYgQ, BaC5FEN2e4Y, AzOJ9QLgfIk, EZ4EjJ0iDDQ, 725QE_LNXT4]
+sources: [rYqt6mMlv7o, hDpjMJw3flk, 4cuT-LKcmWs, DdlMoRSojtE, HDVG8RKYX9s, fyHnGHxGuhI, q6p-_W6_VoM, -dJ9WrTG6zQ, BYKUwsQOA8U, XlfumXPPrLY, HZ9iL_lFYgQ, BaC5FEN2e4Y, AzOJ9QLgfIk, EZ4EjJ0iDDQ, 725QE_LNXT4, UsCgEuIAclE]
 stability: evergreen
-updated: 2026-05-29
+updated: 2026-06-15
 ---
 
 # AI Career Skills and Fluency
@@ -29,6 +29,10 @@ In an era where AI is rapidly commodifying traditional knowledge work, developin
 -   **Critical thinking demands adversarial checks** — Guard against "LLM psychosis" by proactively challenging AI-backed conclusions with adversarial prompts and consulting domain experts. AI agreement is not a substitute for expert validation, especially in unfamiliar domains. [[sources/AzOJ9QLgfIk]] (MND-004)
 -   **AI can power career accountability** — AI can be leveraged to create structured quarterly career accountability systems, acting as an "AI board of directors" to provide rigorous, unbiased feedback and identify areas for growth, which is particularly valuable in the absence of human mentors. [[sources/BaC5FEN2e4Y]] (CRR-006)
 - **A personal truth layer for the prove-it economy** — In the interpretation economy, individuals need a personal "truth layer" that demonstrably proves their AI skills (vetting and proof matter to land reliable AI-economy roles), not an AI-washed LinkedIn — the same agent-legibility problem products face [[sources/725QE_LNXT4]].
+- **Polished artifacts no longer prove competence — judgment does** — Because AI makes it easy to produce polished memos, prototypes, resumes, and project plans, a finished artifact no longer signals that its author understood the situation well enough to make a good decision. The scarce, demonstrable evidence shifts from production (now commoditized by AI) to comprehension: what someone noticed, believed, rejected, and how their reasoning held up under pushback from another serious person [[sources/UsCgEuIAclE]].
+- **Use a "whiteboard" conversation to make judgment visible: situation, decision, risk, change** — To produce evidence of judgment in the AI era, run a live conversation (whiteboard, shared doc, Loom, or annotated prototype) with someone capable of pushing back, structured around four elements: (1) Situation — what's happening, who's involved, what constraints and missing facts exist, and why it's hard; (2) Decision — the plausible paths, which was chosen, and crucially which were rejected and why; (3) Risk — what could go wrong, what risk was accepted vs. removed, and naming prevented losses (a bad launch that didn't happen, a customer who didn't churn); (4) Change — what becomes clearer, safer, or faster as a result, and what stops being re-litigated. The point is connecting judgment to a change in the work, not recording everything [[sources/UsCgEuIAclE]].
+- **Talent Board reframes career evidence as comprehension-over-generation** — Standard career advice (build a portfolio) is now incomplete because AI has largely solved generation and polishing, so portfolios carry less signal. The "Talent Board" framing turns whiteboard-style reasoning sessions into durable artifacts (work samples, promotion notes, hiring packets) that show not just what was made but the evidence of understanding, sense-making, and good choices behind it — explanation as the artifact, not just the output [[sources/UsCgEuIAclE]].
+- **In a new role, form and expose a point of view early via expert pushback** — Standard onboarding advice (listen, learn the org, get quick wins) is incomplete in the AI era. A stronger first-month move is to put an early model of the work in front of someone who knows the domain deeply: state your read on the customer problem, where the team may be over-weighting something, a technical constraint you don't yet understand, and a risk you want to validate — then let that person correct you. Write down corrections, ask what evidence would settle disagreements, and add missing constraints to the whiteboard. This demonstrates the ability to learn in public without being indecisive [[sources/UsCgEuIAclE]].
 
 ## Prompt commands
 
@@ -122,3 +126,4 @@ I need to evaluate whether to use AI for [SPECIFIC TASK]. Help me assess: (1) Is
 -   [[sources/AzOJ9QLgfIk]] — If This Can Happen to an Ex-DeepMind Leader, It Can Happen to You
 -   [[sources/EZ4EjJ0iDDQ]] — Why Your Best Employees Quit Using AI After 3 Weeks (And the 6 Skills That Would Have Saved Them)
 - [[sources/725QE_LNXT4]] — The Prove-It Economy is Here | And Most Marketers Aren't Ready
+- [[sources/UsCgEuIAclE]] — Microsoft Says 86% Treat AI Output as a Starting Point. Your Resume Just Changed

@@ -3,9 +3,9 @@ title: Prompting and AI Skill Design
 type: concept
 slug: prompting-and-skill-design
 tags: ['prompting', 'skill-design', 'agent-design', 'best-practices', 'context-engineering', 'token-efficiency']
-sources: ['0cVuMHaYEHE', '4u48pDYxfHc', '5ztI_dbj6ek', '2uC5WllehxY', 'BP-N7xjz-vM', 'GTEz5WWbfiw', 'Gqnf5f1ITyo', 'esqPTMDvw7w', 'hMKRBldkWEk', 'i4Jfl1IW-_U', 'BpibZSMGtdY', 'mldfMWbnZTg', ogTLWGBc3cE]
+sources: ['0cVuMHaYEHE', '4u48pDYxfHc', '5ztI_dbj6ek', '2uC5WllehxY', 'BP-N7xjz-vM', 'GTEz5WWbfiw', 'Gqnf5f1ITyo', 'esqPTMDvw7w', 'hMKRBldkWEk', 'i4Jfl1IW-_U', 'BpibZSMGtdY', 'mldfMWbnZTg', ogTLWGBc3cE, rqVzTX8w_w0]
 stability: evergreen
-updated: 2026-05-29
+updated: 2026-06-15
 ---
 
 # Prompting and AI Skill Design
@@ -32,6 +32,7 @@ Effective prompting and skill design are crucial for unlocking the full potentia
 - **Recognize prompting as four cumulative disciplines** — in the agentic era, effective AI interaction involves Prompt Craft, Context Engineering, Intent Engineering (encoding organizational values), and Specification Engineering (writing agent-executable documents), with failures compounding if any discipline is neglected. [[sources/BpibZSMGtdY]] (FWK-024)
 - **Address probabilistic context in agentic workflows** — for agents with web access or external tools, your prompt is a small fraction of the total context; focus on framing prompts to direct the fetching of high-quality probabilistic context, monitor sources, and ensure security against injection attacks. [[sources/mldfMWbnZTg]] (FWK-029)
 - **Prompt engineering is now table stakes; it's a "question world"** — Solid prompting earns no credit anymore; the evolution is from a "prompt world" to a "question world," because "just ask AI for what you want" only works when you already know what you want — which gets harder as the agentic workflow gets more complex [[sources/ogTLWGBc3cE]].
+- **Prompting has shifted from "task + done criteria" to "define the shape together first"** — Nate distinguishes three eras: pre-Dec-2025 prompt engineering (structuring the prompt itself, still useful for one-off tasks); the Dec 2025-Apr 2026 era of giving long-running agentic models a task, pointing them at files, and specifying "what good looks like" (sometimes via an eval); and, since the 4.7/5.5 Codex refresh, a newer collaborative mode where he hands the model a messy set of relevant files and meaningful standards-questions and asks it to help define the shape of the task first — only shifting to "now go do it" once that shape is agreed. He reports that 5.5-class models hold context well enough across that gear-change to make this back-and-forth genuinely collaborative rather than disorienting for the model [[sources/rqVzTX8w_w0]].
 
 ## Prompt commands
 
@@ -118,3 +119,4 @@ For this agentic research task [DESCRIBE TASK]: (1) What semantic framing in my 
 - [[sources/BpibZSMGtdY]] — 'Prompting' Just Split Into 4 Skills. You Only Know One. Here's Why You Need the Other 3 in 2026.
 - [[sources/mldfMWbnZTg]] — Context Engineering vs. Prompt Engineering: Guiding LLM Agents
 - [[sources/ogTLWGBc3cE]] — Opus 4.7 and OpenAI 5.5 Made Your Prompting Style Obsolete.
+- [[sources/rqVzTX8w_w0]] — My AI Workflow Has Changed (Here is What I Learned)

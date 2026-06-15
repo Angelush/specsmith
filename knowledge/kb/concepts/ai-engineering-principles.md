@@ -3,9 +3,9 @@ title: AI Engineering Principles and Practices
 type: concept
 slug: ai-engineering-principles
 tags: [software-engineering-principles, agent-design, architecture, infrastructure, technical-debt, simplicity]
-sources: [7AO4w4Y_L24, NoRePxSrhpw, cVZCfpkHNBg, xnG8h3UnNFI]
+sources: [7AO4w4Y_L24, NoRePxSrhpw, cVZCfpkHNBg, xnG8h3UnNFI, l8BloTSLK6M]
 stability: evergreen
-updated: 2026-05-12
+updated: 2026-06-15
 ---
 
 # AI Engineering Principles and Practices
@@ -27,6 +27,7 @@ The proliferation of AI systems necessitates a disciplined engineering approach 
 -   **Thoroughly assess engineering infrastructure before adopting AI coding tools** — AI assistants amplify existing practices, meaning weak infrastructure will lead to net-negative outcomes; a pre-flight check covering problem definition, code consistency, workflow fit, metrics, security, and team buy-in is essential. [[sources/cVZCfpkHNBg]] (FWK-025)
 -   **Reasoning traces are critical for effective auto-improvement and surgical edits** — Optimization loops that incorporate detailed reasoning trajectories for AI decisions perform significantly better, enabling targeted fixes rather than random mutations in auto-improvement systems. [[sources/xnG8h3UnNFI]] (DVH-014)
 -   **Manage LLM drift by reviewing AI-generated code** — Unreviewed AI output can silently introduce unintentional architectural decisions and accumulate technical debt over time, requiring vigilant code reviews. [[sources/cVZCfpkHNBg]] (FWK-025)
+- **"2026 building" is about clarity of intent, not prompt engineering** — When building his token dashboard, Nate had no special or fancy prompt; he simply described features in plain English (GitHub-style chart, log scale, top-10 days, model breakdown) and iteratively asked Codex to refine the scale, color contrast, and readability until it matched the picture in his head. The hard part wasn't the prompt syntax — it was having a clear mental image of the deliverable before starting, then persistently asking until it appeared. The whole build, including DNS/domain deployment, took about an hour of "lazy," conversational iteration [[sources/l8BloTSLK6M]].
 
 ## Prompt commands
 
@@ -70,4 +71,5 @@ Design a trace infrastructure for auto-improvement: (1) What decision points in 
 -   [[sources/NoRePxSrhpw]] — The Ticking Time Bomb in Every Codebase Over 18 Months Old
 -   [[sources/cVZCfpkHNBg]] — Forget Codex vs. Claude: This is What Build Teams REALLY Need to Ask
 -   [[sources/xnG8h3UnNFI]] — Karpathy's Agent Ran 700 Experiments While He Slept
+- [[sources/l8BloTSLK6M]] — My Codex Ran 800 Million Tokens in A Day. The Real Story Isn't Cost.
 ---
