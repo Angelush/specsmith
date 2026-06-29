@@ -13,6 +13,7 @@
 - [[concepts/agent-orchestration-architecture]] (11) — Principles and strategies for designing robust, scalable, and reliable agentic systems, emphasizing orchestration over individual agent complexity.
 - [[concepts/agent-species]] (1) — The distinct architectures an "agent" can take (coding/task harness, project harness, dark factory, auto-research, orchestration) and how matching species to task prevents the #1 failure.
 - [[concepts/agent-evaluation-and-reliability]] (7) — Understanding and addressing common failure patterns in AI agents, defining metrics for success, and implementing robust evaluation frameworks.
+- [[concepts/agent-harness-and-maintenance]] (3) — The harness (workbench) around a model and the discipline of maintaining and pruning it as the model improves and the world drifts; ownership, care-and-feeding, and the last-mile moat.
 - [[concepts/practical-agent-adoption]] (8) — Guidelines and considerations for integrating AI agents into workflows, including automation strategies, user types, and managing the 'human throttle'.
 - [[concepts/agent-philosophy-and-mindset]] (8) — Conceptual frameworks for approaching agent design, including simulation, Aristotelian wisdom, and the 'mini-me fallacy' anti-pattern.
 - [[concepts/multi-agent-system-design]] (5) — Strategies for designing and managing systems with multiple interacting agents, focusing on hierarchy, coordination, and specialization.

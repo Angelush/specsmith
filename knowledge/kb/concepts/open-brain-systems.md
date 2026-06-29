@@ -3,9 +3,9 @@ title: Open Brain Systems
 type: concept
 slug: open-brain-systems
 tags: [framework, memory, agent-architecture, open-brain, portability, distributed]
-sources: ['2JiMmye2ezg', '4KAF72BTyCE', NRBQmwlILjk]
+sources: ['2JiMmye2ezg', '4KAF72BTyCE', NRBQmwlILjk, 9PUaEj0pMYE, QSK4vf_ZTRA]
 stability: evolving
-updated: 2026-05-29
+updated: 2026-06-29
 ---
 
 # Open Brain Systems
@@ -23,6 +23,8 @@ Open Brain systems are critical for future-proofing AI workflows by ensuring dat
 -   **Open Brain systems provide user-owned, agent-readable memory infrastructure** — This architecture involves a self-hosted, database-backed vector store, often connected via an MCP (Multi-Client Protocol) server, to ensure data ownership and universal accessibility by any AI agent. [[sources/2JiMmye2ezg]] (FWK-017) [[sources/4KAF72BTyCE]] (FWK-041)
 -   **Distributed memory prioritizes long-term ownership and portability over immediate convenience** — While centralized platform memory offers maximum convenience, a distributed open-brain approach trades initial setup complexity for enduring control over one's core operating data, safeguarding against future platform changes. [[sources/4KAF72BTyCE]] (FWK-041)
 - **The reusable asset is the habit, not the prompt** — A static prompt library captures instructions but misses the messy context, the revisions, and the "no, that's wrong for our customer" corrections; the most valuable, transferable part of AI work is the surrounding habit, which is why sharing task + context + interaction + review beats sharing final answers [[sources/NRBQmwlILjk]].
+- **Open Skills: the portable procedure layer above memory** — Solving memory (Open Brain) exposes a second problem — the agent still doesn't know *how* you work, creating "procedural debt" visible as prompt bloat, a re-explanation tax across tools, instruction fragmentation, and weak verification. Open Skills answers it with a portable library of agent *procedures*: skills as narrow primitives (each with trigger rules, scope, tools, output, and a verification contract), runbooks as compositions, scoped personal vs project, and a session-to-skill flywheel that turns repeated work into reusable skill candidates. The skill becomes the single source of truth that cursor-rules/CLAUDE.md/Codex instructions read from instead of drifting copies. [[sources/9PUaEj0pMYE]]
+- **Open Engine: the queue is how work moves between agents** — Memory (Open Brain) and procedure (Open Skills) still leave the human as "the hallway" carrying work between five different AIs. Open Engine puts work in a shared queue (e.g., Linear) that both people and agents read: each issue states the outcome, owner, context, allowed actions, where to stop, and required proof. Agents from different providers claim-lock issues, move statuses, and leave receipts, so handoffs are visible and the human stops being the copy-paste path — moving from "output" to reviewable "work." [[sources/QSK4vf_ZTRA]]
 
 ## Prompt commands
 
@@ -49,3 +51,5 @@ Design your memory architecture: (1) What constitutes your core operating data (
 -   [[sources/2JiMmye2ezg]] — You Don't Need SaaS. The $0.10 System That Replaced My AI Workflow
 -   [[sources/4KAF72BTyCE]] — Anthropic And OpenAI Are Fighting Over Your Memory
 - [[sources/NRBQmwlILjk]] — Shopify CEO Reveals Their Secret AI Developer
+- [[sources/9PUaEj0pMYE]] — The Skill vs Prompt Problem Everyone Gets Wrong (Open Skills launch)
+- [[sources/QSK4vf_ZTRA]] — I Was The Only Thing Connecting Claude, ChatGPT, and Codex (Open Engine launch)

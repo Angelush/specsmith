@@ -11,7 +11,7 @@ You are the **planner** in Specsmith's two-tier design (planner → workers → 
 
 ## Ground this step first
 Load the spine before you diagnose — build the data room before the work.
-1. Read [`knowledge/principles-core.md`](../../knowledge/principles-core.md) (always — it is small and it is the routing logic's basis). From the bundled KB at `knowledge/kb/` (see [`knowledge/KB-LINK.md`](../../knowledge/KB-LINK.md)), you may also read `concepts/ai-career-skills.md`, `concepts/ai-builder-mindset.md`, `concepts/practical-agent-adoption.md` for the diagnosis frameworks.
+1. Read [`knowledge/principles-core.md`](../../knowledge/principles-core.md) (always — it is small and it is the routing logic's basis). From the bundled KB at `knowledge/kb/` (see [`knowledge/KB-LINK.md`](../../knowledge/KB-LINK.md)), you may also read `concepts/ai-career-skills.md`, `concepts/ai-builder-mindset.md`, `concepts/practical-agent-adoption.md`, `concepts/knowledge-work-delegation.md` for the diagnosis frameworks.
 2. If a Superpowers `brainstorming` skill is available, you MAY invoke it to explore the idea conversationally before diagnosing — but return here to route. Specsmith owns the upstream (what to build + how to know it is right); Superpowers owns the downstream (build it well).
 
 ## Step 1 — Open (ask these two questions verbatim, then stop)

@@ -3,9 +3,9 @@ title: Issue Tracking Evolution
 type: concept
 slug: issue-tracking-evolution
 tags: [agent-design, issue-tracker, orchestration, enterprise, framework, trend]
-sources: [FDkvRl1RlT0]
+sources: [FDkvRl1RlT0, QSK4vf_ZTRA]
 stability: volatile
-updated: 2026-05-12
+updated: 2026-06-29
 ---
 
 # Issue Tracking Evolution
@@ -22,6 +22,7 @@ The traditional human effort involved in grooming and translating tasks into str
 - **Issue trackers are becoming critical infrastructure for agent orchestration** — Their inherent capabilities, such as managing state, ownership, history, and dependencies, provide the ideal foundation for autonomous agents to find work, process it, and facilitate reviews. [[sources/FDkvRl1RlT0]] (TRD-048, FWK-046)
 - **Control over enterprise workflow data layers is strategically valuable** — Companies that provide structured state data through programmatic APIs—like Atlassian, Salesforce, and ServiceNow—are well-positioned to become central to agent coordination. [[sources/FDkvRl1RlT0]] (TRD-048)
 - **OpenAI's Symphony demonstrates this pattern in action** — By using a Linear board as an orchestration layer for Codex agents, the system significantly boosted landed pull requests, illustrating how issue trackers can function as effective agent workspaces. [[sources/FDkvRl1RlT0]] (FWK-046)
+- **The queue is the cross-provider coordination layer (and beats chat/Slack for state)** — A chat box and Slack are poor state managers; a queue both people and agents can read turns "output" into reviewable "work." A good ticket states the outcome, owner, context, allowed actions, where to stop, and required proof — so even agents that don't know each other (Claude, Codex, OpenClaw) coordinate through it via claim-locks, status moves (agent-todo → agent-working → needs-input → agent-done), and receipts. The handoff boundary between agents, not the model, is the real bottleneck. [[sources/QSK4vf_ZTRA]]
 
 ## Prompt commands
 
@@ -41,3 +42,4 @@ Audit our existing software stack for agentic readiness. For each tool (CRM, iss
 ## Sources
 
 - [[sources/FDkvRl1RlT0]] — Anthropic Might Buy Atlassian For $40B. Here's Why It Makes Sense.
+- [[sources/QSK4vf_ZTRA]] — I Was The Only Thing Connecting Claude, ChatGPT, and Codex (Open Engine / queue as coordination)

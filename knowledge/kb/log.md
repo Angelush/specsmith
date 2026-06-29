@@ -112,3 +112,51 @@ All 13 mapped to **existing** concepts — no new concept pages, so `index.md` t
 - Source page: [[sources/rqVzTX8w_w0]]
 - Concepts touched: [[concepts/ai-productivity-workflows]], [[concepts/prompting-and-skill-design]]
 - Insights added: 2
+
+## [2026-06-29] ingest | The Skill vs Prompt Problem Everyone Gets Wrong | 9PUaEj0pMYE
+
+- Source page: [[sources/9PUaEj0pMYE]]
+- Concepts touched: [[concepts/open-brain-systems]], [[concepts/prompting-and-skill-design]]
+- Insights added: 2 (Open Skills as portable procedure layer; skill-vs-prompt distinction)
+
+## [2026-06-29] ingest | I Stopped Prompting AI One Task At A Time. This Works Better. | A4zMyjkL0Dc
+
+- Source page: [[sources/A4zMyjkL0Dc]]
+- Concepts touched: [[concepts/agent-orchestration-architecture]]
+- Insights added: 1 (agents as loop managers; the loop of loops control pattern)
+
+## [2026-06-29] ingest | Don't build more AI agents until you watch this | BOXK2XFLA-E
+
+- Source page: [[sources/BOXK2XFLA-E]]
+- Concepts touched: 1 new: [[concepts/agent-harness-and-maintenance]]
+- Insights added: 3 (prune tools; agents break when the model improves; agents inherit system crud)
+
+## [2026-06-29] ingest | I Was The Only Thing Connecting Claude, ChatGPT, and Codex | QSK4vf_ZTRA
+
+- Source page: [[sources/QSK4vf_ZTRA]]
+- Concepts touched: [[concepts/open-brain-systems]], [[concepts/issue-tracking-evolution]]
+- Insights added: 2 (Open Engine; the queue as cross-provider coordination layer)
+
+## [2026-06-29] ingest | GLM 5.2 Is Free And Beats Claude On Most Work | Zp8lr6IzUnQ
+
+- Source page: [[sources/Zp8lr6IzUnQ]]
+- Concepts touched: [[concepts/model-selection-frameworks]], [[concepts/agent-harness-and-maintenance]]
+- Insights added: 3 (center vs edge of distribution routing; last-mile harness as the moat; renting your company brain)
+
+## [2026-06-29] ingest | You Can't Run AI Agents Without This | rh_PcL26zls
+
+- Source page: [[sources/rh_PcL26zls]]
+- Concepts touched: [[concepts/agent-harness-and-maintenance]], [[concepts/practical-agent-adoption]]
+- Insights added: 3 (care and feeding: job/diet/boundaries/review; single named owner + agent roster; maintenance is the 2026 skill)
+
+## [2026-06-29] ingest summary | 6 videos, 14 insights, 1 new concept (agent-harness-and-maintenance) | via index-nate-kb plugin
+
+## [2026-06-29] grounding | wired agent-harness-and-maintenance -> classify-architecture, optimize
+
+## [2026-06-29] grounding audit | wired 5 relevant concepts into worker skills
+- agent-species -> classify-architecture (swapped out model-selection-frameworks; still grounded via decompose-tasks)
+- knowledge-work-delegation -> orient
+- ai-assisted-research -> build-context
+- ai-usage-telemetry -> design-evals
+- ai-safety-and-alignment -> red-team
+- Remaining ungrounded concepts are market/strategy/tool-trend pages, intentionally not pulled into spec-engineering grounding (minimum-viable-context, Axiom 5).
