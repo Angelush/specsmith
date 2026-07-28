@@ -3,9 +3,9 @@ title: Practical Agent Adoption and Deployment
 type: concept
 slug: practical-agent-adoption
 tags: [adoption,agent-deployment,automation,workflow,agent-design,reliability]
-sources: [B3rSU7XROrg, D-Ww1wLIp60, DAxARHKQAXs, LwKnvqVdUgA, QrvVkm-8Jx4, kVPVmz0qJvY, DWb4SqILvvM, obqjIoKaqdM, LIkYVsxMpS8, R2-Y1Hjwx2U, rh_PcL26zls]
+sources: [B3rSU7XROrg, D-Ww1wLIp60, DAxARHKQAXs, LwKnvqVdUgA, QrvVkm-8Jx4, kVPVmz0qJvY, DWb4SqILvvM, obqjIoKaqdM, LIkYVsxMpS8, R2-Y1Hjwx2U, rh_PcL26zls, HgAQOkG_v8c, PRqiGS6fnIM, U4TmrlWEY4M]
 stability: volatile
-updated: 2026-06-29
+updated: 2026-07-28
 ---
 
 # Practical Agent Adoption and Deployment
@@ -31,6 +31,9 @@ Successfully adopting and deploying AI agents can unlock significant productivit
 - **Do not automate what you cannot describe** — If you cannot describe a workflow's inputs, outputs, standards, exceptions, and owner in plain English, you cannot make good build/buy/automate decisions; broad asks hide 20 distinct workflows and route to a mediocre tool [[sources/LIkYVsxMpS8]].
 - **The three eras: prompting → delegation → maintenance** — Prompting was the 2023 skill (ask better questions), delegation the 2025 skill (hand over real work), and maintenance the 2026 skill: once a system reads important context and produces work you or your team act on, it must be cared for, not just built. Catching up with AI is no longer having the most agents or knowing every tool — it's owning a small number of agents that deliver real value in workflows, knowing what each one eats, what it can touch, and when to trust it. Building a new agent shouldn't earn credit; owning one that delivers value should. See [[concepts/agent-harness-and-maintenance]]. [[sources/rh_PcL26zls]]
 - **Each agent interface trains a distinct failure mode — know which one you're learning.** A great conversational agent (Claude) can make you feel closer to "done" than you actually are, because rapport and fluent dialogue substitute for verification. A dispatch-style agent (Codex) can report "task complete" with all the surface signals of progress while having followed instructions too literally, optimized for completeness over quality, used the wrong source, or produced more output than it would've taken to just do the task — making the work feel more finished than it is. The fix in both cases is the same: don't trust confidence, trust receipts — make the agent show the files, logs, diffs, or source list that prove the work happened and is correct [[sources/R2-Y1Hjwx2U]].
+- **Non-technical users can now delegate the entire technical build and keep only the trust boundary** — Nate's dividing line for a non-technical builder isn't "avoid the technical project," it's: let the agent own the technical middle (database, SQL, config, setup) entirely, and keep for yourself only the parts that require trust — which accounts to grant access to, what permissions to set, and final approval on outputs. He frames this explicitly as the difference between February 2026 (technical build was a real barrier) and June 2026 (agents narrate and carry out the build, leaving only the human-trust decisions) [[sources/HgAQOkG_v8c]].
+- **A four-question "agent test" triages any task into chat / single-agent / multi-agent / no-AI in about a minute** — (1) Size: does the task fit inside one agent's context window at full quality, or does it need to be split? (2) Independence: can the parts be done without the other parts' output (a pile of documents splits cleanly; coding sometimes does, sometimes doesn't, depending on how files are organized)? (3) Separation of concerns: do any parts need a genuinely different, uncontaminated mind (a critic who didn't write the draft, an auditor who didn't keep the books)? (4) Checkability: is verifying an answer far cheaper than producing one (a test suite, an exit code, a source document), since Stanford's data shows extra attempts only pay off when a mechanical checker exists — otherwise value plateaus around 100 attempts. These four questions describe the shape of the work, not the tools, so they stay useful even as the specific agent products they're run against get replaced [[sources/PRqiGS6fnIM]].
+- **Build the flywheel on a low-stakes case first, then point the same primitives at the case that costs real money** — train the skeleton (ingestion, normalization, receipts, the gate) on email and calendar, where mistakes are cheap and recoverable, before pointing it at insurance appeals or tax prep, where mistakes are expensive; because the primitives transfer, each successive build gets dramatically cheaper — the tax-prep build in this video took a fraction of the insurance build's setup time specifically because nothing in the skeleton was new [[sources/U4TmrlWEY4M]].
 
 ## Prompt commands
 
@@ -69,6 +72,11 @@ Run a pre-deployment audit for this agent workflow [DESCRIBE WORKFLOW]: (1) Map 
 For this business problem [DESCRIBE PROBLEM], walk me through each of the six AI assistance levels and assess: (1) Would this level solve the problem adequately? (2) What would implementation cost/complexity look like? (3) What human oversight would be required? Output as a comparison table so I can choose the right level without over-engineering.
 ```
 
+### Agent Shape Test — `agent-shape-test`
+```
+Run the agent-shape test on this task: [DESCRIBE TASK]. Answer four questions: (1) Size — does this fit inside one agent's context window at full quality, or is it bigger (a pile of hundreds/thousands of items)? (2) Independence — can the parts be completed without knowing what the other parts produced? (3) Separation of concerns — does any part need a mind that hasn't seen the rest of the work (a reviewer who didn't write it, an auditor who didn't book it)? (4) Checkability — is verifying a candidate answer much cheaper than producing one (a test, an exit code, a source you can point at)? Based on the four answers, output a verdict — chat / single agent / multi-agent team / no AI, human judgment call — plus the one next step to act on it.
+```
+
 ## Related
 - [[concepts/agent-orchestration-architecture]] — orchestrating multi-step agent pipelines
 - [[concepts/agent-evaluation-and-reliability]] — measuring and improving agent reliability
@@ -89,3 +97,6 @@ For this business problem [DESCRIBE PROBLEM], walk me through each of the six AI
 - [[sources/LIkYVsxMpS8]] — When to Automate, Build, Buy, Hire, or Wait on AI
 - [[sources/R2-Y1Hjwx2U]] — Stop Picking Between Claude Code and Codex | Do This Instead
 - [[sources/rh_PcL26zls]] — You Can't Run AI Agents Without This
+- [[sources/HgAQOkG_v8c]] — I Built My Own AI Memory by Talking to Claude. It Did 80% Itself.
+- [[sources/PRqiGS6fnIM]] — 1.6M agents registered for OpenClaw and did NOTHING.
+- [[sources/U4TmrlWEY4M]] — Every AI Agent Demo Stops at Email. I Pointed Mine at the Bills That Cost You Money.

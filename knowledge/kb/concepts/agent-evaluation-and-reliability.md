@@ -3,9 +3,9 @@ title: Agent Evaluation, Failure Modes, and Reliability
 type: concept
 slug: agent-evaluation-and-reliability
 tags: [agent-design, failure-modes, evaluation, reliability, workflow-automation, prompt-optimization]
-sources: [-oI7mrudRn8, 4cuT-LKcmWs, iG_CCjdyeX0, tJB_8mfRgCo, 61IJSZ6GOuU, 6Q76EnHVRms, 0jSE0NABcY8, n0nC1kmztSk]
+sources: [-oI7mrudRn8, 4cuT-LKcmWs, iG_CCjdyeX0, tJB_8mfRgCo, 61IJSZ6GOuU, 6Q76EnHVRms, 0jSE0NABcY8, n0nC1kmztSk, PRqiGS6fnIM, suY66oTDn0s]
 stability: volatile
-updated: 2026-05-29
+updated: 2026-07-28
 ---
 
 # Agent Evaluation, Failure Modes, and Reliability
@@ -28,6 +28,9 @@ Focusing on agent reliability and understanding failure modes is crucial for dep
 -   **Organizational clarity, not model capability, is often the bottleneck in AI writing quality** — AI amplifies ambiguity, so explicitly defining quality standards, business logic, and desired voice through failure tests and structured prompts is critical for achieving high-quality AI-generated content. [[sources/61IJSZ6GOuU]] (FWK-019)
 -   **Integrate AI development with browser tools to tighten the debug-fix loop** — Connecting tools like Claude Code with browser extensions allows agents to inspect DOM, console logs, and multi-tab workflows, reducing context-switching during web application debugging. [[sources/0jSE0NABcY8]] (DVH-001)
 - **Agent analytics: the run is the unit; completion != acceptance** — When the user is an agent, the unit of product behavior is the agent run (not clicks/sessions, and not developer traces): completion (task reached a finish state) is distinct from acceptance (the user trusted the result), and the 2x2 between them gates how much autonomy to grant. Mid-run corrections (interrupts, edits, denied approvals) are effectively evals — "interruptions, retries, and handoffs are the new clicks" — so ship three events (run start, task complete, mid-run shaping) tied to one run ID [[sources/n0nC1kmztSk]].
+- **A cheap-workers/expensive-judge harness pattern makes multi-agent runs both trustworthy and affordable.** Nate's "Ringer" harness: every task gets a spec written once by the strongest model available, which then never touches the execution again; every finished task gets a mechanical check — the source must be attached and must actually match the task, or the entry is rejected (the agent's own opinion of its work is not evidence); a failed check triggers a retry with the failure reason included; and every result feeds a running scorecard so reliability is visible at a glance instead of trusted blindly. Splitting roles this way — an expensive model (e.g., Fable 5) only ever plans and judges, while cheap worker models burn the bulk of the tokens executing — cut token costs roughly 10x versus running the expensive model for everything, while keeping its judgment quality where it matters. The whole setup took under an hour to stand up [[sources/PRqiGS6fnIM]].
+- **Checking agents must independently re-derive ground truth, not trust the worker's self-report** — A capture agent claimed all 213 retrieved quotes were verified verbatim; the checking agent recompared every quote character-for-character (curly quotes included) against the live site and caught 13 that had been paraphrased or stitched together. The enforced loop is: execute, fail specifically (the checker tells the worker exactly what's wrong, never just "try again"), retry until true — with zero human involvement in the correction [[sources/suY66oTDn0s]].
+- **No rank in the hierarchy is exempt from verification, and disputes escalate bidirectionally** — The $50/M-token "boss" model's own CSS shipped a dark-mode bug that made the site's single most important button (pre-order) invisible; it was caught independently both by an accessibility checker agent and by the boss's own review pass. Separately, when a checker agent wrongly failed a worker for news posts that were "too short" (they were correctly short — the spec said honesty beats padding), the worker escalated the dispute to the boss agent, who ruled in the worker's favor and corrected the checker. The system enforces correctness in both directions, not any single agent's authority [[sources/suY66oTDn0s]].
 
 ## Prompt commands
 
@@ -92,3 +95,5 @@ Before using AI for [WRITING TASK], define: (1) 5-7 examples of outputs you woul
 -   [[sources/6Q76EnHVRms]] — I Found the Easiest Way to Build Self-Optimizing AI Prompts (DSPI)
 -   [[sources/0jSE0NABcY8]] — Claude Code Snuck in 7 Updates in 2 Weeks
 - [[sources/n0nC1kmztSk]] — A Cursor Agent Wiped a Database in 9 Seconds. Agent Analytics Would Have Seen It Coming.
+- [[sources/PRqiGS6fnIM]] — 1.6M agents registered for OpenClaw and did NOTHING.
+- [[sources/suY66oTDn0s]] — Claude Fable 5 Bossed 20 Cheap AI Agents. The Whole Site Cost $8.

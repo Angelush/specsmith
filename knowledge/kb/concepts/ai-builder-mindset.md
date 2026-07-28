@@ -3,9 +3,9 @@ title: AI Builder Mindset and Productivity
 type: concept
 slug: ai-builder-mindset
 tags: [mindset, framework, productivity, engineering-manager, ai-collaboration, systems-thinking]
-sources: [5Di6o6zuMLc, 2ghhiPLg-jg, hpDC29JdgjI, ogTLWGBc3cE]
+sources: [5Di6o6zuMLc, 2ghhiPLg-jg, hpDC29JdgjI, ogTLWGBc3cE, 1cSNE-ZkDLQ, hYcOFTMesGc]
 stability: evergreen
-updated: 2026-05-29
+updated: 2026-07-28
 ---
 
 # AI Builder Mindset and Productivity
@@ -25,6 +25,9 @@ In an era where AI dramatically reduces the cost of execution, the competitive e
 -   **Build foundational domain knowledge first** — You cannot effectively specify tasks for AI or evaluate its output in domains you do not genuinely understand; human domain expertise remains critical for high-quality AI collaboration [[sources/2ghhiPLg-jg]] (MND-001).
 -   **Recognize the new bottlenecks** — AI has made execution cheap, shifting the competitive advantage from mere execution capacity to human clarity of intent, ambition, effective distribution strategies, and strong relationships [[sources/hpDC29JdgjI]] (MND-009).
 - **Treat AI as a senior partner** — The biggest year-over-year mental-model shift is moving from talking to AI like a careful-spec junior to partnering with it like a senior colleague; the communication patterns that get the most from agents are the same ones that make you a good manager of people [[sources/ogTLWGBc3cE]].
+- **Imagination, not model cost, sets your value multiplier** — When Mitchell Hashimoto (HashiCorp co-founder) benchmarked models on an ordinary task ("implement this feature"), a sub-$1 model tied a $9 frontier model on quality, because that task was already on everyone's known list — execution has converged. But handed a task nobody had captured — optimizing a gnarly piece of his own systems code — the frontier model reached a level of performance he couldn't hit himself, in 2 hours for $40. AI can only do work someone has imagined: it executes but doesn't decide what's worth executing, so frontier value only shows up on tasks nobody has thought to ask for yet [[sources/1cSNE-ZkDLQ]].
+- **Imagination is "fingertip awareness" built by touch time, not innate talent or benchmark-reading** — the ability to pose a valuable frontier-model question comes from hundreds or thousands of hours actually using a model, from instinct rather than a benchmark chart; you cannot imagine a use for a capability you haven't touched. Practically, this means budgeting deliberate "scouting hours" — unstructured exploration of what a new frontier model can do — as a distinct practice alongside daily cheap-model execution, at both the individual and company level [[sources/1cSNE-ZkDLQ]].
+- **Cheap individual output is not the same as product-market fit** — one person with one agent can produce an enormous amount of material, but taste, domain knowledge, customer connection, brand, and the courage to say "this doesn't work" still require a team working together; building with even a small team is also what catches mistakes and clarifies intent for the AI in ways solo building cannot [[sources/hYcOFTMesGc]].
 
 ## Prompt commands
 
@@ -58,6 +61,11 @@ Review my AI work from this week: [DESCRIPTION OF WORK]. Identify: (1) which pro
 List the top 5 bottlenecks slowing [PROJECT/TEAM] right now. Classify each as: execution (fixable with AI), clarity (needs decision), ambition (needs vision), distribution (needs channel), or relationship (needs trust-building). Then suggest the highest-leverage action for each.
 ```
 
+### Task List Imagination Audit — `task-list-imagination-audit`
+```
+Has your task list changed in the last 12 months? In the last six? In the last three? Has what you've asked AI to do actually shifted — or are you just doing your old list faster and cheaper and calling that AI transformation?
+```
+
 ## Related
 - [[concepts/open-brain-systems]] — agent-readable institutional memory
 - [[concepts/ai-roi-and-value-proposition]] — evaluating AI tool ROI
@@ -71,3 +79,5 @@ List the top 5 bottlenecks slowing [PROJECT/TEAM] right now. Classify each as: e
 -   [[sources/hpDC29JdgjI]] — THIS is Why You're Still Slow Even With AI (The Bottleneck Moved--Here's What to Do About It)
 ---
 - [[sources/ogTLWGBc3cE]] — Opus 4.7 and OpenAI 5.5 Made Your Prompting Style Obsolete.
+- [[sources/1cSNE-ZkDLQ]] — You Can't Compete on Cheap Models Anymore
+- [[sources/hYcOFTMesGc]] — Your Roadmap Is Why You're Losing to AI-Native Teams.

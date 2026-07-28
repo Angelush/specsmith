@@ -3,9 +3,9 @@ title: AI ROI and Value Proposition
 type: concept
 slug: ai-roi-and-value-proposition
 tags: [roi, investment, ai-tools, cost-benefit, strategy, framework]
-sources: [-5zFZznthw0, 1FKxyPAJ2Ok, vDtwS1w16K4, u-giatW9mYU, LIkYVsxMpS8]
+sources: [-5zFZznthw0, 1FKxyPAJ2Ok, vDtwS1w16K4, u-giatW9mYU, LIkYVsxMpS8, hYcOFTMesGc]
 stability: evergreen
-updated: 2026-05-29
+updated: 2026-07-28
 ---
 
 # AI ROI and Value Proposition
@@ -24,6 +24,7 @@ Successfully integrating AI requires a clear understanding of its value beyond m
 -   **Evaluate AI tools using a three-question framework** — Before purchasing any AI tool, assess it based on three criteria: does it alleviate a measurable pain, can it be effectively integrated and sustained, and can the worst-case failure mode be tolerated. Tools that do not satisfy all three points risk creating integration debt rather than delivering value. [[sources/vDtwS1w16K4]] (FWK-034)
 -   **AI amplifies ambition, not just efficiency** — Companies should frame AI adoption through the lens of Jevons' paradox; the dramatic reduction in execution cost should enable entirely new, ambitious projects rather than solely leading to headcount reductions. AI shifts the bottleneck from "can we build it?" to "should we build it?", unlocking new demand for human insight and creativity. [[sources/u-giatW9mYU]] (MND-013)
 - **40% of agentic projects die by 2027 — and why** — Gartner projects that over 40% of agentic AI projects are killed by end of 2027 from cost, unclear business value, and weak risk controls — not the tech; the classic trap is a vendor demo that wins on the routine case while production traffic is mostly exceptions, which is where the value actually lives [[sources/LIkYVsxMpS8]].
+- **The digital-photography analogy for zero-cost execution** — cheap film once forced choices about which shots mattered; cheap AI execution removed that natural discipline without removing the importance of choosing, so choices just became easier to avoid. An AI-heavy organization must explicitly answer two questions that cheap execution no longer answers for you — "what can we make now?" and "what are we unwilling to spend time on, even if it's nearly free?" — otherwise volume swamps judgment the way 40,000 vacation photos bury the one that mattered [[sources/hYcOFTMesGc]].
 
 ## Prompt commands
 
@@ -65,3 +66,4 @@ Given that AI has dropped our execution cost by [X factor], what projects or ini
 -   [[sources/vDtwS1w16K4]] — Stop Buying AI Tools: A Framework for The 1% of Tools That Are Worth The Money
 -   [[sources/u-giatW9mYU]] — AI Made Every Company 10x More Productive. The Ones Cutting Headcount Are Telling on Themselves.
 - [[sources/LIkYVsxMpS8]] — When to Automate, Build, Buy, Hire, or Wait on AI
+- [[sources/hYcOFTMesGc]] — Your Roadmap Is Why You're Losing to AI-Native Teams.

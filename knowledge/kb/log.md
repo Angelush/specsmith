@@ -160,3 +160,75 @@ All 13 mapped to **existing** concepts — no new concept pages, so `index.md` t
 - ai-usage-telemetry -> design-evals
 - ai-safety-and-alignment -> red-team
 - Remaining ungrounded concepts are market/strategy/tool-trend pages, intentionally not pulled into spec-engineering grounding (minimum-viable-context, Axiom 5).
+
+## [2026-07-28] ingest | You Can't Compete on Cheap Models Anymore | 1cSNE-ZkDLQ
+
+- Source page: [[sources/1cSNE-ZkDLQ]]
+- Concepts touched: [[concepts/ai-builder-mindset]], [[concepts/model-selection-frameworks]], [[concepts/organizational-ai-transformation]]
+- Insights added: 4
+
+## [2026-07-28] ingest | I Cut the Internet and Let AI Read the File I Could Never Upload. It Caught the Leak. | 5slsNizN6MQ
+
+- Source page: [[sources/5slsNizN6MQ]]
+- Concepts touched: [[concepts/ai-security-and-trust]], [[concepts/model-selection-frameworks]]
+- Insights added: 4
+
+## [2026-07-28] ingest | How to Use AI on Files You're Not Allowed to Upload | EuVvLwWZ5wc
+
+- Source page: [[sources/EuVvLwWZ5wc]]
+- Concepts touched: [[concepts/ai-security-and-trust]]
+- Insights added: 5
+
+## [2026-07-28] ingest | I Built My Own AI Memory by Talking to Claude. It Did 80% Itself. | HgAQOkG_v8c
+
+- Source page: [[sources/HgAQOkG_v8c]]
+- Concepts touched: [[concepts/open-brain-systems]], [[concepts/ai-personal-stack]], [[concepts/ai-security-and-trust]], [[concepts/agent-memory-systems]], [[concepts/practical-agent-adoption]]
+- Insights added: 5
+
+## [2026-07-28] ingest | Fable 5 And GPT-5.6 Don't Need Better Prompts. They Need A Clean Setup | PDJfciNhyHU
+
+- Source page: [[sources/PDJfciNhyHU]]
+- Concepts touched: [[concepts/agent-harness-and-maintenance]]
+- Insights added: 6
+
+## [2026-07-28] ingest | 1.6M agents registered for OpenClaw and did NOTHING. | PRqiGS6fnIM
+
+- Source page: [[sources/PRqiGS6fnIM]]
+- Concepts touched: [[concepts/practical-agent-adoption]], [[concepts/multi-agent-system-design]], [[concepts/agent-evaluation-and-reliability]], [[concepts/knowledge-work-delegation]]
+- Insights added: 5
+
+## [2026-07-28] ingest | Every AI Agent Demo Stops at Email. I Pointed Mine at the Bills That Cost You Money. | U4TmrlWEY4M
+
+- Source page: [[sources/U4TmrlWEY4M]]
+- Concepts touched: [[concepts/agent-orchestration-architecture]], [[concepts/agent-harness-and-maintenance]], [[concepts/rag-architecture-and-chunking]], [[concepts/model-selection-frameworks]], [[concepts/practical-agent-adoption]]
+- Insights added: 5
+
+## [2026-07-28] ingest | Your Roadmap Is Why You're Losing to AI-Native Teams. | hYcOFTMesGc
+
+- Source page: [[sources/hYcOFTMesGc]]
+- Concepts touched: [[concepts/organizational-ai-transformation]], [[concepts/ai-roi-and-value-proposition]], [[concepts/semantic-engineering]], [[concepts/ai-builder-mindset]]
+- Insights added: 5
+
+## [2026-07-28] ingest | Your Next AI Subscription Shouldn't Be ChatGPT 5.6 Or Fable 5. It Should Be Both. | jOWXBzP6nNg
+
+- Source page: [[sources/jOWXBzP6nNg]]
+- Concepts touched: [[concepts/model-comparison-and-performance]], [[concepts/model-selection-frameworks]], [[concepts/agent-orchestration-architecture]], [[concepts/knowledge-work-delegation]]
+- Insights added: 4
+
+## [2026-07-28] ingest | Stop Wasting Money on the Wrong AI | lq2fP7wC7d8
+
+- Source page: [[sources/lq2fP7wC7d8]]
+- Concepts touched: [[concepts/model-selection-frameworks]], [[concepts/agent-harness-and-maintenance]]
+- Insights added: 4
+
+## [2026-07-28] ingest | Claude Fable 5 Bossed 20 Cheap AI Agents. The Whole Site Cost $8. | suY66oTDn0s
+
+- Source page: [[sources/suY66oTDn0s]]
+- Concepts touched: [[concepts/multi-agent-system-design]], [[concepts/agent-evaluation-and-reliability]], [[concepts/prompting-and-skill-design]], [[concepts/model-selection-frameworks]]
+- Insights added: 5
+
+## [2026-07-28] ingest | Codex vs Fable: Which AI Agent Picked the Better Problem? | uCWKXIyvM_8
+
+- Source page: [[sources/uCWKXIyvM_8]]
+- Concepts touched: [[concepts/prompting-and-skill-design]], [[concepts/model-comparison-and-performance]], [[concepts/multi-agent-system-design]]
+- Insights added: 3

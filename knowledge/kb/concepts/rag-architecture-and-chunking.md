@@ -3,9 +3,9 @@ title: RAG Architecture and Context Management
 type: concept
 slug: rag-architecture-and-chunking
 tags: [rag, chunking, architecture, context-engineering, embeddings, memory-management]
-sources: [JdJE6_OU3YA, pMSXPgAUq_k, z8-0INxN_Hg, lqiwQiDglGk]
+sources: [JdJE6_OU3YA, pMSXPgAUq_k, z8-0INxN_Hg, lqiwQiDglGk, U4TmrlWEY4M]
 stability: evergreen
-updated: 2026-05-29
+updated: 2026-07-28
 ---
 
 # RAG Architecture and Context Management
@@ -27,6 +27,7 @@ Effective RAG architecture is crucial for building reliable and cost-efficient A
 - **Portability is key for memory systems** — To avoid vendor lock-in and enable multi-model flexibility, memory architectures should be designed for portability, allowing seamless integration across different AI vendors and models. [[sources/JdJE6_OU3YA]] (AGD-024)
 - **Match RAG levels to needs** — RAG implementations range from basic vector search to complex agentic retrieval across five maturity levels. It's crucial to match the RAG maturity level to actual retrieval needs to avoid over-engineering and ensure efficiency. [[sources/z8-0INxN_Hg]] (FWK-036)
 - **Agents need bundles, not nearest chunks (contract -> bundle -> primitives)** — Classic chatbot-era vector RAG (embed question -> 3 similar chunks) cannot serve agents that need an assembled operating "bundle" (record + policy + entitlement + history, or metric + source-of-truth + lineage + authorization); the retrieval unit must match the work (chunk/section-tree/table/record/graph), so define the data contract first, write the exact bundle, then choose primitives — never database-first. Bigger context windows don't fix it ("context rot") [[sources/lqiwQiDglGk]].
+- **When the source document already names its own citation, retrieve by structure instead of vector similarity** — insurers are legally required to cite the specific policy language behind a denial, so an appeals agent doesn't need semantic search to find the relevant section; it already knows the "address" of what's hurting the claimant and can retrieve by structure (denial reason, exact policy section, deadline, document checklist). The agent's first move should be a sanity check — does the cited section actually say what the denial letter implies it says — because that mismatch is often the strongest finding in the appeal [[sources/U4TmrlWEY4M]].
 
 ## Prompt commands
 
@@ -57,3 +58,4 @@ Design a RAG chunking strategy for this document type: [DOCUMENT TYPE / DESCRIPT
 - [[sources/pMSXPgAUq_k]] — Chunking 101: The Invisible Bottleneck Killing Enterprise AI Projects
 - [[sources/z8-0INxN_Hg]] — RAG: The $40B AI Technique 80% of Enterprises Use—Finally Explained
 - [[sources/lqiwQiDglGk]] — Pinecone Just Demoted Vector Search. Here's the Knowledge Layer.
+- [[sources/U4TmrlWEY4M]] — Every AI Agent Demo Stops at Email. I Pointed Mine at the Bills That Cost You Money.

@@ -3,9 +3,9 @@ title: Semantic Engineering
 type: concept
 slug: semantic-engineering
 tags: [career, engineering, semantic-engineering, ai-augmented, orchestration, specification]
-sources: [W79FW7iUkro, gXbTh70m_q0]
+sources: [W79FW7iUkro, gXbTh70m_q0, hYcOFTMesGc]
 stability: evergreen
-updated: 2026-05-12
+updated: 2026-07-28
 ---
 
 # Semantic Engineering
@@ -24,6 +24,7 @@ As AI tools increasingly handle the implementation and review of software, the m
 - **New responsibilities include managing probabilistic systems and economic engineering** — This discipline involves developing guarantees for probabilistic AI systems, effectively managing variance at scale, and performing economic engineering to optimize factors such as latency, quality, and cost, especially given the intelligent and potentially expensive nature of AI tokens. [[sources/gXbTh70m_q0]] (CRR-013)
 - **Semantic and boundary engineering secures against vulnerabilities** — Critical aspects involve establishing robust defenses against prompt injection and maintaining clear boundaries between human and AI interactions within software to fortify security and ensure system integrity. [[sources/gXbTh70m_q0]] (CRR-013)
 - **Emerging disciplines include memory engineering and multi-LLM orchestration** — New specializations are developing, such as versioning prompts and AI model weights, implementing advanced safety engineering practices, and orchestrating complex toolchains that integrate multiple large language models. [[sources/gXbTh70m_q0]] (CRR-013)
+- **Documentation becomes literal executable infrastructure once agents read it to decide what to do** — a document now supplies the standard, the source hierarchy, the permissions, the escalation path, and the definition of done, so ambiguity in a document spreads chaos through every agent that consumes it. "AI slop" is not caused by the AI; it appears when the human writer lacked clarity of intent before writing, and there is no AI substitute for that clarity — only rigorous human writing discipline (multi-draft review culture) produces documents agents can safely act on [[sources/hYcOFTMesGc]].
 
 ## Prompt commands
 
@@ -42,3 +43,4 @@ As AI tools increasingly handle the implementation and review of software, the m
 
 - [[sources/W79FW7iUkro]] — 271 Vulnerabilities: What Mozilla's AI Found Changes Everything
 - [[sources/gXbTh70m_q0]] — AI Didn't Kill Engineering: It Raised the Bar
+- [[sources/hYcOFTMesGc]] — Your Roadmap Is Why You're Losing to AI-Native Teams.

@@ -3,9 +3,9 @@ title: Organizational AI Transformation
 type: concept
 slug: organizational-ai-transformation
 tags: [org-design, ai-strategy, team-size, coordination-overhead, management, organizational-unlocks]
-sources: [RaAFquzj5B8, hnwM01CpzmA, s1eqzfXCgXI, u-giatW9mYU, zhXgkQ3nYeE, lbfoNxoHl2o, kVPVmz0qJvY, NRBQmwlILjk]
+sources: [RaAFquzj5B8, hnwM01CpzmA, s1eqzfXCgXI, u-giatW9mYU, zhXgkQ3nYeE, lbfoNxoHl2o, kVPVmz0qJvY, NRBQmwlILjk, 1cSNE-ZkDLQ, hYcOFTMesGc]
 stability: evergreen
-updated: 2026-05-29
+updated: 2026-07-28
 ---
 
 # Organizational AI Transformation
@@ -26,6 +26,9 @@ The advent of AI has fundamentally altered productivity equations, making tradit
 - **AI eliminates coordination overhead, enabling a restructure towards pure value creation** — Much knowledge work involves coordination overhead (specs, meetings, decks, tickets) due to human-to-human handoffs. AI, particularly agent harnesses, can eliminate the need for this coordination, allowing organizations to restructure into roles focused purely on value creation, rather than managing intermediaries. [[sources/lbfoNxoHl2o]] (TRD-032)
 - **Organizational redesign is crucial to handle high agent throughput** — When AI agents produce significantly more output than humans can review, the review process becomes a major bottleneck. The solution involves redesigning workflows to separate auto-approved (high confidence, low stakes) paths from human-in-loop paths, establishing parallel review lanes instead of serial queues. [[sources/kVPVmz0qJvY]] (WFL-002)
 - **Public-by-default AI work closes the apprenticeship gap** — Shopify's coding agent "River" is public-by-default (no DMs; ~1 in 8 merged PRs); because most thinking now happens in private chat windows, the widening "apprenticeship gap" is closed by making four things visible — task, context, interaction, review — and by senior people (even the CEO) running real work in public, with binding constraints (agents never run in DMs) that shape incentives toward collective learning [[sources/NRBQmwlILjk]].
+- **You can't hire your way out of an imagination shortage, because imagination only fires next to context** — a hired "AI visionary" brings imagination but none of your company's context, and context is spread across everyone who actually does the work; the fix isn't hiring one imaginative person, it's manufacturing imagination by giving context-holders access to capable models plus explicit permission to make bets. This is also why frontier wins like Stripe's one-day, 50-million-line-of-code migration weren't really about the model: Stripe had spent years building the review systems, test coverage, and team habits that could absorb that much change. The organizational "building" has to be redesigned before frontier capability pays off — echoing how factory electrification only paid off once managers redesigned the factory layout around distributed motors instead of bolting one motor onto the old steam-era layout [[sources/1cSNE-ZkDLQ]].
+- **Roadmaps are coordination overhead that cheap execution made obsolete** — because a team can now put a working version in front of a customer before the old roadmap meeting would have found a free hour on everyone's calendar, product's job shifts from writing roadmaps and directing engineering time to being in the terminal daily and jamming with engineering directly; daily contact, clear accountability, and a concrete, judgeable customer experience replace distant coordination, while engineering and product still answer their own distinct questions — does it work, and should it exist [[sources/hYcOFTMesGc]].
+- **Partial adoption of AI-native practices fails because they form one interconnected system** — dropping roadmaps without also getting PMs into the code just produces chaos, and taking only the "no long meetings" rule in isolation changes nothing. The reason Anthropic and OpenAI ship faster is a whole high-velocity culture that they hire for, teach, and reinforce together, not any single practice adopted piecemeal — so organizational change toward this model has to launch all the interlocking rules at once rather than incrementally [[sources/hYcOFTMesGc]].
 
 ## Prompt commands
 
@@ -64,6 +67,11 @@ Analyze my role [DESCRIBE ROLE] and identify: (1) which activities are value cre
 Map this workflow [WORKFLOW] for agent-throughput redesign: (1) Which steps can agents complete with full autonomy (high confidence + low stakes)? (2) Which steps require human sign-off? (3) Current human review capacity per day for this workflow? (4) If agents produce 10x volume, where does the review bottleneck appear? (5) Propose split: auto-approved lane vs. human-in-loop lane with routing criteria.
 ```
 
+### Imagination Permission Test — `imagination-permission-test`
+```
+Who on your team is allowed to pose a $400 question to a model today without asking anyone? If the answer is nobody, or just a tiny number of people, that's an imagination constraint — it was never about the price of the model.
+```
+
 ## Related
 - [[concepts/open-brain-systems]] — agent-readable institutional memory
 - [[concepts/mcp-architecture]] — Model Context Protocol patterns
@@ -81,3 +89,5 @@ Map this workflow [WORKFLOW] for agent-throughput redesign: (1) Which steps can 
 - [[sources/lbfoNxoHl2o]] — 4,000 People Lost Their Jobs At Block. Dorsey Blamed AI. Here's What Actually Happened.
 - [[sources/kVPVmz0qJvY]] — Your Agent Produces at 100x. Your Org Reviews at 3x.
 - [[sources/NRBQmwlILjk]] — Shopify CEO Reveals Their Secret AI Developer
+- [[sources/1cSNE-ZkDLQ]] — You Can't Compete on Cheap Models Anymore
+- [[sources/hYcOFTMesGc]] — Your Roadmap Is Why You're Losing to AI-Native Teams.

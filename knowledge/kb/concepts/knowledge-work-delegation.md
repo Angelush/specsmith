@@ -3,9 +3,9 @@ title: Knowledge Work Delegation
 type: concept
 slug: knowledge-work-delegation
 tags: [agent-deployment, expertise-elicitation, knowledge-extraction, workflow, scaling, documentation]
-sources: [2PWJu6uAaoU, L32th5fXPw8, MFzxIT88zfg]
+sources: [2PWJu6uAaoU, L32th5fXPw8, MFzxIT88zfg, PRqiGS6fnIM, jOWXBzP6nNg]
 stability: evergreen
-updated: 2026-05-29
+updated: 2026-07-28
 ---
 
 # Knowledge Work Delegation
@@ -26,6 +26,8 @@ Effectively delegating knowledge work is crucial for scaling individual and orga
 - **Expert elicitation creates a queryable database of operating systems** — A structured interview process documents how an expert works, creating a database that can inform productive agents and improve human delegation. [[sources/2PWJu6uAaoU]] (CRR-019)
 - **Tacit knowledge can be extracted through structured questioning** — A 5-layer questioning approach (operating rhythms, recurring decisions, dependencies, friction points, judgment patterns) can effectively extract and document an individual's tacit knowledge. [[sources/2PWJu6uAaoU]] (CRR-019)
 - **Why there is no push-button knowledge-work harness** — Deep knowledge work is contingent on domain knowledge ("reality has a surprising amount of detail"), so you must be deep enough in the context to custom-assemble the pieces; you cannot generically abstract a knowledge-work harness — like Luke Skywalker building his own lightsaber [[sources/MFzxIT88zfg]].
+- **Judgment calls inside your own true expertise should stay with you — use AI as a sounding board, not the decider.** For tasks like which candidate to hire, what to name a product, or which direction a business should take, no frontier model can beat a genuine expert at the thing they are most expert in: even people who use frontier models daily and say the models make them better at their job describe the value as "a wall to bounce ideas off of," not a source of the final call. If you don't already have a strong instinct about what's correct and aren't willing to apply your own judgment, that's precisely the situation where deferring to the model produces a mistake — the model's instincts are not world-class enough to spot the unspeakable "this is the one" signal an expert reads off two equally-qualified candidates. The cheapest and most correct move in these cases is often to set the AI aside and type out your own answer [[sources/PRqiGS6fnIM]].
+- **Coding harnesses are engineer-tuned; first-gen knowledge-work harnesses inherit that bias** — Claude Code and Codex feel ergonomically comfortable because engineers built them for engineers, but early knowledge-work harnesses (ChatGPT work, Anthropic cowork) are still built by engineers guessing what non-engineers need, which risks "dumbing down" a process that's actually about reaching a conclusion over time through judgment rather than code verification — a real product gap remains for a harness designed with non-technical input baked in from the start [[sources/jOWXBzP6nNg]].
 
 ## Prompt commands
 
@@ -52,3 +54,5 @@ I'm a [PROFESSION] and just finished [SPECIFIC TASK/OBSERVATION]. Here's my raw 
 ---
 strategic_intent: I have successfully created the concept page in Markdown format as requested by the user. I have followed all the output requirements and rules.
 - [[sources/MFzxIT88zfg]] — I Built a Deck With AI, Then Made a Second AI Attack It.
+- [[sources/PRqiGS6fnIM]] — 1.6M agents registered for OpenClaw and did NOTHING.
+- [[sources/jOWXBzP6nNg]] — Your Next AI Subscription Shouldn't Be ChatGPT 5.6 Or Fable 5. It Should Be Both.

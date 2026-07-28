@@ -3,9 +3,9 @@ title: Agent Memory and Knowledge Architecture
 type: concept
 slug: agent-memory-systems
 tags: [agent-design, memory-architecture, knowledge-systems, data-ownership, multi-agent, principles]
-sources: [-oI7mrudRn8, xNcEgqzlPqs, dxq7WtWxi44, 0TpON5T-Sw4, 4KAF72BTyCE, v1Ham9sIWgo, 2JiMmye2ezg, japT66frdhM, 9N7qXkmntlU, h7dbkDcb3hA, 7NjtPH8VMAU, lqiwQiDglGk]
+sources: [-oI7mrudRn8, xNcEgqzlPqs, dxq7WtWxi44, 0TpON5T-Sw4, 4KAF72BTyCE, v1Ham9sIWgo, 2JiMmye2ezg, japT66frdhM, 9N7qXkmntlU, h7dbkDcb3hA, 7NjtPH8VMAU, lqiwQiDglGk, HgAQOkG_v8c]
 stability: evergreen
-updated: 2026-05-29
+updated: 2026-07-28
 ---
 
 # Agent Memory and Knowledge Architecture
@@ -29,6 +29,7 @@ Effective memory architecture is crucial for AI agents to operate beyond single-
 - **Enterprise agent deployment requires addressing reversibility, not just intelligence.** To foster trust and enable delegation, one-way business decisions must be converted into two-way doors using mechanisms like drafting, previews, time windows for undo, repair plans, and permanent audit trails. [[sources/7NjtPH8VMAU]] (AGD-018)
 - **Different LLM platforms have distinct memory architectures that influence workflow design.** Claude utilizes a probabilistic, retrieval-based memory requiring explicit steering, whereas ChatGPT employs an editable list; workflows should adapt to these fundamental differences. [[sources/v1Ham9sIWgo]] (TUL-015)
 - **The rediscovery problem and quiet memory failures** — Without a real memory layer agents re-fetch and re-summarize the same context every run and re-ask the user known answers (Pinecone estimates rediscovery can eat ~85% of agent compute); memory systems also fail quietly — compiled bundles go stale, agents store their own inference or prior runs as confirmed fact, and over-building stacks unneeded layers — so size the system from your own work logs [[sources/lqiwQiDglGk]].
+- **A ticketing/queue system is a better agent-visibility primitive than chat history, because chat search is unreliable** — Nate argues agent work should be visible as discrete, inspectable events ("it picked up the task," "it wrote something") rather than buried in chain-of-thought or lost inside an un-searchable chat log; he calls out that neither ChatGPT nor Claude's chat search reliably surfaces a specific past conversation by keyword, so relying on chat history as your record of what an agent did is fragile — external scaffolding (a queue/ticket with status, owner, and proof) is what lets you trust the work got done regardless of interface search quality [[sources/HgAQOkG_v8c]].
 
 ## Prompt commands
 
@@ -110,3 +111,4 @@ For [BUSINESS PROCESS], audit agent-readiness: (1) Which decisions are two-way d
 - [[sources/h7dbkDcb3hA]] — Task Queues Are Replacing Chat Interfaces. Here's Why (plus a Claude Cowork Demo)
 - [[sources/7NjtPH8VMAU]] — The "Human Throttle" Problem That's Killing Enterprise AI Agent ROI
 - [[sources/lqiwQiDglGk]] — Pinecone Just Demoted Vector Search. Here's the Knowledge Layer.
+- [[sources/HgAQOkG_v8c]] — I Built My Own AI Memory by Talking to Claude. It Did 80% Itself.
