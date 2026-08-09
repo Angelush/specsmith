@@ -3,9 +3,9 @@ title: Open Brain Systems
 type: concept
 slug: open-brain-systems
 tags: [framework, memory, agent-architecture, open-brain, portability, distributed]
-sources: ['2JiMmye2ezg', '4KAF72BTyCE', NRBQmwlILjk, 9PUaEj0pMYE, QSK4vf_ZTRA, HgAQOkG_v8c]
+sources: ['2JiMmye2ezg', '4KAF72BTyCE', NRBQmwlILjk, 9PUaEj0pMYE, QSK4vf_ZTRA, HgAQOkG_v8c, Y8vAQ1FgNbM]
 stability: evolving
-updated: 2026-07-28
+updated: 2026-08-10
 ---
 
 # Open Brain Systems
@@ -26,6 +26,7 @@ Open Brain systems are critical for future-proofing AI workflows by ensuring dat
 - **Open Skills: the portable procedure layer above memory** — Solving memory (Open Brain) exposes a second problem — the agent still doesn't know *how* you work, creating "procedural debt" visible as prompt bloat, a re-explanation tax across tools, instruction fragmentation, and weak verification. Open Skills answers it with a portable library of agent *procedures*: skills as narrow primitives (each with trigger rules, scope, tools, output, and a verification contract), runbooks as compositions, scoped personal vs project, and a session-to-skill flywheel that turns repeated work into reusable skill candidates. The skill becomes the single source of truth that cursor-rules/CLAUDE.md/Codex instructions read from instead of drifting copies. [[sources/9PUaEj0pMYE]]
 - **Open Engine: the queue is how work moves between agents** — Memory (Open Brain) and procedure (Open Skills) still leave the human as "the hallway" carrying work between five different AIs. Open Engine puts work in a shared queue (e.g., Linear) that both people and agents read: each issue states the outcome, owner, context, allowed actions, where to stop, and required proof. Agents from different providers claim-lock issues, move statuses, and leave receipts, so handoffs are visible and the human stops being the copy-paste path — moving from "output" to reviewable "work." [[sources/QSK4vf_ZTRA]]
 - **The build barrier for a self-owned memory stack has collapsed to ~1/5 of its February 2026 cost** — Nate estimates you can now build roughly 80% of the "Open Brain" stack (memory + skills + engine) just by talking to an agent like Claude or Codex, versus needing to hand-run the database setup, SQL, and config steps yourself a few months earlier; the trust-sensitive parts (which accounts to grant access to, permissions, final approval) still belong to the human, but the technical middle no longer does [[sources/HgAQOkG_v8c]].
+- **A pre-flight interception layer can stop token waste before the request ever reaches the model** — Every habit-level fix (editing prompts, batching questions, trimming sources) still runs *inside* a chat window, so a skill invoked mid-conversation can only act on what happens next — the conversation, standing instructions, tool definitions, and hidden setup are already in the envelope by the time it's invoked. Nate's "Ringer" framework instead runs locally between the AI client and the model provider: before a request goes up, it can return an answer with zero model call (e.g. by checking Open Brain for an already-accepted answer to the same question), run a fixed local recipe with no model call, select only the useful passages to forward, cap request/response size under a hard limit, or block the call entirely. This is presented as the only way to actually *enforce* hard token limits, rather than just encouraging good habits [[sources/Y8vAQ1FgNbM]].
 
 ## Prompt commands
 
@@ -60,3 +61,4 @@ Point [YOUR AGENT — Claude, Codex, etc.] at [YOUR OPEN BRAIN GUIDE OR REPO]. A
 - [[sources/9PUaEj0pMYE]] — The Skill vs Prompt Problem Everyone Gets Wrong (Open Skills launch)
 - [[sources/QSK4vf_ZTRA]] — I Was The Only Thing Connecting Claude, ChatGPT, and Codex (Open Engine launch)
 - [[sources/HgAQOkG_v8c]] — I Built My Own AI Memory by Talking to Claude. It Did 80% Itself.
+- [[sources/Y8vAQ1FgNbM]] — Paste This Into Claude, Never Hit a Token Limit Again

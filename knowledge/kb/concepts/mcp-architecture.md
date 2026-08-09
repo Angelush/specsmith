@@ -3,9 +3,9 @@ title: MCP Architecture and Failure Modes
 type: concept
 slug: mcp-architecture
 tags: [agent-design, mcp, architecture, latency, production, anti-patterns]
-sources: [b1fxYGPbHeo, 2EXyj_fHU48, D92aDGVFcRE, XlfumXPPrLY, CDClFY-R0dI, 4Bg0Q1enwS4, zP6TnEiueEc]
+sources: [b1fxYGPbHeo, 2EXyj_fHU48, D92aDGVFcRE, XlfumXPPrLY, CDClFY-R0dI, 4Bg0Q1enwS4, zP6TnEiueEc, Y8vAQ1FgNbM]
 stability: volatile
-updated: 2026-05-29
+updated: 2026-08-10
 ---
 
 # MCP Architecture and Failure Modes
@@ -26,6 +26,7 @@ MCP can be a powerful bridge, allowing AI agents to interact with a vast array o
 -   **MCP as a Distribution Strategy** — Becoming an MCP server is emerging as a significant growth hack for AI-native products, allowing them to be invoked from the agent command line and capturing a new primary distribution channel for AI-native builders. [[sources/CDClFY-R0dI]] (TRD-018)
 -   **Agent-Legible Workflows Require Primitives** — Successful agent adoption depends on work being expressed in agent-legible forms, such as clearly defined state, artifacts, change records, checks, rollback mechanisms, and traceability. Workflows locked in GUI state limit agents to advisory roles. [[sources/4Bg0Q1enwS4]] (FWK-007)
 - **Three protocols are becoming the core agent stack** — Of six agent protocols, three are consolidating into the standard stack — MCP (tool/data layer: what the agent can use), A2A (coordination layer: who it works with, via the "agent card" operating contract), and AG-UI (human-control layer: how a human observes, approves, and steers long-running agents) — while A2UI, AP2, and x402 remain contested or domain-specific; an agent that can't show its work becomes "supervision debt" [[sources/zP6TnEiueEc]].
+- **Tool definitions are paid input before the model does anything — load only the tools a job can use** — Every connected tool (MCP server, plugin) carries a standing description (what it does, when to use it, what arguments it takes) that is sent as model input on every single call, regardless of whether that tool is used. Anthropic has published that a typical setup with several tool servers connected (e.g. GitHub, Slack, Sentry, Grafana) burns roughly 55,000 tokens in tool definitions alone before the model starts working the actual request. Since models aren't yet reliably good at self-pruning this, the practical fix today is scoping which tools/plugins are loaded per job rather than connecting everything by default [[sources/Y8vAQ1FgNbM]].
 
 ## Prompt commands
 
@@ -66,3 +67,4 @@ Map the following workflow [WORKFLOW] to agent primitives: (1) What is the artif
 -   [[sources/CDClFY-R0dI]] — A Markdown File Just Replaced Your Most Expensive Design Meeting. (Google Stitch)
 -   [[sources/4Bg0Q1enwS4]] — Why AI-Native Companies Are Deleting Software You're Still Paying For
 - [[sources/zP6TnEiueEc]] — Google Spent a Year Stitching MCP, A2A, AG-UI Together. I/O Today.
+- [[sources/Y8vAQ1FgNbM]] — Paste This Into Claude, Never Hit a Token Limit Again

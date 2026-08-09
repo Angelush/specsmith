@@ -3,9 +3,9 @@ title: AI Quality Control and Taste
 type: concept
 slug: ai-quality-control
 tags: [ai-quality-control, taste, domain-expertise, articulation, encoding, institutional-knowledge]
-sources: [-FhtPUkXKO4, 5Di6o6zuMLc, A_Lv0Ze272g, 2PWJu6uAaoU, MFzxIT88zfg, ltbzgzZZmgI]
+sources: [-FhtPUkXKO4, 5Di6o6zuMLc, A_Lv0Ze272g, 2PWJu6uAaoU, MFzxIT88zfg, ltbzgzZZmgI, 2wVvdX0ZxVw, AWGoOtNgw3c]
 stability: evergreen
-updated: 2026-05-29
+updated: 2026-08-10
 ---
 
 # AI Quality Control and Taste
@@ -25,6 +25,10 @@ As AI becomes more sophisticated, generating plausible but often flawed outputs,
 - **Expertise compression creates a structural trap** — Senior expertise often becomes tacit and difficult to articulate, making it challenging to delegate to AI agents even though these experts would benefit most from such leverage. [[sources/2PWJu6uAaoU]] (PRM-028, FWK-040)
 - **Four-stage office-doc pipeline + task risk gradient** — Serious AI office work needs a four-stage pipeline (prepare sources -> produce a file spec/structure -> constrained creation -> hostile verification) and a task risk gradient (AI is low-risk for formatting/summaries, medium for source attribution, highest for numerical synthesis, financial calcs, and compliance language) — because "polish stopped meaning trust": a model can look validated while a formula is wrong across every cell with no REF error [[sources/MFzxIT88zfg]].
 - **Structural hallucination comes from the environment** — Organizational/structural hallucinations (e.g. Sullivan & Cromwell's fabricated court citations, despite top tooling) come from the messy environment around the model, not the model itself; the fix is a reviewed source-inventory table that makes the agent's judgment legible and acts as a clean review gate, not a sharper prompt [[sources/ltbzgzZZmgI]].
+- **Build the "sniff test" before you build evals** — before writing any eval, you need the unaided ability to look at a piece of agent output (code, prose, a spreadsheet, even video) and say, quickly and confidently, "this is good" or "this is not good" — not just "did it run" or "is it barely okay." Evals are downstream of this judgment, not a substitute for it; if you can't articulate what excellence looks like fast, the entire process of defining good evals stalls. This is the same discipline as noticing a stray loop that shouldn't be there or a call to an outdated tool version when a newer one is available. [[sources/2wVvdX0ZxVw]]
+- **Slop shifts verification cost downstream, it doesn't remove it** — Unread, unverified AI output doesn't save time overall, it relocates the labor: the sender gets 30 seconds of speed while the reader gets "the bill" of hours spent untangling and requesting revisions, so the true cost of AI slop is organizational wastage that shows up downstream, not a personal productivity win [[sources/AWGoOtNgw3c]].
+- **Universal anti-slop checklists relocate model convergence, they don't fix it** — Models are trained toward a shared reward "hill" of clear, confident, professional-sounding output; when everyone applies the same banned-phrase or style-taste checklist, the model just converges on a *different* uniform hill (a new sameness), so slop is accelerated by other means rather than eliminated — the fix has to be personal authorship, not another shared filter [[sources/AWGoOtNgw3c]].
+- **The read-it/mean-it send gate** — Before sending any AI-assisted writing, apply a two-question accountability filter: "If you didn't read it, don't send it. If you don't mean it, don't send it." The bar for send-worthiness isn't "AI produced something plausible," it's "I read it, I'd defend it, I take responsibility for it" — a standard for work docs, cold emails, and agent-to-agent communication alike [[sources/AWGoOtNgw3c]].
 
 ## Prompt commands
 
@@ -72,3 +76,5 @@ Map your cold-start problem against your level: (1) How much of your daily work 
 - [[sources/2PWJu6uAaoU]] — The Real Problem With AI Agents Nobody's Talking About
 - [[sources/MFzxIT88zfg]] — I Built a Deck With AI, Then Made a Second AI Attack It.
 - [[sources/ltbzgzZZmgI]] — The One AI Writing Hack Nobody Talks About.
+- [[sources/2wVvdX0ZxVw]] — Your Chatbot Hallucinated in 2024. Your Agent Lies in 2026.
+- [[sources/AWGoOtNgw3c]] — Don't Be an AI Slop Sender: Master This Skill Instead

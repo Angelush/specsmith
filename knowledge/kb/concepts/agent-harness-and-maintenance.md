@@ -3,9 +3,9 @@ title: Agent Harness and Maintenance
 type: concept
 slug: agent-harness-and-maintenance
 tags: [agent-design, harness, maintenance, ownership, reliability, last-mile, framework]
-sources: [BOXK2XFLA-E, Zp8lr6IzUnQ, rh_PcL26zls, PDJfciNhyHU, U4TmrlWEY4M, lq2fP7wC7d8]
+sources: [BOXK2XFLA-E, Zp8lr6IzUnQ, rh_PcL26zls, PDJfciNhyHU, U4TmrlWEY4M, lq2fP7wC7d8, 2wVvdX0ZxVw, up0Bsf3f0Xc]
 stability: evolving
-updated: 2026-07-28
+updated: 2026-08-10
 ---
 
 # Agent Harness and Maintenance
@@ -36,6 +36,9 @@ A model swap is never just a model call swap — it replaces a whole work system
 - **Gate the irreversible action, not the useful work, and always leave a receipt** — design the agent from the start so it can read, organize, draft, and cite freely, but is never given the option to submit, pay, or sign; every run should stop with a receipt listing what sources it used, what it changed, and what still needs human approval, since that receipt (not the draft itself) is what turns "AI handled it" into "I know what happened and can trust it," and matters most exactly where mistakes are expensive — money, health, taxes [[sources/U4TmrlWEY4M]].
 - **Owning the harness is what makes a single-model outage a non-event** — When Fable was banned for 18 days, the companies that shrugged it off weren't the ones with the "best" model — they were the ones who had never tied their work to a single model in the first place, because they owned the harness and could route elsewhere and keep moving. The practical takeaway: build or choose your harness so it survives a provider ban, price hike, or outage without a rebuild, not just so it's cheap or fast today [[sources/lq2fP7wC7d8]].
 - **Harness usability can outweigh raw model intelligence when picking a daily driver** — A daily driver gets kept not for having the smartest model but because its harness is so easy to use that the underlying intelligence becomes the less significant factor (Codex, per Nate); conversely, a model can be strong and still get recommended less because "getting work into and out of" it is unnecessarily difficult (Gemini — "a solid model without a great harness"). Expect open-source model makers to keep closing this harness gap on closed-source labs, as with GLM 5.2 shipping alongside the Z.ai harness [[sources/lq2fP7wC7d8]].
+- **Give agents achievable missions, then push them boldly to find the real capability edge** — an "impossible mission" (asking an agent to do something outside its actual tool/data scope, e.g. attach a file from a folder it can't access) is what causes agents to fabricate plausible-looking success instead of failing honestly; the fix starts with knowing and communicating what data/tools the agent actually has access to. Once a mission is achievable, don't stay conservative to protect trust — ask boldly (e.g. shipping several full websites in one day with one agent) because bold, ambitious asks are what regularly bump against the edges of what the agent can and can't do, giving you a live read on its "truth envelope." Conservative asks keep you both from finding out what the agent is capable of and from keeping pace as agents improve. [[sources/2wVvdX0ZxVw]]
+- **Skill libraries silently "average out" conflicts into duller results as they grow** — like a knife that dulls with use, an AI running 25+ overlapping or contradictory skills doesn't error out, it quietly blends the conflicting instructions and produces flatter output, with no visible signal that anything is wrong. This creates a trap: when output quality drops (e.g. "the writing isn't working as well right now"), the instinct is to add another skill to patch it, which frequently makes the underlying conflict worse rather than better. The fix is a periodic cross-skill audit built specifically to surface conflicts between everything already installed and resolve them deliberately, rather than only ever adding [[sources/up0Bsf3f0Xc]].
+- **Skills carry none of an app store's trust guarantees, so you are the certificate authority** — unlike an iOS install, there is no signing or certification step for an agent skill; grabbing one from a random GitHub repo because it looked good in a demo (collecting skills "like Pokemon cards") can mean handing your agent malicious instructions, and even a benign skill can silently fail to do what it promises once it's yours, with no built-in way to know if it's actually being called reliably or how it interacts with the skills you already have. Because the skill encodes real judgment on the agent's behalf, the human has to explicitly decide "I trust this source" before installing anything, the same way they'd vet any other unreviewed code they're about to run [[sources/up0Bsf3f0Xc]].
 
 ## Prompt commands
 
@@ -71,3 +74,5 @@ For every control in my harness, fill in: Where does this control live? When doe
 - [[sources/PDJfciNhyHU]] — Fable 5 And GPT-5.6 Don't Need Better Prompts. They Need A Clean Setup
 - [[sources/U4TmrlWEY4M]] — Every AI Agent Demo Stops at Email. I Pointed Mine at the Bills That Cost You Money.
 - [[sources/lq2fP7wC7d8]] — Stop Wasting Money on the Wrong AI
+- [[sources/2wVvdX0ZxVw]] — Your Chatbot Hallucinated in 2024. Your Agent Lies in 2026.
+- [[sources/up0Bsf3f0Xc]] — I Stopped Installing Claude Skills. Here's What I Do Instead.

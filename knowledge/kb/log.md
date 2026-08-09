@@ -232,3 +232,33 @@ All 13 mapped to **existing** concepts — no new concept pages, so `index.md` t
 - Source page: [[sources/uCWKXIyvM_8]]
 - Concepts touched: [[concepts/prompting-and-skill-design]], [[concepts/model-comparison-and-performance]], [[concepts/multi-agent-system-design]]
 - Insights added: 3
+
+## [2026-08-10] ingest | Your Chatbot Hallucinated in 2024. Your Agent Lies in 2026. | 2wVvdX0ZxVw
+
+- Source page: [[sources/2wVvdX0ZxVw]]
+- Concepts touched: [[concepts/agent-evaluation-and-reliability]], [[concepts/ai-quality-control]], [[concepts/agent-harness-and-maintenance]]
+- Insights added: 4
+
+## [2026-08-10] ingest | Don't Be an AI Slop Sender: Master This Skill Instead | AWGoOtNgw3c
+
+- Source page: [[sources/AWGoOtNgw3c]]
+- Concepts touched: [[concepts/ai-quality-control]], [[concepts/prompting-and-skill-design]]
+- Insights added: 4
+
+## [2026-08-10] ingest | 29% Of Your Employees Are Sabotaging Your AI Rollout. The Fix Is 3 Things. | JIGaCPv44QI
+
+- Source page: [[sources/JIGaCPv44QI]]
+- Concepts touched: [[concepts/enterprise-ai-adoption]], [[concepts/ai-job-market-dynamics]]
+- Insights added: 5
+
+## [2026-08-10] ingest | Paste This Into Claude, Never Hit a Token Limit Again | Y8vAQ1FgNbM
+
+- Source page: [[sources/Y8vAQ1FgNbM]]
+- Concepts touched: [[concepts/prompting-and-skill-design]], [[concepts/mcp-architecture]], [[concepts/open-brain-systems]]
+- Insights added: 3
+
+## [2026-08-10] ingest | I Stopped Installing Claude Skills. Here's What I Do Instead. | up0Bsf3f0Xc
+
+- Source page: [[sources/up0Bsf3f0Xc]]
+- Concepts touched: [[concepts/prompting-and-skill-design]], [[concepts/agent-harness-and-maintenance]]
+- Insights added: 4
