@@ -3,9 +3,9 @@ title: AI Job Market Dynamics and Hiring
 type: concept
 slug: ai-job-market-dynamics
 tags: [ai-job-market, hiring, career, talent, ai-displacement, verification]
-sources: [0teZqotpqT8, AOl5bNDf1wE, KT4v_I9zvH4, MYK0d5ikeZw, dzp0OQbElpU, qVufzX_8bqE, rYqt6mMlv7o, zCW-k5fFRgQ, JIGaCPv44QI]
+sources: [0teZqotpqT8, AOl5bNDf1wE, KT4v_I9zvH4, MYK0d5ikeZw, dzp0OQbElpU, qVufzX_8bqE, rYqt6mMlv7o, zCW-k5fFRgQ, JIGaCPv44QI, 0bLI31EFDDs, IpEaSa7tgfc]
 stability: evergreen
-updated: 2026-08-10
+updated: 2026-10-06
 ---
 
 # AI Job Market Dynamics and Hiring
@@ -25,6 +25,8 @@ AI is creating an environment where traditional hiring methods are failing, maki
 -   **AI usage is becoming a performance imperative** — Companies like Shopify are making AI tool adoption a tracked performance metric and a factor in hiring, shifting expectations toward AI-native workers and making AI adoption a minimum requirement to requalify for one's role. [[sources/dzp0OQbElpU]] (CRR-011)
 -   **Job roles face gradual hollowing-out then sudden restructuring** — AI doesn't typically eliminate jobs overnight but gradually automates routine tasks, leading to a "capability overhang." This erosion often goes unnoticed until an external shock (like a recession) triggers sudden organizational restructuring based on the new economic realities of roles. [[sources/rYqt6mMlv7o]] (TRD-058)
 - **AI's biggest near-term job impact is blurring role boundaries, not eliminating roles — and that ambiguity, not layoffs, is what drives resistance** — Major studies Nate cites point to AI blurring boundaries between jobs rather than simply deleting them, which creates ambiguity and confusion about where a given career is headed. The shift shows up concretely in engineering: engineers moving toward being system designers who write evals and push agents against a quality bar in a loop, rather than doing directly-replaced work. Leaders need a vision for this blur, not just a "your job is safe" reassurance, because the anxiety is about role definition, not just headcount [[sources/JIGaCPv44QI]].
+- **FDE title map and demand signal** — OpenAI posts forward deployed engineers up to $280K base plus equity and Handshake $300K; Anthropic's plan to train tens of thousands of FDEs reportedly produced 86, with DXC later announced to train existing engineers as certified FDEs. Highest coding bar: forward deployed (software) engineer; adjacent stepping stones: applied AI engineer, solutions/implementation/customer engineer, technical deployment lead, AI ops, AI product [[sources/0bLI31EFDDs]].
+- **Agents create more work, and the human job moves above the loop** — OpenRouter agent token usage rose ~14x February to August and now exceeds human usage 5:1; OpenAI says its heaviest Codex users generate 60+ hours of agent activity per day. A Jevons effect: more efficient agents mean more agents and more total work, so humans choose jobs, start runs, check results and decide what needs attention rather than watching steps. Expect an "agent management tax", agentic management harnesses that abstract up a level (and then raise the expected number of agents), and managers (roughly L7) becoming agent-allocation roles with no training for it. [[sources/IpEaSa7tgfc]]
 
 ## Prompt commands
 
@@ -71,3 +73,5 @@ I am a [ROLE] with deep expertise in [DOMAIN]. I want to strip overhead and work
 -   [[sources/rYqt6mMlv7o]] — AI's 'Thin Ice' Moment: Is Your Job Already Gone?
 -   [[sources/zCW-k5fFRgQ]] — She quit, picked up AI, and shipped in 30 days what her team planned for Q3.
 -   [[sources/JIGaCPv44QI]] — 29% Of Your Employees Are Sabotaging Your AI Rollout. The Fix Is 3 Things.
+- [[sources/0bLI31EFDDs]] — OpenAI Pays $280,000 For This Job. You Don't Have To Be An Engineer.
+- [[sources/IpEaSa7tgfc]] — Agents Aren't Taking Your Jobs. They're Creating More Work Instead.

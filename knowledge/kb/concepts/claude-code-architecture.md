@@ -3,9 +3,9 @@ title: Claude Code Agent Architecture
 type: concept
 slug: claude-code-architecture
 tags: [agent-design, claude-code, architecture, primitives, harness, loop]
-sources: [EDcWcPueRSE, FtCdYhspm7w, ro5jpbi5uYc, vqnAOV8NMZ4, 09sFAO7pklo, 3e7gmNPr5Vo, 0jSE0NABcY8, 2qHxfwvIx-I, ywIK4dNGFZU, CDClFY-R0dI, p9acrso71KU]
+sources: [EDcWcPueRSE, FtCdYhspm7w, ro5jpbi5uYc, vqnAOV8NMZ4, 09sFAO7pklo, 3e7gmNPr5Vo, 0jSE0NABcY8, 2qHxfwvIx-I, ywIK4dNGFZU, CDClFY-R0dI, p9acrso71KU, 4HvFqhtCb-A]
 stability: evergreen
-updated: 2026-05-12
+updated: 2026-10-06
 ---
 
 # Claude Code Agent Architecture
@@ -29,6 +29,7 @@ Anthropic's approach to agent architecture, particularly with Claude Code, provi
 - **Winning AI tools collapse distance to the artifact** — The most effective AI tools minimize the distance between the AI and the actual artifact or data being worked on, integrating directly into the work surface rather than requiring users to switch contexts. [[sources/ywIK4dNGFZU]] (TUL-016)
 - **Command-line design workflow with `design.md`** — Tools like Google Stitch can generate UI components from natural language prompts and export design decisions into an agent-readable `design.md` file, enabling coding agents to directly interpret and build according to design specifications, eliminating manual design-to-dev handoffs. [[sources/CDClFY-R0dI]] (TUL-008)
 Local-first agents offer capability with inherent security risks — Local-first agentic assistants like OpenClaw provide full capability by connecting messaging apps and LLM backends to local system tools, but they introduce significant security risks, particularly concerning credential and conversation history exposure if not carefully designed. [[sources/p9acrso71KU]] (TUL-013)
+- **Use a second launcher session, not a sub-agent, for another provider** — `/model` within a provider keeps the conversation but the next response rereads history without prompt cache (slow and costly). Moving to Z.ai changes the endpoint, so create a private `claude-glm` launcher (API key, Anthropic-compatible address, model-name mapping set outside the project) next to normal Claude. Normal sub-agents start with fresh bounded context; forks inherit the conversation and cache but must use the parent's model; no documented per-sub-agent provider. Pattern: Anthropic session as lead, GLM session as worker in a git worktree, lead reviews consequential results [[sources/4HvFqhtCb-A]].
 
 ## Related
 - [[concepts/codex-agent-architecture]] — Codex tool-shaped philosophy and sandboxing
@@ -64,6 +65,7 @@ Evaluate this AI tool using the artifact-distance test: Tool: [NAME]. (1) Where 
 ```
 Design a [PRODUCT TYPE] for [USER GOAL]. Hero section: [DESCRIPTION]. Key sections: [LIST - e.g., feature benefits, pricing with 2 tiers, FAQ]. Visual direction: [MOOD/STYLE - e.g., clean, minimal, professional]. Generate 3 direction variants. Then export design.md for use with my coding agent.
 ```
+- [[sources/4HvFqhtCb-A]] — Stop Paying $200 For Work An $18 Model Can Do Inside Claude Code And Codex.
 
 ## Related
 - [[concepts/codex-agent-architecture]] — Codex tool-shaped philosophy and sandboxing

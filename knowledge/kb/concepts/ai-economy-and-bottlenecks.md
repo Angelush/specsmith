@@ -3,9 +3,9 @@ title: AI Economy and Bottlenecks
 type: concept
 slug: ai-economy-and-bottlenecks
 tags: [bottleneck-economy, compute, inference, strategy, token-economics, trend]
-sources: [pxuXV3Q6tGY, 5Kp-Gj5qXL0, pSgy2P2q790, -bQcWs1Z9a0, RaAFquzj5B8, NCgdpbEvNVA, 9N7qXkmntlU, adNErrz2aA0]
+sources: [pxuXV3Q6tGY, 5Kp-Gj5qXL0, pSgy2P2q790, -bQcWs1Z9a0, RaAFquzj5B8, NCgdpbEvNVA, 9N7qXkmntlU, adNErrz2aA0, tYugqJ9YytQ]
 stability: volatile
-updated: 2026-05-29
+updated: 2026-10-06
 ---
 
 # AI Economy and Bottlenecks
@@ -25,6 +25,7 @@ AI's rapid advancement is fundamentally reshaping markets by creating an abundan
 - **Cloud AI consumer unit economics are broken** — Frontier labs lose money on top-tier consumer subscriptions, with investor capital subsidizing losses, leading to a two-tier AI access system where enterprises receive dedicated capacity while consumer users face metered and throttled access. [[sources/RaAFquzj5B8]] (TRD-049)
 - **Human skills for agentic future** — The massive demand demonstrated by agentic systems highlights that the "AI bubble" is actually an "underbuilt" infrastructure challenge, emphasizing the survival and increasing value of four durable human skills: taste, exquisite domain judgment, phenomenal learning speed, and relentless honesty about value migration. [[sources/NCgdpbEvNVA]] (TRD-027)
 - **SaaS's "second meter"** — Vendors are adding a second, usage-based meter for delegated agent work on top of per-seat pricing (Salesforce Agentforce bills "agentic work units" — $800M ARR, +169% YoY, 2.4B work units; Microsoft Copilot credits at varying rates; ServiceNow's action fabric); the seat was always a proxy for human value, now metered as delegated work [[sources/adNErrz2aA0]].
+- **Jevons paradox applies to judgment** — A large cost drop changes which questions are worth asking: work done once per document becomes per section or per interaction, every customer call can be examined for multiple issues, and tasks never judged at all become feasible. More classification surfaces more exceptions that need LLMs and humans, so total AI demand, including LLM work, grows. Audit your software for judgments buried in expensive AI calls, and for places where judgment was skipped as too costly [[sources/tYugqJ9YytQ]].
 
 ## Prompt commands
 
@@ -70,3 +71,4 @@ Help me audit my current role for AI displacement risk. My role: [TITLE]. My top
 - [[sources/RaAFquzj5B8]] — Apple Just Positioned Itself for the Next Trillion Dollars
 - [[sources/NCgdpbEvNVA]] — Why $650 Billion in AI Spending ISN'T Enough...
 - [[sources/adNErrz2aA0]] — Your SaaS Bill Just Got a Second Meter. You're About to Pay It.
+- [[sources/tYugqJ9YytQ]] — Why Developers Are Losing Their Minds Over AI That Can't Write

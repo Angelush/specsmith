@@ -3,9 +3,9 @@ title: AI Career Skills and Fluency
 type: concept
 slug: ai-career-skills
 tags: [career, ai-fluency, skills, mindset, framework, orchestration]
-sources: [rYqt6mMlv7o, hDpjMJw3flk, 4cuT-LKcmWs, DdlMoRSojtE, HDVG8RKYX9s, fyHnGHxGuhI, q6p-_W6_VoM, -dJ9WrTG6zQ, BYKUwsQOA8U, XlfumXPPrLY, HZ9iL_lFYgQ, BaC5FEN2e4Y, AzOJ9QLgfIk, EZ4EjJ0iDDQ, 725QE_LNXT4, UsCgEuIAclE]
+sources: [rYqt6mMlv7o, hDpjMJw3flk, 4cuT-LKcmWs, DdlMoRSojtE, HDVG8RKYX9s, fyHnGHxGuhI, q6p-_W6_VoM, -dJ9WrTG6zQ, BYKUwsQOA8U, XlfumXPPrLY, HZ9iL_lFYgQ, BaC5FEN2e4Y, AzOJ9QLgfIk, EZ4EjJ0iDDQ, 725QE_LNXT4, UsCgEuIAclE, 0bLI31EFDDs]
 stability: evergreen
-updated: 2026-06-15
+updated: 2026-10-06
 ---
 
 # AI Career Skills and Fluency
@@ -33,6 +33,9 @@ In an era where AI is rapidly commodifying traditional knowledge work, developin
 - **Use a "whiteboard" conversation to make judgment visible: situation, decision, risk, change** — To produce evidence of judgment in the AI era, run a live conversation (whiteboard, shared doc, Loom, or annotated prototype) with someone capable of pushing back, structured around four elements: (1) Situation — what's happening, who's involved, what constraints and missing facts exist, and why it's hard; (2) Decision — the plausible paths, which was chosen, and crucially which were rejected and why; (3) Risk — what could go wrong, what risk was accepted vs. removed, and naming prevented losses (a bad launch that didn't happen, a customer who didn't churn); (4) Change — what becomes clearer, safer, or faster as a result, and what stops being re-litigated. The point is connecting judgment to a change in the work, not recording everything [[sources/UsCgEuIAclE]].
 - **Talent Board reframes career evidence as comprehension-over-generation** — Standard career advice (build a portfolio) is now incomplete because AI has largely solved generation and polishing, so portfolios carry less signal. The "Talent Board" framing turns whiteboard-style reasoning sessions into durable artifacts (work samples, promotion notes, hiring packets) that show not just what was made but the evidence of understanding, sense-making, and good choices behind it — explanation as the artifact, not just the output [[sources/UsCgEuIAclE]].
 - **In a new role, form and expose a point of view early via expert pushback** — Standard onboarding advice (listen, learn the org, get quick wins) is incomplete in the AI era. A stronger first-month move is to put an early model of the work in front of someone who knows the domain deeply: state your read on the customer problem, where the team may be over-weighting something, a technical constraint you don't yet understand, and a risk you want to validate — then let that person correct you. Write down corrections, ask what evidence would settle disagreements, and add missing constraints to the whiteboard. This demonstrates the ability to learn in public without being indecisive [[sources/UsCgEuIAclE]].
+- **Pick the leverage point, not the biggest problem** — The core forward-deployed-engineer skill is choosing where a small build unblocks the most downstream work without handing the model dangerous authority (e.g. flag missing documents at claims intake, leave fraud and injury decisions with humans). Estimate it by pulling the last 10-20 real instances, classifying them, and doing rough counts of days lost; this makes the work measurable (false alarms, misses, adjuster time) [[sources/0bLI31EFDDs]].
+- **A 30-day FDE proof project** — Week 1: pull 10-20 real completed cases, classify, find leverage. Week 2: sit next to the person doing the work, correct the pain-point list, do napkin math, state scale and guardrails before building. Week 3: build the simplest solution with enterprise-style permissions, data and auth, then run clean and ugly old cases and rerun after each change. Week 4: let 2-3 people use it while you watch, then write up the impact. Experienced people compress this to 2-4 days [[sources/0bLI31EFDDs]].
+- **Domain expertise is the moat; stay in your industry** — Analysis of about 400,000 Claude Code sessions found task experts reached verified success more than twice as often as novices, and non-technical users got within a few points of technical users on code produced. FDEs should lean into the industry they already know (healthcare, manufacturing) rather than jump sectors, and need not wait for a title, since solving one real workflow with AI is the route [[sources/0bLI31EFDDs]].
 
 ## Prompt commands
 
@@ -127,3 +130,4 @@ I need to evaluate whether to use AI for [SPECIFIC TASK]. Help me assess: (1) Is
 -   [[sources/EZ4EjJ0iDDQ]] — Why Your Best Employees Quit Using AI After 3 Weeks (And the 6 Skills That Would Have Saved Them)
 - [[sources/725QE_LNXT4]] — The Prove-It Economy is Here | And Most Marketers Aren't Ready
 - [[sources/UsCgEuIAclE]] — Microsoft Says 86% Treat AI Output as a Starting Point. Your Resume Just Changed
+- [[sources/0bLI31EFDDs]] — OpenAI Pays $280,000 For This Job. You Don't Have To Be An Engineer.

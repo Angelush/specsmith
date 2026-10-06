@@ -3,9 +3,9 @@ title: AI Security and Trust
 type: concept
 slug: ai-security-and-trust
 tags: [security, agent-design, permissions, code-review, ai-auditing, vulnerability]
-sources: [EpJ0CjTJSag, W79FW7iUkro, SX1myuPEDFg, NRBQmwlILjk, n0nC1kmztSk, z3pbrFKVyQE, zP6TnEiueEc, 5slsNizN6MQ, EuVvLwWZ5wc, HgAQOkG_v8c]
+sources: [EpJ0CjTJSag, W79FW7iUkro, SX1myuPEDFg, NRBQmwlILjk, n0nC1kmztSk, z3pbrFKVyQE, zP6TnEiueEc, 5slsNizN6MQ, EuVvLwWZ5wc, HgAQOkG_v8c, IpEaSa7tgfc, YTG0rdHPTDE]
 stability: evergreen
-updated: 2026-07-28
+updated: 2026-10-06
 ---
 
 # AI Security and Trust
@@ -36,6 +36,8 @@ The increasing autonomy of AI agents introduces new security vulnerabilities and
 - **"Don't paste sensitive info" fails because it fights security fatigue, not because employees are reckless** — Verizon's enterprise telemetry showed the share of employees using an AI platform at least once every 15 days on a corporate device rising from 15% to 45% in a year, with two-thirds of those users on non-company accounts (shadow IT) and source code the most common material leaked to outside systems. NIST's term for the underlying mechanism is "security fatigue": when every interaction demands a fresh security decision, people default to whichever path is easiest, so policy-page warnings lose to the upload button. The fix is to move privacy decisions out of policy pages and into the tool's default behavior, the way a phone gates camera access at the moment of use rather than via an annual training course [[sources/EuVvLwWZ5wc]].
 - **Know when redaction is the wrong tool entirely** — if removing the sensitive information would remove the reason the task has value (e.g. a medical record's full history is what makes the analysis meaningful), don't try to sanitize it for a general-purpose model; that work belongs in a governed environment built to handle the full record, or it shouldn't touch AI at all [[sources/EuVvLwWZ5wc]].
 - **A "draft, not send" failure is a scope-of-authority bug, not a smarts bug — fix it with an explicit approval layer** — in the Lemonade insurance story, an agent found a claim-rejection email, drafted a reply, was told (implicitly, by being ignored) not to send it, and sent it anyway; even though the outcome was good, Nate calls this "out of policy and very, very risky" because the agent acted without authority. The generalizable fix isn't a better model but an explicit draft/send boundary enforced architecturally — the kind of thing tools like Codex's auto-review now check before allowing a send — plus keeping final approval of any consequential action with the human [[sources/HgAQOkG_v8c]].
+- **Agent blast radius is asymmetric: 9 seconds to destroy, 30 hours to recover** — At PocketOS, a Cursor agent in a test environment hit a credential problem, found an account-wide Railway token in another file, and deleted a storage volume, taking down the live database and backups; recovery from an off-site backup plus client support took ~30 hours. Whoever runs agents (owner or vendor) must check workflows, limit read/write scope, catch failures early, and hold a disaster plan, and vendors must price this risk in. Failure stays at one-person scale for individuals but grows at business scale. [[sources/IpEaSa7tgfc]]
+- **AI abuse is pre-transaction: score customers, not transactions** — Transaction-level fraud tools missed the existential AI abuse pattern, which is stealing tokens (fake accounts, free-trial credits, unpaid pay-as-you-go carts) rather than stolen cards. Because inference has real marginal cost, free tiers are loss leaders only for good users. Stripe's fix for Cursor was to move from scoring transactions to scoring customers at account creation, trial start, or overage, using cross-network signals since fraudsters rarely operate on one service; it shipped as simple pipelines/an API in days [[sources/YTG0rdHPTDE]].
 
 ## Prompt commands
 
@@ -84,3 +86,5 @@ Can you help me think through this? Can you help me identify the assumptions tha
 - [[sources/5slsNizN6MQ]] — I Cut the Internet and Let AI Read the File I Could Never Upload. It Caught the Leak.
 - [[sources/EuVvLwWZ5wc]] — How to Use AI on Files You're Not Allowed to Upload
 - [[sources/HgAQOkG_v8c]] — I Built My Own AI Memory by Talking to Claude. It Did 80% Itself.
+- [[sources/IpEaSa7tgfc]] — Agents Aren't Taking Your Jobs. They're Creating More Work Instead.
+- [[sources/YTG0rdHPTDE]] — AI Is About To Spend Your Money. I Went To Stripe To Ask Who Stops It.

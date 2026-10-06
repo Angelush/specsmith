@@ -262,3 +262,111 @@ All 13 mapped to **existing** concepts — no new concept pages, so `index.md` t
 - Source page: [[sources/up0Bsf3f0Xc]]
 - Concepts touched: [[concepts/prompting-and-skill-design]], [[concepts/agent-harness-and-maintenance]]
 - Insights added: 4
+
+## [2026-08-20] ingest | Cheap software made your PM job harder, not easier. Here's the new job. | b6J387xJvHg
+
+- Source page: [[sources/b6J387xJvHg]]
+- Concepts touched: [[concepts/organizational-ai-transformation]], [[concepts/enterprise-ai-adoption]]
+- Insights added: 4
+
+## [2026-08-20] ingest | Claude Design Does In 30 Minutes What Your Team Does In A Sprint | KlPxWaY91rE
+
+- Source page: [[sources/KlPxWaY91rE]]
+- Concepts touched: [[concepts/organizational-ai-transformation]], [[concepts/ai-industry-competitive-landscape]]
+- Insights added: 4
+
+## [2026-08-20] ingest | I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything. | E1idsrv79tI
+
+- Source page: [[sources/E1idsrv79tI]]
+- Concepts touched: [[concepts/ai-engineering-principles]]
+- Insights added: 5
+
+## [2026-08-20] ingest | Nobody Typed A Line Of OpenAI's Million-Line Product. You Can Work This Way Too. | HZLPhPbw3fM
+
+- Source page: [[sources/HZLPhPbw3fM]]
+- Concepts touched: [[concepts/agent-memory-systems]]
+- Insights added: 5 (plus 1 prompt command)
+
+## [2026-08-20] ingest | Nobody Laid Out The Five Kinds Of Software You Can Make. So I Did. | joRXo6x7Pgk
+
+- Source page: [[sources/joRXo6x7Pgk]]
+- Concepts touched: [[concepts/vibe-coding-phenomenon]], [[concepts/open-brain-systems]]
+- Insights added: 5 (plus 1 prompt command)
+
+## [2026-10-06] ingest | OpenAI Pays $280,000 For This Job. You Don't Have To Be An Engineer. | 0bLI31EFDDs
+
+- Source page: [[sources/0bLI31EFDDs]]
+- Concepts touched: [[concepts/ai-career-skills]], [[concepts/agent-evaluation-and-reliability]], [[concepts/ai-job-market-dynamics]]
+- Insights added: 5
+
+## [2026-10-06] ingest | Nobody Gave You A Control For Quality. 6 Habits So You Can Ship Faster Anyway. | 2IAYFgAqX6g
+
+- Source page: [[sources/2IAYFgAqX6g]]
+- Concepts touched: [[concepts/agent-harness-and-maintenance]], [[concepts/agent-memory-systems]], [[concepts/ai-quality-control]]
+- Insights added: 6
+
+## [2026-10-06] ingest | Stop Paying $200 For Work An $18 Model Can Do Inside Claude Code And Codex. | 4HvFqhtCb-A
+
+- Source page: [[sources/4HvFqhtCb-A]]
+- Concepts touched: [[concepts/model-selection-frameworks]], [[concepts/agent-memory-systems]], [[concepts/claude-code-architecture]], [[concepts/codex-agent-architecture]]
+- Insights added: 5
+
+## [2026-10-06] ingest | How I Fight AI Brain Rot. Friction Maxxing With Codex, Grok And Claude. | CSCwaqVqHGE
+
+- Source page: [[sources/CSCwaqVqHGE]]
+- Concepts touched: [[concepts/ai-builder-mindset]], [[concepts/agent-evaluation-and-reliability]], [[concepts/ai-quality-control]], [[concepts/multi-agent-system-design]]
+- Insights added: 4
+
+## [2026-10-06] ingest | Agents Aren't Taking Your Jobs. They're Creating More Work Instead. | IpEaSa7tgfc
+
+- Source page: [[sources/IpEaSa7tgfc]]
+- Concepts touched: [[concepts/ai-job-market-dynamics]], [[concepts/knowledge-work-delegation]], [[concepts/practical-agent-adoption]], [[concepts/enterprise-ai-adoption]], [[concepts/ai-security-and-trust]]
+- Insights added: 5
+
+## [2026-10-06] ingest | I Stopped Knowing What My Computer Was Doing. Then I Asked OpenAI Why. | TR8RDUzQaMo
+
+- Source page: [[sources/TR8RDUzQaMo]]
+- Concepts touched: [[concepts/codex-agent-architecture]], [[concepts/organizational-ai-transformation]], [[concepts/model-selection-frameworks]], [[concepts/chatgpt-agentic-design]], [[concepts/generative-ui-strategy]]
+- Insights added: 5
+
+## [2026-10-06] ingest | AI Is About To Spend Your Money. I Went To Stripe To Ask Who Stops It. | YTG0rdHPTDE
+
+- Source page: [[sources/YTG0rdHPTDE]]
+- Concepts touched: [[concepts/ai-security-and-trust]], [[concepts/agentic-commerce]], [[concepts/ai-roi-and-value-proposition]]
+- Insights added: 5
+
+## [2026-10-06] ingest | You can be ambitious without the huge token bill. Here's how. | eLpRDIvOMEw
+
+- Source page: [[sources/eLpRDIvOMEw]]
+- Concepts touched: [[concepts/ai-roi-and-value-proposition]], [[concepts/model-selection-frameworks]], [[concepts/agent-harness-and-maintenance]], [[concepts/agent-evaluation-and-reliability]]
+- Insights added: 6
+
+## [2026-10-06] ingest | There Are Jobs You Could Never Give AI. I Gave GPT-6 Astra 20 Hours Of Admin. | ix8SsXjBc7M
+
+- Source page: [[sources/ix8SsXjBc7M]]
+- Concepts touched: [[concepts/knowledge-work-delegation]], [[concepts/multi-agent-system-design]], [[concepts/model-comparison-and-performance]]
+- Insights added: 5 (plus 1 prompt command)
+
+## [2026-10-06] ingest | Runable Raised $21 Million On Agents That Finish. Nobody Told Yours What Done Means. | qYe1GsMRElw
+
+- Source page: [[sources/qYe1GsMRElw]]
+- Concepts touched: [[concepts/agent-evaluation-and-reliability]], [[concepts/ai-quality-control]], [[concepts/enterprise-ai-adoption]], [[concepts/ai-roi-and-value-proposition]], [[concepts/practical-agent-adoption]]
+- Insights added: 5
+
+## [2026-10-06] ingest | When Will AI Make Me Scrambled Eggs? I Went To NVIDIA To Find Out. | ry9J1i3krIY
+
+- Source page: [[sources/ry9J1i3krIY]]
+- Concepts touched: [[concepts/agent-evaluation-and-reliability]], [[concepts/agent-harness-and-maintenance]], [[concepts/ai-infrastructure-evolution]] (+ 1 new: [[concepts/world-models-and-physical-ai]])
+- Insights added: 6
+
+## [2026-10-06] ingest | Why Developers Are Losing Their Minds Over AI That Can't Write | tYugqJ9YytQ
+
+- Source page: [[sources/tYugqJ9YytQ]]
+- Concepts touched: [[concepts/agent-orchestration-architecture]], [[concepts/ai-economy-and-bottlenecks]] (+ 1 new: [[concepts/general-purpose-classifiers]])
+- Insights added: 5
+
+## [2026-10-06] lint | refreshed stale index.md stats line (53 concepts, 314 source pages, 342 videos); added 2 new concepts to index
+
+## [2026-10-06] grounding | wired general-purpose-classifiers → decompose-tasks
+
+## [2026-10-06] grounding | world-models-and-physical-ai ingested but not yet grounded (no worker skill fits cleanly)

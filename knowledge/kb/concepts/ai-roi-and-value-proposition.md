@@ -3,9 +3,9 @@ title: AI ROI and Value Proposition
 type: concept
 slug: ai-roi-and-value-proposition
 tags: [roi, investment, ai-tools, cost-benefit, strategy, framework]
-sources: [-5zFZznthw0, 1FKxyPAJ2Ok, vDtwS1w16K4, u-giatW9mYU, LIkYVsxMpS8, hYcOFTMesGc]
+sources: [-5zFZznthw0, 1FKxyPAJ2Ok, vDtwS1w16K4, u-giatW9mYU, LIkYVsxMpS8, hYcOFTMesGc, YTG0rdHPTDE, eLpRDIvOMEw, qYe1GsMRElw]
 stability: evergreen
-updated: 2026-07-28
+updated: 2026-10-06
 ---
 
 # AI ROI and Value Proposition
@@ -25,6 +25,11 @@ Successfully integrating AI requires a clear understanding of its value beyond m
 -   **AI amplifies ambition, not just efficiency** — Companies should frame AI adoption through the lens of Jevons' paradox; the dramatic reduction in execution cost should enable entirely new, ambitious projects rather than solely leading to headcount reductions. AI shifts the bottleneck from "can we build it?" to "should we build it?", unlocking new demand for human insight and creativity. [[sources/u-giatW9mYU]] (MND-013)
 - **40% of agentic projects die by 2027 — and why** — Gartner projects that over 40% of agentic AI projects are killed by end of 2027 from cost, unclear business value, and weak risk controls — not the tech; the classic trap is a vendor demo that wins on the routine case while production traffic is mostly exceptions, which is where the value actually lives [[sources/LIkYVsxMpS8]].
 - **The digital-photography analogy for zero-cost execution** — cheap film once forced choices about which shots mattered; cheap AI execution removed that natural discipline without removing the importance of choosing, so choices just became easier to avoid. An AI-heavy organization must explicitly answer two questions that cheap execution no longer answers for you — "what can we make now?" and "what are we unwilling to spend time on, even if it's nearly free?" — otherwise volume swamps judgment the way 40,000 vacation photos bury the one that mattered [[sources/hYcOFTMesGc]].
+- **Outcome-based pricing only cleanly works when outcome maps to tokens plus evals** — The tractable case is token billing tracked in real time, an eval-driven router picking the cheapest model that meets quality/cost/latency constraints, and price equal to token cost plus markup. For heterogeneous outcomes it is unsolved: customers will state desired outcomes (they want them to happen) but not reveal how much they value them, and the model underneath changes constantly, so "the SKU" is dissolving into a product-plus-models combination [[sources/YTG0rdHPTDE]].
+- **Token cost multiplies: runs x tokens per run** — Agentic capability changes the size of each request (investigating an account, reading more, calling tools, following up), so more agents running and far more tokens per run compound (10x runs at 100x tokens is 1000x). Routing every ordinary request through the most expensive path is a harness design decision, not "greedy users"; if you want broad adoption, build the affordable path for ordinary work rather than blaming people [[sources/eLpRDIvOMEw]].
+- **Delete work before optimizing the model (blank-sheet value streams)** — Agent-ifying every department's inherited process just passes the interoffice envelope around with agents. Start from the 5-8 CEO-level value streams (win, deliver, keep, collect), define what an extraordinary end result needs (e.g., an accurate, authorized quote, a record, and escalation of unresolved items), and draw the shortest path. Steps that existed only because teams or systems could not read each other (summaries, reformatting, re-reconciling drifted copies) lose their job, cost zero tokens, and remove failure points. Keep real requirements (price correctness, approval, audit record). Someone who owns the business result must have the authority to cross departments and delete steps; engineers alone can only make steps cheaper [[sources/eLpRDIvOMEw]].
+- **Judge token spend by value, not the leaderboard** — A rising AI bill is fine if it buys more customers served, faster correct answers and fewer repaired handoffs; it is waste if six agents write reports nobody reads. Both look identical on a token dashboard, so tie spend to business outcome. Also, embed agents where people already work (e.g., Slack) so a small kept promise drives repeat use and spread beyond the early-adopter 5% [[sources/eLpRDIvOMEw]].
+- **Grade agents on existing business measures and run the unplug test** — Do not score go-to-market agents on leads scraped or messages sent; use speed to lead, time to booked meeting, conversion to opportunity, deal size, CAC, pipeline and revenue. Ask whether qualified people entered the pipeline because of the content. Entrepreneurs should ask "if I unplugged this agent tomorrow, what would actually stop happening?" — if the answer is only process, it is not doing business work [[sources/qYe1GsMRElw]].
 
 ## Prompt commands
 
@@ -67,3 +72,6 @@ Given that AI has dropped our execution cost by [X factor], what projects or ini
 -   [[sources/u-giatW9mYU]] — AI Made Every Company 10x More Productive. The Ones Cutting Headcount Are Telling on Themselves.
 - [[sources/LIkYVsxMpS8]] — When to Automate, Build, Buy, Hire, or Wait on AI
 - [[sources/hYcOFTMesGc]] — Your Roadmap Is Why You're Losing to AI-Native Teams.
+- [[sources/YTG0rdHPTDE]] — AI Is About To Spend Your Money. I Went To Stripe To Ask Who Stops It.
+- [[sources/eLpRDIvOMEw]] — You can be ambitious without the huge token bill. Here's how.
+- [[sources/qYe1GsMRElw]] — Runable Raised $21 Million On Agents That Finish. Nobody Told Yours What Done Means.

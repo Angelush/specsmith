@@ -3,9 +3,9 @@ title: ChatGPT Agentic Design and Prompting
 type: concept
 slug: chatgpt-agentic-design
 tags: [agent-design, prompting, agentic, chatgpt-5-1, loop-design, metaprompt]
-sources: [4HeS_C02yAE, uySTyxsmrxM, 11Bq5sxbP68, hvTGYMq3pfg]
+sources: [4HeS_C02yAE, uySTyxsmrxM, 11Bq5sxbP68, hvTGYMq3pfg, TR8RDUzQaMo]
 stability: evergreen
-updated: 2026-05-12
+updated: 2026-10-06
 ---
 
 # ChatGPT Agentic Design and Prompting
@@ -32,6 +32,7 @@ Effective agentic design and precise prompting are crucial for harnessing the fu
 - **The "precision tax" in GPT-5** — vague or contradictory signals cause arbitrary routing to sub-models, leading to less focused and potentially incorrect outputs. [[sources/hvTGYMq3pfg]] (PRM-023)
 - **Treat prompts as software specifications** — for ChatGPT 5.1, prompts should be explicit mini-specs with input/output contracts, separating role, objective, inputs, and output format into distinct blocks for faithful instruction following. [[sources/uySTyxsmrxM]] (PRM-027)
 - **Debugging ChatGPT 5.1 requires checking for conflicting instructions** — the model takes instructions seriously, and contradictions cause visible oscillation; resolve conflicts first when behavior is off. [[sources/uySTyxsmrxM]] (PRM-027)
+- **Design for mid-run interjection, cheap clarifying questions, and proactive but high-bar insights** — As runs lengthen, the agent interaction is bidirectional: users read intermediate messages, redirect the agent, or hand a printout to a second agent for fresh eyes, and sometimes realize 20 minutes in that their own request was wrong. One clarifying question (even a yes/no pushed to a phone) can prevent a long run built on a wrong assumption. Proactive features (a 9 a.m. report on what you are not asking about, such as a blind-spot retention segment) need a higher confidence bar and token discipline: no overnight inference for three spammy insights. [[sources/TR8RDUzQaMo]]
 
 ## Prompt commands
 
@@ -78,3 +79,4 @@ Audit this system prompt for conflicts: [PASTE SYSTEM PROMPT]. Identify: (1) any
 - [[sources/uySTyxsmrxM]] — ChatGPT 5.1 Is the First True AI Worker: Here's What Changed
 - [[sources/11Bq5sxbP68]] — The Real Difference Between Gemini 3 and ChatGPT 5.1—Context vs. Task
 - [[sources/hvTGYMq3pfg]] — ChatGPT-5 Prompting is Too Hard: This Video Makes it Easy for You
+- [[sources/TR8RDUzQaMo]] — I Stopped Knowing What My Computer Was Doing. Then I Asked OpenAI Why.

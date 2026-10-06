@@ -3,9 +3,9 @@ title: Open Brain Systems
 type: concept
 slug: open-brain-systems
 tags: [framework, memory, agent-architecture, open-brain, portability, distributed]
-sources: ['2JiMmye2ezg', '4KAF72BTyCE', NRBQmwlILjk, 9PUaEj0pMYE, QSK4vf_ZTRA, HgAQOkG_v8c, Y8vAQ1FgNbM]
+sources: ['2JiMmye2ezg', '4KAF72BTyCE', NRBQmwlILjk, 9PUaEj0pMYE, QSK4vf_ZTRA, HgAQOkG_v8c, Y8vAQ1FgNbM, joRXo6x7Pgk]
 stability: evolving
-updated: 2026-08-10
+updated: 2026-08-20
 ---
 
 # Open Brain Systems
@@ -27,6 +27,7 @@ Open Brain systems are critical for future-proofing AI workflows by ensuring dat
 - **Open Engine: the queue is how work moves between agents** — Memory (Open Brain) and procedure (Open Skills) still leave the human as "the hallway" carrying work between five different AIs. Open Engine puts work in a shared queue (e.g., Linear) that both people and agents read: each issue states the outcome, owner, context, allowed actions, where to stop, and required proof. Agents from different providers claim-lock issues, move statuses, and leave receipts, so handoffs are visible and the human stops being the copy-paste path — moving from "output" to reviewable "work." [[sources/QSK4vf_ZTRA]]
 - **The build barrier for a self-owned memory stack has collapsed to ~1/5 of its February 2026 cost** — Nate estimates you can now build roughly 80% of the "Open Brain" stack (memory + skills + engine) just by talking to an agent like Claude or Codex, versus needing to hand-run the database setup, SQL, and config steps yourself a few months earlier; the trust-sensitive parts (which accounts to grant access to, permissions, final approval) still belong to the human, but the technical middle no longer does [[sources/HgAQOkG_v8c]].
 - **A pre-flight interception layer can stop token waste before the request ever reaches the model** — Every habit-level fix (editing prompts, batching questions, trimming sources) still runs *inside* a chat window, so a skill invoked mid-conversation can only act on what happens next — the conversation, standing instructions, tool definitions, and hidden setup are already in the envelope by the time it's invoked. Nate's "Ringer" framework instead runs locally between the AI client and the model provider: before a request goes up, it can return an answer with zero model call (e.g. by checking Open Brain for an already-accepted answer to the same question), run a fixed local recipe with no model call, select only the useful passages to forward, cap request/response size under a hard limit, or block the call entirely. This is presented as the only way to actually *enforce* hard token limits, rather than just encouraging good habits [[sources/Y8vAQ1FgNbM]].
+- **Nate maps his own tool suite in plain language for non-technical builders, each solving a distinct problem** — Open Brain holds the software's less-structured personal or institutional context (why you chose this dishwasher part, what the technician said, which problems keep recurring) alongside or instead of a normal database; Open Skills keeps a coding builder consistent on a repeated method (protecting secrets, keeping git history, checking real scenarios) across sessions; Open Engine hands work between tools, agents, or people on a longer-lived project without re-explaining the whole story each time; and Ringer supervises several agents changing a system at once, token-efficiently. All four stay optional — a first app built with one agent needs none of them. [[sources/joRXo6x7Pgk]]
 
 ## Prompt commands
 

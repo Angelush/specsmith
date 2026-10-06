@@ -3,9 +3,9 @@ title: AI Industry Competitive Landscape
 type: concept
 slug: ai-industry-competitive-landscape
 tags: [openai, anthropic, apple, gemini, platform, business-model]
-sources: [JYcidOS9ozU, nktAnCHK94I, prODjJ9oQyM, BhXNtvZvziY, j5_wcDifNko, jwtpMSRAPAQ]
+sources: [JYcidOS9ozU, nktAnCHK94I, prODjJ9oQyM, BhXNtvZvziY, j5_wcDifNko, jwtpMSRAPAQ, KlPxWaY91rE]
 stability: volatile
-updated: 2026-05-29
+updated: 2026-08-20
 ---
 
 # AI Industry Competitive Landscape
@@ -24,6 +24,7 @@ Understanding the AI industry's competitive landscape is crucial for strategic p
 -   **Apple is implementing a convergent agentic strategy for the iPhone, integrating AI at the OS level.** This involves Siri as a standalone chat app with ambient intelligence, an App Intents framework for third-party app capabilities, native OS-level MCP integration for 1.5 billion users, and Gemini as a white-labeled LLM backend for complex reasoning, pushing developers to ensure their apps are agent-accessible. [[sources/BhXNtvZvziY]] (TRD-017)
 - **The runtime owner wins governance** — In agentic commerce the platform that owns the agent runtime (AWS Bedrock AgentCore Payments, with Coinbase + Stripe) need not own a payment rail — owning the runtime that sees task, tools, policy, and budget is the powerful seat, and platform commerce stays controlled (Amazon resists unauthorized agentic browsing), so this is not a march to open interoperability [[sources/j5_wcDifNko]].
 - **Four pressures squeezing generic enterprise-AI wrappers** — Generic enterprise-AI wrappers get squeezed by four converging pressures: frontier labs moving down-stack (deployment companies, Claude design/finance templates), consultancies moving up-stack (McKinsey/BCG/Accenture in OpenAI's Frontier Alliance), systems of record exposing governed agent APIs, and private equity acting as a portfolio-wide distribution channel [[sources/jwtpMSRAPAQ]].
+- **Claude Design's bet: code, not Figma's proprietary primitives, is the medium AI design actually runs on** — frontier models were trained on code (HTML/CSS/SVG), not on Figma's file format, so Claude Design's output is the UI already written in the medium it will run in rather than a pixel approximation an engineer has to rebuild — which is why the hand-off to Claude Code has no translation layer. Google's near-immediate countermove, design.md (an open-sourced plain-text spec for design tokens, type scale, and component rules that any AI tool can read before generating), bets on standardization and openness rather than Anthropic's bet on an owned, integrated stack — both agree code/markdown has replaced proprietary design files as the substrate; they disagree on whether that substrate should be a shared open spec or a single vendor's coordinated pipeline. Mike Krieger (Anthropic's CPO) stepped down from Figma's board days before the launch. [[sources/KlPxWaY91rE]]
 
 ## Prompt commands
 

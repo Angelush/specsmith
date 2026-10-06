@@ -3,9 +3,9 @@ title: AI Quality Control and Taste
 type: concept
 slug: ai-quality-control
 tags: [ai-quality-control, taste, domain-expertise, articulation, encoding, institutional-knowledge]
-sources: [-FhtPUkXKO4, 5Di6o6zuMLc, A_Lv0Ze272g, 2PWJu6uAaoU, MFzxIT88zfg, ltbzgzZZmgI, 2wVvdX0ZxVw, AWGoOtNgw3c]
+sources: [-FhtPUkXKO4, 5Di6o6zuMLc, A_Lv0Ze272g, 2PWJu6uAaoU, MFzxIT88zfg, ltbzgzZZmgI, 2wVvdX0ZxVw, AWGoOtNgw3c, 2IAYFgAqX6g, CSCwaqVqHGE, qYe1GsMRElw]
 stability: evergreen
-updated: 2026-08-10
+updated: 2026-10-06
 ---
 
 # AI Quality Control and Taste
@@ -29,6 +29,10 @@ As AI becomes more sophisticated, generating plausible but often flawed outputs,
 - **Slop shifts verification cost downstream, it doesn't remove it** — Unread, unverified AI output doesn't save time overall, it relocates the labor: the sender gets 30 seconds of speed while the reader gets "the bill" of hours spent untangling and requesting revisions, so the true cost of AI slop is organizational wastage that shows up downstream, not a personal productivity win [[sources/AWGoOtNgw3c]].
 - **Universal anti-slop checklists relocate model convergence, they don't fix it** — Models are trained toward a shared reward "hill" of clear, confident, professional-sounding output; when everyone applies the same banned-phrase or style-taste checklist, the model just converges on a *different* uniform hill (a new sameness), so slop is accelerated by other means rather than eliminated — the fix has to be personal authorship, not another shared filter [[sources/AWGoOtNgw3c]].
 - **The read-it/mean-it send gate** — Before sending any AI-assisted writing, apply a two-question accountability filter: "If you didn't read it, don't send it. If you don't mean it, don't send it." The bar for send-worthiness isn't "AI produced something plausible," it's "I read it, I'd defend it, I take responsibility for it" — a standard for work docs, cold emails, and agent-to-agent communication alike [[sources/AWGoOtNgw3c]].
+- **Own the outer loop, automate the inner loop** — Agents investigate, code, test and retry autonomously; the human decides the goal, allowed and forbidden actions, and what evidence means ship. Encode this as checks (tests, lint rules, permissions) plus often a supervisor agent that holds the bar, with humans focusing on legal risk, security and product judgment. Before a project, write down what the agent will do, what it will check, and how you will decide to ship. Endless AI output nobody on the team understands is an accountability failure [[sources/2IAYFgAqX6g]].
+- **Give the agent a way to see whether its work is good** — Avoid the loop where you describe the screen every iteration: build playgrounds where the agent can try changes, save experiments as shareable links, and run an automatic checker. Turn recurring agent mistakes into a reusable skill or automatic code check rather than a paragraph in a giant instruction file; before copying Lauren Tan's "barely read code" stance (2,462 PRs in August), build the checks that make it safe. PR count is not value [[sources/2IAYFgAqX6g]].
+- **Interfaces push toward the center of the distribution; resist the polished default** — Iterating "fix this paragraph/bug/design" is a gradient descent toward what the model already knows well, producing polished but generic output (e.g. Claude's current clay/maroon design attractor, previously dark linear purple). Ask whether a correction changes you and your vision, not just the artifact; instead of requesting random variations, articulate what you dislike and why, and ask a human, who may spot issues (e.g. too text-heavy) all models missed. [[sources/CSCwaqVqHGE]]
+- **The average-engineer legibility test for agent code** — Pass criteria must include maintainability: can your second- or third-best engineer open a random agent-written file and explain what it does and why in 20 minutes or less? Back it with constraints agents need but humans resent: file/function size caps, reusable modules instead of fresh implementations per task, comments that explain trade-offs, tough tests that are not rewritten to bless answers, and cyclomatic complexity audits (one case fell from 91 to 12). The standard is harsher at an SMB because nobody can rescue an incomprehensible codebase [[sources/qYe1GsMRElw]].
 
 ## Prompt commands
 
@@ -78,3 +82,6 @@ Map your cold-start problem against your level: (1) How much of your daily work 
 - [[sources/ltbzgzZZmgI]] — The One AI Writing Hack Nobody Talks About.
 - [[sources/2wVvdX0ZxVw]] — Your Chatbot Hallucinated in 2024. Your Agent Lies in 2026.
 - [[sources/AWGoOtNgw3c]] — Don't Be an AI Slop Sender: Master This Skill Instead
+- [[sources/2IAYFgAqX6g]] — Nobody Gave You A Control For Quality. 6 Habits So You Can Ship Faster Anyway.
+- [[sources/CSCwaqVqHGE]] — How I Fight AI Brain Rot. Friction Maxxing With Codex, Grok And Claude.
+- [[sources/qYe1GsMRElw]] — Runable Raised $21 Million On Agents That Finish. Nobody Told Yours What Done Means.

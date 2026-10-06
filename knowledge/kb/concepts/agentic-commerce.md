@@ -3,9 +3,9 @@ title: Agentic Commerce and Platform Shifts
 type: concept
 slug: agentic-commerce
 tags: [agentic-commerce, agents, business-opp, buyer-power, disruption, trend]
-sources: [XGvDbeoSN3E, 725QE_LNXT4, j5_wcDifNko]
+sources: [XGvDbeoSN3E, 725QE_LNXT4, j5_wcDifNko, YTG0rdHPTDE]
 stability: evolving
-updated: 2026-05-29
+updated: 2026-10-06
 ---
 
 # Agentic Commerce and Platform Shifts
@@ -25,6 +25,9 @@ Agentic commerce matters because it represents a profound shift in market dynami
 - **Agents do the shopping; brand loyalty constrains them** — Agents already mediate purchases whether buyers admit it or not; without provable, structured product data you are flattened to the category average, while strong by-name brand loyalty constrains the agent to a single pick instead of surfacing 15 alternatives [[sources/725QE_LNXT4]].
 - **Six contested layers of an agentic purchase** — An agentic purchase unbundles into six fought-over layers (where to shop, authorization, credential ownership, payment rails, governance, responsibility); ACP (OpenAI+Stripe checkout) and UCP (Shopify+Google merchant control) answer different questions, and authorization (Google AP2 mandates) is not the same as payment — a receipt cannot settle a dispute [[sources/j5_wcDifNko]].
 - **Readiness test for agent transactions** — A company that cannot define identity, permission, payment, settlement, refunds, and liability is not ready to let agents transact; the platform that owns the agent runtime (AWS Bedrock AgentCore) wins governance leverage over the payment providers [[sources/j5_wcDifNko]].
+- **Agents need machine-readable sellers and usage-based pricing** — Agents will not sign annual contracts or talk to sales, so product-led growth to agents requires sellers to declare in machine-readable form what they sell, what it costs and how to pay (Stripe's Machine Payments Protocol), plus usage-based microtransactions and a wallet the user funds for the agent. Sellers in turn want trust scores about the buying agent, passed along like human fraud signals [[sources/YTG0rdHPTDE]].
+- **Spend-approval thresholds and the retractable-leash trust ramp** — The baseline control is "go on any side quest, but approve before spending my money," with user-set thresholds (skip approvals under $5 or the first $100). Trust expands incrementally like early online shopping (nobody bought a leather couch first): start with tightly constrained budgets for things like coffee, and loosen as billing-for-outcomes, evals and routing infrastructure build confidence. Stripe sees real demand for wallet controls and constrained, rational agent spending rather than runaway behavior [[sources/YTG0rdHPTDE]].
+- **Agent-to-agent procurement could erode consumer surplus** — Agents are relentless negotiators who will return again and again, so agent-to-agent markets can discover willingness-to-pay far more efficiently than human procurement and erode surplus quickly. Stripe was also surprised that early agent spend leaped into physical-world purchases (e.g., mailing a Mother's Day card), with surprises coming from consumers late on the adoption curve rather than Silicon Valley power users [[sources/YTG0rdHPTDE]].
 
 ## Prompt commands
 
@@ -44,3 +47,4 @@ Audit [BUSINESS/PRODUCT] for agent-accessibility. Evaluate: (1) Can an agent dis
 -   [[sources/XGvDbeoSN3E]] — Stripe, Visa, Mastercard, Microsoft, Meta. All Building The Same Thing.
 - [[sources/725QE_LNXT4]] — The Prove-It Economy is Here | And Most Marketers Aren't Ready
 - [[sources/j5_wcDifNko]] — ChatGPT Has 900M Weekly Users. Almost None Can Buy In It.
+- [[sources/YTG0rdHPTDE]] — AI Is About To Spend Your Money. I Went To Stripe To Ask Who Stops It.

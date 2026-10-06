@@ -3,9 +3,9 @@ title: Multi-Agent System Design and Coordination
 type: concept
 slug: multi-agent-system-design
 tags: [agent-design, multi-agent, hierarchy, orchestration, specialization, separation-of-concerns]
-sources: [2PWJu6uAaoU, 2EXyj_fHU48, xnG8h3UnNFI, SX1myuPEDFg, Z0HizICooiw, z3pbrFKVyQE, l8BloTSLK6M, PRqiGS6fnIM, suY66oTDn0s, uCWKXIyvM_8]
+sources: [2PWJu6uAaoU, 2EXyj_fHU48, xnG8h3UnNFI, SX1myuPEDFg, Z0HizICooiw, z3pbrFKVyQE, l8BloTSLK6M, PRqiGS6fnIM, suY66oTDn0s, uCWKXIyvM_8, CSCwaqVqHGE, ix8SsXjBc7M]
 stability: evergreen
-updated: 2026-07-28
+updated: 2026-10-06
 ---
 
 # Multi-Agent System Design and Coordination
@@ -31,6 +31,8 @@ Poorly designed multi-agent systems can suffer from significant coordination ove
 - **Agents add a new option to the centuries-old "checks and balances" trick: fresh eyes on demand.** The reason auditors don't keep the books, peer reviewers don't write the paper, and banks separate who enters a payment from who approves it isn't distrust of a single person's skill — it's that a mind which has seen one side of the work can never fully unsee it ("you've read your own product page a thousand times; you'll never see it the way a stranger does"). Before agents, getting a genuinely uncontaminated second opinion meant finding another person. Now you can start an agent that has never seen the material at all, for the first time making fresh-eyes review cheap and on-demand — most useful wherever there's a genuine conflict of interest to balance: reviewing a contract, a draft, or a plan twice with a mind that didn't produce it [[sources/PRqiGS6fnIM]].
 - **Staff a cost-tiered "org chart," not a flat swarm** — Structure agent teams the way a functional company staffs: the most expensive model takes the boss role (writes specs, designs the system, reviews work, rules on disputes) and never codes; the coding work goes to the cheapest model in the stack capable of executing against clear specs. Before trusting an unfamiliar model in the swarm, give it a fast, scripted audition task (e.g., "write 5 taglines, exactly 12 words or fewer, script rejects cheesy words") rather than assuming capability [[sources/suY66oTDn0s]].
 - **Split-test the same open-ended discovery brief across agents, then implement the winner with whichever tool is cheapest** — Running an identical "find my real problem and build the fix" prompt simultaneously across Fable and Codex produced genuinely different problem framings (diversity of perspective on what to solve), letting Nate pick the better-found problem (Fable's) and then execute the actual build wherever it's most cost-effective (Codex, "which is cheaper"). This decouples the "who has the best judgment about what's worth doing" question from the "who is cheapest/most reliable to build it" question, rather than assuming one agent must do both [[sources/uCWKXIyvM_8]].
+- **Assign models by failure mode and cycle human feedback back into the right one** — Use Claude to give taste a concrete design to react to, Grok (fast, needs extra source checks) to research the strongest version of a human's objection, and Codex to explain why its own testing missed an operational bug a colleague found. Rotate out models that become rubber stamps (Nate dropped Gemini for this reason), and when all models agree ask what evidence would make them wrong. Ask models to name assumptions, steelman the opposing view, and surface where two parts of the request conflict. [[sources/CSCwaqVqHGE]]
+- **Manager loop: interview, delegate, return only decisions** — For work too entangled to specify in a prompt, give a high-level sentence ("move to Seattle by June 1, no lost week in forms") to a manager agent that interviews you (who, budget, home, schools, doctors, vehicles, pets, decisions already made, accessible accounts, where to stop), turns answers into work for execution agents, starts dependent streams as their prerequisites resolve (housing, then doctors from approved neighborhoods, then DMV prep once address and date are known), re-plans when the date shifts, and acts as the single point of contact. The loop manages the human as much as the model; the checks you care about are done, followed instructions, no unauthorized actions, asked for approval. Example cited: manager and execution Astra agents building a street-level 3D Manhattan so the model did not burn out [[sources/ix8SsXjBc7M]].
 
 ## Prompt commands
 
@@ -85,3 +87,5 @@ I want to set up an auto-improvement loop for [SYSTEM]. Design a meta-agent/task
 - [[sources/PRqiGS6fnIM]] — 1.6M agents registered for OpenClaw and did NOTHING.
 - [[sources/suY66oTDn0s]] — Claude Fable 5 Bossed 20 Cheap AI Agents. The Whole Site Cost $8.
 - [[sources/uCWKXIyvM_8]] — Codex vs Fable: Which AI Agent Picked the Better Problem?
+- [[sources/CSCwaqVqHGE]] — How I Fight AI Brain Rot. Friction Maxxing With Codex, Grok And Claude.
+- [[sources/ix8SsXjBc7M]] — There Are Jobs You Could Never Give AI. I Gave GPT-6 Astra 20 Hours Of Admin.

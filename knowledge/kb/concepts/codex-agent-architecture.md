@@ -3,9 +3,9 @@ title: Codex Agent Architecture
 type: concept
 slug: codex-agent-architecture
 tags: [codex, architecture, harness, sandbox, repo-as-memory, tool]
-sources: [hDpjMJw3flk, 0jSE0NABcY8, 7oIkPW217AY, 09sFAO7pklo, tuLWIK1AVEM]
+sources: [hDpjMJw3flk, 0jSE0NABcY8, 7oIkPW217AY, 09sFAO7pklo, tuLWIK1AVEM, 4HvFqhtCb-A, TR8RDUzQaMo]
 stability: volatile
-updated: 2026-05-12
+updated: 2026-10-06
 ---
 
 # Codex Agent Architecture
@@ -26,6 +26,8 @@ This architecture facilitates highly efficient and correct execution of well-def
 -   **OpenAI internally employs a mandatory AI PR review system for all commits using Codex.** This approach overcomes adoption friction, with non-technical staff successfully shipping code, blurring traditional role boundaries and creating a data flywheel for model improvement. [[sources/tuLWIK1AVEM]] (WFL-013)
 -   **Momentum shifts in the coding AI ecosystem, such as the GPT-5 Codex launch, demonstrate that model improvements in surgical edits and long agentic task correctness lead to sticky ecosystem positions.** Engineers switch to tools offering better pull requests, reinforcing that tool's advantage. [[sources/7oIkPW217AY]] (TRD-013)
 -   **Codex is positioned for long-running, delegated, asynchronous tasks that prioritize correct outcomes.** This differentiates it from IDE-native tools like Cursor and cross-surface workflow tools like Claude Code. [[sources/0jSE0NABcY8]] (TRD-003)
+- **Codex: provider plus profile** — Add Z.ai as a model provider in personal Codex config (responses-compatible address, env var holding the key) and create a GLM profile; launching the GLM profile runs a whole job on GLM while default Codex stays on OpenAI. Project context (AGENTS.md, skills, tools, rules) reloads but the conversation does not, so treat it as a new or carefully handed-off job. Claude Code feels like a cockpit (steer closely); Codex like an ops desk (dispatch and inspect), and those styles persist across model suppliers [[sources/4HvFqhtCb-A]].
+- **Computer use is now the universal connector, and users stop noticing the switch from MCP** — Nate had bet in 2024-25 that machine-readable interfaces (MCP/API) would beat human-style computer use, and says he underestimated its scaling-law potential: once fast and fluent it reaches things no one will ever build an API for (government paperwork, faxed pediatric forms). OpenAI engineers note MCP is still faster and more token-efficient where it exists, but agents now switch to computer use mid-task without the user noticing. For general audiences the product hides scripts and selectors and shows a friendly pointer and picture-in-picture view instead, though they remain coding agents underneath. This raises the control question of whose computer it is. [[sources/TR8RDUzQaMo]]
 
 ## Prompt commands
 

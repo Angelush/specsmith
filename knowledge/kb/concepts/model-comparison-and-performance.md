@@ -3,9 +3,9 @@ title: Model Comparison and Performance Benchmarking
 type: concept
 slug: model-comparison-and-performance
 tags: [model-comparison, model-selection, benchmarks, prompting, agents, trade-offs]
-sources: [-5zFZznthw0, hDpjMJw3flk, 41UDGsBEjoI, 7-LFn11dNHA, DbX_0_0LGag, EbZbGPi8ftA, Gqnf5f1ITyo, hV5_XSEBZNg, p-ibfrMN0M8, -_vL1KXd2rc, tJB_8mfRgCo, JKk77rzOL34, dUWxN0snnW8, DcrXHTOxi3I, MFzxIT88zfg, jOWXBzP6nNg, uCWKXIyvM_8]
+sources: [-5zFZznthw0, hDpjMJw3flk, 41UDGsBEjoI, 7-LFn11dNHA, DbX_0_0LGag, EbZbGPi8ftA, Gqnf5f1ITyo, hV5_XSEBZNg, p-ibfrMN0M8, -_vL1KXd2rc, tJB_8mfRgCo, JKk77rzOL34, dUWxN0snnW8, DcrXHTOxi3I, MFzxIT88zfg, jOWXBzP6nNg, uCWKXIyvM_8, ix8SsXjBc7M]
 stability: volatile
-updated: 2026-07-28
+updated: 2026-10-06
 ---
 
 # Model Comparison and Performance Benchmarking
@@ -34,6 +34,7 @@ Understanding the nuanced performance differences between AI models is crucial f
 - **Codex builds, Opus 4.7 reviews and renders** — A practical division of labor: Codex is strong at Excel/Office completeness so it builds the artifact, while Opus 4.7 runs aggressive hostile review and front-end polish/rendering; playing the models against each other (Opus reviewing GPT-5.5's work) outperforms a single model [[sources/MFzxIT88zfg]].
 - **Compare model lineages like family resemblances, not a single benchmark ladder** — Calling a new release "dumber" or "smarter" than the last hides what's actually different: OpenAI's 5.x lineage shows explicit-prompting strength, long-running agentic coding, and less ability to read between the lines, while Anthropic's Mythos/Fable lineage shows strength on ambiguous tasks, front-end taste, and near-philosophical reasoning — these are different families with resemblance across generations, not rungs on one intelligence ladder. No benchmark suite, including a private one, fully captures that difference in daily use, so the useful comparison is qualitative: does this family's way of working match how you work [[sources/jOWXBzP6nNg]].
 - **Codex's harness reliability trades off against its problem-finding boldness (vs. Fable)** — Given an identical, fully open-ended brief ("audit my business, pick any problem, build the fix"), Codex delivered a fast, dependable, single-run, zero-issue result — but even in "Ultra" mode with a self-described multi-billion-token daily burn, it still chose a small, already-articulated ("voiced") problem it could cleanly wrap its arms around, rather than digging for the highest-leverage one. Fable was comparatively a hassle (repeated permission dialogues, slow to grind through), but showed the "big model smell": real strategic judgment, correctly diagnosing that Nate's actual hardest problem is *finding the right story to tell*, not the surface-level task he never named. Read as a diagnostic: a Codex user should expect bounded, safe problem selection under open-ended autonomy regardless of token budget, and should route the "which problem matters" judgment call elsewhere [[sources/uCWKXIyvM_8]].
+- **Split ambiguity work from defined work across models** — Nate finds Astra (new pre-train) strong at holding massive shifting context, following consequences and persisting through messy tasks, but initially more literal; Fable 5.1 is better at reading between the lines when you have no defined goal. His routing: wrestle with the fuzzy problem in Fable, then hand the now-defined job to Astra for execution [[sources/ix8SsXjBc7M]].
 
 ## Prompt commands
 
@@ -121,3 +122,4 @@ Analyze the following data: [PASTE DATA IN CSV OR MARKDOWN]. Think hard. Produce
 - [[sources/MFzxIT88zfg]] — I Built a Deck With AI, Then Made a Second AI Attack It.
 - [[sources/jOWXBzP6nNg]] — Your Next AI Subscription Shouldn't Be ChatGPT 5.6 Or Fable 5. It Should Be Both.
 - [[sources/uCWKXIyvM_8]] — Codex vs Fable: Which AI Agent Picked the Better Problem?
+- [[sources/ix8SsXjBc7M]] — There Are Jobs You Could Never Give AI. I Gave GPT-6 Astra 20 Hours Of Admin.

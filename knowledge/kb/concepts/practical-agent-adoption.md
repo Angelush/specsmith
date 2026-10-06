@@ -3,9 +3,9 @@ title: Practical Agent Adoption and Deployment
 type: concept
 slug: practical-agent-adoption
 tags: [adoption,agent-deployment,automation,workflow,agent-design,reliability]
-sources: [B3rSU7XROrg, D-Ww1wLIp60, DAxARHKQAXs, LwKnvqVdUgA, QrvVkm-8Jx4, kVPVmz0qJvY, DWb4SqILvvM, obqjIoKaqdM, LIkYVsxMpS8, R2-Y1Hjwx2U, rh_PcL26zls, HgAQOkG_v8c, PRqiGS6fnIM, U4TmrlWEY4M]
+sources: [B3rSU7XROrg, D-Ww1wLIp60, DAxARHKQAXs, LwKnvqVdUgA, QrvVkm-8Jx4, kVPVmz0qJvY, DWb4SqILvvM, obqjIoKaqdM, LIkYVsxMpS8, R2-Y1Hjwx2U, rh_PcL26zls, HgAQOkG_v8c, PRqiGS6fnIM, U4TmrlWEY4M, IpEaSa7tgfc, qYe1GsMRElw]
 stability: volatile
-updated: 2026-07-28
+updated: 2026-10-06
 ---
 
 # Practical Agent Adoption and Deployment
@@ -34,6 +34,8 @@ Successfully adopting and deploying AI agents can unlock significant productivit
 - **Non-technical users can now delegate the entire technical build and keep only the trust boundary** — Nate's dividing line for a non-technical builder isn't "avoid the technical project," it's: let the agent own the technical middle (database, SQL, config, setup) entirely, and keep for yourself only the parts that require trust — which accounts to grant access to, what permissions to set, and final approval on outputs. He frames this explicitly as the difference between February 2026 (technical build was a real barrier) and June 2026 (agents narrate and carry out the build, leaving only the human-trust decisions) [[sources/HgAQOkG_v8c]].
 - **A four-question "agent test" triages any task into chat / single-agent / multi-agent / no-AI in about a minute** — (1) Size: does the task fit inside one agent's context window at full quality, or does it need to be split? (2) Independence: can the parts be done without the other parts' output (a pile of documents splits cleanly; coding sometimes does, sometimes doesn't, depending on how files are organized)? (3) Separation of concerns: do any parts need a genuinely different, uncontaminated mind (a critic who didn't write the draft, an auditor who didn't keep the books)? (4) Checkability: is verifying an answer far cheaper than producing one (a test suite, an exit code, a source document), since Stanford's data shows extra attempts only pay off when a mechanical checker exists — otherwise value plateaus around 100 attempts. These four questions describe the shape of the work, not the tools, so they stay useful even as the specific agent products they're run against get replaced [[sources/PRqiGS6fnIM]].
 - **Build the flywheel on a low-stakes case first, then point the same primitives at the case that costs real money** — train the skeleton (ingestion, normalization, receipts, the gate) on email and calendar, where mistakes are cheap and recoverable, before pointing it at insurance appeals or tax prep, where mistakes are expensive; because the primitives transfer, each successive build gets dramatically cheaper — the tax-prep build in this video took a fraction of the insurance build's setup time specifically because nothing in the skeleton was new [[sources/U4TmrlWEY4M]].
+- **Verifiable domains and "work you'd do anyway" are where agents pay off for small businesses** — Legal (Codex legal usage up ~108x since January) works because correctness is checkable; a small injury firm uses an agent to draft demand packages from medical records, saving ~40 staff hours a month, because lawyers already compare packages to records. Lesson for SMBs and vendors: find steps where a human reviews the result anyway and let the agent do the preparatory step; dropping a general agent in and expecting value just creates agent-management work. Most SMBs pay ~$40/month for AI (JPMorgan, 4.6M businesses), which buys a chatbot, not outcome automation; Goldman found only 14% fully integrated and 73% wanting training. [[sources/IpEaSa7tgfc]]
+- **Four questions to ask at any scale** — (1) Can an ordinary competent person inspect the work and explain why it is acceptable? (2) Can you trace it to measures the business already uses (believe those over the agent dashboard)? (3) Do you know your own domain boundary and the agent's last important failure? (4) If the work is outside your expertise and carries liability (tax, employment law, regulated claims, contracts), why not buy a domain-specific managed agent instead of configuring a general one? Entrepreneurs' 80% across five fields hides the dangerous 20% in each [[sources/qYe1GsMRElw]].
 
 ## Prompt commands
 
@@ -100,3 +102,5 @@ Run the agent-shape test on this task: [DESCRIBE TASK]. Answer four questions: (
 - [[sources/HgAQOkG_v8c]] — I Built My Own AI Memory by Talking to Claude. It Did 80% Itself.
 - [[sources/PRqiGS6fnIM]] — 1.6M agents registered for OpenClaw and did NOTHING.
 - [[sources/U4TmrlWEY4M]] — Every AI Agent Demo Stops at Email. I Pointed Mine at the Bills That Cost You Money.
+- [[sources/IpEaSa7tgfc]] — Agents Aren't Taking Your Jobs. They're Creating More Work Instead.
+- [[sources/qYe1GsMRElw]] — Runable Raised $21 Million On Agents That Finish. Nobody Told Yours What Done Means.

@@ -3,9 +3,9 @@ title: Agent Orchestration and Architecture Design
 type: concept
 slug: agent-orchestration-architecture
 tags: [agent-design, orchestration, architecture, multi-agent, reliability, simplicity-principle]
-sources: [-oI7mrudRn8, 2EXyj_fHU48, 7HP1jFJ9W1c, LNpp73qHbJA, kWeLc-Dda94, mnWMTzkjWmk, vy9pQe-lYDE, zRr24Mku3r4, 647pSnX5H_Y, b1fxYGPbHeo, 0cVuMHaYEHE, adNErrz2aA0, jwtpMSRAPAQ, zP6TnEiueEc, A4zMyjkL0Dc, U4TmrlWEY4M, jOWXBzP6nNg]
+sources: [-oI7mrudRn8, 2EXyj_fHU48, 7HP1jFJ9W1c, LNpp73qHbJA, kWeLc-Dda94, mnWMTzkjWmk, vy9pQe-lYDE, zRr24Mku3r4, 647pSnX5H_Y, b1fxYGPbHeo, 0cVuMHaYEHE, adNErrz2aA0, jwtpMSRAPAQ, zP6TnEiueEc, A4zMyjkL0Dc, U4TmrlWEY4M, jOWXBzP6nNg, tYugqJ9YytQ]
 stability: evergreen
-updated: 2026-07-28
+updated: 2026-10-06
 ---
 
 # Agent Orchestration and Architecture Design
@@ -36,6 +36,7 @@ An architecture-first approach to agentic systems offers long-term competitive a
 - **Agents are loop managers; compose them into a "loop of loops"** — A prompt is one request; a loop is one recurring job with memory (notice what changed, gather, compare against state, act, stop at a boundary); a loop of loops is a control pattern where recurring jobs notice each other and hand off context (the trip loop finds rain → wakes the packing, schedule, and calendar loops). The loops live *between* apps, where the wiring has always fallen on the human. Design each loop by asking what it can do safely, what it must ask, what record it leaves, and which other loops need to know — and start your first loop of loops on something tedious-but-low-stakes you can laugh about if it derails. [[sources/A4zMyjkL0Dc]]
 - **A nine-stage skeleton makes high-trust, paperwork-heavy agents domain-agnostic** — context pack, ingest, chunk, normalize, store, retrieve, cite, export, and gate is the same sequence whether the agent is drafting a calendar reply, building an insurance-appeal case file, or prepping a tax packet; the "nouns" (email thread vs. denial letter vs. W2) change but the underlying structure the agent operates on does not, because any bureaucratic problem is first a mess-to-structured-file problem before it's a domain problem [[sources/U4TmrlWEY4M]].
 - **Pick the architect/orchestrator model for decomposition skill, not benchmark rank** — When one central model farms work out to a set of cheaper worker models, keep the model that's best at understanding high-level intent and breaking it into tasks as the architect even after a nominally stronger model ships; architect quality rests on decomposition ability and product/front-end instinct, not the score that would win a head-to-head benchmark [[sources/jOWXBzP6nNg]].
+- **Put cheap classifiers in the outer loop and cheap guards at every step** — Rather than an LLM deciding what happens next, a classifier chooses among defined outcomes with defined follow-ups, and generative models become tools inside the loop. Because it is cheap, an agent safety gate (approve, block, or ask a human for commands like deleting a build folder or force-pushing) can run at every relevant step instead of once at task start [[sources/tYugqJ9YytQ]].
 
 ## Prompt commands
 
@@ -121,3 +122,4 @@ Design this skill for agent-first consumption: [SKILL PURPOSE]. (1) Write the de
 - [[sources/A4zMyjkL0Dc]] — I Stopped Prompting AI One Task At A Time. This Works Better. (loop of loops)
 - [[sources/U4TmrlWEY4M]] — Every AI Agent Demo Stops at Email. I Pointed Mine at the Bills That Cost You Money.
 - [[sources/jOWXBzP6nNg]] — Your Next AI Subscription Shouldn't Be ChatGPT 5.6 Or Fable 5. It Should Be Both.
+- [[sources/tYugqJ9YytQ]] — Why Developers Are Losing Their Minds Over AI That Can't Write

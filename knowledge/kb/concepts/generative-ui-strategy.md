@@ -3,9 +3,9 @@ title: Generative UI and Disposable Pixels Strategy
 type: concept
 slug: generative-ui-strategy
 tags: [generative-ui, disposable-pixels, data-moat, agentic-layer, software-strategy, product-strategy]
-sources: [x-01UrScIrA, ra7nYJe86GI, DGWtSzqCpog]
+sources: [x-01UrScIrA, ra7nYJe86GI, DGWtSzqCpog, TR8RDUzQaMo]
 stability: volatile
-updated: 2026-05-12
+updated: 2026-10-06
 ---
 
 # Generative UI and Disposable Pixels Strategy
@@ -25,6 +25,7 @@ The rise of generative AI fundamentally alters traditional software development 
 -   **Per-seat SaaS pricing models are breaking down when AI agents do the work** — The traditional per-seat licensing model is unsustainable when AI agents can perform tasks without human logins. The true value shifts to the data inside these platforms, which becomes more valuable as fuel for agents. [[sources/DGWtSzqCpog]] (TRD-019)
 -   **Data layers provide a defensible moat, unlike vulnerable UI layers** — The proprietary data within platforms (e.g., Salesforce customer graphs, Thomson Reuters case law) is irreplaceable and gains importance in an AI-driven world, forming a stronger competitive advantage than the transient UI/workflow layer. [[sources/x-01UrScIrA]] (FWK-035) [[sources/DGWtSzqCpog]] (TRD-019)
 -   **AI can be used as a negotiation weapon in professional services** — The "KPMG playbook" demonstrates that the mere existence of AI capabilities can be used by clients to leverage significant fee reductions, even without actual AI deployment, impacting traditional service models. [[sources/DGWtSzqCpog]] (TRD-019)
+- **Voice in, generative visuals out** — Voice is the fastest way to get context into an agent, but reading is faster than listening, so the promising pairing is speaking context at the model while it answers with visuals and questions on screen rather than speech. Power users already run multiple mics all day; the product gap is discoverability and moving people from typing to speaking. Sites (interactive, persistent AI-native artifacts) fill what docs, sheets and slides cannot express, while the new bottleneck is taste and convergence on a coherent product. [[sources/TR8RDUzQaMo]]
 
 ## Prompt commands
 
@@ -54,3 +55,4 @@ Analyze [COMPANY/PRODUCT]'s pricing model for AI disruption risk: (1) Does it ch
 -   [[sources/x-01UrScIrA]] — Agents Will Kill Your UI by 2026--Unless You Build This Instead
 -   [[sources/ra7nYJe86GI]] — Disposable Software: The Trend 90% of People are Getting Wrong--The Hidden Costs We Need to Consider
 -   [[sources/DGWtSzqCpog]] — The $285 Billion Crash Wall Street Won't Explain Honestly. Here's What Everyone Missed.
+- [[sources/TR8RDUzQaMo]] — I Stopped Knowing What My Computer Was Doing. Then I Asked OpenAI Why.

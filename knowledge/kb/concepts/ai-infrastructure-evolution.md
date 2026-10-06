@@ -3,9 +3,9 @@ title: AI Infrastructure and Stack Evolution
 type: concept
 slug: ai-infrastructure-evolution
 tags: [trend, infrastructure, agent-stack, orchestration, agent-readable, web-architecture]
-sources: [7HP1jFJ9W1c, XlfumXPPrLY, BE4RclIGDmY, dQK_pTXrGDk, j5_wcDifNko, lqiwQiDglGk, z3pbrFKVyQE, zP6TnEiueEc]
+sources: [7HP1jFJ9W1c, XlfumXPPrLY, BE4RclIGDmY, dQK_pTXrGDk, j5_wcDifNko, lqiwQiDglGk, z3pbrFKVyQE, zP6TnEiueEc, ry9J1i3krIY]
 stability: volatile
-updated: 2026-05-29
+updated: 2026-10-06
 ---
 
 # AI Infrastructure and Stack Evolution
@@ -27,6 +27,7 @@ This evolution is crucial because agents are becoming primary interaction surfac
 - **The "knowledge layer" race beyond vector search** — Every serious infrastructure vendor is racing to build an agent knowledge layer: Pinecone Nexus/NoQL (retrieval carries policy, provenance, budget — not just similarity), Page Index (hierarchical document trees, no embeddings, 98.7% on FinanceBench), SAP's >€1B Dreemio + Prior Labs (tabular foundation models), and Microsoft GraphRAG for relational data [[sources/lqiwQiDglGk]].
 - **Uneven acceleration: human vs AI scaling laws** — App-layer teams scale on "AI scaling laws" while root-level platform/infra teams (which must stay near-100% correct) remain on "human scaling laws," creating a power-law disparity and a double whammy of more app-layer code plus their own systems needing agentic upgrades [[sources/z3pbrFKVyQE]].
 - **Agent substrates shape the customer experience** — The agent stack needs to "stop being a list of acronyms and start being buildable"; protocols are opinionated (auth-token lifetime, US-/non-micropayment assumptions), so the boring substrate details (fees, returns, authorization duration) are a customer-experience choice, not just a technical one [[sources/zP6TnEiueEc]].
+- **Deployment constraints force model-size tiers and architectural specialization** — Cosmos 3 ships in sizes from a small one that runs real-time on edge devices (Jetson Thor, DGX Spark) to a "super" model for data centers: real-time navigation needs the small model, slow higher-order reasoning can wait for the big one. Data-center LLM inference is memory-bound and batchable, while a robot in the field cannot wait, so efficiency becomes the selection criterion and architectures diverge while GPUs stay fungible across them [[sources/ry9J1i3krIY]].
 
 ## Prompt commands
 
@@ -67,3 +68,4 @@ Audit [COMPANY/PRODUCT] for agent readiness: (1) Can an AI agent discover and un
 - [[sources/lqiwQiDglGk]] — Pinecone Just Demoted Vector Search. Here's the Knowledge Layer.
 - [[sources/z3pbrFKVyQE]] — The Infrastructure Nightmare Nobody Is Talking About
 - [[sources/zP6TnEiueEc]] — Google Spent a Year Stitching MCP, A2A, AG-UI Together. I/O Today.
+- [[sources/ry9J1i3krIY]] — When Will AI Make Me Scrambled Eggs? I Went To NVIDIA To Find Out.

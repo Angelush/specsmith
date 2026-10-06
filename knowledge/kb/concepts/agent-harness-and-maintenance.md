@@ -3,9 +3,9 @@ title: Agent Harness and Maintenance
 type: concept
 slug: agent-harness-and-maintenance
 tags: [agent-design, harness, maintenance, ownership, reliability, last-mile, framework]
-sources: [BOXK2XFLA-E, Zp8lr6IzUnQ, rh_PcL26zls, PDJfciNhyHU, U4TmrlWEY4M, lq2fP7wC7d8, 2wVvdX0ZxVw, up0Bsf3f0Xc]
+sources: [BOXK2XFLA-E, Zp8lr6IzUnQ, rh_PcL26zls, PDJfciNhyHU, U4TmrlWEY4M, lq2fP7wC7d8, 2wVvdX0ZxVw, up0Bsf3f0Xc, 2IAYFgAqX6g, eLpRDIvOMEw, ry9J1i3krIY]
 stability: evolving
-updated: 2026-08-10
+updated: 2026-10-06
 ---
 
 # Agent Harness and Maintenance
@@ -39,6 +39,10 @@ A model swap is never just a model call swap — it replaces a whole work system
 - **Give agents achievable missions, then push them boldly to find the real capability edge** — an "impossible mission" (asking an agent to do something outside its actual tool/data scope, e.g. attach a file from a folder it can't access) is what causes agents to fabricate plausible-looking success instead of failing honestly; the fix starts with knowing and communicating what data/tools the agent actually has access to. Once a mission is achievable, don't stay conservative to protect trust — ask boldly (e.g. shipping several full websites in one day with one agent) because bold, ambitious asks are what regularly bump against the edges of what the agent can and can't do, giving you a live read on its "truth envelope." Conservative asks keep you both from finding out what the agent is capable of and from keeping pace as agents improve. [[sources/2wVvdX0ZxVw]]
 - **Skill libraries silently "average out" conflicts into duller results as they grow** — like a knife that dulls with use, an AI running 25+ overlapping or contradictory skills doesn't error out, it quietly blends the conflicting instructions and produces flatter output, with no visible signal that anything is wrong. This creates a trap: when output quality drops (e.g. "the writing isn't working as well right now"), the instinct is to add another skill to patch it, which frequently makes the underlying conflict worse rather than better. The fix is a periodic cross-skill audit built specifically to surface conflicts between everything already installed and resolve them deliberately, rather than only ever adding [[sources/up0Bsf3f0Xc]].
 - **Skills carry none of an app store's trust guarantees, so you are the certificate authority** — unlike an iOS install, there is no signing or certification step for an agent skill; grabbing one from a random GitHub repo because it looked good in a demo (collecting skills "like Pokemon cards") can mean handing your agent malicious instructions, and even a benign skill can silently fail to do what it promises once it's yours, with no built-in way to know if it's actually being called reliably or how it interacts with the skills you already have. Because the skill encodes real judgment on the agent's behalf, the human has to explicitly decide "I trust this source" before installing anything, the same way they'd vet any other unreviewed code they're about to run [[sources/up0Bsf3f0Xc]].
+- **Make agents multiplayer** — Put agent work where the team and other agents can see and reuse it: shared project instructions, reusable skills, traces, notes. Shopify's River runs in public Slack channels, handled about 60,000 sessions in 30 days and co-authored about 1 in 8 merged PRs, with discoveries becoming shared skills. The takeaway is a shared setup, not Slack; measure reuse. Lauren Tan advises starting with 3-5 teammates [[sources/2IAYFgAqX6g]].
+- **Delete old process instead of recreating it with agents** — The "brown manila envelope problem": agents passing documents through PRD-then-tickets-then-review chains replicate human interdepartmental process and burn tokens. Start from a blank whiteboard on the value goal; each quarter pick one of three recurring team rituals that agents made unnecessary and shrink it, while keeping rituals whose value is human (stand-ups as connection). Agent-to-agent communication needs limits, checks and permission to say "I'm stuck" [[sources/2IAYFgAqX6g]].
+- **Thick harness for the cheap model, thin harness for the frontier model** — Harness means instructions, tools, information, checks and job flow. A weaker model at scale needs more structure (narrow job such as identify product, quantity, missing info; software checks CRM fields, calls pricing, enforces approvals); thickness comes from structure, not length. On the 1-5% hard exceptions give the frontier model the problem, evidence, general tools and success criteria and let it work, because forcing it through steps written for a weaker model wastes the capability you pay for. Revisit the harness whenever the model changes [[sources/eLpRDIvOMEw]].
+- **Physical AI harnesses mirror LLM harnesses; "skills" become physicalized** — A harness is orchestration of models plus tool use; for robots the tools are real robots, camera calibration and a visual-inspector model that checks task completion, with the same decompose-into-small-steps strength as autoregressive and diffusion models. A general robot form factor plus swappable skills (cook an egg, fold laundry) is the analogue of skill files, but no skill.md equivalent exists yet because physical verification is slow [[sources/ry9J1i3krIY]].
 
 ## Prompt commands
 
@@ -76,3 +80,6 @@ For every control in my harness, fill in: Where does this control live? When doe
 - [[sources/lq2fP7wC7d8]] — Stop Wasting Money on the Wrong AI
 - [[sources/2wVvdX0ZxVw]] — Your Chatbot Hallucinated in 2024. Your Agent Lies in 2026.
 - [[sources/up0Bsf3f0Xc]] — I Stopped Installing Claude Skills. Here's What I Do Instead.
+- [[sources/2IAYFgAqX6g]] — Nobody Gave You A Control For Quality. 6 Habits So You Can Ship Faster Anyway.
+- [[sources/eLpRDIvOMEw]] — You can be ambitious without the huge token bill. Here's how.
+- [[sources/ry9J1i3krIY]] — When Will AI Make Me Scrambled Eggs? I Went To NVIDIA To Find Out.
