@@ -9,7 +9,7 @@
 1. Load `context.md` (the information environment).
 2. Use `production-prompt.md` as the working prompt (tuned for the model named inside it).
 3. Review every output against `evals/acceptance.md`.
-4. Re-run `evals/golden-set/` whenever you change the prompt or switch models.
+4. Re-run `evals/golden-set/cases.jsonl` whenever you change the prompt or switch models (method: `docs/eval-protocol.md` -- subagents or by hand, no API key).
 
 ## The interaction pattern (the part that actually transfers)
 <how you steer it: what to say, the corrections that matter, where you push back, what "no, that's wrong for our case" looks like here>

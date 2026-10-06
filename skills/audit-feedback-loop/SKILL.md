@@ -27,6 +27,11 @@ You are the **judge** in the Specsmith pipeline. Reports are where good findings
    - a rule in `production-prompt.md`.
 3. **Resolve gaps immediately.** If a finding lives only in a report, convert it now using the **FWK-003 encode-rejection format**: WHAT WAS WRONG → WHY IT MATTERS → CONSTRAINT TO ADD → EXAMPLE OF CORRECT OUTPUT. Write the new constraint/AC/task into the right bundle file and give it an ID.
 4. **Verify artifacts, not claims (AGD-045).** Confirm each referenced constraint/AC/task *actually exists* in the file — open it and check. Never accept "it's covered" without the line.
+5. **Audit the eval itself** (see `docs/eval-protocol.md`). Mark a row GAP if:
+   - a patch in `optimization-log.md` was KEPT with a test-set gain within the noise floor, or kept on a train-only gain;
+   - a stall-triage finding (ambiguous case, grader bug, harness error) is not fixed in `evals/golden-set/cases.jsonl` or `evals/grader.md`;
+   - a design check in `evals/tests.md` is FAIL with no fix and no logged risk;
+   - failing-case content was pasted into `production-prompt.md`.
 
 ## Output → workflow bundle
 Write `workflows/<slug>/audit.md` containing the audit table. Every row must read **INCLUDED** before the session closes:

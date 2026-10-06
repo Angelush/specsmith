@@ -28,6 +28,10 @@ Specsmith owns the upstream; [Superpowers](https://github.com/obra/superpowers) 
 
 If a Superpowers skill isn't installed, proceed and say so.
 
+## Evals run without the API
+
+`design-evals`, `optimize`, and `audit-feedback-loop` follow `docs/eval-protocol.md`: train/test split, noise floor, one root-cause patch per round, checkable-claim graders. It copies the logic of `/claude-api build-eval` and `hillclimb` but not their runner, which calls the paid API. Run cases as subagents in the current session or by hand. Never require an API key; state the run budget before spending plan quota.
+
 ## The constraint library (cross-session memory)
 
 Constraints authored in the **FWK-003 encode-rejection format** (WHAT WAS WRONG → WHY IT MATTERS → CONSTRAINT TO ADD → EXAMPLE) are durable institutional knowledge — the "open brain" (Axiom 8). Accumulate them across sessions: append reusable, domain-general rejections to a project-level `constraint-library.md` (or your memory system) so future sessions retrieve them instead of re-discovering. Keep it portable; own the layer.
