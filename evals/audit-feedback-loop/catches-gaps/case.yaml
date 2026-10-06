@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: catches-gaps
+description: The judge finds a red-team finding with no enforcement and a hillclimb patch kept within noise, and does not close with open gaps.
+tags: [audit-feedback-loop, protocol]
+context:
+  scaffold_script: fixture.sh

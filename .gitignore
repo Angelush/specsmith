@@ -8,3 +8,6 @@ archive/
 # Local KB build machinery + local skills — never published (see .kb-pipeline/README.md)
 .kb-pipeline/
 .claude/
+
+# Plugin eval run output
+evals/results/

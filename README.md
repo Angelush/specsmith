@@ -58,6 +58,10 @@ The `orient` skill takes it from there. (Or install as a plugin — see *Sharing
 
 Specsmith is grounded in a knowledge base distilled from **Nate B. Jones**'s AI-education work (49 concepts, 270 source-video pages). It ships **bundled** at [`knowledge/kb/`](knowledge/kb/) — source-grounded out of the box, no setup. Point `$SPECSMITH_KB` at your own wiki to override it, or run on the eight-axiom fallback in `knowledge/principles-core.md` if you strip it out. Only the curated wiki is included; the raw transcripts are not. See [`knowledge/KB-LINK.md`](knowledge/KB-LINK.md).
 
+## Specsmith's own evals
+
+Specsmith demands evals, so it ships its own: [`evals/`](evals/) is a `claude plugin eval` suite that checks triggering, `orient`'s routing, and the eval protocol in `design-evals` / `optimize` / `audit-feedback-loop`. It runs on your Claude Code login (plan quota, no API key). Start with `claude plugin eval . --tag smoke --runs 1 --ablation none`. See [`evals/README.md`](evals/README.md).
+
 ## Composes with Superpowers
 
 Specsmith owns the **upstream** (what to build + how to know it's right). [Superpowers](https://github.com/obra/superpowers) owns the **downstream** (build it well). Specsmith hands off to `brainstorming`, `writing-plans`, `test-driven-development`, and `verification-before-completion` at the seams. See [`CLAUDE.md`](CLAUDE.md).

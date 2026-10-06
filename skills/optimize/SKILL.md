@@ -1,6 +1,6 @@
 ---
 name: optimize
-description: "Use when the prompt needs iterative refinement. Part of Specsmith's spec-engineering interview, invoked by `orient`. Hillclimb the prompt against a train/test-split golden set, one root-cause patch per round, kept only if it beats the noise floor. No API key needed."
+description: "Use when iterating a prompt, skill, or agent config against an eval or golden set: hill-climbing, deciding whether to keep or revert a prompt change, comparing variants, or judging whether a score gain is real or noise. Also run by Specsmith's `orient` on Deep routes. Hillclimbs with a train/test split, one root-cause patch per round, kept only if it beats the noise floor. No API key needed."
 ---
 
 # Recursive Prompt Optimization
