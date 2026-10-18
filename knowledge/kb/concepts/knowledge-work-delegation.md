@@ -3,9 +3,9 @@ title: Knowledge Work Delegation
 type: concept
 slug: knowledge-work-delegation
 tags: [agent-deployment, expertise-elicitation, knowledge-extraction, workflow, scaling, documentation]
-sources: [2PWJu6uAaoU, L32th5fXPw8, MFzxIT88zfg, PRqiGS6fnIM, jOWXBzP6nNg, IpEaSa7tgfc, ix8SsXjBc7M]
+sources: [2PWJu6uAaoU, L32th5fXPw8, MFzxIT88zfg, PRqiGS6fnIM, jOWXBzP6nNg, IpEaSa7tgfc, ix8SsXjBc7M, NIRFVjttNvA]
 stability: evergreen
-updated: 2026-10-06
+updated: 2026-10-19
 ---
 
 # Knowledge Work Delegation
@@ -32,6 +32,7 @@ Effectively delegating knowledge work is crucial for scaling individual and orga
 - **Hand the model the whole outcome, not a prompt-sized piece** — The shift mirrors Claude Code in December: before, you asked for pieces (a checklist, a draft email) and iterated; with a model that can move across docs, maps, websites, email and calendar, keep choosing next steps, route around bad sites and ask one question without abandoning six other pieces, you delegate hours-long chunks (a household move has 20+ hours of admin). Contained, task-shaped jobs (find and verify doctors from their own sites) already work on cheaper models; the new tier is entangled, dependency-heavy work. Ask per job: can the model just take this, does it need a supervisor, what card does it need, which choices stay mine [[sources/ix8SsXjBc7M]].
 - **Recipe cards: the post-prompt delegation artifact** — A master prompt cannot carry a week-long job, and nobody will write a 14-part spec and approval matrix before a move. A recipe card is a readable, adjustable map: it names the real job and sketches the sub-jobs, tells the manager what to ask you, what information and access agents need, what they can do without interrupting, what runs in parallel, what must come back, which actions need approval, and how to proceed when things break (failed login, missing document, conflicting sources, blocked site). Paste into any manager agent, which interviews you and starts [[sources/ix8SsXjBc7M]].
 - **Humans keep the irreversible, risky, responsible decisions** — Delegating the grunt work (research, comparison, option development) means the human's job narrows to choices: the agent can research homes but you pick the house. Rather than inserting a human at every step, bring the person back to the choice, risk and responsibility, and have the agent surface what is irreversible about each option. Expect more decisions per person as agents widen the option set, and explicitly tell the agent to keep decisions that should be yours yours [[sources/ix8SsXjBc7M]].
+- **Assign the check, not the polish** — Once you know what the human must do with a result, aim agent capability at the step they have to trust: a painting contractor caught Claude pricing a bid from a floor-area multiplier instead of real wall measurements and now asks it to show its work on exactly that calculation; a more polished proposal would have been "worse than useless." A good second-agent assignment is verification — check the evidence behind the recommendation, find the assumption that would change the answer, resolve what you would otherwise investigate yourself [[sources/NIRFVjttNvA]].
 
 ## Prompt commands
 
@@ -67,3 +68,4 @@ strategic_intent: I have successfully created the concept page in Markdown forma
 - [[sources/jOWXBzP6nNg]] — Your Next AI Subscription Shouldn't Be ChatGPT 5.6 Or Fable 5. It Should Be Both.
 - [[sources/IpEaSa7tgfc]] — Agents Aren't Taking Your Jobs. They're Creating More Work Instead.
 - [[sources/ix8SsXjBc7M]] — There Are Jobs You Could Never Give AI. I Gave GPT-6 Astra 20 Hours Of Admin.
+- [[sources/NIRFVjttNvA]] — productivity draft

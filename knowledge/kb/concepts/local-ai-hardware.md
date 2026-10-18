@@ -3,9 +3,9 @@ title: Local AI and Hardware Strategy
 type: concept
 slug: local-ai-hardware
 tags: [local-ai, hardware, hardware-strategy, on-device-ai, cloud-vs-local, workload-matching]
-sources: [RaAFquzj5B8, iUSdS-6uwr4]
+sources: [RaAFquzj5B8, iUSdS-6uwr4, xUl-RD4l4i4]
 stability: volatile
-updated: 2026-05-12
+updated: 2026-10-19
 ---
 
 # Local AI and Hardware Strategy
@@ -22,6 +22,7 @@ The choice of local AI hardware critically impacts cost structures, privacy, and
 - **Apple is strategically positioned for on-device AI dominance** — Apple's leadership, rooted in hardware engineering, signals a deliberate focus on leveraging Apple Silicon to win the AI race through on-device inference economics. Their unified memory architecture and integrated hardware/software approach make devices like Mac Studio compelling for private context work. [[sources/RaAFquzj5B8]] (TRD-050) [[sources/iUSdS-6uwr4]] (MSL-019)
 - **Hardware selection should prioritize workload type over peak benchmark scores** — The most effective local AI hardware strategy aligns machine capabilities with daily workload types. For instance, Macs excel in memory and simplicity for private writing and transcription, while CUDA-enabled GPUs (like the RTX 5090) are suited for coding agents requiring high throughput. [[sources/iUSdS-6uwr4]] (MSL-019)
 - **AI agents are reversing the cloud-first trend in personal computing** — As agents become more capable, they increasingly require access to local files, processes, and memory, making personal compute ownership strategically vital. This shift benefits from having models integrated directly within a user's local context, rather than relying on enterprise cloud harnesses. [[sources/iUSdS-6uwr4]] (TRD-057)
+- **Audit before you buy; size for your agent load, not for one harness** — Hardware buys capacity, not a fix for unmanaged agent load, so exhaust the audit and load-profiling first, then make it an ROI decision. Nate's Oct-2026 defaults: 24-32 GB RAM (16 GB workable with active management), 0.5 TB storage and 1 TB for video/large projects; local-model memory is an additional requirement on top. NPUs are not a silver bullet — optimize the whole system (memory, storage, cores). Mac is the least technical path (agent tooling runs ~6-8 months ahead on Mac); Nvidia/CUDA and AMD unified-memory boxes give more control at more maintenance ("manual vs. automatic transmission"). When you upgrade, keep the old machine running as a Tailscale-managed agent computer for slower offloaded jobs — often cheaper than buying more [[sources/xUl-RD4l4i4]].
 
 ## Prompt commands
 
@@ -41,3 +42,4 @@ I'm considering a local AI hardware purchase. My primary workloads are: [LIST WO
 
 - [[sources/RaAFquzj5B8]] — Apple Just Positioned Itself for the Next Trillion Dollars
 - [[sources/iUSdS-6uwr4]] — RTX 5090, Mac Studio, or DGX Spark? I tried all three.
+- [[sources/xUl-RD4l4i4]] — 10.20 - agent computer

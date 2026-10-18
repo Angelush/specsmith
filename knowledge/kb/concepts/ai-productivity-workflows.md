@@ -3,9 +3,9 @@ title: AI-Enhanced Productivity Workflows
 type: concept
 slug: ai-productivity-workflows
 tags: [workflow, productivity, automation, delegation, second-brain, note-taking]
-sources: [0TpON5T-Sw4, 821UqXHineU, JdTgxpfCa3E, 647pSnX5H_Y, ltbzgzZZmgI, rqVzTX8w_w0]
+sources: [0TpON5T-Sw4, 821UqXHineU, JdTgxpfCa3E, 647pSnX5H_Y, ltbzgzZZmgI, rqVzTX8w_w0, NIRFVjttNvA]
 stability: evergreen
-updated: 2026-06-15
+updated: 2026-10-19
 ---
 
 # AI-Enhanced Productivity Workflows
@@ -26,6 +26,7 @@ Implementing AI-enhanced productivity workflows is crucial for overcoming common
 -   **Reducing AI Hallucinations** — Precision in questioning, granting explicit permission for AI to state "I don't know," and configuring system prompts for clarifying questions can significantly reduce AI hallucinations in knowledge work. [[sources/JdTgxpfCa3E]] (WFL-009)
 - **The project/data room: build the room before doing the work** — Because modern agents (Opus 4.7, GPT-5.5) walk folder trees, open files, compare dates, and inspect metadata, the first instruction for serious work is never "do the thing" but "find the materials and build a bounded local workspace" — a project/data room (smaller than a second brain) whose reviewed source inventory is the substrate for everything downstream [[sources/ltbzgzZZmgI]].
 - **Codex as a local-folder context assembler** — Nate's highest-leverage Codex workflow is to describe files in natural language (what they're about, roughly when they were made) and have Codex search the local file system, locate them, and copy them into a single clean working folder; he then opens a fresh chat pointed at that folder with the task (plus any detailed instructions copied in as a transcript). This clean, self-contained context window lets him do 30,000-50,000-word document work and complex spreadsheet/coding tasks reliably — a capability he attributes to Codex's GitHub-repo/sandbox heritage of treating a folder of files (code or text) as one navigable context, and which he found did not transfer when he tried the same workflow in Claude Code [[sources/rqVzTX8w_w0]].
+- **Productivity theater: count the human work after the agent finishes** — Valuing an AI result by "how long would this have taken without AI" measures capability, not whether it deserved your time; every output carries a downstream cost (read it, understand it, decide what you believe, find out who cares), multiplied for every teammate it is sent to, and a recurring report becomes a standing weekly claim on human attention. Ask of any agent output: who uses this, what happens next, and is that work I actually want? Audit running agents with three questions — which serve something you care about vs. are just done, which are experiments still teaching you, and which run only because you forgot to stop them; if you cannot answer, you may be in productivity theater [[sources/NIRFVjttNvA]].
 
 ## Prompt commands
 
@@ -64,3 +65,4 @@ Look at my file system overall and make copies of certain files I describe in na
 -   [[sources/647pSnX5H_Y]] — You're Wasting 40% Of Your AI Time On Something Fixable
 - [[sources/ltbzgzZZmgI]] — The One AI Writing Hack Nobody Talks About.
 - [[sources/rqVzTX8w_w0]] — My AI Workflow Has Changed (Here is What I Learned)
+- [[sources/NIRFVjttNvA]] — productivity draft

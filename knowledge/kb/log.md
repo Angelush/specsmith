@@ -370,3 +370,17 @@ All 13 mapped to **existing** concepts — no new concept pages, so `index.md` t
 ## [2026-10-06] grounding | wired general-purpose-classifiers → decompose-tasks
 
 ## [2026-10-06] grounding | world-models-and-physical-ai ingested but not yet grounded (no worker skill fits cleanly)
+
+## [2026-10-19] ingest | productivity draft | NIRFVjttNvA
+
+- Source page: [[sources/NIRFVjttNvA]]
+- Concepts touched: [[concepts/ai-productivity-workflows]], [[concepts/knowledge-work-delegation]], [[concepts/multi-agent-system-design]], [[concepts/agent-harness-and-maintenance]], [[concepts/ai-personal-stack]]
+- Insights added: 5
+
+## [2026-10-19] ingest | 10.20 - agent computer | xUl-RD4l4i4
+
+- Source page: [[sources/xUl-RD4l4i4]]
+- Concepts touched: [[concepts/agent-harness-and-maintenance]], [[concepts/multi-agent-system-design]], [[concepts/local-ai-hardware]]
+- Insights added: 3 (plus 1 prompt command)
+
+## [2026-10-19] lint | refreshed index.md stats line (53 concepts, 316 source pages, 344 videos); no new concepts, no grounding changes

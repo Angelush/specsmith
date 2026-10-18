@@ -3,9 +3,9 @@ title: Multi-Agent System Design and Coordination
 type: concept
 slug: multi-agent-system-design
 tags: [agent-design, multi-agent, hierarchy, orchestration, specialization, separation-of-concerns]
-sources: [2PWJu6uAaoU, 2EXyj_fHU48, xnG8h3UnNFI, SX1myuPEDFg, Z0HizICooiw, z3pbrFKVyQE, l8BloTSLK6M, PRqiGS6fnIM, suY66oTDn0s, uCWKXIyvM_8, CSCwaqVqHGE, ix8SsXjBc7M]
+sources: [2PWJu6uAaoU, 2EXyj_fHU48, xnG8h3UnNFI, SX1myuPEDFg, Z0HizICooiw, z3pbrFKVyQE, l8BloTSLK6M, PRqiGS6fnIM, suY66oTDn0s, uCWKXIyvM_8, CSCwaqVqHGE, ix8SsXjBc7M, NIRFVjttNvA, xUl-RD4l4i4]
 stability: evergreen
-updated: 2026-10-06
+updated: 2026-10-19
 ---
 
 # Multi-Agent System Design and Coordination
@@ -33,6 +33,8 @@ Poorly designed multi-agent systems can suffer from significant coordination ove
 - **Split-test the same open-ended discovery brief across agents, then implement the winner with whichever tool is cheapest** — Running an identical "find my real problem and build the fix" prompt simultaneously across Fable and Codex produced genuinely different problem framings (diversity of perspective on what to solve), letting Nate pick the better-found problem (Fable's) and then execute the actual build wherever it's most cost-effective (Codex, "which is cheaper"). This decouples the "who has the best judgment about what's worth doing" question from the "who is cheapest/most reliable to build it" question, rather than assuming one agent must do both [[sources/uCWKXIyvM_8]].
 - **Assign models by failure mode and cycle human feedback back into the right one** — Use Claude to give taste a concrete design to react to, Grok (fast, needs extra source checks) to research the strongest version of a human's objection, and Codex to explain why its own testing missed an operational bug a colleague found. Rotate out models that become rubber stamps (Nate dropped Gemini for this reason), and when all models agree ask what evidence would make them wrong. Ask models to name assumptions, steelman the opposing view, and surface where two parts of the request conflict. [[sources/CSCwaqVqHGE]]
 - **Manager loop: interview, delegate, return only decisions** — For work too entangled to specify in a prompt, give a high-level sentence ("move to Seattle by June 1, no lost week in forms") to a manager agent that interviews you (who, budget, home, schools, doctors, vehicles, pets, decisions already made, accessible accounts, where to stop), turns answers into work for execution agents, starts dependent streams as their prerequisites resolve (housing, then doctors from approved neighborhoods, then DMV prep once address and date are known), re-plans when the date shifts, and acts as the single point of contact. The loop manages the human as much as the model; the checks you care about are done, followed instructions, no unauthorized actions, asked for approval. Example cited: manager and execution Astra agents building a street-level 3D Manhattan so the model did not burn out [[sources/ix8SsXjBc7M]].
+- **Parallel agents should diversify understanding, not solutions** — Fan out agents to investigate one problem from different angles (cancellation reasons, help requests, what returning vs. churned customers buy) before committing; fanning out to build three solutions (loyalty program, pricing page, win-back copy) leaves you reviewing answers before you understand the cause, and sunk cost makes them hard to drop. Five agents producing five versions of the same answer is a heavy comparison job that teaches little — each branch must be able to teach something the others did not. Recognize when the missing evidence is outside agent reach (will customers pay? does the tool help people?) and go talk to humans instead of commissioning another simulation [[sources/NIRFVjttNvA]].
+- **Manage simultaneous local demand: profile, ramp, and serialize heavy steps** — With a dozen jobs queued, ask the agent (it is "compute native") to profile the load and plan the run instead of launching every browser, converter and local-model request at once: start with one active job, move to two, watch completion and memory, and back off when adding jobs slows everything. CPU core count does not translate into agent count — agents waiting on cloud responses cost little locally, while builds and renders eat every core. Separate stages so several agents research and plan in parallel while heavy local builds run one at a time in a queue, matching the schedule to resources; reuse existing environments and browsers, and record what you learn in project guidance [[sources/xUl-RD4l4i4]].
 
 ## Prompt commands
 
@@ -89,3 +91,5 @@ I want to set up an auto-improvement loop for [SYSTEM]. Design a meta-agent/task
 - [[sources/uCWKXIyvM_8]] — Codex vs Fable: Which AI Agent Picked the Better Problem?
 - [[sources/CSCwaqVqHGE]] — How I Fight AI Brain Rot. Friction Maxxing With Codex, Grok And Claude.
 - [[sources/ix8SsXjBc7M]] — There Are Jobs You Could Never Give AI. I Gave GPT-6 Astra 20 Hours Of Admin.
+- [[sources/NIRFVjttNvA]] — productivity draft
+- [[sources/xUl-RD4l4i4]] — 10.20 - agent computer

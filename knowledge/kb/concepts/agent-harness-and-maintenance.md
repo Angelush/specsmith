@@ -3,9 +3,9 @@ title: Agent Harness and Maintenance
 type: concept
 slug: agent-harness-and-maintenance
 tags: [agent-design, harness, maintenance, ownership, reliability, last-mile, framework]
-sources: [BOXK2XFLA-E, Zp8lr6IzUnQ, rh_PcL26zls, PDJfciNhyHU, U4TmrlWEY4M, lq2fP7wC7d8, 2wVvdX0ZxVw, up0Bsf3f0Xc, 2IAYFgAqX6g, eLpRDIvOMEw, ry9J1i3krIY]
+sources: [BOXK2XFLA-E, Zp8lr6IzUnQ, rh_PcL26zls, PDJfciNhyHU, U4TmrlWEY4M, lq2fP7wC7d8, 2wVvdX0ZxVw, up0Bsf3f0Xc, 2IAYFgAqX6g, eLpRDIvOMEw, ry9J1i3krIY, NIRFVjttNvA, xUl-RD4l4i4]
 stability: evolving
-updated: 2026-10-06
+updated: 2026-10-19
 ---
 
 # Agent Harness and Maintenance
@@ -43,6 +43,8 @@ A model swap is never just a model call swap — it replaces a whole work system
 - **Delete old process instead of recreating it with agents** — The "brown manila envelope problem": agents passing documents through PRD-then-tickets-then-review chains replicate human interdepartmental process and burn tokens. Start from a blank whiteboard on the value goal; each quarter pick one of three recurring team rituals that agents made unnecessary and shrink it, while keeping rituals whose value is human (stand-ups as connection). Agent-to-agent communication needs limits, checks and permission to say "I'm stuck" [[sources/2IAYFgAqX6g]].
 - **Thick harness for the cheap model, thin harness for the frontier model** — Harness means instructions, tools, information, checks and job flow. A weaker model at scale needs more structure (narrow job such as identify product, quantity, missing info; software checks CRM fields, calls pricing, enforces approvals); thickness comes from structure, not length. On the 1-5% hard exceptions give the frontier model the problem, evidence, general tools and success criteria and let it work, because forcing it through steps written for a weaker model wastes the capability you pay for. Revisit the harness whenever the model changes [[sources/eLpRDIvOMEw]].
 - **Physical AI harnesses mirror LLM harnesses; "skills" become physicalized** — A harness is orchestration of models plus tool use; for robots the tools are real robots, camera calibration and a visual-inspector model that checks task completion, with the same decompose-into-small-steps strength as autoregressive and diffusion models. A general robot form factor plus swappable skills (cook an egg, fold laundry) is the analogue of skill files, but no skill.md equivalent exists yet because physical verification is slow [[sources/ry9J1i3krIY]].
+- **Decide when an assignment ends before making it recurring** — Recurring agents outlive the reason they were created (a weekly market update keeps arriving two months after you chose a different market), silently burning tokens and attention; each looks small and clever to set up, but together they shape your day around questions you no longer need answered. Give recurring work stop conditions up front ("run for 3 days, then stop"; "if I don't respond in 3 days, stop sending"), tell investigations to stop when a pass yields nothing new, and keep curiosity human-owned — the agent may surface the unexpected, but you decide what is worth pursuing [[sources/NIRFVjttNvA]].
+- **Agents are messy roommates on your machine: audit, then give every agent a stop sign** — Even when the model runs in a data center, the dev servers, verification browsers, build tools, worktrees and caches run locally and persist after your attention moves on; across several harnesses (Claude in Chrome, Codex, Claude, local models, transcription tools) these holds stack into memory pressure. Harness bugs add to it — public Codex reports cited a 50 GB crash-report folder, 100+ GB of git objects from turn checkpoints, and ~37 TB of SSD writes in 21 days from excessive logging. Audit first (read-only inventory of what each process/directory belongs to, what can be regenerated), then clean up only what you approve; give every agent an explicit done condition and a predictable output folder, because agents trained to keep going will otherwise keep eating the machine. Make machine health a standing agent job: track directories, preserve active work, and keep human usage in the foreground and agent work in the background [[sources/xUl-RD4l4i4]].
 
 ## Prompt commands
 
@@ -59,6 +61,11 @@ Audit this agent's harness for over-build: [DESCRIBE AGENT + ITS TOOLS/RULES/PRO
 ### Harness Map Audit — `harness-map-audit`
 ```
 For every control in my harness, fill in: Where does this control live? When does it load? What job does it do? Who owns this? Is there any evidence that it still helps? What problem can it create if it's misused?
+```
+
+### read-only-machine-audit
+```
+Inspect my computer. Please don't change anything. Please identify the largest memory users, the ones that are memory sucks and the relevant directories. Please explain what each belongs to and propose specific fixes that help me do my actual work.
 ```
 
 ## Related
@@ -83,3 +90,5 @@ For every control in my harness, fill in: Where does this control live? When doe
 - [[sources/2IAYFgAqX6g]] — Nobody Gave You A Control For Quality. 6 Habits So You Can Ship Faster Anyway.
 - [[sources/eLpRDIvOMEw]] — You can be ambitious without the huge token bill. Here's how.
 - [[sources/ry9J1i3krIY]] — When Will AI Make Me Scrambled Eggs? I Went To NVIDIA To Find Out.
+- [[sources/NIRFVjttNvA]] — productivity draft
+- [[sources/xUl-RD4l4i4]] — 10.20 - agent computer
