@@ -3,9 +3,9 @@ title: AI Quality Control and Taste
 type: concept
 slug: ai-quality-control
 tags: [ai-quality-control, taste, domain-expertise, articulation, encoding, institutional-knowledge]
-sources: [-FhtPUkXKO4, 5Di6o6zuMLc, A_Lv0Ze272g, 2PWJu6uAaoU, MFzxIT88zfg, ltbzgzZZmgI, 2wVvdX0ZxVw, AWGoOtNgw3c, 2IAYFgAqX6g, CSCwaqVqHGE, qYe1GsMRElw]
+sources: [-FhtPUkXKO4, 5Di6o6zuMLc, A_Lv0Ze272g, 2PWJu6uAaoU, MFzxIT88zfg, ltbzgzZZmgI, 2wVvdX0ZxVw, AWGoOtNgw3c, 2IAYFgAqX6g, CSCwaqVqHGE, qYe1GsMRElw, pTh4IJ-Mi3Y]
 stability: evergreen
-updated: 2026-10-06
+updated: 2026-10-19
 ---
 
 # AI Quality Control and Taste
@@ -33,6 +33,7 @@ As AI becomes more sophisticated, generating plausible but often flawed outputs,
 - **Give the agent a way to see whether its work is good** — Avoid the loop where you describe the screen every iteration: build playgrounds where the agent can try changes, save experiments as shareable links, and run an automatic checker. Turn recurring agent mistakes into a reusable skill or automatic code check rather than a paragraph in a giant instruction file; before copying Lauren Tan's "barely read code" stance (2,462 PRs in August), build the checks that make it safe. PR count is not value [[sources/2IAYFgAqX6g]].
 - **Interfaces push toward the center of the distribution; resist the polished default** — Iterating "fix this paragraph/bug/design" is a gradient descent toward what the model already knows well, producing polished but generic output (e.g. Claude's current clay/maroon design attractor, previously dark linear purple). Ask whether a correction changes you and your vision, not just the artifact; instead of requesting random variations, articulate what you dislike and why, and ask a human, who may spot issues (e.g. too text-heavy) all models missed. [[sources/CSCwaqVqHGE]]
 - **The average-engineer legibility test for agent code** — Pass criteria must include maintainability: can your second- or third-best engineer open a random agent-written file and explain what it does and why in 20 minutes or less? Back it with constraints agents need but humans resent: file/function size caps, reusable modules instead of fresh implementations per task, comments that explain trade-offs, tough tests that are not rewritten to bless answers, and cyclomatic complexity audits (one case fell from 91 to 12). The standard is harsher at an SMB because nobody can rescue an incomprehensible codebase [[sources/qYe1GsMRElw]].
+- **Verifiable domain plus heavy investment still does not yield trust** — code is the most checkable domain (it runs or it does not) and gets the most lab spend, yet senior engineers respond with zero-trust environments (restrict what the AI can access or change instead of assuming good behavior), evals, bug hunting and maintainability review. Faster generation without more checking capacity just creates more review work for the few engineers who can verify and maintain the output; the utility is in generating code, not in designing scalable architecture [[sources/pTh4IJ-Mi3Y]].
 
 ## Prompt commands
 
@@ -85,3 +86,4 @@ Map your cold-start problem against your level: (1) How much of your daily work 
 - [[sources/2IAYFgAqX6g]] — Nobody Gave You A Control For Quality. 6 Habits So You Can Ship Faster Anyway.
 - [[sources/CSCwaqVqHGE]] — How I Fight AI Brain Rot. Friction Maxxing With Codex, Grok And Claude.
 - [[sources/qYe1GsMRElw]] — Runable Raised $21 Million On Agents That Finish. Nobody Told Yours What Done Means.
+- [[sources/pTh4IJ-Mi3Y]] — OpenAI's AI Wrote 700 Math Papers. Engineers Still Won't Trust AI With Their Code.

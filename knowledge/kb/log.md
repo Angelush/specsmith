@@ -384,3 +384,117 @@ All 13 mapped to **existing** concepts — no new concept pages, so `index.md` t
 - Insights added: 3 (plus 1 prompt command)
 
 ## [2026-10-19] lint | refreshed index.md stats line (53 concepts, 316 source pages, 344 videos); no new concepts, no grounding changes
+
+## [2026-10-19] ingest | GPT-6 Astra Doesn't Need Your Instructions Anymore. | 1qGH6NwTj3o
+
+- Source page: [[sources/1qGH6NwTj3o]]
+- Concepts touched: [[concepts/knowledge-work-delegation]], [[concepts/agent-evaluation-and-reliability]], [[concepts/agent-memory-systems]]
+- Insights added: 5
+
+## [2026-10-19] ingest | The Doing Got Cheap. Now What? | Claude Fable 5 Changes Work | 2w_vwQVvFmc
+
+- Source page: [[sources/2w_vwQVvFmc]]
+- Concepts touched: [[concepts/knowledge-work-delegation]], [[concepts/model-comparison-and-performance]]
+- Insights added: 3
+
+## [2026-10-19] ingest | One Cancelled Gym Class. That's How Agent Swarm Attacks Start. | 4f5AJrJPilM
+
+- Source page: [[sources/4f5AJrJPilM]]
+- Concepts touched: [[concepts/ai-security-and-trust]], [[concepts/ai-safety-and-alignment]], [[concepts/agent-harness-and-maintenance]]
+- Insights added: 6 (plus 2 prompt commands)
+
+## [2026-10-19] ingest | I Gave An AI Agent My Support Inbox. It Cut The Work By Two-Thirds. | 7pqRRxrdr0c
+
+- Source page: [[sources/7pqRRxrdr0c]]
+- Concepts touched: [[concepts/practical-agent-adoption]], [[concepts/knowledge-work-delegation]], [[concepts/agent-evaluation-and-reliability]]
+- Insights added: 5 (plus 1 prompt command)
+
+## [2026-10-19] ingest | Anthropic's Model Attacked Two Strangers On GitHub. Nobody Asked It To. | FCRT7M30Wtw
+
+- Source page: [[sources/FCRT7M30Wtw]]
+- Concepts touched: [[concepts/multi-agent-system-design]], [[concepts/ai-safety-and-alignment]], [[concepts/ai-security-and-trust]], [[concepts/ai-phase-transition]]
+- Insights added: 6
+
+## [2026-10-19] ingest | Two Ways To Use Reverse Engineer Anything. One Of Them Works Even If You Can't Code. | PseF3LyXQ04
+
+- Source page: [[sources/PseF3LyXQ04]]
+- Concepts touched: [[concepts/prompting-and-skill-design]], [[concepts/vibe-coding-phenomenon]], [[concepts/ai-assisted-research]]
+- Insights added: 4
+
+## [2026-10-19] ingest | Claude's AI Town Voted Yes On Everything. That's Not A Good Sign. | RHV8DWAmjAs
+
+- Source page: [[sources/RHV8DWAmjAs]]
+- Concepts touched: [[concepts/agent-evaluation-and-reliability]], [[concepts/multi-agent-system-design]], [[concepts/agent-harness-and-maintenance]]
+- Insights added: 3
+
+## [2026-10-19] ingest | OpenClaw Was Too Dangerous To Install. 7 Months Later Microsoft Is Bringing It To Your Company. | avN5R3OhxYs
+
+- Source page: [[sources/avN5R3OhxYs]]
+- Concepts touched: [[concepts/microsoft-copilot-ecosystem]], [[concepts/knowledge-work-delegation]], [[concepts/model-selection-frameworks]], [[concepts/enterprise-ai-adoption]]
+- Insights added: 5
+
+## [2026-10-19] ingest | Self-Replicating AI Swarms Are Real. Don't Panic, But Take Them Seriously. | btUxMt_tssA
+
+- Source page: [[sources/btUxMt_tssA]]
+- Concepts touched: [[concepts/ai-security-and-trust]], [[concepts/agent-harness-and-maintenance]], [[concepts/multi-agent-system-design]]
+- Insights added: 6
+
+## [2026-10-19] ingest | I Gave Meta's Muse The Most Boring Job I Had. It Found $5,350 A Year. | gbbPBr3OraQ
+
+- Source page: [[sources/gbbPBr3OraQ]]
+- Concepts touched: [[concepts/agentic-commerce]], [[concepts/agent-memory-systems]], [[concepts/practical-agent-adoption]]
+- Insights added: 4
+
+## [2026-10-19] ingest | The 5 Skills I'd Bet On For 2027. AI Is Making Every One Worth More. | huWizSgmRf0
+
+- Source page: [[sources/huWizSgmRf0]]
+- Concepts touched: [[concepts/ai-career-skills]], [[concepts/ai-builder-mindset]]
+- Insights added: 4
+
+## [2026-10-19] ingest | If OpenAI And Anthropic Are Discouraging You, You're Probably A Level 1 Builder. | lewY_0sJaWg
+
+- Source page: [[sources/lewY_0sJaWg]]
+- Concepts touched: [[concepts/ai-builder-mindset]], [[concepts/ai-business-strategy]]
+- Insights added: 4
+
+## [2026-10-19] ingest | The Race to Done: Fable 5.1 vs GPT-6 Astra. Who Wins? | n5bZHETCiJA
+
+- Source page: [[sources/n5bZHETCiJA]]
+- Concepts touched: [[concepts/prompting-and-skill-design]], [[concepts/model-comparison-and-performance]], [[concepts/multi-agent-system-design]]
+- Insights added: 4
+
+## [2026-10-19] ingest | OpenAI's AI Wrote 700 Math Papers. Engineers Still Won't Trust AI With Their Code. | pTh4IJ-Mi3Y
+
+- Source page: [[sources/pTh4IJ-Mi3Y]]
+- Concepts touched: [[concepts/agent-evaluation-and-reliability]], [[concepts/ai-quality-control]], [[concepts/ai-phase-transition]]
+- Insights added: 4
+
+## [2026-10-19] ingest | Google's Gemini Argon Is #1 On A Leaderboard. It Hasn't Passed The Benchmark That Matters. | sVQ3XlM9I40
+
+- Source page: [[sources/sVQ3XlM9I40]]
+- Concepts touched: [[concepts/model-comparison-and-performance]], [[concepts/ai-builder-mindset]]
+- Insights added: 2
+
+## [2026-10-19] ingest | Codex Tutorial: Build Your First AI Agent Delegation Loop | xqGCbEDbny8
+
+- Source page: [[sources/xqGCbEDbny8]]
+- Concepts touched: [[concepts/knowledge-work-delegation]], [[concepts/codex-agent-architecture]], [[concepts/prompting-and-skill-design]], [[concepts/practical-agent-adoption]]
+- Insights added: 5
+
+## [2026-10-19] ingest | Opus 4.8 Scored 81. Your Workflow Doesn't Care. | z73yuF14udI
+
+- Source page: [[sources/z73yuF14udI]]
+- Concepts touched: [[concepts/model-selection-frameworks]], [[concepts/agent-harness-and-maintenance]], [[concepts/agent-orchestration-architecture]]
+- Insights added: 4
+
+## [2026-10-19] ingest | channel uploads not in playlists | 17 videos
+
+- Scanned the last 100 uploads on @NateBJones/videos; 49 were not in the manifest. Selected 17 with spec/agent-design advice (skipped news, markets, product launches). Added to manifest with `playlists: []`.
+
+## [2026-10-19] create | [[concepts/agent-security-baseline]]
+
+- New concept page: 57-item day-one security checklist ([MUST]/[SHOULD]) consolidated from [[sources/btUxMt_tssA]], [[sources/4f5AJrJPilM]], [[sources/FCRT7M30Wtw]], [[sources/avN5R3OhxYs]]. Linked from those source pages and index.md.
+
+## [2026-10-19] grounding | wired agent-security-baseline → author-constraints (grounding + step 0 seed), red-team (baseline check); added Security baseline table to templates/workflow-bundle/constraints.md
+
+## [2026-10-19] lint | refreshed index.md stats line (54 concepts, 333 source pages, 361 videos)

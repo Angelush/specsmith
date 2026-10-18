@@ -3,9 +3,9 @@ title: AI Career Skills and Fluency
 type: concept
 slug: ai-career-skills
 tags: [career, ai-fluency, skills, mindset, framework, orchestration]
-sources: [rYqt6mMlv7o, hDpjMJw3flk, 4cuT-LKcmWs, DdlMoRSojtE, HDVG8RKYX9s, fyHnGHxGuhI, q6p-_W6_VoM, -dJ9WrTG6zQ, BYKUwsQOA8U, XlfumXPPrLY, HZ9iL_lFYgQ, BaC5FEN2e4Y, AzOJ9QLgfIk, EZ4EjJ0iDDQ, 725QE_LNXT4, UsCgEuIAclE, 0bLI31EFDDs]
+sources: [rYqt6mMlv7o, hDpjMJw3flk, 4cuT-LKcmWs, DdlMoRSojtE, HDVG8RKYX9s, fyHnGHxGuhI, q6p-_W6_VoM, -dJ9WrTG6zQ, BYKUwsQOA8U, XlfumXPPrLY, HZ9iL_lFYgQ, BaC5FEN2e4Y, AzOJ9QLgfIk, EZ4EjJ0iDDQ, 725QE_LNXT4, UsCgEuIAclE, 0bLI31EFDDs, huWizSgmRf0]
 stability: evergreen
-updated: 2026-10-06
+updated: 2026-10-19
 ---
 
 # AI Career Skills and Fluency
@@ -36,6 +36,8 @@ In an era where AI is rapidly commodifying traditional knowledge work, developin
 - **Pick the leverage point, not the biggest problem** — The core forward-deployed-engineer skill is choosing where a small build unblocks the most downstream work without handing the model dangerous authority (e.g. flag missing documents at claims intake, leave fraud and injury decisions with humans). Estimate it by pulling the last 10-20 real instances, classifying them, and doing rough counts of days lost; this makes the work measurable (false alarms, misses, adjuster time) [[sources/0bLI31EFDDs]].
 - **A 30-day FDE proof project** — Week 1: pull 10-20 real completed cases, classify, find leverage. Week 2: sit next to the person doing the work, correct the pain-point list, do napkin math, state scale and guardrails before building. Week 3: build the simplest solution with enterprise-style permissions, data and auth, then run clean and ugly old cases and rerun after each change. Week 4: let 2-3 people use it while you watch, then write up the impact. Experienced people compress this to 2-4 days [[sources/0bLI31EFDDs]].
 - **Domain expertise is the moat; stay in your industry** — Analysis of about 400,000 Claude Code sessions found task experts reached verified success more than twice as often as novices, and non-technical users got within a few points of technical users on code produced. FDEs should lean into the industry they already know (healthcare, manufacturing) rather than jump sectors, and need not wait for a title, since solving one real workflow with AI is the route [[sources/0bLI31EFDDs]].
+- **Five skills gain leverage as AI improves: taste, agency, focus, resourcefulness, follow-through** — Together they let one person recognize a worthwhile improvement, act on it, sustain attention, learn what is needed along the way, and carry the result to the end. Taste is reframed as acting on something you care about (not only recognizing good work): the person closest to a recurring problem can now build a working alternative instead of throwing a memo over the wall, and the attempt sharpens taste. Re-audit projects you ruled out on cost or headcount grounds, since those requirements have changed. [[sources/huWizSgmRf0]]
+- **Hire and grow for resourcefulness and follow-through, not listed skills** — Resourcefulness is understanding a system's intent well enough to swap components (OpenBrain builders re-implemented the capture-and-resurface loop with Discord, Obsidian, MacWhisper, whatever their org allowed) and learning at the moment of need by bringing the confusing error to the AI. Evaluate people by how they approach unfamiliar problems (useful question, reframe, another attempt on their own). Follow-through means shipping, then checking whether the intended person actually got it (guide shows up too late, handoff needs changing); ask before starting: who is this for, what will they be able to do, what is the whole job. [[sources/huWizSgmRf0]]
 
 ## Prompt commands
 
@@ -131,3 +133,4 @@ I need to evaluate whether to use AI for [SPECIFIC TASK]. Help me assess: (1) Is
 - [[sources/725QE_LNXT4]] — The Prove-It Economy is Here | And Most Marketers Aren't Ready
 - [[sources/UsCgEuIAclE]] — Microsoft Says 86% Treat AI Output as a Starting Point. Your Resume Just Changed
 - [[sources/0bLI31EFDDs]] — OpenAI Pays $280,000 For This Job. You Don't Have To Be An Engineer.
+- [[sources/huWizSgmRf0]] — The 5 Skills I'd Bet On For 2027. AI Is Making Every One Worth More.

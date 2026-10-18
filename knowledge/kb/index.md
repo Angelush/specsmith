@@ -3,7 +3,7 @@
 > Knowledge wiki extracted from Nate (AI educator) YouTube transcripts.
 > See [[AGENTS]] for conventions. See [[log]] for ingest history.
 
-**53 concepts** · **316 source pages** · **344 videos (manifest)** · last updated 2026-10-19
+**54 concepts** · **333 source pages** · **361 videos (manifest)** · last updated 2026-10-19
 
 ## Concepts by category
 
@@ -17,6 +17,7 @@
 - [[concepts/practical-agent-adoption]] (8) — Guidelines and considerations for integrating AI agents into workflows, including automation strategies, user types, and managing the 'human throttle'.
 - [[concepts/agent-philosophy-and-mindset]] (8) — Conceptual frameworks for approaching agent design, including simulation, Aristotelian wisdom, and the 'mini-me fallacy' anti-pattern.
 - [[concepts/multi-agent-system-design]] (5) — Strategies for designing and managing systems with multiple interacting agents, focusing on hierarchy, coordination, and specialization.
+- [[concepts/agent-security-baseline]] (4) — Day-one security checklist for new agent projects: identity, permissions, skill supply chain, injection, spawning limits, traces, kill switch.
 - [[concepts/ai-security-and-trust]] (3) — Addressing security concerns in AI systems, including permission models, code review, and protecting sensitive data.
 - [[concepts/rag-architecture-and-chunking]] (3) — Strategies for Retrieval-Augmented Generation (RAG), including chunking, embedding, and managing context for reduced hallucination.
 

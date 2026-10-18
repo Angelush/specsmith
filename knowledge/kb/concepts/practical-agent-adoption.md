@@ -3,9 +3,9 @@ title: Practical Agent Adoption and Deployment
 type: concept
 slug: practical-agent-adoption
 tags: [adoption,agent-deployment,automation,workflow,agent-design,reliability]
-sources: [B3rSU7XROrg, D-Ww1wLIp60, DAxARHKQAXs, LwKnvqVdUgA, QrvVkm-8Jx4, kVPVmz0qJvY, DWb4SqILvvM, obqjIoKaqdM, LIkYVsxMpS8, R2-Y1Hjwx2U, rh_PcL26zls, HgAQOkG_v8c, PRqiGS6fnIM, U4TmrlWEY4M, IpEaSa7tgfc, qYe1GsMRElw]
+sources: [B3rSU7XROrg, D-Ww1wLIp60, DAxARHKQAXs, LwKnvqVdUgA, QrvVkm-8Jx4, kVPVmz0qJvY, DWb4SqILvvM, obqjIoKaqdM, LIkYVsxMpS8, R2-Y1Hjwx2U, rh_PcL26zls, HgAQOkG_v8c, PRqiGS6fnIM, U4TmrlWEY4M, IpEaSa7tgfc, qYe1GsMRElw, 7pqRRxrdr0c, gbbPBr3OraQ, xqGCbEDbny8]
 stability: volatile
-updated: 2026-10-06
+updated: 2026-10-19
 ---
 
 # Practical Agent Adoption and Deployment
@@ -36,6 +36,10 @@ Successfully adopting and deploying AI agents can unlock significant productivit
 - **Build the flywheel on a low-stakes case first, then point the same primitives at the case that costs real money** — train the skeleton (ingestion, normalization, receipts, the gate) on email and calendar, where mistakes are cheap and recoverable, before pointing it at insurance appeals or tax prep, where mistakes are expensive; because the primitives transfer, each successive build gets dramatically cheaper — the tax-prep build in this video took a fraction of the insurance build's setup time specifically because nothing in the skeleton was new [[sources/U4TmrlWEY4M]].
 - **Verifiable domains and "work you'd do anyway" are where agents pay off for small businesses** — Legal (Codex legal usage up ~108x since January) works because correctness is checkable; a small injury firm uses an agent to draft demand packages from medical records, saving ~40 staff hours a month, because lawyers already compare packages to records. Lesson for SMBs and vendors: find steps where a human reviews the result anyway and let the agent do the preparatory step; dropping a general agent in and expecting value just creates agent-management work. Most SMBs pay ~$40/month for AI (JPMorgan, 4.6M businesses), which buys a chatbot, not outcome automation; Goldman found only 14% fully integrated and 73% wanting training. [[sources/IpEaSa7tgfc]]
 - **Four questions to ask at any scale** — (1) Can an ordinary competent person inspect the work and explain why it is acceptable? (2) Can you trace it to measures the business already uses (believe those over the agent dashboard)? (3) Do you know your own domain boundary and the agent's last important failure? (4) If the work is outside your expertise and carries liability (tax, employment law, regulated claims, contracts), why not buy a domain-specific managed agent instead of configuring a general one? Entrepreneurs' 80% across five fields hides the dangerous 20% in each [[sources/qYe1GsMRElw]].
+- **Automate the hidden work and the root cause, not just the reply** — Writing the answer is not the expensive part; the cost is the undirected cross-tool research (find the email, check payment, look in Slack, resend, apologize, close). Nate's team wrote down every step as it actually happens, timed it, marked which steps need judgment, then used AI to analyze the cases, root-cause each, and roll out a fix (approved-domain self-service and a non-expiring invite). The next comparable week fell from 52 to 19 cases with Slack access disappearing as a category, because the question moved from "how do we answer faster" to "how do people stop needing to ask" [[sources/7pqRRxrdr0c]].
+- **Make proposed, in-progress and completed actions visually distinct for non-technical users** — Muse shows an emoji plus a short phrase for what it is doing and animates the avatar while working, so users tell a proposed action from a finished one without reading. Pair that with onboarding that starts at a phone number and connects Gmail or calendar only when conversationally relevant. Any agent that executes real-world actions (cancellations, bookings) should expose action state explicitly [[sources/gbbPBr3OraQ]].
+- **Build a custom heads-up display from your own sources instead of buying SaaS** — Recipe: tell the agent (1) every source you work from (email, Slack, messages), (2) what matters and how you move the needle, discussing how you refer to each source and what is salient; then (3) have it design a live dashboard fed via MCP or computer use, plus an automation every 15-30 minutes that re-runs a salience analysis and re-prioritizes. This open loop was not feasible before computer use was available [[sources/xqGCbEDbny8]].
+- **Boundaries scale with power: least privilege, no secrets in chat, and receipts** — Keep API keys and passwords in a .env file, not in prompts; do not grant write access when read access suffices; do not let the agent send, publish, delete or spend without understanding the workflow; and require receipts (files, logs, tests, renders, command output) for important work. Inspectability of the output is what makes handing off more work responsible rather than wishful [[sources/xqGCbEDbny8]].
 
 ## Prompt commands
 
@@ -104,3 +108,6 @@ Run the agent-shape test on this task: [DESCRIBE TASK]. Answer four questions: (
 - [[sources/U4TmrlWEY4M]] — Every AI Agent Demo Stops at Email. I Pointed Mine at the Bills That Cost You Money.
 - [[sources/IpEaSa7tgfc]] — Agents Aren't Taking Your Jobs. They're Creating More Work Instead.
 - [[sources/qYe1GsMRElw]] — Runable Raised $21 Million On Agents That Finish. Nobody Told Yours What Done Means.
+- [[sources/7pqRRxrdr0c]] — I Gave An AI Agent My Support Inbox. It Cut The Work By Two-Thirds.
+- [[sources/gbbPBr3OraQ]] — I Gave Meta's Muse The Most Boring Job I Had. It Found $5,350 A Year.
+- [[sources/xqGCbEDbny8]] — Codex Tutorial: Build Your First AI Agent Delegation Loop

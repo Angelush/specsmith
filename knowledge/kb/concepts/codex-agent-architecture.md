@@ -3,9 +3,9 @@ title: Codex Agent Architecture
 type: concept
 slug: codex-agent-architecture
 tags: [codex, architecture, harness, sandbox, repo-as-memory, tool]
-sources: [hDpjMJw3flk, 0jSE0NABcY8, 7oIkPW217AY, 09sFAO7pklo, tuLWIK1AVEM, 4HvFqhtCb-A, TR8RDUzQaMo]
+sources: [hDpjMJw3flk, 0jSE0NABcY8, 7oIkPW217AY, 09sFAO7pklo, tuLWIK1AVEM, 4HvFqhtCb-A, TR8RDUzQaMo, xqGCbEDbny8]
 stability: volatile
-updated: 2026-10-06
+updated: 2026-10-19
 ---
 
 # Codex Agent Architecture
@@ -28,6 +28,7 @@ This architecture facilitates highly efficient and correct execution of well-def
 -   **Codex is positioned for long-running, delegated, asynchronous tasks that prioritize correct outcomes.** This differentiates it from IDE-native tools like Cursor and cross-surface workflow tools like Claude Code. [[sources/0jSE0NABcY8]] (TRD-003)
 - **Codex: provider plus profile** — Add Z.ai as a model provider in personal Codex config (responses-compatible address, env var holding the key) and create a GLM profile; launching the GLM profile runs a whole job on GLM while default Codex stays on OpenAI. Project context (AGENTS.md, skills, tools, rules) reloads but the conversation does not, so treat it as a new or carefully handed-off job. Claude Code feels like a cockpit (steer closely); Codex like an ops desk (dispatch and inspect), and those styles persist across model suppliers [[sources/4HvFqhtCb-A]].
 - **Computer use is now the universal connector, and users stop noticing the switch from MCP** — Nate had bet in 2024-25 that machine-readable interfaces (MCP/API) would beat human-style computer use, and says he underestimated its scaling-law potential: once fast and fluent it reaches things no one will ever build an API for (government paperwork, faxed pediatric forms). OpenAI engineers note MCP is still faster and more token-efficient where it exists, but agents now switch to computer use mid-task without the user noticing. For general audiences the product hides scripts and selectors and shows a friendly pointer and picture-in-picture view instead, though they remain coding agents underneath. This raises the control question of whose computer it is. [[sources/TR8RDUzQaMo]]
+- **Thread owns the job, sub agents own contained pieces, and a chief-of-staff thread stops you being the router** — Instead of a pile of separate chats where the human remembers the current version, the standard and the next move, keep one thread that knows the goal, folders, current artifacts and standard, and spins out smaller jobs. A planning thread can use sub agents for discovery and source checking, then hand the cleaned goal to an execution thread that owns the deliverable; this separates planning, execution and checking. The goal feature keeps Codex working to the defined done state, removing the need for Ralph-Wiggum-style loops to stop early exits [[sources/xqGCbEDbny8]].
 
 ## Prompt commands
 

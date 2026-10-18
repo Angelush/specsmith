@@ -3,9 +3,9 @@ title: AI Phase Transition and Future Predictions
 type: concept
 slug: ai-phase-transition
 tags: [agents, predictions, self-acceleration, compliance, long-running-agents, capability-cost]
-sources: [dZxyeYBxPBA, pOb0pjXpn6Q, x_fsaOnqbeo, gRhOo6uT-fM, uVZMc-i5EEs, -oI7mrudRn8, qw7HDITpTR4]
+sources: [dZxyeYBxPBA, pOb0pjXpn6Q, x_fsaOnqbeo, gRhOo6uT-fM, uVZMc-i5EEs, -oI7mrudRn8, qw7HDITpTR4, FCRT7M30Wtw, pTh4IJ-Mi3Y]
 stability: volatile
-updated: 2026-05-12
+updated: 2026-10-19
 ---
 
 # AI Phase Transition and Future Predictions
@@ -25,6 +25,8 @@ Understanding these phase transitions is crucial for strategic planning, as they
 -   **2025 innovations highlight LLMs as code tools and verification loops** — Key surprises from 2025 include large language models (LLMs) effectively manipulating computers and files via code, the unlock of generative user interfaces through advanced image generation, and the power of verification loops as accelerators for agents. The "messy middle" of AI (e.g., intent routing, exception handling) remains an underbuilt yet defensible area. [[sources/uVZMc-i5EEs]] (TRD-040)
 -   **Long-running agents require specific design patterns** — Successfully building agents that reliably "finish what they start" involves KV-cache optimization for extended contexts, file-system based context compression for persistent memory, and periodic goal re-articulation to maintain focus across multi-step tasks. [[sources/qw7HDITpTR4]] (AGD-032)
 -   **Compliance is becoming a competitive moat** — Proactively developing auditable and traceable agent orchestration layers that meet regulatory requirements (such as the EU AI Act, HIPAA, and GDPR) provides a significant and difficult-to-replicate competitive advantage. [[sources/-oI7mrudRn8]] (AGD-005)
+- **Recursive self-improvement starts as an automated experiment loop, not a model rewriting its weights** — OpenAI's agents showed discoveries surviving across runs and making later populations more capable with nobody designing it; Discovery Loop (Jeff Dean, Sanjay Ghemawat and co-founders, a public benefit corporation) is building the deliberate version: automate propose-implement-run-evaluate, preserve what works, and aim it at ML research itself so the output improves the systems running the next loop. Watch for agents writing more of their own training and evaluation software, parallel experiments, and carried-forward results as the practical signature of recursion [[sources/FCRT7M30Wtw]].
+- **Spiky, narrow superintelligence: capability does not transfer one-to-one** — superhuman math (a domain where the right answer is recognizable, so reward training works) does not imply superhuman systems engineering, prose or business judgment; labs reportedly moved to open research problems because existing math evals were saturated. Plan for uneven capability: decide per task type where the tool is trusted and where it is not, based on the business impact you are driving, not on headline benchmarks [[sources/pTh4IJ-Mi3Y]].
 
 ## Prompt commands
 
@@ -80,3 +82,5 @@ Design an agentic harness for [TASK] that can run to completion without human in
 -   [[sources/uVZMc-i5EEs]] — I Tracked Every AI Win & Failure in 2025. Here's What Actually Worked (9 Surprises)
 -   [[sources/-oI7mrudRn8]] — Fortune 100 AI Agent Secrets: The 6 Principles
 -   [[sources/qw7HDITpTR4]] — The Manus Acquisition Explained: Why Meta Paid $2B for a "Wrapper"
+- [[sources/FCRT7M30Wtw]] — Anthropic's Model Attacked Two Strangers On GitHub. Nobody Asked It To.
+- [[sources/pTh4IJ-Mi3Y]] — OpenAI's AI Wrote 700 Math Papers. Engineers Still Won't Trust AI With Their Code.

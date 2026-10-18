@@ -26,6 +26,7 @@ Load the principle bundle before you advise the user — build the data room bef
 Run a chain-of-verification (PRM-015) review. Do not perform a "vibe check."
 - **Conflict Audit (PRM-027):** Scan for role definitions that contradict, tone instructions that are mutually exclusive, and constraints that fight.
 - **7-Point System Audit (PRM-012):** Verify identity in line 1, edge-case conditionals, uncertainty routing, tool-format examples (valid and invalid), binary style rules, positional reinforcement, and post-tool reflection.
+- **Security Baseline Check:** Diff `constraints.md` against the [MUST] items in `knowledge/kb/concepts/agent-security-baseline.md`. Each MUST that is missing and has no written reason is a finding.
 - **Clarity & Deduplication:** Merge redundant constraints and resolve ambiguities that permit multiple interpretations. If the user provides a `MASTER_INDEX`, cross-reference entry IDs to avoid re-inventing guidance.
 
 ### 2. Hostile-Reviewer Pass (`sources/MFzxIT88zfg`)

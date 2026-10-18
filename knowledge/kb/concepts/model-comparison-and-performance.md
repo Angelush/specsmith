@@ -3,9 +3,9 @@ title: Model Comparison and Performance Benchmarking
 type: concept
 slug: model-comparison-and-performance
 tags: [model-comparison, model-selection, benchmarks, prompting, agents, trade-offs]
-sources: [-5zFZznthw0, hDpjMJw3flk, 41UDGsBEjoI, 7-LFn11dNHA, DbX_0_0LGag, EbZbGPi8ftA, Gqnf5f1ITyo, hV5_XSEBZNg, p-ibfrMN0M8, -_vL1KXd2rc, tJB_8mfRgCo, JKk77rzOL34, dUWxN0snnW8, DcrXHTOxi3I, MFzxIT88zfg, jOWXBzP6nNg, uCWKXIyvM_8, ix8SsXjBc7M]
+sources: [-5zFZznthw0, hDpjMJw3flk, 41UDGsBEjoI, 7-LFn11dNHA, DbX_0_0LGag, EbZbGPi8ftA, Gqnf5f1ITyo, hV5_XSEBZNg, p-ibfrMN0M8, -_vL1KXd2rc, tJB_8mfRgCo, JKk77rzOL34, dUWxN0snnW8, DcrXHTOxi3I, MFzxIT88zfg, jOWXBzP6nNg, uCWKXIyvM_8, ix8SsXjBc7M, 2w_vwQVvFmc, n5bZHETCiJA, sVQ3XlM9I40]
 stability: volatile
-updated: 2026-10-06
+updated: 2026-10-19
 ---
 
 # Model Comparison and Performance Benchmarking
@@ -35,6 +35,9 @@ Understanding the nuanced performance differences between AI models is crucial f
 - **Compare model lineages like family resemblances, not a single benchmark ladder** — Calling a new release "dumber" or "smarter" than the last hides what's actually different: OpenAI's 5.x lineage shows explicit-prompting strength, long-running agentic coding, and less ability to read between the lines, while Anthropic's Mythos/Fable lineage shows strength on ambiguous tasks, front-end taste, and near-philosophical reasoning — these are different families with resemblance across generations, not rungs on one intelligence ladder. No benchmark suite, including a private one, fully captures that difference in daily use, so the useful comparison is qualitative: does this family's way of working match how you work [[sources/jOWXBzP6nNg]].
 - **Codex's harness reliability trades off against its problem-finding boldness (vs. Fable)** — Given an identical, fully open-ended brief ("audit my business, pick any problem, build the fix"), Codex delivered a fast, dependable, single-run, zero-issue result — but even in "Ultra" mode with a self-described multi-billion-token daily burn, it still chose a small, already-articulated ("voiced") problem it could cleanly wrap its arms around, rather than digging for the highest-leverage one. Fable was comparatively a hassle (repeated permission dialogues, slow to grind through), but showed the "big model smell": real strategic judgment, correctly diagnosing that Nate's actual hardest problem is *finding the right story to tell*, not the surface-level task he never named. Read as a diagnostic: a Codex user should expect bounded, safe problem selection under open-ended autonomy regardless of token budget, and should route the "which problem matters" judgment call elsewhere [[sources/uCWKXIyvM_8]].
 - **Split ambiguity work from defined work across models** — Nate finds Astra (new pre-train) strong at holding massive shifting context, following consequences and persisting through messy tasks, but initially more literal; Fable 5.1 is better at reading between the lines when you have no defined goal. His routing: wrestle with the fuzzy problem in Fable, then hand the now-defined job to Astra for execution [[sources/ix8SsXjBc7M]].
+- **Big models quarantine and escalate instead of silently repairing** — On messy data Fable 5 quarantined garbage rather than "fixing" it, inventoried fake credentials without leaking them, and built an unrequested human review queue for low-confidence calls, avoiding the usual failure modes (promoting garbage to clean data, smoothing conflicts, unlisted extra fixes). Specs can therefore ask for a review queue explicitly rather than hoping. Limits remain: price (about $50 per million output tokens), weak one-shot visual taste (clipped headings), and missed handwritten-image content until forced to look; a review step still lands on the human [[sources/2w_vwQVvFmc]].
+- **Assign models to roles by task phase, and count iteration speed** — Nate's split: Fable first to think a fuzzy problem through, then Astra to structure it into a plan or writing draft; Astra drafts and proves spreadsheet formulas, Fable styles Excel/PowerPoint; Astra for fast computer use in Codex or Cowork, where he found Claude's computer use slower. In one build Astra completed v1.0 to v1.2 (and about 65 self-written checks) in the time Fable took for v1.0 with lower token use; harness and access (Cowork vs Codex) are part of the comparison. This is one build, not a rule [[sources/n5bZHETCiJA]].
+- **A leaderboard rank means little if nobody can use the model on real work** — a model that tops a leaderboard but is barely accessible and has no stated customer surface cannot be shown to be useful. Evaluate on the lab-to-customer map instead (who the lab serves, where the model shows up, why it beats the current one in that surface) and on tool-specific strengths found by use: one tool is slower but strong at connectors and holding large information coherently, another is faster at navigating the web and executing actions [[sources/sVQ3XlM9I40]].
 
 ## Prompt commands
 
@@ -123,3 +126,6 @@ Analyze the following data: [PASTE DATA IN CSV OR MARKDOWN]. Think hard. Produce
 - [[sources/jOWXBzP6nNg]] — Your Next AI Subscription Shouldn't Be ChatGPT 5.6 Or Fable 5. It Should Be Both.
 - [[sources/uCWKXIyvM_8]] — Codex vs Fable: Which AI Agent Picked the Better Problem?
 - [[sources/ix8SsXjBc7M]] — There Are Jobs You Could Never Give AI. I Gave GPT-6 Astra 20 Hours Of Admin.
+- [[sources/2w_vwQVvFmc]] — The Doing Got Cheap. Now What? | Claude Fable 5 Changes Work
+- [[sources/n5bZHETCiJA]] — The Race to Done: Fable 5.1 vs GPT-6 Astra. Who Wins?
+- [[sources/sVQ3XlM9I40]] — Google's Gemini Argon Is #1 On A Leaderboard. It Hasn't Passed The Benchmark That Matters.

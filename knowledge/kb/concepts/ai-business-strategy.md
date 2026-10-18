@@ -3,9 +3,9 @@ title: AI Business Strategy and Opportunities
 type: concept
 slug: ai-business-strategy
 tags: [business-strategy, business-opportunity, moat, arbitrage, enterprise, ai-native]
-sources: [-FhtPUkXKO4, 2gt2Ugy1b6Q, 3FbqaD1MCUA, 8psoB8EFdc8, BiqG3it0gY0, CJFmhEzmOZg, DHZgLzwWXfs, hW5ne_14OQg, ib2m9HVX7as, Z0HizICooiw, 5Et9WoDCsYs, 6r0UeMQE66I, q6pbQ5li5Cg, b1fxYGPbHeo, 4KAF72BTyCE, 4Bg0Q1enwS4, iGvJpBWWGOU, 9aIYhjeYxzM, 725QE_LNXT4, adNErrz2aA0, jwtpMSRAPAQ]
+sources: [-FhtPUkXKO4, 2gt2Ugy1b6Q, 3FbqaD1MCUA, 8psoB8EFdc8, BiqG3it0gY0, CJFmhEzmOZg, DHZgLzwWXfs, hW5ne_14OQg, ib2m9HVX7as, Z0HizICooiw, 5Et9WoDCsYs, 6r0UeMQE66I, q6pbQ5li5Cg, b1fxYGPbHeo, 4KAF72BTyCE, 4Bg0Q1enwS4, iGvJpBWWGOU, 9aIYhjeYxzM, 725QE_LNXT4, adNErrz2aA0, jwtpMSRAPAQ, lewY_0sJaWg]
 stability: evergreen
-updated: 2026-05-29
+updated: 2026-10-19
 ---
 
 # AI Business Strategy and Opportunities
@@ -38,6 +38,9 @@ The rapid advancement and commoditization of AI necessitate a re-evaluation of t
 - **Interpretation economy & the truth layer** — The 25-year attention economy is giving way to an "interpretation economy" where AI filters every product and person; winners run two internets at once — memorable to humans (offline brand work "seeds prompts") and legible to agents via a provable, structured "truth layer" — or get flattened to the category average [[sources/725QE_LNXT4]].
 - **Pricing follows platform control** — The vendor that defines the work primitive earns the right to price it (Salesforce meters CRM actions, Microsoft the productivity graph, ServiceNow the action layer, SAP gates sanctioned pathways); build on a platform without understanding its metering incentives and your agent economics belong to someone else [[sources/adNErrz2aA0]].
 - **The implementation layer is the moat** — Disproportionate agentic value lives in the custom implementation/harness layer that assembles model + harness + data into an actionable workflow, not the model or data alone; "SaaS tastes like chicken" (generic software) is over, and the buyer test is whether a PE firm could deploy your product across 50 portfolio companies [[sources/jwtpMSRAPAQ]].
+- **Level 3 uses AI across go-to-market, not just in the product or the build** — Beyond classic distribution awareness, level-3 builders apply models to telling their story: custom outbound on LinkedIn, voice-model calling via Twilio, AI-generated podcast or video content, models driving TikTok accounts. AI startups grow fast partly because they apply the technology across every business function, which is a common gap. [[sources/lewY_0sJaWg]]
+- **Level 4: a stable, domain-specific thesis, including an AI-based one** — A level-4 builder has marinated in the problem space and holds a thesis that does not change when a news item drops. The AI-specific addition is understanding AI deeply enough for the space to articulate a disruptive AI thesis; example: voice as the next computing paradigm, which dictates the details (clean capture, per-app formatting, reliability every time, hotkeys everywhere). Test: what is your uncomfortable, strongly held conviction about the world? [[sources/lewY_0sJaWg]]
+- **Level 5: forecast the capability 6-12 months out in your domain and build for it now** — Know the current envelope (agentic tool use, long-running sessions, context and tool calling) and how fluent businesses in your space are, then read lab releases for the specific implications for your domain (CRMs, spreadsheets, voice, outbound sales) and build for what becomes possible next to be first to market. Labs are not black holes for entrepreneurship because no lab spends as long in a domain as a domain expert who also tracks the labs. [[sources/lewY_0sJaWg]]
 
 ## Prompt commands
 
@@ -146,3 +149,4 @@ Design a private evaluation task for [DOMAIN] that is hard enough to make a fron
 - [[sources/725QE_LNXT4]] — The Prove-It Economy is Here | And Most Marketers Aren't Ready
 - [[sources/adNErrz2aA0]] — Your SaaS Bill Just Got a Second Meter. You're About to Pay It.
 - [[sources/jwtpMSRAPAQ]] — The Trillion Dollar Agentic Workflow Opportunity Is Here
+- [[sources/lewY_0sJaWg]] — If OpenAI And Anthropic Are Discouraging You, You're Probably A Level 1 Builder.

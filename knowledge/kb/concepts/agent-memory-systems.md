@@ -3,9 +3,9 @@ title: Agent Memory and Knowledge Architecture
 type: concept
 slug: agent-memory-systems
 tags: [agent-design, memory-architecture, knowledge-systems, data-ownership, multi-agent, principles]
-sources: [-oI7mrudRn8, xNcEgqzlPqs, dxq7WtWxi44, 0TpON5T-Sw4, 4KAF72BTyCE, v1Ham9sIWgo, 2JiMmye2ezg, japT66frdhM, 9N7qXkmntlU, h7dbkDcb3hA, 7NjtPH8VMAU, lqiwQiDglGk, HgAQOkG_v8c, HZLPhPbw3fM, 2IAYFgAqX6g, 4HvFqhtCb-A]
+sources: [-oI7mrudRn8, xNcEgqzlPqs, dxq7WtWxi44, 0TpON5T-Sw4, 4KAF72BTyCE, v1Ham9sIWgo, 2JiMmye2ezg, japT66frdhM, 9N7qXkmntlU, h7dbkDcb3hA, 7NjtPH8VMAU, lqiwQiDglGk, HgAQOkG_v8c, HZLPhPbw3fM, 2IAYFgAqX6g, 4HvFqhtCb-A, 1qGH6NwTj3o, gbbPBr3OraQ]
 stability: evergreen
-updated: 2026-10-06
+updated: 2026-10-19
 ---
 
 # Agent Memory and Knowledge Architecture
@@ -38,6 +38,8 @@ Effective memory architecture is crucial for AI agents to operate beyond single-
 - **Separate history, agent runtime and workspace** — Shopify's Aquifer keeps saved session history apart from the agent software and the temporary code workspace, so swapping models or restarting machines does not lose the run record. Test: what would you lose if the last week of chat vanished? Anything you cannot afford to lose needs a home outside the chat [[sources/2IAYFgAqX6g]].
 - **Handoff must be a startup path, not a transcript** — Following Justin Young's long-running-agent work: keep a feature list, a progress record, a way to start the project, and code left in a runnable state; a new session reads notes, checks what changed and verifies the app still works before taking the next task. Agents may mark features passing but may not delete failing tests, otherwise a green checklist hides a broken product (the hit-by-a-bus problem) [[sources/2IAYFgAqX6g]].
 - **Four layers: model, harness, project context, conversation** — Changing the model keeps the harness (hooks, MCP, permissions) and file-based context (CLAUDE.md, AGENTS.md, skills, scripts) but loses conversation, prompt cache and any decision never written to a file. With about 96% of token volume being reused input, context hygiene is economic. Before moving a job mid-stream, have the current model write a handoff file: goal, current state, relevant files, constraints, definition of done, checks to run [[sources/4HvFqhtCb-A]].
+- **Accumulated history becomes the moat and the tribal-knowledge risk** — An agent that has worked with you for six months (notes preserved across context windows, searchable earlier messages and tool output) is far more useful than a fresh copy of the same model, since it knows which customer needs a call and what the board reads. The same single-head risk companies have with long-serving staff now exists as machine-held context, so memory should live in portable, inspectable artifacts you own [[sources/1qGH6NwTj3o]].
+- **Personal context becomes judgment only when memory records the why** — Once capability is not a frontier differentiator, the next gain is knowing circumstances: which subscription is a duplicate, which one a family member needs, which trip you mean, what you already tried. An occasional charge may be waste or something you rely on twice a year; the assistant should remember that distinction, ask when it does not know, and reuse your answer. Muse also states it does not "fish" for information and tracks only what the user chooses to share, which builds trust for incremental connection of accounts [[sources/gbbPBr3OraQ]].
 
 ## Prompt commands
 
@@ -127,3 +129,5 @@ Keep four ordinary text files with a long-running agent project: (1) readme.mark
 - [[sources/HgAQOkG_v8c]] — I Built My Own AI Memory by Talking to Claude. It Did 80% Itself.
 - [[sources/2IAYFgAqX6g]] — Nobody Gave You A Control For Quality. 6 Habits So You Can Ship Faster Anyway.
 - [[sources/4HvFqhtCb-A]] — Stop Paying $200 For Work An $18 Model Can Do Inside Claude Code And Codex.
+- [[sources/1qGH6NwTj3o]] — GPT-6 Astra Doesn't Need Your Instructions Anymore.
+- [[sources/gbbPBr3OraQ]] — I Gave Meta's Muse The Most Boring Job I Had. It Found $5,350 A Year.

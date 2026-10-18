@@ -3,9 +3,9 @@ title: Model Selection Frameworks
 type: concept
 slug: model-selection-frameworks
 tags: [framework, model-selection, agent-design, ecosystem, workflow, decision-making]
-sources: [8m2-WKhidYk, dQK_pTXrGDk, 1FKxyPAJ2Ok, 9aIYhjeYxzM, -5zFZznthw0, 7G0S7DSvKxU, 8jKAT8GNDE0, ijdhIGRB_Kc, 09sFAO7pklo, LIkYVsxMpS8, z3pbrFKVyQE, R2-Y1Hjwx2U, Zp8lr6IzUnQ, 1cSNE-ZkDLQ, 5slsNizN6MQ, U4TmrlWEY4M, jOWXBzP6nNg, lq2fP7wC7d8, suY66oTDn0s, 4HvFqhtCb-A, TR8RDUzQaMo, eLpRDIvOMEw]
+sources: [8m2-WKhidYk, dQK_pTXrGDk, 1FKxyPAJ2Ok, 9aIYhjeYxzM, -5zFZznthw0, 7G0S7DSvKxU, 8jKAT8GNDE0, ijdhIGRB_Kc, 09sFAO7pklo, LIkYVsxMpS8, z3pbrFKVyQE, R2-Y1Hjwx2U, Zp8lr6IzUnQ, 1cSNE-ZkDLQ, 5slsNizN6MQ, U4TmrlWEY4M, jOWXBzP6nNg, lq2fP7wC7d8, suY66oTDn0s, 4HvFqhtCb-A, TR8RDUzQaMo, eLpRDIvOMEw, avN5R3OhxYs, z73yuF14udI]
 stability: evergreen
-updated: 2026-10-06
+updated: 2026-10-19
 ---
 
 # Model Selection Frameworks
@@ -40,6 +40,9 @@ These frameworks are crucial for navigating the rapidly evolving AI landscape. T
 - **Probe the model's ceiling, then back off** — Cheaper-model savings are real only at fully loaded cost (retries, review, validation); Lindy rebuilt its harness to use an open-source model. Give the cheaper model a couple of ambitious tasks on your own codebase and retreat as failures appear; the same method applies to smaller models from OpenAI and Anthropic. Do not switch models repeatedly mid-conversation, and start a substantial job on the model expected to finish it [[sources/4HvFqhtCb-A]].
 - **Measure cost per unit of work and consider inverting the orchestrator/executor split** — OpenAI staff say tokens per unit time or price per token is the wrong metric; a pricier-per-token frontier model can be an order of magnitude cheaper per task. Nate runs a smaller model as a long-lived orchestrator at high reasoning effort and the larger frontier model as sub-agent executor (with an occasional check against scope under-shooting on a limited context window), reporting strong token efficiency; OpenAI says it hears this pattern more and plans to bake multi-model routing into defaults. [[sources/TR8RDUzQaMo]]
 - **Route by work type with a classifier: deterministic tools, cheap models, frontier for exceptions** — Remaining work is a continuum: rule-following calculation, interpretation, and messy exceptions. Use ordinary software (CRM, pricing tool) for settled parts so the model never "rediscovers arithmetic," let a cheaper hosted or open-weight model with the right data handle routine interpretation, and have a classifier send unusual cases to a frontier model (possibly using a smart model in the classifier). The hard part is that the classifier must find "the right 99%," so it needs testing. Open weights are not automatically cheaper to operate and small is not automatically right [[sources/eLpRDIvOMEw]].
+- **Routers cannot see difficulty in the words, so define work classes and count repair time** — "What is this?" can mean an obvious syntax error or hour three of a fiendish bug; a router that sees only the words cannot tell them apart, and figuring it out can cost more tokens than sending it to a strong model. Pipe the decision-relevant context (the underlying assignment, earlier failures, cost of a mistake, an explicit request for more reasoning), and define classes by consequence, not output type: tidying a scheduling email and answering a customer contract are both "email" but not the same job. Separate routine preparation from consequential interpretation, tell the model what you already tried, and count the time spent repairing output, since a cheap model that misses a commitment is not cheap [[sources/avN5R3OhxYs]].
+- **Reasoning effort is a setting to test, not a monotonic dial** — on Opus 4.8, max reasoning was not predictably better than high (4.8 high beat 4.8 max on Vending Bench, and 4.8 regressed versus 4.7 at both), and reasoning traces showed the model overthinking alignment and tone questions on simple prompts, while OpenAI's extra-high behaved predictably better. Benchmark each effort level on your own workflow before standardizing, and keep an older model as a fallback when a new release regresses [[sources/z73yuF14udI]].
+- **Tie budget to outcomes and keep model swap an API change** — do not commit the budget to one lab; allocate against the models that work best for each outcome, build harnesses so a failing model can be swapped out, expect the lead to alternate in a two-horse race, and architect to allow strong open-source models later. For high-volume users with a weaker-model gap (e.g. writing or front-end design), cover it with detailed skills or a second tool rather than switching wholesale [[sources/z73yuF14udI]].
 
 ## Prompt commands
 
@@ -120,3 +123,5 @@ Harness lock-in is the real vendor risk, not model subscription. All CLAUDE.md f
 - [[sources/4HvFqhtCb-A]] — Stop Paying $200 For Work An $18 Model Can Do Inside Claude Code And Codex.
 - [[sources/TR8RDUzQaMo]] — I Stopped Knowing What My Computer Was Doing. Then I Asked OpenAI Why.
 - [[sources/eLpRDIvOMEw]] — You can be ambitious without the huge token bill. Here's how.
+- [[sources/avN5R3OhxYs]] — OpenClaw Was Too Dangerous To Install. 7 Months Later Microsoft Is Bringing It To Your Company.
+- [[sources/z73yuF14udI]] — Opus 4.8 Scored 81. Your Workflow Doesn't Care.

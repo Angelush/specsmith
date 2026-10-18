@@ -3,9 +3,9 @@ title: Agent Orchestration and Architecture Design
 type: concept
 slug: agent-orchestration-architecture
 tags: [agent-design, orchestration, architecture, multi-agent, reliability, simplicity-principle]
-sources: [-oI7mrudRn8, 2EXyj_fHU48, 7HP1jFJ9W1c, LNpp73qHbJA, kWeLc-Dda94, mnWMTzkjWmk, vy9pQe-lYDE, zRr24Mku3r4, 647pSnX5H_Y, b1fxYGPbHeo, 0cVuMHaYEHE, adNErrz2aA0, jwtpMSRAPAQ, zP6TnEiueEc, A4zMyjkL0Dc, U4TmrlWEY4M, jOWXBzP6nNg, tYugqJ9YytQ]
+sources: [-oI7mrudRn8, 2EXyj_fHU48, 7HP1jFJ9W1c, LNpp73qHbJA, kWeLc-Dda94, mnWMTzkjWmk, vy9pQe-lYDE, zRr24Mku3r4, 647pSnX5H_Y, b1fxYGPbHeo, 0cVuMHaYEHE, adNErrz2aA0, jwtpMSRAPAQ, zP6TnEiueEc, A4zMyjkL0Dc, U4TmrlWEY4M, jOWXBzP6nNg, tYugqJ9YytQ, z73yuF14udI]
 stability: evergreen
-updated: 2026-10-06
+updated: 2026-10-19
 ---
 
 # Agent Orchestration and Architecture Design
@@ -37,6 +37,7 @@ An architecture-first approach to agentic systems offers long-term competitive a
 - **A nine-stage skeleton makes high-trust, paperwork-heavy agents domain-agnostic** — context pack, ingest, chunk, normalize, store, retrieve, cite, export, and gate is the same sequence whether the agent is drafting a calendar reply, building an insurance-appeal case file, or prepping a tax packet; the "nouns" (email thread vs. denial letter vs. W2) change but the underlying structure the agent operates on does not, because any bureaucratic problem is first a mess-to-structured-file problem before it's a domain problem [[sources/U4TmrlWEY4M]].
 - **Pick the architect/orchestrator model for decomposition skill, not benchmark rank** — When one central model farms work out to a set of cheaper worker models, keep the model that's best at understanding high-level intent and breaking it into tasks as the architect even after a nominally stronger model ships; architect quality rests on decomposition ability and product/front-end instinct, not the score that would win a head-to-head benchmark [[sources/jOWXBzP6nNg]].
 - **Put cheap classifiers in the outer loop and cheap guards at every step** — Rather than an LLM deciding what happens next, a classifier chooses among defined outcomes with defined follow-ups, and generative models become tools inside the loop. Because it is cheap, an agent safety gate (approve, block, or ask a human for commands like deleting a build folder or force-pushing) can run at every relevant step instead of once at task start [[sources/tYugqJ9YytQ]].
+- **Agents pile work downstream unless the whole pipeline is agent-native** — individual-productivity agents generate output faster than humans can review, so without hunting every human handoff the result is a giant review pile at one point. The "dark factory" shape has agents resolve merge conflicts, do first/second/third PR review, monitor production and review other agents' work, with humans over the loop (designing and monitoring the loop) rather than in it. A related pattern is a disclosed, model-composed multi-agent workflow (the /workflows command) that sits between a fixed deterministic workflow and an opaque free-form one, giving visibility into how subagents will split the job [[sources/z73yuF14udI]].
 
 ## Prompt commands
 
@@ -123,3 +124,4 @@ Design this skill for agent-first consumption: [SKILL PURPOSE]. (1) Write the de
 - [[sources/U4TmrlWEY4M]] — Every AI Agent Demo Stops at Email. I Pointed Mine at the Bills That Cost You Money.
 - [[sources/jOWXBzP6nNg]] — Your Next AI Subscription Shouldn't Be ChatGPT 5.6 Or Fable 5. It Should Be Both.
 - [[sources/tYugqJ9YytQ]] — Why Developers Are Losing Their Minds Over AI That Can't Write
+- [[sources/z73yuF14udI]] — Opus 4.8 Scored 81. Your Workflow Doesn't Care.

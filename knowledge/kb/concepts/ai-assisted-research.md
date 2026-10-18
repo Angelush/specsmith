@@ -3,9 +3,9 @@ title: AI-Assisted Research Workflows
 type: concept
 slug: ai-assisted-research
 tags: [workflow, research, prompting, verification, data-export, ai-visibility]
-sources: [05RRGiF7QC0, AoA9h3TjxE0, DcnTK7E1Ayc, IwQYVQ3MohE]
+sources: [05RRGiF7QC0, AoA9h3TjxE0, DcnTK7E1Ayc, IwQYVQ3MohE, PseF3LyXQ04]
 stability: volatile
-updated: 2026-05-12
+updated: 2026-10-19
 ---
 
 # AI-Assisted Research Workflows
@@ -23,6 +23,7 @@ AI tools offer powerful new ways to conduct research, moving beyond traditional 
 - **Reclaim personal data value through AI analysis of exports** — Export platform data, such as from LinkedIn, and analyze it with LLMs to uncover insights like relationship decay, reciprocity, and "warm paths" for job searching or business development. [[sources/AoA9h3TjxE0]] (WFL-005)
 - **Achieve specific results in AI shopping research by precise intent** — When using AI tools for product or deal finding, vague intent yields generic results; always specify details like color, dimension, price ceiling, and preferred retailers in your prompts. [[sources/DcnTK7E1Ayc]] (WFL-006)
 - **Optimize content for AI citation using the 18-token rule** — Craft standalone, confident sentences under 18 tokens with named claims to increase the likelihood of content being cited by AI systems in search results. [[sources/IwQYVQ3MohE]] (WFL-007)
+- **Use code-reading agents as a teacher, and check the limits** — Reverse-engineering tooling lets non-coders interrogate real implementations (an authenticator's 30-second time-window + account-key derivation; a dino game that starts at speed 6 and adds 0.001 per update up to 13) and then explain them back in their own words. A developer (Ledger Reborn) investigated QuickBooks Desktop arithmetic, reconciliation and cash-basis branches, then independently built a Python/SQLite app: evidence and pseudocode in, own implementation out. Caveats: it only exposes client-side code, never private server logic, and probing beyond that is hacking. [[sources/PseF3LyXQ04]]
 
 ## Prompt commands
 
@@ -65,3 +66,4 @@ Rewrite [CONTENT/CLAIM] as a series of 5-7 standalone sentences, each under 18 t
 - [[sources/AoA9h3TjxE0]] — Why Every Cold Application You Send Is a Waste of Time (And What Actually Works)
 - [[sources/DcnTK7E1Ayc]] — ChatGPT vs. Gemini vs. Claude Head-to-Head on Black Friday Deals: Prompts & Demo
 - [[sources/IwQYVQ3MohE]] — AI Broke the Web: The 7 New Rules of the Game + Why YOU Have an Edge vs Big Companies
+- [[sources/PseF3LyXQ04]] — Two Ways To Use Reverse Engineer Anything. One Of Them Works Even If You Can't Code.

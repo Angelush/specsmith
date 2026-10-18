@@ -3,9 +3,9 @@ title: Vibe Coding and Personal Software
 type: concept
 slug: vibe-coding-phenomenon
 tags: [vibe-coding, personal-software, democratization, creativity, hobby, mindset]
-sources: ['8lwnJZy4cO0', 'sLz4mAyykeE', 'joRXo6x7Pgk']
+sources: ['8lwnJZy4cO0', 'sLz4mAyykeE', 'joRXo6x7Pgk', PseF3LyXQ04]
 stability: evolving
-updated: 2026-08-20
+updated: 2026-10-19
 ---
 
 # Vibe Coding and Personal Software
@@ -27,6 +27,7 @@ Vibe coding enables rapid experimentation and discovery of user demand for novel
 - **Once the shape is known, tool choice follows almost mechanically** — a hosted AI builder (Lovable, Replit, Bolt) is the shortest path for a first web app — no command line, no install; Lovable Cloud manages the whole backend for you, versus Superbase, which takes more setup but keeps the database on an open, portable Postgres standard, worth it specifically once the data matters enough that you'd want to move it or build other tools on it later. A coding agent (Claude Code or Codex) paired with GitHub Desktop, Superbase, and Vercel trades more accounts and setup for the ability to replace any one part independently (model, host, or interface) without touching the rest. The model (Claude, OpenAI, or an open model like GLM 5.3) and the coding agent/harness running it are independent choices — a harness's brand doesn't have to match the model inside it. [[sources/joRXo6x7Pgk]]
 - **Keep four small text files so a non-technical builder stays in charge of an AI building partner instead of surprised by it** — project.markdown (who the software is for, what happens today vs. what should happen instead, where it has to run, what must stay private); decisions.markdown (every choice that affects cost, data, access, deployment, or reversibility, logged as options + recommendation + rationale, especially when it came out of a conversation with you); scenarios.markdown (the real situations the software has to handle, which double as test cases); and a short agents.markdown/claude.markdown that only tells the current tool how to behave day to day — the durable truth lives in the first three files, not the fourth. [[sources/joRXo6x7Pgk]]
 - **Non-technical builders get trapped less by the technology than by an agent that doesn't explain itself** — the fix is an explicit instruction to reveal choices in plain English: give two or three realistic options for any decision touching cost, data, privacy, portability, or deployment; recommend one; say what becomes easier or harder to change later; ask before doing anything public, costly, or destructive. The same discipline covers baseline safety hygiene builders otherwise skip — private-by-default apps, managed login instead of inventing password storage, secrets kept in the host's secret settings (never in code, screenshots, or chat), and access control enforced at the database level rather than by hiding a button. No agent self-report substitutes for a human actually trying the real scenarios on the real device — five minutes of testing that concludes "no bugs" isn't testing. [[sources/joRXo6x7Pgk]]
+- **Inspecting a working implementation is a requirements-discovery step, not just cloning** — Domain experts often cannot finish stating requirements before they see how a system works; a distinction (quote as plain text vs. an object with a source, what travels on copy, what happens on delete) only matters once you see what it enables, and it then drives the tech stack (a plain-text editor vs. one retaining quotes, notes and relationships). Studying how an existing app handles a related problem (e.g. Notion's clipboard pairing plain text/HTML with an identifier that reconnects saved block data) surfaces polish details and hidden costs (dead local data, cross-machine paste) before the editor is built, which is the usual vibe-coder trap. Take the behavior that matters, not the whole architecture. [[sources/PseF3LyXQ04]]
 
 ## Prompt commands
 
@@ -55,3 +56,4 @@ Keep four small text files with the project: project.markdown (who this is for, 
 
 - [[sources/8lwnJZy4cO0]] — Claude Code Wiped 2.5 Years of Data. The Engineer Who Built It Couldn't Stop It.
 - [[sources/sLz4mAyykeE]] — 90% of People Fail at Vibe Coding. Here's the Actual Reason: You're Skipping the Hard Part.
+- [[sources/PseF3LyXQ04]] — Two Ways To Use Reverse Engineer Anything. One Of Them Works Even If You Can't Code.
