@@ -3,9 +3,9 @@ title: AI Personal Stack
 type: concept
 slug: ai-personal-stack
 tags: ['personal-ai-stack', 'workflow', 'model-selection', 'runtime', 'context-window', 'model-stack']
-sources: ['iUSdS-6uwr4', 'lY6voDZpu3Y', 'l8BloTSLK6M', 'HgAQOkG_v8c', NIRFVjttNvA]
+sources: ['iUSdS-6uwr4', 'lY6voDZpu3Y', 'l8BloTSLK6M', 'HgAQOkG_v8c', NIRFVjttNvA, 0j8wy4jUlsw]
 stability: volatile
-updated: 2026-10-19
+updated: 2026-11-03
 ---
 
 # AI Personal Stack
@@ -28,6 +28,7 @@ Building a personal AI stack matters because it moves beyond using a single, gen
 - **Run a "chief of staff" agent thread that spins up disposable child sub-agents, and let AI own file organization entirely** — Nate keeps one long-lived Codex thread (his "chief of staff") that holds all context about ongoing work and spins up child sub-agent threads for detail work (email triage, Slack, project "work packs"), keeping the main context window clean. Separately, he had Codex autonomously review, label, and re-organize all his screenshots into a folder structure he doesn't know or need to know — files are now "fodder for AI" rather than something humans navigate, and offloading this kind of low-value-but-annoying maintenance work is itself a legitimate, high-value use of delegated intelligence even though it "burns tokens" [[sources/l8BloTSLK6M]].
 - **Own the memory and skills layer; treat intelligence itself as a rentable, swappable commodity** — the same week Fable got pulled and ChatGPT 5.6 shipped only to a handful of vetted shops, Nate's point is that frontier-model access can be locked behind a "government door" without warning, so the durable part of your AI stack has to be the memory, standards, and skills layer that any model can plug into — not a dependency on whichever model happens to be winning this month [[sources/HgAQOkG_v8c]].
 - **Give the chief-of-staff agent an attention budget** — A manager agent that keeps every sub-agent busy and delivers a tidy daily list of demands is the failure mode; agents have near-infinite attention and you do not, so the engagement structure must be human-friendly, not agent-friendly. Brief the chief of staff on your existing commitments and priorities (e.g. "my human cares about customer anecdotes") so it screens proactive-agent alerts, knows what may interrupt you, what commitments must not be missed, and what new evidence could change a decision — then prepares choices, explains what each will cost you, and executes only what you authorized [[sources/NIRFVjttNvA]].
+- **Your trained agent is the new lock-in** — Over months an agent absorbs what nobody wrote down (screening criteria, what each hiring manager wants, which customers need security approval first). If that lives only in one vendor's memory or a personal harness, a cost-driven vendor switch erases weeks of progress. Keep skills and context in portable files you own, and socialize the workflow to your manager instead of guarding it as a private trick [[sources/0j8wy4jUlsw]].
 
 ## Prompt commands
 
@@ -56,3 +57,4 @@ Route this task [DESCRIBE TASK] to the correct tool: Is it analysis/thought-part
 - [[sources/l8BloTSLK6M]] — My Codex Ran 800 Million Tokens in A Day. The Real Story Isn't Cost.
 - [[sources/HgAQOkG_v8c]] — I Built My Own AI Memory by Talking to Claude. It Did 80% Itself.
 - [[sources/NIRFVjttNvA]] — productivity draft
+- [[sources/0j8wy4jUlsw]] — The end of the app era: What comes next?

@@ -3,9 +3,9 @@ title: Open Brain Systems
 type: concept
 slug: open-brain-systems
 tags: [framework, memory, agent-architecture, open-brain, portability, distributed]
-sources: ['2JiMmye2ezg', '4KAF72BTyCE', NRBQmwlILjk, 9PUaEj0pMYE, QSK4vf_ZTRA, HgAQOkG_v8c, Y8vAQ1FgNbM, joRXo6x7Pgk]
+sources: ['2JiMmye2ezg', '4KAF72BTyCE', NRBQmwlILjk, 9PUaEj0pMYE, QSK4vf_ZTRA, HgAQOkG_v8c, Y8vAQ1FgNbM, joRXo6x7Pgk, KDGxQtfjBj0, wep2EQ9Y_Tc]
 stability: evolving
-updated: 2026-08-20
+updated: 2026-11-03
 ---
 
 # Open Brain Systems
@@ -28,6 +28,8 @@ Open Brain systems are critical for future-proofing AI workflows by ensuring dat
 - **The build barrier for a self-owned memory stack has collapsed to ~1/5 of its February 2026 cost** — Nate estimates you can now build roughly 80% of the "Open Brain" stack (memory + skills + engine) just by talking to an agent like Claude or Codex, versus needing to hand-run the database setup, SQL, and config steps yourself a few months earlier; the trust-sensitive parts (which accounts to grant access to, permissions, final approval) still belong to the human, but the technical middle no longer does [[sources/HgAQOkG_v8c]].
 - **A pre-flight interception layer can stop token waste before the request ever reaches the model** — Every habit-level fix (editing prompts, batching questions, trimming sources) still runs *inside* a chat window, so a skill invoked mid-conversation can only act on what happens next — the conversation, standing instructions, tool definitions, and hidden setup are already in the envelope by the time it's invoked. Nate's "Ringer" framework instead runs locally between the AI client and the model provider: before a request goes up, it can return an answer with zero model call (e.g. by checking Open Brain for an already-accepted answer to the same question), run a fixed local recipe with no model call, select only the useful passages to forward, cap request/response size under a hard limit, or block the call entirely. This is presented as the only way to actually *enforce* hard token limits, rather than just encouraging good habits [[sources/Y8vAQ1FgNbM]].
 - **Nate maps his own tool suite in plain language for non-technical builders, each solving a distinct problem** — Open Brain holds the software's less-structured personal or institutional context (why you chose this dishwasher part, what the technician said, which problems keep recurring) alongside or instead of a normal database; Open Skills keeps a coding builder consistent on a repeated method (protecting secrets, keeping git history, checking real scenarios) across sessions; Open Engine hands work between tools, agents, or people on a longer-lived project without re-explaining the whole story each time; and Ringer supervises several agents changing a system at once, token-efficiently. All four stay optional — a first app built with one agent needs none of them. [[sources/joRXo6x7Pgk]]
+- **The value is the accumulated layer, not the data** -- A recruiter's agent became valuable through her screening instructions, corrections, per-manager preferences, built skills, and tool wiring. The candidate data was only part of it, and keeping only the raw data on a provider switch would have kept none of that. Corrections also do not carry forward on their own ("last month's correction" is not automatically in this month's brief). Store instructions and corrections as owned, portable artifacts with a named maintainer, so a vendor change does not wipe them out. [[sources/KDGxQtfjBj0]]
+- **Curated markdown records of truth beat searching messy archives** — Enterprise search over Slack/email/Teams is only as good as data that is partial, conflicting and ambiguous, and yields a skewed picture. The strongest agent-human collaboration Nate has seen invests in plain markdown files that state the system's record of truth: agents read them, humans query them to write better product docs, and QA builds evals from them [[sources/wep2EQ9Y_Tc]].
 
 ## Prompt commands
 
@@ -63,3 +65,5 @@ Point [YOUR AGENT — Claude, Codex, etc.] at [YOUR OPEN BRAIN GUIDE OR REPO]. A
 - [[sources/QSK4vf_ZTRA]] — I Was The Only Thing Connecting Claude, ChatGPT, and Codex (Open Engine launch)
 - [[sources/HgAQOkG_v8c]] — I Built My Own AI Memory by Talking to Claude. It Did 80% Itself.
 - [[sources/Y8vAQ1FgNbM]] — Paste This Into Claude, Never Hit a Token Limit Again
+- [[sources/KDGxQtfjBj0]] — Salesforce Just Helped Microsoft. You're Picking The Winner Of A Trillion-Dollar Fight.
+- [[sources/wep2EQ9Y_Tc]] — Google Has More Data Than Almost Anyone. So Why Is It Bidding $10 Million On Old Emails?

@@ -3,9 +3,9 @@ title: Prompting and AI Skill Design
 type: concept
 slug: prompting-and-skill-design
 tags: ['prompting', 'skill-design', 'agent-design', 'best-practices', 'context-engineering', 'token-efficiency']
-sources: ['0cVuMHaYEHE', '4u48pDYxfHc', '5ztI_dbj6ek', '2uC5WllehxY', 'BP-N7xjz-vM', 'GTEz5WWbfiw', 'Gqnf5f1ITyo', 'esqPTMDvw7w', 'hMKRBldkWEk', 'i4Jfl1IW-_U', 'BpibZSMGtdY', 'mldfMWbnZTg', ogTLWGBc3cE, rqVzTX8w_w0, 9PUaEj0pMYE, suY66oTDn0s, uCWKXIyvM_8, AWGoOtNgw3c, Y8vAQ1FgNbM, up0Bsf3f0Xc, PseF3LyXQ04, n5bZHETCiJA, xqGCbEDbny8]
+sources: ['0cVuMHaYEHE', '4u48pDYxfHc', '5ztI_dbj6ek', '2uC5WllehxY', 'BP-N7xjz-vM', 'GTEz5WWbfiw', 'Gqnf5f1ITyo', 'esqPTMDvw7w', 'hMKRBldkWEk', 'i4Jfl1IW-_U', 'BpibZSMGtdY', 'mldfMWbnZTg', ogTLWGBc3cE, rqVzTX8w_w0, 9PUaEj0pMYE, suY66oTDn0s, uCWKXIyvM_8, AWGoOtNgw3c, Y8vAQ1FgNbM, up0Bsf3f0Xc, PseF3LyXQ04, n5bZHETCiJA, xqGCbEDbny8, osZZjdMZVvA]
 stability: evergreen
-updated: 2026-10-19
+updated: 2026-11-03
 ---
 
 # Prompting and AI Skill Design
@@ -45,6 +45,7 @@ Effective prompting and skill design are crucial for unlocking the full potentia
 - **Don't write the perfect spec first: ship a short brief, use the result, then specify** — A five-line prompt produced a usable app, and using it exposed needs no up-front spec would have captured (copy-confirmation message, draggable and remembered panel position, hotkeys colliding with other apps, waiting for key release before returning focus). Faster first builds mean you notice problems while attention is loaded and write better round-two asks; screenshots and plain statements of the felt problem were enough, with the model inferring the behavior [[sources/n5bZHETCiJA]].
 - **Run the same brief through two models to discover your own undecided requirements** — Different design choices (narrow right-edge list vs wide bottom bar with larger preview) made preferences concrete that Nate had not decided, such as list density versus room to inspect images. Divergence between models is a cheap requirements-elicitation tool, not just a benchmark; carry lessons from one model's exploration into the other's next iteration [[sources/n5bZHETCiJA]].
 - **Turn every repeated correction into a skill, checklist, automation or memory** — A correction made once is just a chat; made reusable it compounds. Each time you give the same correction, write the same setup note, request the same review or check the same kind of output, ask whether it should become a skill, a standing workflow or a memory. Skills teach a reusable way to do a job instead of re-explaining the process [[sources/xqGCbEDbny8]].
+- **Revision requests must preserve intent; name what to keep** — Polished edits can quietly damage meaning. "Simpler" can remove the complication that made the argument worth reading, "warmer" can soften a decision you meant to state firmly, and "more confident" can erase uncertainty you needed to communicate. State the invariants along with the change ("keep the uncertainty, make this part easier to understand"; "change the hat, keep the glasses exactly"). Judge the result by whether it communicates clearly, not by whether AI wrote it. Steerability, meaning a correction that holds on the first try, is a model-selection criterion [[sources/osZZjdMZVvA]].
 
 ## Prompt commands
 
@@ -146,3 +147,4 @@ For this agentic research task [DESCRIBE TASK]: (1) What semantic framing in my 
 - [[sources/PseF3LyXQ04]] — Two Ways To Use Reverse Engineer Anything. One Of Them Works Even If You Can't Code.
 - [[sources/n5bZHETCiJA]] — The Race to Done: Fable 5.1 vs GPT-6 Astra. Who Wins?
 - [[sources/xqGCbEDbny8]] — Codex Tutorial: Build Your First AI Agent Delegation Loop
+- [[sources/osZZjdMZVvA]] — Opus 5.5 vs The Rest: Is this the new industry standard?

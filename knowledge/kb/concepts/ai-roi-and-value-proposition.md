@@ -3,9 +3,9 @@ title: AI ROI and Value Proposition
 type: concept
 slug: ai-roi-and-value-proposition
 tags: [roi, investment, ai-tools, cost-benefit, strategy, framework]
-sources: [-5zFZznthw0, 1FKxyPAJ2Ok, vDtwS1w16K4, u-giatW9mYU, LIkYVsxMpS8, hYcOFTMesGc, YTG0rdHPTDE, eLpRDIvOMEw, qYe1GsMRElw]
+sources: [-5zFZznthw0, 1FKxyPAJ2Ok, vDtwS1w16K4, u-giatW9mYU, LIkYVsxMpS8, hYcOFTMesGc, YTG0rdHPTDE, eLpRDIvOMEw, qYe1GsMRElw, RvnQZQAHUDc, lnB4Zckx_34]
 stability: evergreen
-updated: 2026-10-06
+updated: 2026-11-03
 ---
 
 # AI ROI and Value Proposition
@@ -30,6 +30,9 @@ Successfully integrating AI requires a clear understanding of its value beyond m
 - **Delete work before optimizing the model (blank-sheet value streams)** — Agent-ifying every department's inherited process just passes the interoffice envelope around with agents. Start from the 5-8 CEO-level value streams (win, deliver, keep, collect), define what an extraordinary end result needs (e.g., an accurate, authorized quote, a record, and escalation of unresolved items), and draw the shortest path. Steps that existed only because teams or systems could not read each other (summaries, reformatting, re-reconciling drifted copies) lose their job, cost zero tokens, and remove failure points. Keep real requirements (price correctness, approval, audit record). Someone who owns the business result must have the authority to cross departments and delete steps; engineers alone can only make steps cheaper [[sources/eLpRDIvOMEw]].
 - **Judge token spend by value, not the leaderboard** — A rising AI bill is fine if it buys more customers served, faster correct answers and fewer repaired handoffs; it is waste if six agents write reports nobody reads. Both look identical on a token dashboard, so tie spend to business outcome. Also, embed agents where people already work (e.g., Slack) so a small kept promise drives repeat use and spread beyond the early-adopter 5% [[sources/eLpRDIvOMEw]].
 - **Grade agents on existing business measures and run the unplug test** — Do not score go-to-market agents on leads scraped or messages sent; use speed to lead, time to booked meeting, conversion to opportunity, deal size, CAC, pipeline and revenue. Ask whether qualified people entered the pipeline because of the content. Entrepreneurs should ask "if I unplugged this agent tomorrow, what would actually stop happening?" — if the answer is only process, it is not doing business work [[sources/qYe1GsMRElw]].
+- **Outcome pricing needs a closed loop** — Per-token and per-seat contracts meter compute or access and leave the buyer responsible for turning it into value. Outcome pricing (Sierra, Fin) works only where the agent finishes a closed transaction with a countable end state. Cedar's agent Cora verifies the caller, explains the bill, confirms insurance, and takes payment on the call. Open-ended work such as redesigning a customer's maintenance program cannot be outcome-priced cleanly. To charge, or to measure, by outcome, scope the agent to a closed loop with an unambiguous completion event [[sources/RvnQZQAHUDc]].
+- **Prove AI productivity with a revenue project you couldn't staff before** — Instead of squinting at diffuse productivity claims, pick a revenue-generating project the company could not previously resource, staff it with the capacity AI freed up, and attribute its revenue to AI. Separate adoption from impact the way Shopify's COO does: headcount roughly flat for about two years while revenue grew 34%, with engineers free to use the best model and spend monitored [[sources/RvnQZQAHUDc]].
+- **Higher-speed tiers make steering skill the bottleneck; buy plans like investments** — An 8x-faster frontier tier mostly makes wrong answers arrive faster and cost more. Until you are confident you can steer the model, the top tier does not pay off. Paid AI plans are now expensive enough to treat as economic propositions, not consumer subscriptions: before upgrading, name how the plan saves time, saves money or makes money, and have a plan to make the fee back. Do not upgrade for one product feature (for example Dots). The model is what matters [[sources/lnB4Zckx_34]].
 
 ## Prompt commands
 
@@ -75,3 +78,5 @@ Given that AI has dropped our execution cost by [X factor], what projects or ini
 - [[sources/YTG0rdHPTDE]] — AI Is About To Spend Your Money. I Went To Stripe To Ask Who Stops It.
 - [[sources/eLpRDIvOMEw]] — You can be ambitious without the huge token bill. Here's how.
 - [[sources/qYe1GsMRElw]] — Runable Raised $21 Million On Agents That Finish. Nobody Told Yours What Done Means.
+- [[sources/RvnQZQAHUDc]] — Enterprise AI Pricing: Why Everything You Know Is Wrong
+- [[sources/lnB4Zckx_34]] — Should You Pay $100 A Month For OpenAI's Dots When Meta's Muse Has A Free Version?

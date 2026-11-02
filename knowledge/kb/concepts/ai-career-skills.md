@@ -3,9 +3,9 @@ title: AI Career Skills and Fluency
 type: concept
 slug: ai-career-skills
 tags: [career, ai-fluency, skills, mindset, framework, orchestration]
-sources: [rYqt6mMlv7o, hDpjMJw3flk, 4cuT-LKcmWs, DdlMoRSojtE, HDVG8RKYX9s, fyHnGHxGuhI, q6p-_W6_VoM, -dJ9WrTG6zQ, BYKUwsQOA8U, XlfumXPPrLY, HZ9iL_lFYgQ, BaC5FEN2e4Y, AzOJ9QLgfIk, EZ4EjJ0iDDQ, 725QE_LNXT4, UsCgEuIAclE, 0bLI31EFDDs, huWizSgmRf0]
+sources: [rYqt6mMlv7o, hDpjMJw3flk, 4cuT-LKcmWs, DdlMoRSojtE, HDVG8RKYX9s, fyHnGHxGuhI, q6p-_W6_VoM, -dJ9WrTG6zQ, BYKUwsQOA8U, XlfumXPPrLY, HZ9iL_lFYgQ, BaC5FEN2e4Y, AzOJ9QLgfIk, EZ4EjJ0iDDQ, 725QE_LNXT4, UsCgEuIAclE, 0bLI31EFDDs, huWizSgmRf0, RvnQZQAHUDc]
 stability: evergreen
-updated: 2026-10-19
+updated: 2026-11-03
 ---
 
 # AI Career Skills and Fluency
@@ -38,6 +38,7 @@ In an era where AI is rapidly commodifying traditional knowledge work, developin
 - **Domain expertise is the moat; stay in your industry** — Analysis of about 400,000 Claude Code sessions found task experts reached verified success more than twice as often as novices, and non-technical users got within a few points of technical users on code produced. FDEs should lean into the industry they already know (healthcare, manufacturing) rather than jump sectors, and need not wait for a title, since solving one real workflow with AI is the route [[sources/0bLI31EFDDs]].
 - **Five skills gain leverage as AI improves: taste, agency, focus, resourcefulness, follow-through** — Together they let one person recognize a worthwhile improvement, act on it, sustain attention, learn what is needed along the way, and carry the result to the end. Taste is reframed as acting on something you care about (not only recognizing good work): the person closest to a recurring problem can now build a working alternative instead of throwing a memo over the wall, and the attempt sharpens taste. Re-audit projects you ruled out on cost or headcount grounds, since those requirements have changed. [[sources/huWizSgmRf0]]
 - **Hire and grow for resourcefulness and follow-through, not listed skills** — Resourcefulness is understanding a system's intent well enough to swap components (OpenBrain builders re-implemented the capture-and-resurface loop with Discord, Obsidian, MacWhisper, whatever their org allowed) and learning at the moment of need by bringing the confusing error to the AI. Evaluate people by how they approach unfamiliar problems (useful question, reframe, another attempt on their own). Follow-through means shipping, then checking whether the intended person actually got it (guide shows up too late, handoff needs changing); ask before starting: who is this for, what will they be able to do, what is the whole job. [[sources/huWizSgmRf0]]
+- **Be the manager of intelligence: judge evidence and know when to stop the agent** — The domain expert's value is in knowing which records are unreliable, which operating conditions matter, and when one apparent pattern is really two faults described in the same words. That lets them ask the agent for the right comparisons and check its evidence. Past a point, more agent-generated explanations do not fix the problem. The expert decides when to stop the agent and talk to the customer or another human. Everyone who allocates AI work, including individual contributors, makes this call [[sources/RvnQZQAHUDc]].
 
 ## Prompt commands
 
@@ -134,3 +135,4 @@ I need to evaluate whether to use AI for [SPECIFIC TASK]. Help me assess: (1) Is
 - [[sources/UsCgEuIAclE]] — Microsoft Says 86% Treat AI Output as a Starting Point. Your Resume Just Changed
 - [[sources/0bLI31EFDDs]] — OpenAI Pays $280,000 For This Job. You Don't Have To Be An Engineer.
 - [[sources/huWizSgmRf0]] — The 5 Skills I'd Bet On For 2027. AI Is Making Every One Worth More.
+- [[sources/RvnQZQAHUDc]] — Enterprise AI Pricing: Why Everything You Know Is Wrong

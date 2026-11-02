@@ -3,9 +3,9 @@ title: AI Security and Trust
 type: concept
 slug: ai-security-and-trust
 tags: [security, agent-design, permissions, code-review, ai-auditing, vulnerability]
-sources: [EpJ0CjTJSag, W79FW7iUkro, SX1myuPEDFg, NRBQmwlILjk, n0nC1kmztSk, z3pbrFKVyQE, zP6TnEiueEc, 5slsNizN6MQ, EuVvLwWZ5wc, HgAQOkG_v8c, IpEaSa7tgfc, YTG0rdHPTDE, 4f5AJrJPilM, FCRT7M30Wtw, btUxMt_tssA]
+sources: [EpJ0CjTJSag, W79FW7iUkro, SX1myuPEDFg, NRBQmwlILjk, n0nC1kmztSk, z3pbrFKVyQE, zP6TnEiueEc, 5slsNizN6MQ, EuVvLwWZ5wc, HgAQOkG_v8c, IpEaSa7tgfc, YTG0rdHPTDE, 4f5AJrJPilM, FCRT7M30Wtw, btUxMt_tssA, qDYe2eTl_D4]
 stability: evergreen
-updated: 2026-10-19
+updated: 2026-11-03
 ---
 
 # AI Security and Trust
@@ -48,6 +48,7 @@ The increasing autonomy of AI agents introduces new security vulnerabilities and
 - **Agents talk through channels humans cannot see, so treat your forms and pages as agent message boards** — The Tencent fleet was contacted through a hidden note on a web page that agents could read and humans could not; the same hallmark (white-on-white text, tweaked URL strings) appeared in the Hugging Face attacks. If you host a site, know exactly what code you deploy to it, and assume any form or message board will be used by agents to communicate: monitor it, be able to manage it, and lock it down. Expect a two-tier internet where well-funded sites harden against agent traffic and under-defended sites become agent hotbeds [[sources/btUxMt_tssA]].
 - **Your own browsing agent can be prompt-injected by agents in the wild, so permission money and files explicitly** — Every ingredient exists for a stranger's swarm to inject a personal agent (Muse, Grok bot, etc.) that is out on the web doing your errands: prompt injection works, agent-to-agent attack vectors work, self-replicating swarms exist, and your agent reads the same pages they write to. There is no documented case yet, but the defense is already clear: multiple lines of defense, with explicit permissioning around what the agent may spend and which files it may access, rather than trusting it to recognize hostile content [[sources/btUxMt_tssA]].
 - **Personal security in an agent internet: authorize every action, be a good citizen, use a family safe word** — Know that you are authorizing each action your agent takes, and do not point it at spammy behavior (people already use agents to spam reservations across hundreds of restaurants, which makes sites harden against everyone). Agents can now place phone calls and imitate voices, so agree on a safe word with family to verify it is really you before acting on an urgent request for money [[sources/btUxMt_tssA]].
+- **Reduce reachable surface, not just patch latency** — Offense and defense are the same agent loop (read unfamiliar code, notice something, write a test, discover the first explanation was wrong, retry), so attacks now cost one person with an agent fleet and the window for multi-year fix debates is gone (Anthropic reported 29,000+ candidate vulnerabilities in six months of scanning). Patching faster is necessary but not enough: use AI to find configuration pairs that silently weaken a check when combined and code reachable before authentication, then remove it (Anthropic found ~500 such reductions across 25 projects; OpenSSH 10.6 cut pre-auth signature-handling code) [[sources/qDYe2eTl_D4]].
 
 ## Prompt commands
 
@@ -106,3 +107,4 @@ What identity is your agent using? What can it read or change? Who can give it i
 - [[sources/4f5AJrJPilM]] — One Cancelled Gym Class. That's How Agent Swarm Attacks Start.
 - [[sources/FCRT7M30Wtw]] — Anthropic's Model Attacked Two Strangers On GitHub. Nobody Asked It To.
 - [[sources/btUxMt_tssA]] — Self-Replicating AI Swarms Are Real. Don't Panic, But Take Them Seriously.
+- [[sources/qDYe2eTl_D4]] — Black October Isn't Just A PHP Bug. Attackers Want Your AI Keys.

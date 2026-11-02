@@ -3,9 +3,9 @@ title: MCP Architecture and Failure Modes
 type: concept
 slug: mcp-architecture
 tags: [agent-design, mcp, architecture, latency, production, anti-patterns]
-sources: [b1fxYGPbHeo, 2EXyj_fHU48, D92aDGVFcRE, XlfumXPPrLY, CDClFY-R0dI, 4Bg0Q1enwS4, zP6TnEiueEc, Y8vAQ1FgNbM]
+sources: [b1fxYGPbHeo, 2EXyj_fHU48, D92aDGVFcRE, XlfumXPPrLY, CDClFY-R0dI, 4Bg0Q1enwS4, zP6TnEiueEc, Y8vAQ1FgNbM, 0j8wy4jUlsw]
 stability: volatile
-updated: 2026-08-10
+updated: 2026-11-03
 ---
 
 # MCP Architecture and Failure Modes
@@ -27,6 +27,7 @@ MCP can be a powerful bridge, allowing AI agents to interact with a vast array o
 -   **Agent-Legible Workflows Require Primitives** — Successful agent adoption depends on work being expressed in agent-legible forms, such as clearly defined state, artifacts, change records, checks, rollback mechanisms, and traceability. Workflows locked in GUI state limit agents to advisory roles. [[sources/4Bg0Q1enwS4]] (FWK-007)
 - **Three protocols are becoming the core agent stack** — Of six agent protocols, three are consolidating into the standard stack — MCP (tool/data layer: what the agent can use), A2A (coordination layer: who it works with, via the "agent card" operating contract), and AG-UI (human-control layer: how a human observes, approves, and steers long-running agents) — while A2UI, AP2, and x402 remain contested or domain-specific; an agent that can't show its work becomes "supervision debt" [[sources/zP6TnEiueEc]].
 - **Tool definitions are paid input before the model does anything — load only the tools a job can use** — Every connected tool (MCP server, plugin) carries a standing description (what it does, when to use it, what arguments it takes) that is sent as model input on every single call, regardless of whether that tool is used. Anthropic has published that a typical setup with several tool servers connected (e.g. GitHub, Slack, Sentry, Grafana) burns roughly 55,000 tokens in tool definitions alone before the model starts working the actual request. Since models aren't yet reliably good at self-pruning this, the practical fix today is scoping which tools/plugins are loaded per job rather than connecting everything by default [[sources/Y8vAQ1FgNbM]].
+- **MCP reachability is table stakes, not a moat** — Exposing an MCP server (as DoorDash did) gets a service considered by other people's agents, but if two providers offer equally good data and equally dependable execution, agent access makes them easier to compare and replace. Specify what the agent still needs from you that it cannot get elsewhere: proprietary data, dependable execution, or a structured workflow [[sources/0j8wy4jUlsw]].
 
 ## Prompt commands
 
@@ -68,3 +69,4 @@ Map the following workflow [WORKFLOW] to agent primitives: (1) What is the artif
 -   [[sources/4Bg0Q1enwS4]] — Why AI-Native Companies Are Deleting Software You're Still Paying For
 - [[sources/zP6TnEiueEc]] — Google Spent a Year Stitching MCP, A2A, AG-UI Together. I/O Today.
 - [[sources/Y8vAQ1FgNbM]] — Paste This Into Claude, Never Hit a Token Limit Again
+- [[sources/0j8wy4jUlsw]] — The end of the app era: What comes next?

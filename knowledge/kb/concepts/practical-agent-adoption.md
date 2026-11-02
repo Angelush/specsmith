@@ -3,9 +3,9 @@ title: Practical Agent Adoption and Deployment
 type: concept
 slug: practical-agent-adoption
 tags: [adoption,agent-deployment,automation,workflow,agent-design,reliability]
-sources: [B3rSU7XROrg, D-Ww1wLIp60, DAxARHKQAXs, LwKnvqVdUgA, QrvVkm-8Jx4, kVPVmz0qJvY, DWb4SqILvvM, obqjIoKaqdM, LIkYVsxMpS8, R2-Y1Hjwx2U, rh_PcL26zls, HgAQOkG_v8c, PRqiGS6fnIM, U4TmrlWEY4M, IpEaSa7tgfc, qYe1GsMRElw, 7pqRRxrdr0c, gbbPBr3OraQ, xqGCbEDbny8]
+sources: [B3rSU7XROrg, D-Ww1wLIp60, DAxARHKQAXs, LwKnvqVdUgA, QrvVkm-8Jx4, kVPVmz0qJvY, DWb4SqILvvM, obqjIoKaqdM, LIkYVsxMpS8, R2-Y1Hjwx2U, rh_PcL26zls, HgAQOkG_v8c, PRqiGS6fnIM, U4TmrlWEY4M, IpEaSa7tgfc, qYe1GsMRElw, 7pqRRxrdr0c, gbbPBr3OraQ, xqGCbEDbny8, 0j8wy4jUlsw, c3HHFL_lsLM, lnB4Zckx_34]
 stability: volatile
-updated: 2026-10-19
+updated: 2026-11-03
 ---
 
 # Practical Agent Adoption and Deployment
@@ -40,6 +40,9 @@ Successfully adopting and deploying AI agents can unlock significant productivit
 - **Make proposed, in-progress and completed actions visually distinct for non-technical users** — Muse shows an emoji plus a short phrase for what it is doing and animates the avatar while working, so users tell a proposed action from a finished one without reading. Pair that with onboarding that starts at a phone number and connects Gmail or calendar only when conversationally relevant. Any agent that executes real-world actions (cancellations, bookings) should expose action state explicitly [[sources/gbbPBr3OraQ]].
 - **Build a custom heads-up display from your own sources instead of buying SaaS** — Recipe: tell the agent (1) every source you work from (email, Slack, messages), (2) what matters and how you move the needle, discussing how you refer to each source and what is salient; then (3) have it design a live dashboard fed via MCP or computer use, plus an automation every 15-30 minutes that re-runs a salience analysis and re-prioritizes. This open loop was not feasible before computer use was available [[sources/xqGCbEDbny8]].
 - **Boundaries scale with power: least privilege, no secrets in chat, and receipts** — Keep API keys and passwords in a .env file, not in prompts; do not grant write access when read access suffices; do not let the agent send, publish, delete or spend without understanding the workflow; and require receipts (files, logs, tests, renders, command output) for important work. Inspectability of the output is what makes handing off more work responsible rather than wishful [[sources/xqGCbEDbny8]].
+- **Buy the data, build the workflow; keep compliance on rails** — A two-person recruiting firm skipped a packaged recruiting tool and wrote a custom Claude skill encoding its own selection criteria over a data provider's API (Crust Data). Build-vs-buy rule: when the value is your judgment over structured data, buy the data and build a skill; when the workflow is high-compliance (payroll rules, approvals), buy the vendor's structured workflow and layer agents on top [[sources/0j8wy4jUlsw]].
+- **Assign agents by strength and recommend only use cases that already work** -- Nate splits his work by strength: Grockbot for multi-worker builds where bots need to share discoveries with each other, Dots for long-running context across calendar and email, Instinct for travel, Muse for shopping and bookings through stored logins and Stripe Link, and Duet for proactive reminders. Proactive alerts from Dots and Duet are worth it only about 50-75% of the time, but the hits (such as a caught double-booked flight) pay off. Non-technical users give up after one or two failures, so when recommending an agent to them, stick to buckets that already work: some shopping, some travel, schedule and email, plus knowledge work and coding for advanced users. [[sources/c3HHFL_lsLM]]
+- **Agent form factors converge, utility does not, so adopt by job** — Dots, Muse, Grok's bot and Instinct all ship a computer, memory and background work, but harness, model and tuning differ, so each wins different jobs (Muse does low-intelligence life admin and phone calls, Instinct does travel and dining transactions, Dots does work context). Start a new always-on agent on one deliberately chosen recurring area of responsibility, ideally at work where the ROI is, so it can learn that task space. Prefer jobs triggered by cascading change, for example a slipped feature that forces edits to the announcement, the sales deck and customer promises, where the value is knowing which commitments depended on the change [[sources/lnB4Zckx_34]].
 
 ## Prompt commands
 
@@ -111,3 +114,6 @@ Run the agent-shape test on this task: [DESCRIBE TASK]. Answer four questions: (
 - [[sources/7pqRRxrdr0c]] — I Gave An AI Agent My Support Inbox. It Cut The Work By Two-Thirds.
 - [[sources/gbbPBr3OraQ]] — I Gave Meta's Muse The Most Boring Job I Had. It Found $5,350 A Year.
 - [[sources/xqGCbEDbny8]] — Codex Tutorial: Build Your First AI Agent Delegation Loop
+- [[sources/0j8wy4jUlsw]] — The end of the app era: What comes next?
+- [[sources/c3HHFL_lsLM]] — The Future Of The Internet Isn't Open For Your Agent. Muse, Dots And Claude Duet Will Find Out.
+- [[sources/lnB4Zckx_34]] — Should You Pay $100 A Month For OpenAI's Dots When Meta's Muse Has A Free Version?

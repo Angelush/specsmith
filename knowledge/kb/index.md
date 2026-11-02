@@ -3,7 +3,7 @@
 > Knowledge wiki extracted from Nate (AI educator) YouTube transcripts.
 > See [[AGENTS]] for conventions. See [[log]] for ingest history.
 
-**54 concepts** · **333 source pages** · **361 videos (manifest)** · last updated 2026-10-19
+**54 concepts** · **343 source pages** · **371 videos (manifest)** · last updated 2026-11-03
 
 ## Concepts by category
 

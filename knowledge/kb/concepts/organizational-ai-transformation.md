@@ -3,9 +3,9 @@ title: Organizational AI Transformation
 type: concept
 slug: organizational-ai-transformation
 tags: [org-design, ai-strategy, team-size, coordination-overhead, management, organizational-unlocks]
-sources: [RaAFquzj5B8, hnwM01CpzmA, s1eqzfXCgXI, u-giatW9mYU, zhXgkQ3nYeE, lbfoNxoHl2o, kVPVmz0qJvY, NRBQmwlILjk, 1cSNE-ZkDLQ, hYcOFTMesGc, b6J387xJvHg, KlPxWaY91rE, TR8RDUzQaMo]
+sources: [RaAFquzj5B8, hnwM01CpzmA, s1eqzfXCgXI, u-giatW9mYU, zhXgkQ3nYeE, lbfoNxoHl2o, kVPVmz0qJvY, NRBQmwlILjk, 1cSNE-ZkDLQ, hYcOFTMesGc, b6J387xJvHg, KlPxWaY91rE, TR8RDUzQaMo, lnB4Zckx_34]
 stability: evergreen
-updated: 2026-10-06
+updated: 2026-11-03
 ---
 
 # Organizational AI Transformation
@@ -36,6 +36,7 @@ The advent of AI has fundamentally altered productivity equations, making tradit
 - **As prototyping compresses, craft moves upstream rather than disappearing** — Anthropic's own head of design (Jenny Wen, ex-Figma) reports mocking/prototyping dropped from roughly two-thirds of her team's day to about a third, with the freed time moving into pairing directly with engineers in code; practitioners describe this as getting hours back, not being replaced. Judgment work (which of ten fast directions is right for this company, and why) expands even as execution work compresses — treating the tool as a replacement for that judgment just ships bad work faster. [[sources/KlPxWaY91rE]]
 - **Team-size math is now visibly hitting design specifically** — a PM who can prototype no longer waits in a designer's queue, and a designer who can ship code no longer waits in an engineer's queue, so coordination tax drops because fewer hand-offs are structurally required, not only because individuals work faster. Atlassian's CTO reported some teams "writing zero lines of code... it's all agents or orchestration of agents" at 2-5x prior output, and a 200-year-old company's head of engineering described two-pizza teams turning into one-pizza teams. [[sources/KlPxWaY91rE]]
 - **Roles tip when the role's context becomes available to the model, not by how technical they are** — Inside OpenAI, coding tipped first (local CLIs, no connector needed), then legal (local Office documents), then other functions as connectors and computer use matured in the first half of the year. Finance and business teams now build internal sites as apps and iterate like product teams, without version control. To spread team adoption, have early adopters turn a recurring process (a biweekly financial model, a Slack feed of non-retained cohort bugs) into a shared tool; colleagues learn by seeing it and get value immediately, which beats abstract training. Personal habit: when you reach for a task, try it in the agent first. [[sources/TR8RDUzQaMo]]
+- **Shared AI workspaces need the rationale, not only the latest artifact** — Shared human+agent spaces (OpenAI Spaces/Pages, Claude Tag in Slack) keep private chats and memories separate from shared work. So the reasoning behind a decision stays in someone's private chat unless they deliberately bring it in. Storing the latest doc does not solve the tribal-knowledge problem. Decide on purpose which decisions and reasoning from private AI work get imported into the team space and in what form. There are no norms or tools for this yet. These products also assume flat, async, AI-fluent teams that are rare outside the Valley, so expect forward-deployed change management, not adoption from launch hype alone [[sources/lnB4Zckx_34]].
 
 ## Prompt commands
 
@@ -99,3 +100,4 @@ Who on your team is allowed to pose a $400 question to a model today without ask
 - [[sources/1cSNE-ZkDLQ]] — You Can't Compete on Cheap Models Anymore
 - [[sources/hYcOFTMesGc]] — Your Roadmap Is Why You're Losing to AI-Native Teams.
 - [[sources/TR8RDUzQaMo]] — I Stopped Knowing What My Computer Was Doing. Then I Asked OpenAI Why.
+- [[sources/lnB4Zckx_34]] — Should You Pay $100 A Month For OpenAI's Dots When Meta's Muse Has A Free Version?

@@ -3,9 +3,9 @@ title: AI Usage Telemetry
 type: concept
 slug: ai-usage-telemetry
 tags: [telemetry, token-usage, self-improvement, dashboard, feedback-loop]
-sources: [l8BloTSLK6M]
+sources: [l8BloTSLK6M, EAEixlPC6L4]
 stability: evolving
-updated: 2026-06-15
+updated: 2026-11-03
 ---
 
 # AI Usage Telemetry
@@ -19,6 +19,7 @@ Most people have no visibility into their own AI usage patterns, so they can't t
 ## Key insights
 
 - **Build a personal token-burn dashboard as a self-improvement feedback loop, not a vanity metric** — Nate built a dashboard (in Codex, using an open-source "Tufte" charting skill) showing daily token burn on a log scale, a GitHub-style activity chart, top-10 usage days, and model distribution (approximating Claude usage by having Codex reason from artifacts/logs, since Claude doesn't expose token counts outside the API). The point isn't the raw number (800M tokens in a day) — it's that the chart reveals *behavioral* shifts: e.g., seeing token usage spike when adopting a new tool/workflow shows that tool is "unlocking imagination," and reviewing top-usage days reveals which activities (e.g., heavy database work, parallel multi-agent runs) correlate with higher-quality outcomes, giving a concrete signal for what to do more of [[sources/l8BloTSLK6M]].
+- **Meter cost per useful task, not tokens** — Raw token volume misleads: Opus 5.5 cut customer cost per task ~40% versus Opus 5 through lower prices plus better task efficiency, and OpenRouter found nearly 90% of September's agent tokens were cached content, far cheaper than fresh tokens. Nate audited his own tokens per useful task over 8 weeks and found efficiency improved materially while total spend held or grew (Jevons paradox). Track spend per completed task and expect cheaper tasks to expand usage, not shrink the budget [[sources/EAEixlPC6L4]].
 
 ## Prompt commands
 
@@ -36,3 +37,4 @@ I want to see my token burn in a github-style chart. I want to see same-day usag
 ## Sources
 
 - [[sources/l8BloTSLK6M]] — My Codex Ran 800 Million Tokens in A Day. The Real Story Isn't Cost.
+- [[sources/EAEixlPC6L4]] — Anthropic Just Filed Its S-1. The AI Market Is Way Smaller Than You Think. (For Now)

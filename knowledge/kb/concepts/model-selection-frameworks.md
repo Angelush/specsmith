@@ -3,9 +3,9 @@ title: Model Selection Frameworks
 type: concept
 slug: model-selection-frameworks
 tags: [framework, model-selection, agent-design, ecosystem, workflow, decision-making]
-sources: [8m2-WKhidYk, dQK_pTXrGDk, 1FKxyPAJ2Ok, 9aIYhjeYxzM, -5zFZznthw0, 7G0S7DSvKxU, 8jKAT8GNDE0, ijdhIGRB_Kc, 09sFAO7pklo, LIkYVsxMpS8, z3pbrFKVyQE, R2-Y1Hjwx2U, Zp8lr6IzUnQ, 1cSNE-ZkDLQ, 5slsNizN6MQ, U4TmrlWEY4M, jOWXBzP6nNg, lq2fP7wC7d8, suY66oTDn0s, 4HvFqhtCb-A, TR8RDUzQaMo, eLpRDIvOMEw, avN5R3OhxYs, z73yuF14udI]
+sources: [8m2-WKhidYk, dQK_pTXrGDk, 1FKxyPAJ2Ok, 9aIYhjeYxzM, -5zFZznthw0, 7G0S7DSvKxU, 8jKAT8GNDE0, ijdhIGRB_Kc, 09sFAO7pklo, LIkYVsxMpS8, z3pbrFKVyQE, R2-Y1Hjwx2U, Zp8lr6IzUnQ, 1cSNE-ZkDLQ, 5slsNizN6MQ, U4TmrlWEY4M, jOWXBzP6nNg, lq2fP7wC7d8, suY66oTDn0s, 4HvFqhtCb-A, TR8RDUzQaMo, eLpRDIvOMEw, avN5R3OhxYs, z73yuF14udI, lnB4Zckx_34, osZZjdMZVvA, qDYe2eTl_D4]
 stability: evergreen
-updated: 2026-10-19
+updated: 2026-11-03
 ---
 
 # Model Selection Frameworks
@@ -43,6 +43,9 @@ These frameworks are crucial for navigating the rapidly evolving AI landscape. T
 - **Routers cannot see difficulty in the words, so define work classes and count repair time** — "What is this?" can mean an obvious syntax error or hour three of a fiendish bug; a router that sees only the words cannot tell them apart, and figuring it out can cost more tokens than sending it to a strong model. Pipe the decision-relevant context (the underlying assignment, earlier failures, cost of a mistake, an explicit request for more reasoning), and define classes by consequence, not output type: tidying a scheduling email and answering a customer contract are both "email" but not the same job. Separate routine preparation from consequential interpretation, tell the model what you already tried, and count the time spent repairing output, since a cheap model that misses a commitment is not cheap [[sources/avN5R3OhxYs]].
 - **Reasoning effort is a setting to test, not a monotonic dial** — on Opus 4.8, max reasoning was not predictably better than high (4.8 high beat 4.8 max on Vending Bench, and 4.8 regressed versus 4.7 at both), and reasoning traces showed the model overthinking alignment and tone questions on simple prompts, while OpenAI's extra-high behaved predictably better. Benchmark each effort level on your own workflow before standardizing, and keep an older model as a fallback when a new release regresses [[sources/z73yuF14udI]].
 - **Tie budget to outcomes and keep model swap an API change** — do not commit the budget to one lab; allocate against the models that work best for each outcome, build harnesses so a failing model can be swapped out, expect the lead to alternate in a two-horse race, and architect to allow strong open-source models later. For high-volume users with a weaker-model gap (e.g. writing or front-end design), cover it with detailed skills or a second tool rather than switching wholesale [[sources/z73yuF14udI]].
+- **Check which model you run before buying more capacity** — GPT 6.1 Soul approaches Astra on selected evals at about a fifth of the token price. Nate does complex docs, code and research on it for 1-2% of his weekly allowance and keeps Astra for jobs that need it. His allocation as of 2026-11: Astra for long, steerable, highly technical work (with custom skills); Soul 6.1 for large multi-source, high-token synthesis and computer use, with slightly less complex tasks; Fable 5.1 for finding patterns across hundreds of pages; Opus 5.5 for high-quality, easily steered writing and long work that is not time-critical; Sonnet 5.5 (priced like Soul) for well-defined work. The skill underneath all of this is assigning each job to the right model [[sources/lnB4Zckx_34]].
+- **Compare models on cost per task, not price per token** — The real price of a job includes how often the model re-reads files, how many attempts it makes, how often you re-explain, and how much churn there is. A cheaper per-token model can still cost more per finished task, and the reverse. Vendor claims like "40% cheaper" mix price cuts with token reduction, so measure every bucket (input, output, cache, context) and look at the API-equivalent bill and the subscription usage slice. Do not stop counting at a good-looking first frame or screenshot. Measure the whole job through to a finished, checked deliverable [[sources/osZZjdMZVvA]].
+- **Pick a defense model with a known-answer incident reproduction** — Give candidate models the same evidence and query tools in a safe replay of an incident whose story you already know, keep the answer out of the instructions, and grade checkpoints: does it stop at the clean repository, find the build record, link the build identity to the credentials it could reach, and check whether exposed AI keys were used or billed? Compare time and cost to a correct answer; never save on inference at the risk of a wrong answer under time pressure, because attackers will use the strongest model they can find [[sources/qDYe2eTl_D4]].
 
 ## Prompt commands
 
@@ -125,3 +128,6 @@ Harness lock-in is the real vendor risk, not model subscription. All CLAUDE.md f
 - [[sources/eLpRDIvOMEw]] — You can be ambitious without the huge token bill. Here's how.
 - [[sources/avN5R3OhxYs]] — OpenClaw Was Too Dangerous To Install. 7 Months Later Microsoft Is Bringing It To Your Company.
 - [[sources/z73yuF14udI]] — Opus 4.8 Scored 81. Your Workflow Doesn't Care.
+- [[sources/lnB4Zckx_34]] — Should You Pay $100 A Month For OpenAI's Dots When Meta's Muse Has A Free Version?
+- [[sources/osZZjdMZVvA]] — Opus 5.5 vs The Rest: Is this the new industry standard?
+- [[sources/qDYe2eTl_D4]] — Black October Isn't Just A PHP Bug. Attackers Want Your AI Keys.

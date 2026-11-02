@@ -3,9 +3,9 @@ title: Semantic Engineering
 type: concept
 slug: semantic-engineering
 tags: [career, engineering, semantic-engineering, ai-augmented, orchestration, specification]
-sources: [W79FW7iUkro, gXbTh70m_q0, hYcOFTMesGc]
+sources: [W79FW7iUkro, gXbTh70m_q0, hYcOFTMesGc, KDGxQtfjBj0]
 stability: evergreen
-updated: 2026-07-28
+updated: 2026-11-03
 ---
 
 # Semantic Engineering
@@ -25,6 +25,7 @@ As AI tools increasingly handle the implementation and review of software, the m
 - **Semantic and boundary engineering secures against vulnerabilities** — Critical aspects involve establishing robust defenses against prompt injection and maintaining clear boundaries between human and AI interactions within software to fortify security and ensure system integrity. [[sources/gXbTh70m_q0]] (CRR-013)
 - **Emerging disciplines include memory engineering and multi-LLM orchestration** — New specializations are developing, such as versioning prompts and AI model weights, implementing advanced safety engineering practices, and orchestrating complex toolchains that integrate multiple large language models. [[sources/gXbTh70m_q0]] (CRR-013)
 - **Documentation becomes literal executable infrastructure once agents read it to decide what to do** — a document now supplies the standard, the source hierarchy, the permissions, the escalation path, and the definition of done, so ambiguity in a document spreads chaos through every agent that consumes it. "AI slop" is not caused by the AI; it appears when the human writer lacked clarity of intent before writing, and there is no AI substitute for that clarity — only rigorous human writing discipline (multi-draft review culture) produces documents agents can safely act on [[sources/hYcOFTMesGc]].
+- **Connected data is not shared meaning** -- A spreadsheet can hold the correct revenue number while the agent uses the wrong definition of revenue, and a customer record can be accurate yet miss a promise made in yesterday's email. Integrations give an agent access, not interpretation; the business still has to supply definitions, decision rules, and where commitments live. Put a definitions and commitments-sources section in the agent's context and treat a missing definition as a spec gap. [[sources/KDGxQtfjBj0]]
 
 ## Prompt commands
 
@@ -44,3 +45,4 @@ As AI tools increasingly handle the implementation and review of software, the m
 - [[sources/W79FW7iUkro]] — 271 Vulnerabilities: What Mozilla's AI Found Changes Everything
 - [[sources/gXbTh70m_q0]] — AI Didn't Kill Engineering: It Raised the Bar
 - [[sources/hYcOFTMesGc]] — Your Roadmap Is Why You're Losing to AI-Native Teams.
+- [[sources/KDGxQtfjBj0]] — Salesforce Just Helped Microsoft. You're Picking The Winner Of A Trillion-Dollar Fight.

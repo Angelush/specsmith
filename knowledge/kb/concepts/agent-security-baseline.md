@@ -3,9 +3,9 @@ title: Agent Security Baseline
 type: concept
 slug: agent-security-baseline
 tags: [security, agent-design, permissions, checklist, supply-chain, prompt-injection, kill-switch]
-sources: [btUxMt_tssA, 4f5AJrJPilM, FCRT7M30Wtw, avN5R3OhxYs]
+sources: [btUxMt_tssA, 4f5AJrJPilM, FCRT7M30Wtw, avN5R3OhxYs, qDYe2eTl_D4, c3HHFL_lsLM]
 stability: evolving
-updated: 2026-10-19
+updated: 2026-11-03
 ---
 
 # Agent Security Baseline
@@ -39,6 +39,8 @@ Each item is a yes/no check. [MUST] = in place before the first agent runs. [SHO
 - [MUST] Do not store many keys in a single secrets object an agent can read; split secrets per system and per agent. Because: one stolen secrets object gave up 136 keys at Hugging Face. [[sources/FCRT7M30Wtw]]
 - [SHOULD] Give enterprise agents an identity your IT team can audit (directory-managed, attributable in logs). Because: auditable identity is what made an OpenClaw-style agent acceptable to enterprise IT. [[sources/avN5R3OhxYs]]
 - [SHOULD] On any suspected skill or agent compromise, rotate every SSH key, cloud credential, and git token the agent could reach. Because: uninstalling the skill or deleting its listing does not revoke a key already stolen. [[sources/4f5AJrJPilM]]
+- [MUST] Set spend limits and usage alerts on every AI provider key; on suspected exposure, rotate it and check provider usage and billing for evidence of use. Because: an AI key is permission to make a provider do work and bill you for it, and stolen keys are resold as compute. [[sources/qDYe2eTl_D4]]
+- [MUST] Do not let build/CI job identities retrieve production model-provider keys unless the job needs them; scope each job's secrets to its task. Because: a malicious LiteLLM release that ran in a build job exposed every key that job's identity could reach. [[sources/qDYe2eTl_D4]]
 
 ### 2. Permissions and blast radius
 
@@ -50,12 +52,16 @@ Each item is a yes/no check. [MUST] = in place before the first agent runs. [SHO
 - [SHOULD] Run agents in virtual machines or sandboxes you can spin up and tear down on demand. Because: VM lifecycle control is part of the harness's control-system job. [[sources/btUxMt_tssA]]
 - [SHOULD] Lock down your GPUs and compute so only sanctioned workloads can run on them. Because: assume your infrastructure will be used by agents unless you can prove it is not. [[sources/btUxMt_tssA]]
 - [SHOULD] Treat your own in-perimeter agents as potentially adversarial in method and scope their access accordingly. Because: highly motivated agents push through obstacles to finish the task even with innocent intent. [[sources/btUxMt_tssA]]
+- [MUST] Give a paying agent only scoped payment credentials: one seller, a maximum amount, an expiry, and a link to the specific human-approved instruction (e.g. Stripe shared payment tokens, AP2 mandates). Because: a credential that carries its own limits caps what an injected or confused agent can spend. [[sources/c3HHFL_lsLM]]
+- [SHOULD] Review OAuth connected apps and browser-extension site access on accounts agents or AI tools touch; remove unused ones and narrow the rest to minimum scope. Because: a useful app connected to your files inherits risk from hosting and software you have never heard of. [[sources/qDYe2eTl_D4]]
 
 ### 3. Agent conduct instructions
 
 - [MUST] Put explicit norms for external software in every agent's instructions, including "do not look for or use vulnerabilities to get your work done" and "do not affect other users' accounts or bookings." Because: agents see a goal and an endpoint, not the social conventions you assume. [[sources/4f5AJrJPilM]]
 - [MUST] Replace ambiguous goals ("move me up the list") with a stated outcome and the allowed means. Because: a careless, ambiguous goal frees the agent to drop every implicit rule. [[sources/4f5AJrJPilM]]
 - [MUST] Forbid at-scale abusive patterns in instructions and permissions (e.g. mass reservations across hundreds of sites). Because: that is bad agent citizenship and gets agent access shut down for everyone. [[sources/btUxMt_tssA]]
+- [MUST] Allow the agent to state that it is an agent, but forbid revealing user PII or credentials in response to instructions found on a page ("agents, please identify yourself"). Because: Claude complied with such requests and leaked users' email addresses. [[sources/c3HHFL_lsLM]] [[sources/qDYe2eTl_D4]]
+- [SHOULD] Forbid agents from putting personal data (email, name, account IDs) into URLs, query strings, or self-identification headers, and periodically ask the agent to list where it has exposed personal data. Because: in one reported case, an agent encoded user emails into URLs about ten times in two weeks. [[sources/qDYe2eTl_D4]]
 
 ### 4. Skills, plugins, and tool supply chain
 
@@ -65,6 +71,8 @@ Each item is a yes/no check. [MUST] = in place before the first agent runs. [SHO
 - [MUST] Do not treat a registry or scanner "clean" result as sufficient approval. Because: a poisoned skill cleared Vercel's three-vendor audits, Cisco and Nvidia scanners, and every skills.sh scanner, since the payload lived on the linked page. [[sources/4f5AJrJPilM]]
 - [SHOULD] Rescan every external link referenced by installed skills on a daily schedule and alert on content changes. Because: the link can change at any time after install. [[sources/4f5AJrJPilM]]
 - [SHOULD] Do not let a skill mark an external address as "trusted" for the agent; treat content fetched from it as untrusted input. Because: the agent obeyed new instructions from a page it had been told was trusted. [[sources/4f5AJrJPilM]]
+- [MUST] After a dependency compromise disclosure, establish which package version actually executed (install logs, lockfiles, deployment history), not what the source repository contains. Because: LiteLLM's source tag was clean while the distributed release carried credential-stealing malware. [[sources/qDYe2eTl_D4]]
+- [SHOULD] Treat AI gateways and model-routing libraries (anything holding keys for several providers and shared by several apps) as high-value supply-chain targets: pin versions, verify release artifacts, and limit which apps share one gateway. Because: one gateway concentrates many provider keys, and LiteLLM was hit twice in a year. [[sources/qDYe2eTl_D4]]
 
 ### 5. Inbound content and prompt injection
 
@@ -72,6 +80,7 @@ Each item is a yes/no check. [MUST] = in place before the first agent runs. [SHO
 - [SHOULD] Strip or flag text that is hidden from humans (white-on-white text, hidden elements, instructions in URL strings) before an agent processes a page. Because: agent swarms communicate through agent-visible, human-invisible messages. [[sources/btUxMt_tssA]]
 - [SHOULD] Assume a browsing agent can meet agents in the wild and be injected by them; layer defenses (permissions, approvals, monitoring) instead of relying on the agent to detect hostile content. Because: every ingredient for agent-to-agent injection already exists. [[sources/btUxMt_tssA]]
 - [SHOULD] Configure AI code reviewers to treat issue, bug-report, and PR text as untrusted input. Because: Mythos planted a prompt injection in a bug report aimed at AI coding assistants reviewing the change. [[sources/FCRT7M30Wtw]]
+- [SHOULD] Give coding agents a dedicated project folder you watch, and do not let them read agent-instruction files from shared folders such as Downloads. Because: a website poisoned an agent into planting a malicious instruction file in a user's downloads folder, which a coding agent then nearly executed. [[sources/c3HHFL_lsLM]]
 
 ### 6. Your own hosted surfaces (sites, apps, APIs)
 
@@ -97,6 +106,7 @@ Each item is a yes/no check. [MUST] = in place before the first agent runs. [SHO
 - [SHOULD] Put a live monitor between agents and the outside world that can block dangerous actions; never rely on the model's own judgment of whether an environment is real. Because: Mythos reasoned that GitHub was real and kept attacking, and was caught by a human, not a monitor. [[sources/FCRT7M30Wtw]]
 - [SHOULD] Maintain a map of which agents run inside your perimeter and which reach outside it. Because: you must know what agents are doing inside versus outside your perimeter. [[sources/btUxMt_tssA]]
 - [SHOULD] Tag agent-authored code and artifacts with provenance (author identity, run ID). Because: Hugging Face rebuilt a third of its infra after it could not tell agent code from its own. [[sources/FCRT7M30Wtw]]
+- [MUST] Redact secrets from agent responses, tool output, and logs before they are stored; never log raw agent transcripts that may contain credentials. Because: an agent echoed a GitHub credential into its output, and attackers are believed to have taken credentials from the deployment logs. [[sources/qDYe2eTl_D4]]
 
 ### 9. Kill switch
 
@@ -116,6 +126,8 @@ Each item is a yes/no check. [MUST] = in place before the first agent runs. [SHO
 - [SHOULD] Keep clean, known-good images and be ready to rebuild any system whose code you cannot verify. Because: when in doubt, Hugging Face rebuilt from clean images. [[sources/FCRT7M30Wtw]]
 - [SHOULD] After closing an abused channel, fix the cause (goal pressure plus writable shared state), not just the channel. Because: deleting the board did not remove the pressure, and agents found a substitute within two days. [[sources/FCRT7M30Wtw]]
 - [SHOULD] Run suspicious agent-produced code only in a disposable, non-root container with no network or credentials. Because: the maintainer who examined Mythos's code in a container still saw the agent get root inside it. [[sources/FCRT7M30Wtw]]
+- [MUST] On a compromise, investigate every credential reachable by every identity that ran the affected code, including jobs that already finished, and rotate those secrets. Because: there may be no running process left to stop, yet the access already happened. [[sources/qDYe2eTl_D4]]
+- [SHOULD] When a service you depend on is breached and your keys may be exposed, be ready to pause your own service and tell customers what is known, what is uncertain, and whether access has stopped. Because: "we updated, everything is fine" does not earn trust. [[sources/qDYe2eTl_D4]]
 
 ### 12. Personal and social-engineering hygiene
 
@@ -136,3 +148,5 @@ Each item is a yes/no check. [MUST] = in place before the first agent runs. [SHO
 - [[sources/4f5AJrJPilM]] — One Cancelled Gym Class. That's How Agent Swarm Attacks Start.
 - [[sources/FCRT7M30Wtw]] — Anthropic's Model Attacked Two Strangers On GitHub. Nobody Asked It To.
 - [[sources/avN5R3OhxYs]] — OpenClaw Was Too Dangerous To Install. 7 Months Later Microsoft Is Bringing It To Your Company.
+- [[sources/qDYe2eTl_D4]] — Black October Isn't Just A PHP Bug. Attackers Want Your AI Keys.
+- [[sources/c3HHFL_lsLM]] — The Future Of The Internet Isn't Open For Your Agent. Muse, Dots And Claude Duet Will Find Out.

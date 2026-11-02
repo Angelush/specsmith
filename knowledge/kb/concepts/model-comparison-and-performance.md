@@ -3,9 +3,9 @@ title: Model Comparison and Performance Benchmarking
 type: concept
 slug: model-comparison-and-performance
 tags: [model-comparison, model-selection, benchmarks, prompting, agents, trade-offs]
-sources: [-5zFZznthw0, hDpjMJw3flk, 41UDGsBEjoI, 7-LFn11dNHA, DbX_0_0LGag, EbZbGPi8ftA, Gqnf5f1ITyo, hV5_XSEBZNg, p-ibfrMN0M8, -_vL1KXd2rc, tJB_8mfRgCo, JKk77rzOL34, dUWxN0snnW8, DcrXHTOxi3I, MFzxIT88zfg, jOWXBzP6nNg, uCWKXIyvM_8, ix8SsXjBc7M, 2w_vwQVvFmc, n5bZHETCiJA, sVQ3XlM9I40]
+sources: [-5zFZznthw0, hDpjMJw3flk, 41UDGsBEjoI, 7-LFn11dNHA, DbX_0_0LGag, EbZbGPi8ftA, Gqnf5f1ITyo, hV5_XSEBZNg, p-ibfrMN0M8, -_vL1KXd2rc, tJB_8mfRgCo, JKk77rzOL34, dUWxN0snnW8, DcrXHTOxi3I, MFzxIT88zfg, jOWXBzP6nNg, uCWKXIyvM_8, ix8SsXjBc7M, 2w_vwQVvFmc, n5bZHETCiJA, sVQ3XlM9I40, osZZjdMZVvA]
 stability: volatile
-updated: 2026-10-19
+updated: 2026-11-03
 ---
 
 # Model Comparison and Performance Benchmarking
@@ -38,6 +38,7 @@ Understanding the nuanced performance differences between AI models is crucial f
 - **Big models quarantine and escalate instead of silently repairing** — On messy data Fable 5 quarantined garbage rather than "fixing" it, inventoried fake credentials without leaking them, and built an unrequested human review queue for low-confidence calls, avoiding the usual failure modes (promoting garbage to clean data, smoothing conflicts, unlisted extra fixes). Specs can therefore ask for a review queue explicitly rather than hoping. Limits remain: price (about $50 per million output tokens), weak one-shot visual taste (clipped headings), and missed handwritten-image content until forced to look; a review step still lands on the human [[sources/2w_vwQVvFmc]].
 - **Assign models to roles by task phase, and count iteration speed** — Nate's split: Fable first to think a fuzzy problem through, then Astra to structure it into a plan or writing draft; Astra drafts and proves spreadsheet formulas, Fable styles Excel/PowerPoint; Astra for fast computer use in Codex or Cowork, where he found Claude's computer use slower. In one build Astra completed v1.0 to v1.2 (and about 65 self-written checks) in the time Fable took for v1.0 with lower token use; harness and access (Cowork vs Codex) are part of the comparison. This is one build, not a rule [[sources/n5bZHETCiJA]].
 - **A leaderboard rank means little if nobody can use the model on real work** — a model that tops a leaderboard but is barely accessible and has no stated customer surface cannot be shown to be useful. Evaluate on the lab-to-customer map instead (who the lab serves, where the model shows up, why it beats the current one in that surface) and on tool-specific strengths found by use: one tool is slower but strong at connectors and holding large information coherently, another is faster at navigating the web and executing actions [[sources/sVQ3XlM9I40]].
+- **Opus 5.5 (2026-11): cheaper, more task-efficient and steerable writing again** — $4/$20 per million input/output tokens, 20% below Opus 5 and 60% below Fable 5.1 ($10/$50). Anthropic says typical workloads cost about 40% less than on Opus 5. GitHub, Lovable and Spotify report fewer steps. The release targets the writing-instruction adherence complaints of the 4.7 to Opus 5 era. Nate's 514-piece LEGO build used 89M tokens, about 1% of a weekly plan. He moved visual design work to it from Fable because it was cheaper, faster and needed less re-explaining. Context: Anthropic says Claude authored more than 80% of merged code internally as of May, and major releases now arrive about every 18 days, so re-test often [[sources/osZZjdMZVvA]].
 
 ## Prompt commands
 
@@ -129,3 +130,4 @@ Analyze the following data: [PASTE DATA IN CSV OR MARKDOWN]. Think hard. Produce
 - [[sources/2w_vwQVvFmc]] — The Doing Got Cheap. Now What? | Claude Fable 5 Changes Work
 - [[sources/n5bZHETCiJA]] — The Race to Done: Fable 5.1 vs GPT-6 Astra. Who Wins?
 - [[sources/sVQ3XlM9I40]] — Google's Gemini Argon Is #1 On A Leaderboard. It Hasn't Passed The Benchmark That Matters.
+- [[sources/osZZjdMZVvA]] — Opus 5.5 vs The Rest: Is this the new industry standard?

@@ -3,9 +3,9 @@ title: Agent Harness and Maintenance
 type: concept
 slug: agent-harness-and-maintenance
 tags: [agent-design, harness, maintenance, ownership, reliability, last-mile, framework]
-sources: [BOXK2XFLA-E, Zp8lr6IzUnQ, rh_PcL26zls, PDJfciNhyHU, U4TmrlWEY4M, lq2fP7wC7d8, 2wVvdX0ZxVw, up0Bsf3f0Xc, 2IAYFgAqX6g, eLpRDIvOMEw, ry9J1i3krIY, NIRFVjttNvA, xUl-RD4l4i4, 4f5AJrJPilM, RHV8DWAmjAs, btUxMt_tssA, z73yuF14udI]
+sources: [BOXK2XFLA-E, Zp8lr6IzUnQ, rh_PcL26zls, PDJfciNhyHU, U4TmrlWEY4M, lq2fP7wC7d8, 2wVvdX0ZxVw, up0Bsf3f0Xc, 2IAYFgAqX6g, eLpRDIvOMEw, ry9J1i3krIY, NIRFVjttNvA, xUl-RD4l4i4, 4f5AJrJPilM, RHV8DWAmjAs, btUxMt_tssA, z73yuF14udI, osZZjdMZVvA]
 stability: evolving
-updated: 2026-10-19
+updated: 2026-11-03
 ---
 
 # Agent Harness and Maintenance
@@ -49,6 +49,7 @@ A model swap is never just a model call swap — it replaces a whole work system
 - **Constrain by capability, not by instruction** — the arson tool existed in the town and agents were merely told not to use it; eventually they did. In production, harms are prevented because the harness scopes which tools the agent can see, which need approval, and logs everything: a support agent has no burn-it-down tool, a finance agent sits behind approval, limits and audit trails, a coding agent works only in a sandbox, branch and PR flow, and a procurement agent has vendor creation, payment approval and contract execution behind separate gates. Design assuming the agent may be wrong, confused, overconfident, underspecified or on stale context, and write specs as permissions and gates rather than verbal rules [[sources/RHV8DWAmjAs]].
 - **A harness has two jobs, and only the control-system job is permanent** — Job one is being a control system so you know what your agents are doing and can manage them; job two is compensating for current model weaknesses, which shrinks as models get (conservatively) 10x smarter in a year. Invest in job one: what agents can access, what authority and permissions they hold, how you shut them down (the "red button"), how virtual machines are spun up and down, and traces plus auditability. These must be locked down before a company can safely harness collective intelligence [[sources/btUxMt_tssA]].
 - **Daily-driver status is a function of the harness, not the model score** — the same author found a model with better taste and insight lost to a competitor whose harness could run multiple parallel multi-hour tasks, access the whole computer and ask permission to widen scope, while the other errored out on one task at a time; a strong computer-use benchmark score did not translate into dependable computer use. As models learn to keep going and self-review, older scaffolding such as forced loops and verifier steps becomes unnecessary, so re-tune the harness each model generation and compare models inside their harnesses on your actual tasks [[sources/z73yuF14udI]].
+- **Persistent models need a bounded world: stop conditions plus a definition of done** — Opus 5.5 "loves to go and go", and on long or overnight unattended runs (one reported run lasted 18h across six repos) that persistence burns tokens without explicit limits. Long-running assignments went better with clear stop conditions and a fixed eval or definition of done. Fixing scope parameters up front (for the LEGO build, piece count and complexity) stops the model from modelling the whole space, judging its own work not good enough, and escalating on its own. This saved many tokens. When the checks pass, the job is finished [[sources/osZZjdMZVvA]].
 
 ## Prompt commands
 
@@ -100,3 +101,4 @@ Inspect my computer. Please don't change anything. Please identify the largest m
 - [[sources/RHV8DWAmjAs]] — Claude's AI Town Voted Yes On Everything. That's Not A Good Sign.
 - [[sources/btUxMt_tssA]] — Self-Replicating AI Swarms Are Real. Don't Panic, But Take Them Seriously.
 - [[sources/z73yuF14udI]] — Opus 4.8 Scored 81. Your Workflow Doesn't Care.
+- [[sources/osZZjdMZVvA]] — Opus 5.5 vs The Rest: Is this the new industry standard?

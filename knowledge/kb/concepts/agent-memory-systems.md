@@ -3,9 +3,9 @@ title: Agent Memory and Knowledge Architecture
 type: concept
 slug: agent-memory-systems
 tags: [agent-design, memory-architecture, knowledge-systems, data-ownership, multi-agent, principles]
-sources: [-oI7mrudRn8, xNcEgqzlPqs, dxq7WtWxi44, 0TpON5T-Sw4, 4KAF72BTyCE, v1Ham9sIWgo, 2JiMmye2ezg, japT66frdhM, 9N7qXkmntlU, h7dbkDcb3hA, 7NjtPH8VMAU, lqiwQiDglGk, HgAQOkG_v8c, HZLPhPbw3fM, 2IAYFgAqX6g, 4HvFqhtCb-A, 1qGH6NwTj3o, gbbPBr3OraQ]
+sources: [-oI7mrudRn8, xNcEgqzlPqs, dxq7WtWxi44, 0TpON5T-Sw4, 4KAF72BTyCE, v1Ham9sIWgo, 2JiMmye2ezg, japT66frdhM, 9N7qXkmntlU, h7dbkDcb3hA, 7NjtPH8VMAU, lqiwQiDglGk, HgAQOkG_v8c, HZLPhPbw3fM, 2IAYFgAqX6g, 4HvFqhtCb-A, 1qGH6NwTj3o, gbbPBr3OraQ, lnB4Zckx_34]
 stability: evergreen
-updated: 2026-10-19
+updated: 2026-11-03
 ---
 
 # Agent Memory and Knowledge Architecture
@@ -40,6 +40,7 @@ Effective memory architecture is crucial for AI agents to operate beyond single-
 - **Four layers: model, harness, project context, conversation** — Changing the model keeps the harness (hooks, MCP, permissions) and file-based context (CLAUDE.md, AGENTS.md, skills, scripts) but loses conversation, prompt cache and any decision never written to a file. With about 96% of token volume being reused input, context hygiene is economic. Before moving a job mid-stream, have the current model write a handoff file: goal, current state, relevant files, constraints, definition of done, checks to run [[sources/4HvFqhtCb-A]].
 - **Accumulated history becomes the moat and the tribal-knowledge risk** — An agent that has worked with you for six months (notes preserved across context windows, searchable earlier messages and tool output) is far more useful than a fresh copy of the same model, since it knows which customer needs a call and what the board reads. The same single-head risk companies have with long-serving staff now exists as machine-held context, so memory should live in portable, inspectable artifacts you own [[sources/1qGH6NwTj3o]].
 - **Personal context becomes judgment only when memory records the why** — Once capability is not a frontier differentiator, the next gain is knowing circumstances: which subscription is a duplicate, which one a family member needs, which trip you mean, what you already tried. An occasional charge may be waste or something you rely on twice a year; the assistant should remember that distinction, ask when it does not know, and reuse your answer. Muse also states it does not "fish" for information and tracks only what the user chooses to share, which builds trust for incremental connection of accounts [[sources/gbbPBr3OraQ]].
+- **Proactive agents over-weight recency; salience must be designed or fed** — An agent with lots of context still has to decide what matters enough to act on. Nate sees Dots surfacing mostly recent items, not the important ones, and expects to fix that by feeding it more and working with it, not by toggling a setting. Dots receives only saved ChatGPT memories plus memories from connected apps, not the whole chat history. That opt-in boundary lets the user choose what crosses into a proactive agent, which builds trust. Treat salience ranking and the memory boundary as explicit design decisions in any always-on agent spec [[sources/lnB4Zckx_34]].
 
 ## Prompt commands
 
@@ -131,3 +132,4 @@ Keep four ordinary text files with a long-running agent project: (1) readme.mark
 - [[sources/4HvFqhtCb-A]] — Stop Paying $200 For Work An $18 Model Can Do Inside Claude Code And Codex.
 - [[sources/1qGH6NwTj3o]] — GPT-6 Astra Doesn't Need Your Instructions Anymore.
 - [[sources/gbbPBr3OraQ]] — I Gave Meta's Muse The Most Boring Job I Had. It Found $5,350 A Year.
+- [[sources/lnB4Zckx_34]] — Should You Pay $100 A Month For OpenAI's Dots When Meta's Muse Has A Free Version?

@@ -3,9 +3,9 @@ title: Agentic Commerce and Platform Shifts
 type: concept
 slug: agentic-commerce
 tags: [agentic-commerce, agents, business-opp, buyer-power, disruption, trend]
-sources: [XGvDbeoSN3E, 725QE_LNXT4, j5_wcDifNko, YTG0rdHPTDE, gbbPBr3OraQ]
+sources: [XGvDbeoSN3E, 725QE_LNXT4, j5_wcDifNko, YTG0rdHPTDE, gbbPBr3OraQ, c3HHFL_lsLM]
 stability: evolving
-updated: 2026-10-19
+updated: 2026-11-03
 ---
 
 # Agentic Commerce and Platform Shifts
@@ -30,6 +30,8 @@ Agentic commerce matters because it represents a profound shift in market dynami
 - **Agent-to-agent procurement could erode consumer surplus** — Agents are relentless negotiators who will return again and again, so agent-to-agent markets can discover willingness-to-pay far more efficiently than human procurement and erode surplus quickly. Stripe was also surprised that early agent spend leaped into physical-world purchases (e.g., mailing a Mother's Day card), with surprises coming from consumers late on the adoption curve rather than Silicon Valley power users [[sources/YTG0rdHPTDE]].
 - **An assistant that picks the purchase relocates the ad-funded attention moment** — Sellers pay for placement while you browse their page (Amazon reported about $68.6B ad revenue in 2025); if an assistant compares options and you merely accept, the retailer sells to someone whose decision was made elsewhere. Nate reads Amazon's block of Muse (stated reasons: unidentified agent, credential capture) as a fight over who owns the customer relationship, while a challenger like Walmart (ad business about 10x smaller) welcomes a new starting point. Muse's expected revenue model is a small transaction fee, with Stripe virtual cards limited to approved purchases as the spend guardrail [[sources/gbbPBr3OraQ]].
 - **Agents that audit subscriptions attack revenue built on customer inattention** — An AER 2025 study of ten subscription services found inattention raised subscriber-pool revenue by 87% on average (14% to over 200%), and cancellations rose when replaced cards forced active renewal. An assistant that reviews charges for non-technical users removes that inertia, so sellers must price and package for scrutiny, and agent specs for this job should include refund-policy checks on past charges, not just cancellation [[sources/gbbPBr3OraQ]].
+- **Plan for three zones of agent access** -- The web an agent meets in 2027 will have a partnership zone (a supported route such as Shop Pay checkout or a registered-agent invoice pilot, usable by many assistants), an aspiring-actor zone (the agent drives a human site through the browser and may hit a changed page, an account check, or a "please don't" notice, which compliant agents tend to obey), and a no-go zone (the business refuses, e.g. Amazon vs Muse). Model capability does not move a site between zones. Agent specs that act on the web should classify each target site by zone and define what happens in each: use the API, try then hand off to the human, or skip and report. [[sources/c3HHFL_lsLM]]
+- **Agents need product facts, not marketing pages** -- A hotel site with a polished homepage can still hide the cancellation terms an agent must check against a user's requirements (near the meeting, late arrival, cancellable). Shopify now lets merchants review and publish facts specifically for agents, such as return windows and shipping destinations. When building an agent that compares offers, require structured policy fields as inputs. When you are the merchant, publish them, because being considered by assistants is now a distribution channel. [[sources/c3HHFL_lsLM]]
 
 ## Prompt commands
 
@@ -51,3 +53,4 @@ Audit [BUSINESS/PRODUCT] for agent-accessibility. Evaluate: (1) Can an agent dis
 - [[sources/j5_wcDifNko]] — ChatGPT Has 900M Weekly Users. Almost None Can Buy In It.
 - [[sources/YTG0rdHPTDE]] — AI Is About To Spend Your Money. I Went To Stripe To Ask Who Stops It.
 - [[sources/gbbPBr3OraQ]] — I Gave Meta's Muse The Most Boring Job I Had. It Found $5,350 A Year.
+- [[sources/c3HHFL_lsLM]] — The Future Of The Internet Isn't Open For Your Agent. Muse, Dots And Claude Duet Will Find Out.

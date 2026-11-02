@@ -3,9 +3,9 @@ title: Enterprise AI Adoption and Workflow Transformation
 type: concept
 slug: enterprise-ai-adoption
 tags: [ai-adoption,enterprise-ai,workflow,governance,procurement,change-management]
-sources: [4Bg0Q1enwS4, 6r0UeMQE66I, Nt7vzMiE0mY, EpJ0CjTJSag, 9IETDveRCQs, 9m1Bd6cxYBk, rlJmALoNl5g, zw39KBZkPeA, gtkRAXQf49k, 9-xvYoIMHcQ, nQcy-YlYpng, LIkYVsxMpS8, NRBQmwlILjk, adNErrz2aA0, jwtpMSRAPAQ, JIGaCPv44QI, b6J387xJvHg, IpEaSa7tgfc, qYe1GsMRElw, avN5R3OhxYs]
+sources: [4Bg0Q1enwS4, 6r0UeMQE66I, Nt7vzMiE0mY, EpJ0CjTJSag, 9IETDveRCQs, 9m1Bd6cxYBk, rlJmALoNl5g, zw39KBZkPeA, gtkRAXQf49k, 9-xvYoIMHcQ, nQcy-YlYpng, LIkYVsxMpS8, NRBQmwlILjk, adNErrz2aA0, jwtpMSRAPAQ, JIGaCPv44QI, b6J387xJvHg, IpEaSa7tgfc, qYe1GsMRElw, avN5R3OhxYs, 0j8wy4jUlsw, EAEixlPC6L4, KDGxQtfjBj0, wep2EQ9Y_Tc]
 stability: evergreen
-updated: 2026-10-19
+updated: 2026-11-03
 ---
 
 # Enterprise AI Adoption and Workflow Transformation
@@ -41,6 +41,10 @@ Successful enterprise AI adoption moves beyond surface-level integrations to bui
 - **Enterprise returns come from the work around the agent, not the model** — Both SMBs and enterprises have frontier models; enterprises win because they fund file access across systems, infosec-compliant permissions, run logging, and a quality bar, spread across managers, security and QC teams, plus forward-deployed engineering from OpenAI and Anthropic. OpenAI's heaviest enterprise users went from 2.6x to 8.3x the output tokens per person of typical users (Jan to Jun), with 2x plugin and 6x skill usage. Enterprises can also afford to make non-verifiable work (pricing, PRDs, decks in house style) verifiable. A P&G experiment (776 people) showed AI-assisted individuals matched 2-person teams, but only AI-assisted teams improved the top 10% of answers. [[sources/IpEaSa7tgfc]]
 - **Build an "agent school": agents work where humans work** — Block (Goose) and Shopify (River on the Aquifer platform) put agents in shared systems of record (Slack, Linear, Jira, Teams) instead of private chat windows, so requests, answers and corrections are visible and a useful correction becomes shared standard. Pair this with company-owned evals, example sets of good work, controlled tool access, and a named owner of taste who decides hard cases; that is a founder choice, not a model feature [[sources/qYe1GsMRElw]].
 - **The 5% who get value run an improve-the-next-run loop** — In enterprise after enterprise, about 5% of people with the same tool get compounding value because they diagnose misses: was the source missing, the instruction unclear, or did the model see the evidence and misread it? Each calls for a different fix (add data, change instructions, change reasoning), and the fix gets saved so future runs use it, checked, and shared with a colleague so the team learns what makes AI reliable. Then ask whether the job needs the process at all: have the agent propose a leaner way, what it would remove, what it needs, and how you would check it, since you may have taught it to reproduce a report nobody needs. Waiting for a perfect product postpones the learning that makes the next one useful [[sources/avN5R3OhxYs]].
+- **Analyze stacks in three layers and map usage before consolidating** — Decompose any software decision into data layer, application layer (structured workflows; the interface is separable and may disappear) and agentic layer. Team AI usage is fingerprint-unique (skills, computer use, direct data queries), so audit actual team-level patterns before standardizing vendors, or you cut productivity you did not know you had [[sources/0j8wy4jUlsw]].
+- **Design each deployment to seed the next** — Investments in data, systems, and harnesses compound: connected systems and usable company knowledge make the next workflow cheaper to build, and accumulated context can even surface the next workflow worth automating. Judge a deployment partly by whether it leaves the org able to discover and build the following one. The open risk is that workflows are poorly documented, oddly configured, and vary in complexity, so choose the first workflow and its leverage point carefully [[sources/EAEixlPC6L4]].
+- **Write interoperability into control-plane requirements** -- Before picking a control plane, ask how interoperable its agents are, how easily you can swap them out, how it fits your agent harness, how it fits your memory and data systems, and whether it reaches the tools employees already work in all day. Building your own is "not a small build": budget the talent to build it and to maintain it. People who make an explicit, reasoned case to procurement get budget; defaulting to the tool you already use is the trap. [[sources/KDGxQtfjBj0]]
+- **Replacement framing breeds quiet sabotage** — Leaders privately estimate up to a third of teams passively resist AI tools pitched as "this will do your work for you." Frame adoption around how each person drives revenue or cuts cost; people who can state that use AI to get there faster [[sources/wep2EQ9Y_Tc]].
 
 ## Prompt commands
 
@@ -128,3 +132,7 @@ Audit my current PM role: for each of the following, rate my exposure on a 1-5 s
 - [[sources/IpEaSa7tgfc]] — Agents Aren't Taking Your Jobs. They're Creating More Work Instead.
 - [[sources/qYe1GsMRElw]] — Runable Raised $21 Million On Agents That Finish. Nobody Told Yours What Done Means.
 - [[sources/avN5R3OhxYs]] — OpenClaw Was Too Dangerous To Install. 7 Months Later Microsoft Is Bringing It To Your Company.
+- [[sources/0j8wy4jUlsw]] — The end of the app era: What comes next?
+- [[sources/EAEixlPC6L4]] — Anthropic Just Filed Its S-1. The AI Market Is Way Smaller Than You Think. (For Now)
+- [[sources/KDGxQtfjBj0]] — Salesforce Just Helped Microsoft. You're Picking The Winner Of A Trillion-Dollar Fight.
+- [[sources/wep2EQ9Y_Tc]] — Google Has More Data Than Almost Anyone. So Why Is It Bidding $10 Million On Old Emails?

@@ -498,3 +498,68 @@ All 13 mapped to **existing** concepts — no new concept pages, so `index.md` t
 ## [2026-10-19] grounding | wired agent-security-baseline → author-constraints (grounding + step 0 seed), red-team (baseline check); added Security baseline table to templates/workflow-bundle/constraints.md
 
 ## [2026-10-19] lint | refreshed index.md stats line (54 concepts, 333 source pages, 361 videos)
+
+## [2026-11-03] ingest | The end of the app era: What comes next? | 0j8wy4jUlsw
+
+- Source page: [[sources/0j8wy4jUlsw]]
+- Concepts touched: [[concepts/ai-personal-stack]], [[concepts/practical-agent-adoption]], [[concepts/mcp-architecture]], [[concepts/enterprise-ai-adoption]]
+- Insights added: 4
+
+## [2026-11-03] ingest | I Read Goodfire's New Essay. AI May Be Far Easier To Understand Than We Thought. | 15gxN8DnC8s
+
+- Source page: [[sources/15gxN8DnC8s]]
+- Concepts touched: [[concepts/agent-evaluation-and-reliability]], [[concepts/ai-safety-and-alignment]]
+- Insights added: 3
+
+## [2026-11-03] ingest | Anthropic Just Filed Its S-1. The AI Market Is Way Smaller Than You Think. (For Now) | EAEixlPC6L4
+
+- Source page: [[sources/EAEixlPC6L4]]
+- Concepts touched: [[concepts/ai-usage-telemetry]], [[concepts/enterprise-ai-adoption]]
+- Insights added: 2
+
+## [2026-11-03] ingest | Salesforce Just Helped Microsoft. You're Picking The Winner Of A Trillion-Dollar Fight. | KDGxQtfjBj0
+
+- Source page: [[sources/KDGxQtfjBj0]]
+- Concepts touched: [[concepts/agent-orchestration-architecture]], [[concepts/semantic-engineering]], [[concepts/open-brain-systems]], [[concepts/enterprise-ai-adoption]]
+- Insights added: 4
+
+## [2026-11-03] ingest | Enterprise AI Pricing: Why Everything You Know Is Wrong | RvnQZQAHUDc
+
+- Source page: [[sources/RvnQZQAHUDc]]
+- Concepts touched: [[concepts/ai-roi-and-value-proposition]], [[concepts/ai-career-skills]]
+- Insights added: 3
+
+## [2026-11-03] ingest | The Future Of The Internet Isn't Open For Your Agent. Muse, Dots And Claude Duet Will Find Out. | c3HHFL_lsLM
+
+- Source page: [[sources/c3HHFL_lsLM]]
+- Concepts touched: [[concepts/agentic-commerce]], [[concepts/agent-security-baseline]], [[concepts/practical-agent-adoption]]
+- Insights added: 6
+
+## [2026-11-03] ingest | Should You Pay $100 A Month For OpenAI's Dots When Meta's Muse Has A Free Version? | lnB4Zckx_34
+
+- Source page: [[sources/lnB4Zckx_34]]
+- Concepts touched: [[concepts/practical-agent-adoption]], [[concepts/agent-memory-systems]], [[concepts/model-selection-frameworks]], [[concepts/ai-roi-and-value-proposition]], [[concepts/organizational-ai-transformation]], [[concepts/general-purpose-classifiers]]
+- Insights added: 6
+
+## [2026-11-03] ingest | Opus 5.5 vs The Rest: Is this the new industry standard? | osZZjdMZVvA
+
+- Source page: [[sources/osZZjdMZVvA]]
+- Concepts touched: [[concepts/model-selection-frameworks]], [[concepts/agent-evaluation-and-reliability]], [[concepts/agent-harness-and-maintenance]], [[concepts/prompting-and-skill-design]], [[concepts/ai-content-creation]], [[concepts/model-comparison-and-performance]]
+- Insights added: 6
+
+## [2026-11-03] ingest | Black October Isn't Just A PHP Bug. Attackers Want Your AI Keys. | qDYe2eTl_D4
+
+- Source page: [[sources/qDYe2eTl_D4]]
+- Concepts touched: [[concepts/agent-security-baseline]], [[concepts/model-selection-frameworks]], [[concepts/ai-security-and-trust]]
+- Insights added: 4
+
+## [2026-11-03] ingest | Google Has More Data Than Almost Anyone. So Why Is It Bidding $10 Million On Old Emails? | wep2EQ9Y_Tc
+
+- Source page: [[sources/wep2EQ9Y_Tc]]
+- Concepts touched: [[concepts/agent-evaluation-and-reliability]], [[concepts/knowledge-work-delegation]], [[concepts/open-brain-systems]], [[concepts/enterprise-ai-adoption]]
+- Insights added: 5
+
+## [2026-11-03] ingest | agent-security-baseline expanded | 57 -> 69 items
+
+- 12 [MUST]/[SHOULD] items from [[sources/qDYe2eTl_D4]] and [[sources/c3HHFL_lsLM]] placed into sections 1, 2, 3, 4, 5, 8, 11 of [[concepts/agent-security-baseline]]
+- No new concepts this ingest; no grounding rewires needed

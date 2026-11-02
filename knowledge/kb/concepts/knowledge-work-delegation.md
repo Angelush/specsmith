@@ -3,9 +3,9 @@ title: Knowledge Work Delegation
 type: concept
 slug: knowledge-work-delegation
 tags: [agent-deployment, expertise-elicitation, knowledge-extraction, workflow, scaling, documentation]
-sources: [2PWJu6uAaoU, L32th5fXPw8, MFzxIT88zfg, PRqiGS6fnIM, jOWXBzP6nNg, IpEaSa7tgfc, ix8SsXjBc7M, NIRFVjttNvA, 1qGH6NwTj3o, 2w_vwQVvFmc, 7pqRRxrdr0c, avN5R3OhxYs, xqGCbEDbny8]
+sources: [2PWJu6uAaoU, L32th5fXPw8, MFzxIT88zfg, PRqiGS6fnIM, jOWXBzP6nNg, IpEaSa7tgfc, ix8SsXjBc7M, NIRFVjttNvA, 1qGH6NwTj3o, 2w_vwQVvFmc, 7pqRRxrdr0c, avN5R3OhxYs, xqGCbEDbny8, wep2EQ9Y_Tc]
 stability: evergreen
-updated: 2026-10-19
+updated: 2026-11-03
 ---
 
 # Knowledge Work Delegation
@@ -41,6 +41,7 @@ Effectively delegating knowledge work is crucial for scaling individual and orga
 - **Tell the agent which source wins when documents disagree, then make it show an evidence tree** — Give the assignment the account plan, the customer commitment and the relevant service records, and state which source takes priority on conflict (most people never do). Ask it to link evidence for the claims that matter, then open the links: does the source really say "resolved," and is it this week's update or last month's plan? When the answer is weak, check what information the tool actually had (unconnected system, missing permission) before concluding the model cannot do it; a missing source is a specific thing to fix or raise with IT [[sources/avN5R3OhxYs]].
 - **Make a working assignment recur only with explicit triggers, thresholds and contact limits** — Once a result is good enough to use, decide what triggers the next run and what the agent owns between check-ins: which accounts it checks, how often, what counts as a material change, when it brings you in, and whether it may contact anyone or only prepare drafts (start draft-only). Then inspect the next run: did it notice what changed, or just re-summarize what you already knew? Repeating a weak assignment only multiplies weak output [[sources/avN5R3OhxYs]].
 - **A first delegation loop needs five things: goal, sources, standard, permission boundary, proof of done** — Not a fancy prompt: a real assignment ("read these sources, produce this artifact, check it against the standard, do not stop at the first plausible draft") with real sources and a way to check the result. Start with one annoying, valuable loop (transcript to brief, organize a source folder, prepare the day from calendar, email and Slack, draft three versions and explain the differences, check a package and say what is missing) rather than automating your whole life [[sources/xqGCbEDbny8]].
+- **Automate the drudgery, not the performance of work** — Agents imitating Slack/Teams archives produce "nothing to report" standups: an expensive simulation of work. Agent value is in repeatable, high-drudgery work redesigned as read data -> process -> emit a defined format, with no human conversational medium (email, chat, meetings) in the loop [[sources/wep2EQ9Y_Tc]].
 
 ## Prompt commands
 
@@ -82,3 +83,4 @@ strategic_intent: I have successfully created the concept page in Markdown forma
 - [[sources/7pqRRxrdr0c]] — I Gave An AI Agent My Support Inbox. It Cut The Work By Two-Thirds.
 - [[sources/avN5R3OhxYs]] — OpenClaw Was Too Dangerous To Install. 7 Months Later Microsoft Is Bringing It To Your Company.
 - [[sources/xqGCbEDbny8]] — Codex Tutorial: Build Your First AI Agent Delegation Loop
+- [[sources/wep2EQ9Y_Tc]] — Google Has More Data Than Almost Anyone. So Why Is It Bidding $10 Million On Old Emails?
